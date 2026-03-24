@@ -1,0 +1,142 @@
+# MemFabric LoCoMo Benchmark: Full Evaluation
+
+**Date:** 2026-03-21
+**Dataset:** LoCoMo (all 10 conversations, 1,540 questions excl. adversarial)
+**Ingest model:** Claude Haiku 4.5 (claude-haiku-4-5-20251001)
+**Query model:** GPT-4o-mini
+**Judge model:** GPT-4o-mini
+**Total runtime:** 235 minutes (~4 hours)
+
+---
+
+## Overall Results
+
+### J-Score: 78.7% (1,212/1,540 correct)
+
+| Category    | J-Score  | F1    | BLEU-1 | Count |
+|-------------|----------|-------|--------|-------|
+| **Overall** | **78.7%** | 13.2% | 7.7%  | 1,540 |
+| Open-domain | 84.5%   | 14.4% | 8.4%  | 841   |
+| Single-hop  | 76.2%   | 12.3% | 7.4%  | 282   |
+| Temporal    | 69.8%   | 8.3%  | 5.2%  | 96    |
+| Multi-hop   | 68.2%   | 12.4% | 7.1%  | 321   |
+
+### Competitive Context
+
+| System                        | J-Score   | Infrastructure            |
+|-------------------------------|-----------|---------------------------|
+| MemMachine v0.2               | ~84.9%    | Vector DB + reranker      |
+| Engram                        | ~80.0%    | SQLite                    |
+| **MemFabric (this run)**      | **78.7%** | **Markdown files only**   |
+| Full context baseline         | ~73%      | Dump everything into LLM  |
+| Mem0 Graph                    | ~68%      | Qdrant + graph store      |
+| Mem0                          | ~66.9%    | Qdrant vector DB          |
+| OpenAI Memory                 | ~52.9%    | Proprietary               |
+
+MemFabric ranks #3 on the leaderboard with zero infrastructure — just markdown
+files and descriptive filenames. It beats the full-context baseline by 5.7 points
+and Mem0's vector DB by 11.8 points.
+
+---
+
+## Per-Conversation Breakdown
+
+| Conversation | J-Score | Questions | Memory Files | Memory Size |
+|-------------|---------|-----------|-------------|-------------|
+| conv-30     | 87.7%   | 81        | 6           | 49 KB       |
+| conv-44     | 83.7%   | 123       | 8           | 80 KB       |
+| conv-47     | 83.3%   | 150       | 9           | 63 KB       |
+| conv-49     | 82.1%   | 156       | 8           | 68 KB       |
+| conv-41     | 80.9%   | 152       | 9           | 84 KB       |
+| conv-50     | 80.4%   | 158       | 8           | 94 KB       |
+| conv-42     | 76.9%   | 199       | 3           | 106 KB      |
+| conv-43     | 74.7%   | 178       | 16          | 115 KB      |
+| conv-48     | 72.8%   | 191       | 8           | 86 KB       |
+| conv-26     | 72.4%   | 152       | 11          | 60 KB       |
+
+Variance: 72.4% to 87.7% (15.3pp range). No conversation fell below 70%.
+
+---
+
+## Token & Cost Stats
+
+### Ingest Phase (Claude Haiku 4.5)
+- Total tokens: 7,656,817
+- Avg tokens per conversation: 765,682
+- Haiku pricing (~$1.76/M blended): ~$13.48
+
+### Query Phase (GPT-4o-mini)
+- Total tokens: 13,169,549
+- Avg tokens per question: 8,552
+- GPT-4o-mini pricing (~$0.24/M blended): ~$3.16
+
+### Judge Phase (GPT-4o-mini)
+- Estimated tokens: ~1.2M
+- Cost: ~$0.29
+
+### Total
+- **Tokens:** ~22M
+- **Estimated cost:** ~$17
+- **Wall time:** 235 min (ingest 72 min, query 125 min, judge 38 min)
+
+---
+
+## Analysis
+
+### What works well
+
+1. **Open-domain questions (84.5%)** — the model excels at integrating general
+   knowledge with stored facts. MemFabric's verbose memory entries give the LLM
+   enough context to reason well.
+
+2. **Consistent performance** — no conversation below 72.4%. The approach is
+   robust across different conversation styles and topics.
+
+3. **No infrastructure** — compared to Mem0 (Qdrant vector DB, embedding model)
+   or MemMachine (vector DB + reranker), MemFabric uses only local files.
+
+### Where it struggles
+
+1. **Multi-hop questions (68.2%)** — require synthesizing facts from multiple
+   sessions. When facts are spread across different memory files, the model
+   sometimes reads the wrong files or doesn't read enough files.
+
+2. **Temporal questions (69.8%)** — relative dates ("last week", "the Friday
+   before") are often not converted to absolute dates during ingest, leading
+   to imprecise temporal reasoning.
+
+3. **conv-42 has only 3 memory files** — the LLM consolidated too aggressively,
+   creating huge files instead of focused ones. This hurt retrieval precision.
+
+### Key observations
+
+- **File count matters:** conv-42 (3 files, 106KB) scored 76.9% while conv-30
+  (6 files, 49KB) scored 87.7%. More focused, smaller files improve retrieval.
+
+- **Haiku's ingest quality is good but not great.** It misses some specific
+  details (exact book titles, pet species, number of children). A stronger
+  ingest model (Sonnet, GPT-4o) would likely improve single-hop scores.
+
+- **Query model reads ~2.5 files per question on average.** For multi-hop
+  questions that require 3-4 files, this is insufficient.
+
+### Potential improvements
+
+1. **Reorganize after ingest** — split oversized files, ensure 8-15 focused
+   files per conversation.
+2. **Stronger ingest model** — Sonnet or GPT-4o for better detail extraction.
+3. **Better ingest prompt** — explicitly instruct to capture ALL specific
+   details: names, numbers, dates, book titles, pet species.
+4. **Query prompt tuning** — instruct to read more files (3-4) and say
+   "I don't know" rather than guessing.
+5. **Date normalization** — convert relative dates to absolute during ingest.
+
+---
+
+## Files in this run
+
+- `evaluation_report.json` — aggregate scores (overall + per-conversation + per-category)
+- `evaluation_report_detailed.json` — per-question results with judge reasoning
+- `benchmark_report.json` — full run config, ingest/query token stats
+- `conv-{id}_results.json` — raw predicted answers + per-question stats
+- `conv-{id}-memory/` — memory files created during ingest (the actual markdown files)

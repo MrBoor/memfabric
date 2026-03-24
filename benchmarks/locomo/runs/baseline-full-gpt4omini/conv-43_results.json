@@ -1,0 +1,2772 @@
+[
+  {
+    "question": "what are John's goals with regards to his basketball career?",
+    "predicted": "John's goals for his basketball career include winning a championship, improving his shooting percentage, being known as a consistent performer, and making a positive impact off the court through charity work and inspiring others. He also aims to build his brand and explore endorsement opportunities.",
+    "ground_truth": "improve shooting percentage, win a championship",
+    "category": "single-hop",
+    "evidence": [
+      "D1:9",
+      "D6:15",
+      "D11:17"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 51,
+      "total_tokens": 20700,
+      "elapsed_seconds": 8.397032022476196
+    }
+  },
+  {
+    "question": "What are John's goals for his career that are not related to his basketball skills?",
+    "predicted": "John's goals for his career that are not related to his basketball skills include making a positive difference in the community through charity work and inspiring others, as well as building his brand and exploring endorsement opportunities. He also expresses a desire to leave a meaningful legacy.",
+    "ground_truth": "get endorsements, build his brand, do charity work",
+    "category": "single-hop",
+    "evidence": [
+      "D6:15",
+      "D11:17"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 51,
+      "total_tokens": 20705,
+      "elapsed_seconds": 5.501995086669922
+    }
+  },
+  {
+    "question": "What items does John collect?",
+    "predicted": "John collects jerseys and has a sneaker collection.",
+    "ground_truth": "sneakers, fantasy movie DVDs, jerseys",
+    "category": "single-hop",
+    "evidence": [
+      "D1:15",
+      "D12:18",
+      "D27:20"
+    ],
+    "stats": {
+      "input_tokens": 20644,
+      "output_tokens": 9,
+      "total_tokens": 20653,
+      "elapsed_seconds": 3.3587119579315186
+    }
+  },
+  {
+    "question": "Would Tim enjoy reading books by C. S. Lewis or John Greene?",
+    "predicted": "The conversation does not provide any information about Tim's preferences regarding books by C. S. Lewis or John Green. Therefore, I cannot determine if he would enjoy reading them.",
+    "ground_truth": "C. S.Lewis",
+    "category": "temporal",
+    "evidence": [
+      "D1:14",
+      "D1:16",
+      "D1:18"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 35,
+      "total_tokens": 20688,
+      "elapsed_seconds": 3.471595048904419
+    }
+  },
+  {
+    "question": "What books has Tim read?",
+    "predicted": "Tim has read \"Harry Potter,\" \"Game of Thrones,\" \"The Name of the Wind\" by Patrick Rothfuss, and \"A Dance with Dragons\" by George R. R. Martin. He also mentioned reading a fantasy novel about castles in the UK.",
+    "ground_truth": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+    "category": "single-hop",
+    "evidence": [
+      "D1:14",
+      "D2:7",
+      "D6:8",
+      "D11:26",
+      "D20:21",
+      "D26:36",
+      "D22:13"
+    ],
+    "stats": {
+      "input_tokens": 20644,
+      "output_tokens": 53,
+      "total_tokens": 20697,
+      "elapsed_seconds": 3.988356828689575
+    }
+  },
+  {
+    "question": "Based on Tim's collections, what is a shop that he would enjoy visiting in New York city?",
+    "predicted": "Based on Tim's interests in fantasy novels and Harry Potter, he would likely enjoy visiting the \"Harry Potter New York\" store, which features a wide range of Harry Potter merchandise and immersive experiences related to the series.",
+    "ground_truth": "House of MinaLima",
+    "category": "temporal",
+    "evidence": [
+      "D2:9"
+    ],
+    "stats": {
+      "input_tokens": 20658,
+      "output_tokens": 43,
+      "total_tokens": 20701,
+      "elapsed_seconds": 3.062131881713867
+    }
+  },
+  {
+    "question": "In which month's game did John achieve a career-high score in points?",
+    "predicted": "John achieved a career-high score in points in the month of July.",
+    "ground_truth": "June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 14,
+      "total_tokens": 20666,
+      "elapsed_seconds": 2.9615039825439453
+    }
+  },
+  {
+    "question": "Which geographical locations has Tim been to?",
+    "predicted": "Tim has mentioned visiting a place in London related to Harry Potter, attending a Harry Potter conference in the UK, and he plans to study abroad in Galway, Ireland. He also expressed a desire to visit The Cliffs of Moher in Ireland.",
+    "ground_truth": "California, London, the Smoky Mountains",
+    "category": "single-hop",
+    "evidence": [
+      "D1:18",
+      "D3:2",
+      "D14:16"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 49,
+      "total_tokens": 20695,
+      "elapsed_seconds": 3.4704458713531494
+    }
+  },
+  {
+    "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+    "predicted": "The conversation does not specify which outdoor gear company signed John for an endorsement deal.",
+    "ground_truth": "Under Armour",
+    "category": "temporal",
+    "evidence": [
+      "D3:15",
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 16,
+      "total_tokens": 20667,
+      "elapsed_seconds": 2.4552040100097656
+    }
+  },
+  {
+    "question": "Which endorsement deals has John been offered?",
+    "predicted": "John has signed an endorsement deal with Nike for basketball shoes and gear, and he is in talks with Gatorade about a potential sponsorship.",
+    "ground_truth": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+    "category": "single-hop",
+    "evidence": [
+      "D3:13",
+      "D3:15",
+      "D25:2",
+      "D29:4"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 28,
+      "total_tokens": 20674,
+      "elapsed_seconds": 2.2459049224853516
+    }
+  },
+  {
+    "question": "When was John in Seattle for a game?",
+    "predicted": "John mentioned he was headed to Seattle for a game next month during a conversation on July 16, 2023. However, the specific date of the game in Seattle is not provided in the conversation.",
+    "ground_truth": "early August, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:19",
+      "D5:2"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 41,
+      "total_tokens": 20688,
+      "elapsed_seconds": 1.881615161895752
+    }
+  },
+  {
+    "question": "What sports does John like besides basketball?",
+    "predicted": "The conversation does not mention any sports that John likes besides basketball.",
+    "ground_truth": "surfing",
+    "category": "single-hop",
+    "evidence": [
+      "D1:7",
+      "D2:14",
+      "D3:1",
+      "D3:25"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 13,
+      "total_tokens": 20659,
+      "elapsed_seconds": 0.9604620933532715
+    }
+  },
+  {
+    "question": "What year did John start surfing?",
+    "predicted": "John started surfing five years ago.",
+    "ground_truth": "2018",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:27"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 7,
+      "total_tokens": 20652,
+      "elapsed_seconds": 0.9187490940093994
+    }
+  },
+  {
+    "question": "What does Tim do to escape reality?",
+    "predicted": "Tim escapes reality by reading fantasy books, which allow him to immerse himself in different magical worlds. He also enjoys attending events related to his interests, such as the Harry Potter conference and parties.",
+    "ground_truth": "Read fantasy books.",
+    "category": "single-hop",
+    "evidence": [
+      "D2:11",
+      "D3:30"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 38,
+      "total_tokens": 20684,
+      "elapsed_seconds": 1.6325807571411133
+    }
+  },
+  {
+    "question": "What kind of writing does Tim do?",
+    "predicted": "Tim writes articles about fantasy novels for an online magazine and is also working on a fantasy novel. He enjoys studying characters, themes, and making book recommendations.",
+    "ground_truth": "comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+    "category": "single-hop",
+    "evidence": [
+      "D2:1",
+      "D4:3",
+      "D4:5",
+      "D15:3"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 31,
+      "total_tokens": 20677,
+      "elapsed_seconds": 1.1171271800994873
+    }
+  },
+  {
+    "question": "Who is Anthony?",
+    "predicted": "Anthony is mentioned in the context of a charity event where John participated in a Harry Potter trivia contest. However, there are no further details provided about who Anthony is in the conversation.",
+    "ground_truth": "likely John's friend, colleague or family",
+    "category": "temporal",
+    "evidence": [
+      "D4:8"
+    ],
+    "stats": {
+      "input_tokens": 20642,
+      "output_tokens": 36,
+      "total_tokens": 20678,
+      "elapsed_seconds": 1.2143068313598633
+    }
+  },
+  {
+    "question": "After how many weeks did Tim reconnect with the fellow Harry Potter fan from California?",
+    "predicted": "Tim reconnected with the fellow Harry Potter fan from California after approximately 4 weeks, as he mentioned having a nice chat with them in Session 3 on 16 July, 2023, and then mentioned Skyping with them in Session 5 on 9 August, 2023.",
+    "ground_truth": "three weeks",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:2",
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 60,
+      "total_tokens": 20714,
+      "elapsed_seconds": 1.344533920288086
+    }
+  },
+  {
+    "question": "How many games has John mentioned winning?",
+    "predicted": "John has mentioned winning several games throughout the conversation, including a tough game against a top team, a game where he scored a career-high in assists, and a game where he hit a buzzer-beater shot to win. However, the exact number of games he has won is not specified.",
+    "ground_truth": "6",
+    "category": "single-hop",
+    "evidence": [
+      "D3:3",
+      "D5:2",
+      "D22:4",
+      "D23:7",
+      "D24:2"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 59,
+      "total_tokens": 20705,
+      "elapsed_seconds": 1.5110740661621094
+    }
+  },
+  {
+    "question": "What authors has Tim read books from?",
+    "predicted": "Tim has read books by J.K. Rowling and Patrick Rothfuss. He also mentioned reading George R. R. Martin's \"A Dance with Dragons.\"",
+    "ground_truth": "J.K. Rowling, R.R. Martin, Patrick Rothfuss, Paulo Coelho, and J. R. R. Tolkien.",
+    "category": "single-hop",
+    "evidence": [
+      "D1:14",
+      "D2:7",
+      "D4:7",
+      "D5:15",
+      "D:11:26",
+      "D20:21",
+      "D26:36"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 32,
+      "total_tokens": 20678,
+      "elapsed_seconds": 1.5213298797607422
+    }
+  },
+  {
+    "question": "What is a prominent charity organization that John might want to work with and why?",
+    "predicted": "The conversation mentions that John is working on supporting youth sports and fighting for fair chances in sports for underserved communities. A prominent charity organization he might want to work with could be \"Boys & Girls Clubs of America,\" as they focus on providing opportunities for youth, including sports programs, which aligns with his goals of creating more opportunities for young athletes.",
+    "ground_truth": "Good Sports, because they work with Nike, Gatorade, and Under Armour and they aim toprovide youth sports opportunities for kids ages 3-18 in high-need communities.",
+    "category": "temporal",
+    "evidence": [
+      "D3:13",
+      "D3:15",
+      "D6:15"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 69,
+      "total_tokens": 20723,
+      "elapsed_seconds": 1.4329850673675537
+    }
+  },
+  {
+    "question": "Which city was John in before traveling to Chicago?",
+    "predicted": "The conversation does not specify which city John was in before traveling to Chicago.",
+    "ground_truth": "Seattle",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:19",
+      "D5:2",
+      "D6:1",
+      "D6:3"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 15,
+      "total_tokens": 20663,
+      "elapsed_seconds": 1.3209280967712402
+    }
+  },
+  {
+    "question": "Which US cities does John mention visiting to Tim?",
+    "predicted": "John mentions visiting Chicago and New York City to Tim.",
+    "ground_truth": "Seattle, Chicago, New York",
+    "category": "single-hop",
+    "evidence": [
+      "D3:19",
+      "D6:3",
+      "D9:6"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 11,
+      "total_tokens": 20659,
+      "elapsed_seconds": 0.7019479274749756
+    }
+  },
+  {
+    "question": "When did John meet with his teammates after returning from Chicago?",
+    "predicted": "John met with his teammates on the 15th after his trip to Chicago.",
+    "ground_truth": "August 15, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 16,
+      "total_tokens": 20666,
+      "elapsed_seconds": 0.9185268878936768
+    }
+  },
+  {
+    "question": "When is Tim attending a book conference?",
+    "predicted": "Tim is hoping to attend a book conference next month, but the specific date is not mentioned in the conversation.",
+    "ground_truth": "September 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:6"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 22,
+      "total_tokens": 20668,
+      "elapsed_seconds": 1.2166171073913574
+    }
+  },
+  {
+    "question": "Where was John between August 11 and August 15 2023?",
+    "predicted": "The conversation does not provide specific information about John's whereabouts between August 11 and August 15, 2023.",
+    "ground_truth": "Chicago",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:1",
+      "D6:3",
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 23,
+      "total_tokens": 20676,
+      "elapsed_seconds": 0.9199857711791992
+    }
+  },
+  {
+    "question": "What similar sports collectible do Tim and John own?",
+    "predicted": "Tim and John both own basketballs that are significant to them. Tim has a basketball signed by his favorite player, while John has a basketball that symbolizes his journey and experiences in the sport.",
+    "ground_truth": "signed basketball",
+    "category": "single-hop",
+    "evidence": [
+      "D7:7",
+      "D7:9",
+      "D16:7",
+      "D16:9"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 38,
+      "total_tokens": 20686,
+      "elapsed_seconds": 1.3162391185760498
+    }
+  },
+  {
+    "question": "Which TV series does Tim mention watching?",
+    "predicted": "Tim mentions watching \"The Wheel of Time,\" which is a new fantasy TV series that he is excited about.",
+    "ground_truth": "That, Wheel of Time",
+    "category": "single-hop",
+    "evidence": [
+      "D17:1",
+      "D17:11",
+      "D26:36"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 22,
+      "total_tokens": 20668,
+      "elapsed_seconds": 1.0244228839874268
+    }
+  },
+  {
+    "question": "Which popular time management technique does Tim use to prepare for exams?",
+    "predicted": "Tim uses the Pomodoro Technique, which involves studying for 25 minutes and then taking a 5-minute break.",
+    "ground_truth": "Pomodoro technique",
+    "category": "temporal",
+    "evidence": [
+      "D18:3",
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 23,
+      "total_tokens": 20674,
+      "elapsed_seconds": 0.8171210289001465
+    }
+  },
+  {
+    "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+    "predicted": "Tim enjoys playing classical music and is keen to try out jazz and film scores on the piano.",
+    "ground_truth": "John Williams",
+    "category": "temporal",
+    "evidence": [
+      "D8:14",
+      "D8:16"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 19,
+      "total_tokens": 20671,
+      "elapsed_seconds": 0.856781005859375
+    }
+  },
+  {
+    "question": "What schools did John play basketball in and how many years was he with his team during high school?",
+    "predicted": "John played basketball in high school for four years with his teammates. The specific schools he attended are not mentioned in the conversation.",
+    "ground_truth": "Middle school, high school, and college and he was with his high school team for 4 years.",
+    "category": "single-hop",
+    "evidence": [
+      "D6:13",
+      "D9:4"
+    ],
+    "stats": {
+      "input_tokens": 20658,
+      "output_tokens": 25,
+      "total_tokens": 20683,
+      "elapsed_seconds": 1.0624701976776123
+    }
+  },
+  {
+    "question": "Which cities has John been to?",
+    "predicted": "John has been to Chicago, New York City, Italy, and Paris. He also mentioned wanting to visit Seattle and the Cliffs of Moher in Ireland.",
+    "ground_truth": "Seattle, Chicago, New York, and Paris.",
+    "category": "single-hop",
+    "evidence": [
+      "D3:19",
+      "D6:3",
+      "D9:6",
+      "D27:36"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 32,
+      "total_tokens": 20677,
+      "elapsed_seconds": 1.0741558074951172
+    }
+  },
+  {
+    "question": "What month did Tim plan on going to Universal Studios?",
+    "predicted": "Tim planned on going to Universal Studios in the following month after the conversation on 31 August 2023, which would be September 2023.",
+    "ground_truth": "September, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:9"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 30,
+      "total_tokens": 20679,
+      "elapsed_seconds": 1.073620080947876
+    }
+  },
+  {
+    "question": "Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?",
+    "predicted": "Tim might be in California during September 2023, as Universal Studios is located in Hollywood, California.",
+    "ground_truth": "California or Florida",
+    "category": "temporal",
+    "evidence": [
+      "D10:9"
+    ],
+    "stats": {
+      "input_tokens": 20659,
+      "output_tokens": 21,
+      "total_tokens": 20680,
+      "elapsed_seconds": 0.9100379943847656
+    }
+  },
+  {
+    "question": "When does John plan on traveling with his team on a team trip?",
+    "predicted": "John mentioned that he and his teammates are planning a team trip next month, but the specific date or destination was not provided in the conversation.",
+    "ground_truth": "October, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:7"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 28,
+      "total_tokens": 20680,
+      "elapsed_seconds": 1.4116590023040771
+    }
+  },
+  {
+    "question": "What could John do after his basketball career?",
+    "predicted": "John mentioned that he wants to use his platform to make a positive difference and inspire others, possibly by starting a foundation and doing charity work. He is also interested in mentoring younger players and helping underserved communities with sports programs.",
+    "ground_truth": "become a basketball coach since he likes giving back and leadership",
+    "category": "temporal",
+    "evidence": [
+      "D11:19",
+      "D26:1",
+      "D27:26"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 44,
+      "total_tokens": 20691,
+      "elapsed_seconds": 1.9360809326171875
+    }
+  },
+  {
+    "question": "What outdoor activities does John enjoy?",
+    "predicted": "John enjoys basketball, hiking, and cooking. He also participates in seminars related to sports and marketing, and he has a passion for exploring new places.",
+    "ground_truth": "Hiking, surfing",
+    "category": "single-hop",
+    "evidence": [
+      "D3:27",
+      "D12:6"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 30,
+      "total_tokens": 20675,
+      "elapsed_seconds": 1.3302929401397705
+    }
+  },
+  {
+    "question": "Who is Tim and John's favorite basketball player?",
+    "predicted": "Tim's favorite basketball player is LeBron James, while John also admires LeBron for his skills and leadership.",
+    "ground_truth": "LeBron James",
+    "category": "single-hop",
+    "evidence": [
+      "D12:20",
+      "D12:22",
+      "D16:9"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 23,
+      "total_tokens": 20670,
+      "elapsed_seconds": 1.1151139736175537
+    }
+  },
+  {
+    "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+    "predicted": "The specific week when Tim visited the UK for the Harry Potter Conference is not mentioned in the conversation.",
+    "ground_truth": "The week before October 13th, 2023.",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:1"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 20,
+      "total_tokens": 20671,
+      "elapsed_seconds": 1.020890712738037
+    }
+  },
+  {
+    "question": "which country has Tim visited most frequently in his travels?",
+    "predicted": "The conversation does not specify which country Tim has visited most frequently in his travels.",
+    "ground_truth": "UK",
+    "category": "single-hop",
+    "evidence": [
+      "D1:18",
+      "D13:1",
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 16,
+      "total_tokens": 20665,
+      "elapsed_seconds": 0.9127280712127686
+    }
+  },
+  {
+    "question": "What year did Tim go to the Smoky Mountains?",
+    "predicted": "Tim mentioned that he took a trip to the Smoky Mountains last year, but the specific year is not provided in the conversation.",
+    "ground_truth": "2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:16"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 26,
+      "total_tokens": 20675,
+      "elapsed_seconds": 1.2137389183044434
+    }
+  },
+  {
+    "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+    "predicted": "The conversation does not mention whether Tim has been to North Carolina or Tennessee. Therefore, I cannot provide an answer to that question.",
+    "ground_truth": "Yes",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:16"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 26,
+      "total_tokens": 20680,
+      "elapsed_seconds": 1.0925889015197754
+    }
+  },
+  {
+    "question": "What kind of fiction stories does Tim write?",
+    "predicted": "Tim writes fantasy stories, drawing inspiration from books, movies, and real-life experiences. He particularly admires J.K. Rowling's work for its detail and creative storytelling.",
+    "ground_truth": "Fantasy stories with plot twists",
+    "category": "single-hop",
+    "evidence": [
+      "D15:3",
+      "D16:1"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 34,
+      "total_tokens": 20681,
+      "elapsed_seconds": 1.14619779586792
+    }
+  },
+  {
+    "question": "What has John cooked?",
+    "predicted": "John mentioned that he made a tasty honey garlic chicken with roasted vegetables.",
+    "ground_truth": "Soup, a slow cooker meal, and honey garlic chicken with roasted veg.",
+    "category": "single-hop",
+    "evidence": [
+      "D10:4",
+      "D15:30",
+      "D15:31",
+      "D15:32"
+    ],
+    "stats": {
+      "input_tokens": 20643,
+      "output_tokens": 14,
+      "total_tokens": 20657,
+      "elapsed_seconds": 0.8092412948608398
+    }
+  },
+  {
+    "question": "What does John like about Lebron James?",
+    "predicted": "John admires LeBron James for his skills, leadership, work ethic, and dedication to the game. He finds LeBron to be an inspiration.",
+    "ground_truth": "His heart, determination, skills, and leadership.",
+    "category": "single-hop",
+    "evidence": [
+      "D12:20",
+      "D16:12"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 30,
+      "total_tokens": 20677,
+      "elapsed_seconds": 1.1147868633270264
+    }
+  },
+  {
+    "question": "When did John and his wife go on a European vacation?",
+    "predicted": "John and his wife went on a European vacation in November 2023.",
+    "ground_truth": "November, 2023.",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:14"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 15,
+      "total_tokens": 20665,
+      "elapsed_seconds": 0.8135721683502197
+    }
+  },
+  {
+    "question": "Which country was Tim visiting in the second week of November?",
+    "predicted": "The conversation does not specify which country Tim was visiting in the second week of November.",
+    "ground_truth": "UK",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 17,
+      "total_tokens": 20667,
+      "elapsed_seconds": 0.9185688495635986
+    }
+  },
+  {
+    "question": "Where was Tim in the week before 16 November 2023?",
+    "predicted": "Tim was in the UK, where he attended a Harry Potter conference.",
+    "ground_truth": "UK",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 14,
+      "total_tokens": 20666,
+      "elapsed_seconds": 1.0144507884979248
+    }
+  },
+  {
+    "question": "When did John get married at a greenhouse?",
+    "predicted": "John got married at a greenhouse on an unspecified date, but he mentioned it was last week from the context of the conversation on October 2, 2023.",
+    "ground_truth": "last week of September 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:2"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 33,
+      "total_tokens": 20680,
+      "elapsed_seconds": 1.3231050968170166
+    }
+  },
+  {
+    "question": "When did John get an ankle injury in 2023?",
+    "predicted": "The conversation does not specify the exact date when John got his ankle injury in 2023.",
+    "ground_truth": "around November 16, 2023",
+    "category": "single-hop",
+    "evidence": [
+      "D18:2"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 19,
+      "total_tokens": 20669,
+      "elapsed_seconds": 0.9106628894805908
+    }
+  },
+  {
+    "question": "How many times has John injured his ankle?",
+    "predicted": "John mentioned injuring his ankle once during the conversation.",
+    "ground_truth": "two times",
+    "category": "single-hop",
+    "evidence": [
+      "D18:2",
+      "D19:6"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 11,
+      "total_tokens": 20658,
+      "elapsed_seconds": 1.4252221584320068
+    }
+  },
+  {
+    "question": "Which book was John reading during his recovery from an ankle injury?",
+    "predicted": "The conversation does not specify which book John was reading during his recovery from an ankle injury.",
+    "ground_truth": "The Alchemist",
+    "category": "single-hop",
+    "evidence": [
+      "D19:20",
+      "D18:2"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 18,
+      "total_tokens": 20669,
+      "elapsed_seconds": 1.1946349143981934
+    }
+  },
+  {
+    "question": "What kind of yoga for building core strength might John benefit from?",
+    "predicted": "The conversation does not provide specific details about the types of yoga that John might benefit from for building core strength. However, common yoga poses that are known to enhance core strength include Plank, Boat Pose, and Warrior III.",
+    "ground_truth": "Hatha Yoga",
+    "category": "temporal",
+    "evidence": [
+      "D20:2"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 45,
+      "total_tokens": 20696,
+      "elapsed_seconds": 1.8669629096984863
+    }
+  },
+  {
+    "question": "What does John do to supplement his basketball training?",
+    "predicted": "John supplements his basketball training by doing strength training, which helps build muscle, increase power, and prevent injuries. He also practices yoga to improve his strength, flexibility, focus, and balance.",
+    "ground_truth": "Yoga, strength training",
+    "category": "single-hop",
+    "evidence": [
+      "D8:5",
+      "D20:2"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 38,
+      "total_tokens": 20686,
+      "elapsed_seconds": 2.133845090866089
+    }
+  },
+  {
+    "question": "What other exercises can help John with his basketball performance?",
+    "predicted": "The conversation does not provide specific exercises that can help John with his basketball performance. However, it mentions that strength training has positively impacted his performance, improving shooting accuracy, agility, and speed. For more tailored advice, he might consider consulting a coach or trainer.",
+    "ground_truth": "Sprinting, long-distance running, and boxing.",
+    "category": "temporal",
+    "evidence": [
+      "D8:5",
+      "D20:2"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 52,
+      "total_tokens": 20701,
+      "elapsed_seconds": 2.761744976043701
+    }
+  },
+  {
+    "question": "When did John take a trip to the Rocky Mountains?",
+    "predicted": "The conversation does not specify when John took a trip to the Rocky Mountains.",
+    "ground_truth": "2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D20:40"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 15,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.8011996746063232
+    }
+  },
+  {
+    "question": "When did John start playing professionally?",
+    "predicted": "John started playing professionally just under a year ago.",
+    "ground_truth": "May, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:3",
+      "D21:4"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 10,
+      "total_tokens": 20655,
+      "elapsed_seconds": 0.8456640243530273
+    }
+  },
+  {
+    "question": "When did Tim start playing the violin?",
+    "predicted": "The conversation does not specify when Tim started playing the violin.",
+    "ground_truth": "August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:13"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 12,
+      "total_tokens": 20658,
+      "elapsed_seconds": 0.7811877727508545
+    }
+  },
+  {
+    "question": "What instruments does Tim play?",
+    "predicted": "Tim plays the piano and is currently learning how to play the violin.",
+    "ground_truth": "piano, violin",
+    "category": "single-hop",
+    "evidence": [
+      "D8:12",
+      "D21:11"
+    ],
+    "stats": {
+      "input_tokens": 20644,
+      "output_tokens": 14,
+      "total_tokens": 20658,
+      "elapsed_seconds": 0.9143369197845459
+    }
+  },
+  {
+    "question": "When did John attend the Harry Potter trivia?",
+    "predicted": "John attended the Harry Potter trivia event in August, as mentioned in the conversation when he referred to a charity event he participated in.",
+    "ground_truth": "August 2023.",
+    "category": "multi-hop",
+    "evidence": [
+      "D4:8",
+      "D22:2"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 26,
+      "total_tokens": 20673,
+      "elapsed_seconds": 1.029520034790039
+    }
+  },
+  {
+    "question": "Which career-high performances did John achieve in 2023?",
+    "predicted": "John achieved a career-high in assists during a game against a rival team in December 2023. Additionally, he scored 40 points in a game in July 2023, which was his highest ever.",
+    "ground_truth": "highest point score, highest assist",
+    "category": "single-hop",
+    "evidence": [
+      "D3:1",
+      "D23:2"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 42,
+      "total_tokens": 20692,
+      "elapsed_seconds": 5.094771385192871
+    }
+  },
+  {
+    "question": "When did John achieve a career-high assist performance?",
+    "predicted": "John achieved a career-high in assists last Friday, as mentioned in the conversation.",
+    "ground_truth": "December 11, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:2"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 16,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.8490779399871826
+    }
+  },
+  {
+    "question": "What books has John read?",
+    "predicted": "John has read \"The Alchemist\" and is currently reading \"Dune\" by Frank Herbert. He also mentioned enjoying the Harry Potter series and has read \"The Name of the Wind\" by Patrick Rothfuss.",
+    "ground_truth": "inpsiring book on dreaming big, The Alchemist, fantasy series, non-fiction books on personal development, Dune",
+    "category": "single-hop",
+    "evidence": [
+      "D4:10",
+      "D11:26",
+      "D17:9",
+      "D19:16",
+      "D19:20",
+      "D22:12"
+    ],
+    "stats": {
+      "input_tokens": 20644,
+      "output_tokens": 44,
+      "total_tokens": 20688,
+      "elapsed_seconds": 1.3847601413726807
+    }
+  },
+  {
+    "question": "What does John do to share his knowledge?",
+    "predicted": "John conducts seminars to help people with their sports and marketing knowledge.",
+    "ground_truth": "gives seminars, mentors younger players.",
+    "category": "single-hop",
+    "evidence": [
+      "D14:3",
+      "D26:1"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 13,
+      "total_tokens": 20660,
+      "elapsed_seconds": 0.7437589168548584
+    }
+  },
+  {
+    "question": "When did John organize a basketball camp for kids?",
+    "predicted": "John organized a basketball camp for kids last summer.",
+    "ground_truth": "summer 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D26:23"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 10,
+      "total_tokens": 20658,
+      "elapsed_seconds": 0.780937910079956
+    }
+  },
+  {
+    "question": "Which month was John in Italy?",
+    "predicted": "John was in Italy last month, which would be December.",
+    "ground_truth": "December, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D27:2"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 12,
+      "total_tokens": 20657,
+      "elapsed_seconds": 0.915168046951294
+    }
+  },
+  {
+    "question": "What fantasy movies does Tim like?",
+    "predicted": "Tim is a huge fan of the \"Harry Potter\" series and \"Star Wars.\" He also enjoys epic adventures and magical worlds in general.",
+    "ground_truth": "Lord of the Rings, Harry Potter, and Star Wars.",
+    "category": "single-hop",
+    "evidence": [
+      "D8:16",
+      "D8:18",
+      "D26:28",
+      "D26:32",
+      "D27:21"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 28,
+      "total_tokens": 20673,
+      "elapsed_seconds": 0.9969792366027832
+    }
+  },
+  {
+    "question": "What is a Star Wars book that Tim might enjoy?",
+    "predicted": "The conversation does not mention any specific Star Wars books that Tim might enjoy. Therefore, I cannot provide an answer based on the conversation.",
+    "ground_truth": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+    "category": "temporal",
+    "evidence": [
+      "D27:19",
+      "D27:21"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 27,
+      "total_tokens": 20676,
+      "elapsed_seconds": 1.0331451892852783
+    }
+  },
+  {
+    "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+    "predicted": "A good hobby for Tim to pick up related to his travel dreams could be photography. This would allow him to capture the beautiful places he visits and document his experiences, enhancing his travel adventures.",
+    "ground_truth": "Writing a travel blog.",
+    "category": "temporal",
+    "evidence": [
+      "D4:1",
+      "D6:6",
+      "D15:3",
+      "D27:37"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 38,
+      "total_tokens": 20693,
+      "elapsed_seconds": 1.0128488540649414
+    }
+  },
+  {
+    "question": "What day did Tim get into his study abroad program?",
+    "predicted": "Tim got into his study abroad program on Friday, but the specific date is not mentioned in the conversation.",
+    "ground_truth": "Januarty 5, 2024",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 21,
+      "total_tokens": 20670,
+      "elapsed_seconds": 1.05680513381958
+    }
+  },
+  {
+    "question": "When will Tim leave for Ireland?",
+    "predicted": "Tim will leave for Ireland next month.",
+    "ground_truth": "February, 2024",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 8,
+      "total_tokens": 20653,
+      "elapsed_seconds": 0.6713721752166748
+    }
+  },
+  {
+    "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+    "predicted": "The conversation does not mention any specific Star Wars-related locations that Tim would enjoy during his visit to Ireland.",
+    "ground_truth": "Skellig Michael, Malin Head, Loop Head, Ceann Sib\u00e9al, and Brow Head because they are Star Wars filming locations.",
+    "category": "temporal",
+    "evidence": [
+      "D1:18",
+      "D27:21",
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 21,
+      "total_tokens": 20673,
+      "elapsed_seconds": 1.3243021965026855
+    }
+  },
+  {
+    "question": "Which team did John sign with on 21 May, 2023?",
+    "predicted": "John signed with the Minnesota Wolves on 21 May, 2023.",
+    "ground_truth": "The Minnesota Wolves",
+    "category": "open-domain",
+    "evidence": [
+      "D1:5"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 15,
+      "total_tokens": 20668,
+      "elapsed_seconds": 1.012031078338623
+    }
+  },
+  {
+    "question": "What is John's position on the team he signed with?",
+    "predicted": "John is a shooting guard for the Minnesota Wolves.",
+    "ground_truth": "shooting guard",
+    "category": "open-domain",
+    "evidence": [
+      "D1:7"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 10,
+      "total_tokens": 20659,
+      "elapsed_seconds": 0.910520076751709
+    }
+  },
+  {
+    "question": "What challenge did John encounter during pre-season training?",
+    "predicted": "John encountered the challenge of fitting into the new team's style of play during pre-season training.",
+    "ground_truth": "fitting into the new team's style of play",
+    "category": "open-domain",
+    "evidence": [
+      "D1:11"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 18,
+      "total_tokens": 20666,
+      "elapsed_seconds": 2.478929042816162
+    }
+  },
+  {
+    "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+    "predicted": "Tim mentioned that they will be discussing various aspects of the Harry Potter universe, including characters, spells, and magical creatures.",
+    "ground_truth": "characters, spells, magical creatures",
+    "category": "open-domain",
+    "evidence": [
+      "D1:16"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 24,
+      "total_tokens": 20678,
+      "elapsed_seconds": 1.0924222469329834
+    }
+  },
+  {
+    "question": "What forum did Tim join recently?",
+    "predicted": "Tim joined a fantasy literature forum where he had a great talk about his favorite books.",
+    "ground_truth": "fantasy literature forum",
+    "category": "open-domain",
+    "evidence": [
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 17,
+      "total_tokens": 20662,
+      "elapsed_seconds": 0.7965786457061768
+    }
+  },
+  {
+    "question": "What kind of picture did Tim share as part of their Harry Potter book collection?",
+    "predicted": "Tim shared a picture of his bookshelf filled with his favorite fantasy novels, including a signed item from MinaLima, the creators of the props for the Harry Potter films.",
+    "ground_truth": "MinaLima's creation from the Harry Potter films",
+    "category": "open-domain",
+    "evidence": [
+      "D2:9"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 34,
+      "total_tokens": 20688,
+      "elapsed_seconds": 1.3540520668029785
+    }
+  },
+  {
+    "question": "What was the highest number of points John scored in a game recently?",
+    "predicted": "John scored 40 points in a game recently, which was his highest ever.",
+    "ground_truth": "40 points",
+    "category": "open-domain",
+    "evidence": [
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 16,
+      "total_tokens": 20668,
+      "elapsed_seconds": 0.9019789695739746
+    }
+  },
+  {
+    "question": "What did John celebrate at a restaurant with teammates?",
+    "predicted": "John celebrated a tough win after a game with his teammates at a restaurant, where they laughed and relived the intense moments.",
+    "ground_truth": "a tough win",
+    "category": "open-domain",
+    "evidence": [
+      "D3:5"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 25,
+      "total_tokens": 20673,
+      "elapsed_seconds": 0.9805917739868164
+    }
+  },
+  {
+    "question": "What kind of deals did John sign with Nike and Gatorade?",
+    "predicted": "John signed a deal with Nike for basketball shoes and gear, and he is in talks with Gatorade about a potential sponsorship.",
+    "ground_truth": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+    "category": "open-domain",
+    "evidence": [
+      "D3:13"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 26,
+      "total_tokens": 20678,
+      "elapsed_seconds": 1.6304879188537598
+    }
+  },
+  {
+    "question": "Which city is John excited to have a game at?",
+    "predicted": "John is excited to have a game in Seattle.",
+    "ground_truth": "Seattle",
+    "category": "open-domain",
+    "evidence": [
+      "D3:19"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 10,
+      "total_tokens": 20659,
+      "elapsed_seconds": 1.1702680587768555
+    }
+  },
+  {
+    "question": "How long has John been surfing?",
+    "predicted": "John has been surfing for five years.",
+    "ground_truth": "five years",
+    "category": "open-domain",
+    "evidence": [
+      "D3:27"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 8,
+      "total_tokens": 20653,
+      "elapsed_seconds": 1.510347843170166
+    }
+  },
+  {
+    "question": "How does John feel while surfing?",
+    "predicted": "John feels that surfing is amazing and describes it as super exciting and a free-feeling experience. He enjoys the connection to nature that surfing provides.",
+    "ground_truth": "super exciting and free-feeling",
+    "category": "open-domain",
+    "evidence": [
+      "D3:29"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 29,
+      "total_tokens": 20674,
+      "elapsed_seconds": 1.3053538799285889
+    }
+  },
+  {
+    "question": "What kind of articles has Tim been writing about for the online magazine?",
+    "predicted": "Tim has been writing articles about different fantasy novels, studying characters, themes, and making book recommendations.",
+    "ground_truth": "different fantasy novels, characters, themes, and book recommendations",
+    "category": "open-domain",
+    "evidence": [
+      "D4:5"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 20,
+      "total_tokens": 20672,
+      "elapsed_seconds": 2.2887449264526367
+    }
+  },
+  {
+    "question": "Which two fantasy novels does Tim particularly enjoy writing about?",
+    "predicted": "Tim particularly enjoys writing about \"Harry Potter\" and \"Game of Thrones.\"",
+    "ground_truth": "Harry Potter and Game of Thrones",
+    "category": "open-domain",
+    "evidence": [
+      "D4:7"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 15,
+      "total_tokens": 20664,
+      "elapsed_seconds": 2.6474697589874268
+    }
+  },
+  {
+    "question": "What did Anthony and John end up playing during the charity event?",
+    "predicted": "The conversation does not specify what Anthony and John played during the charity event.",
+    "ground_truth": "an intense Harry Potter trivia contest",
+    "category": "open-domain",
+    "evidence": [
+      "D4:8"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 15,
+      "total_tokens": 20666,
+      "elapsed_seconds": 1.4186937808990479
+    }
+  },
+  {
+    "question": "What did John share with the person he skyped about?",
+    "predicted": "John did not mention anything about a Skype conversation in the provided conversation history.",
+    "ground_truth": "Characters from Harry Potter",
+    "category": "open-domain",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 15,
+      "total_tokens": 20665,
+      "elapsed_seconds": 1.311894178390503
+    }
+  },
+  {
+    "question": "How did John describe the team bond?",
+    "predicted": "John described the team bond as awesome, stating that being around people who share the same love for basketball creates a special kind of bond. He mentioned that they push each other to be their best and that it feels like having a second family.",
+    "ground_truth": "Awesome",
+    "category": "open-domain",
+    "evidence": [
+      "D5:6"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 48,
+      "total_tokens": 20694,
+      "elapsed_seconds": 1.3455109596252441
+    }
+  },
+  {
+    "question": "How did John get introduced to basketball?",
+    "predicted": "John got introduced to basketball when he was a kid, watching NBA games with his dad. When he turned ten, his dad signed him up for a local league, and he has been playing ever since.",
+    "ground_truth": "Dad signed him up for a local league",
+    "category": "open-domain",
+    "evidence": [
+      "D6:13"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 41,
+      "total_tokens": 20687,
+      "elapsed_seconds": 1.3983097076416016
+    }
+  },
+  {
+    "question": "What is John's number one goal in his basketball career?",
+    "predicted": "John's number one goal in his basketball career is to win a championship.",
+    "ground_truth": "Winning a championship",
+    "category": "open-domain",
+    "evidence": [
+      "D6:15"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 15,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.9184210300445557
+    }
+  },
+  {
+    "question": "What organization is John teaming up with for his charity work?",
+    "predicted": "John is teaming up with a local organization that helps disadvantaged kids with sports and school.",
+    "ground_truth": "A local organization helping disadvantaged kids with sports and school",
+    "category": "open-domain",
+    "evidence": [
+      "D6:17"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 17,
+      "total_tokens": 20667,
+      "elapsed_seconds": 1.1140880584716797
+    }
+  },
+  {
+    "question": "When did John meet back up with his teammates after his trip in August 2023?",
+    "predicted": "John met back up with his teammates on the 15th of August 2023.",
+    "ground_truth": "Aug 15th",
+    "category": "open-domain",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 20656,
+      "output_tokens": 18,
+      "total_tokens": 20674,
+      "elapsed_seconds": 0.9097177982330322
+    }
+  },
+  {
+    "question": "What did John's teammates give him when they met on Aug 15th?",
+    "predicted": "John's teammates gave him a signed basketball to show their friendship and appreciation.",
+    "ground_truth": "a basketball with autographs on it",
+    "category": "open-domain",
+    "evidence": [
+      "D7:7"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 15,
+      "total_tokens": 20668,
+      "elapsed_seconds": 0.9145359992980957
+    }
+  },
+  {
+    "question": "Why did John's teammates sign the basketball they gave him?",
+    "predicted": "John's teammates signed the basketball to show their friendship and appreciation for each other. It was a sign of their bond and support.",
+    "ground_truth": "to show their friendship and appreciation",
+    "category": "open-domain",
+    "evidence": [
+      "D7:9"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 26,
+      "total_tokens": 20675,
+      "elapsed_seconds": 0.9702999591827393
+    }
+  },
+  {
+    "question": "What is the main intention behind Tim wanting to attend the book conference?",
+    "predicted": "Tim wants to attend the book conference to learn more about literature and create a stronger bond with it, as well as to connect with authors, publishers, and fellow book lovers.",
+    "ground_truth": "to learn more about literature and create a stronger bond to it",
+    "category": "open-domain",
+    "evidence": [
+      "D7:6"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 35,
+      "total_tokens": 20687,
+      "elapsed_seconds": 1.062809944152832
+    }
+  },
+  {
+    "question": "What new activity has Tim started learning in August 2023?",
+    "predicted": "In August 2023, Tim started learning how to play the piano.",
+    "ground_truth": "play the piano",
+    "category": "open-domain",
+    "evidence": [
+      "D8:12"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 15,
+      "total_tokens": 20666,
+      "elapsed_seconds": 1.6296708583831787
+    }
+  },
+  {
+    "question": "Which movie's theme is Tim's favorite to play on the piano?",
+    "predicted": "Tim's favorite theme to play on the piano is from \"Harry Potter and the Philosopher's Stone.\"",
+    "ground_truth": "\"Harry Potter and the Philosopher's Stone\"",
+    "category": "open-domain",
+    "evidence": [
+      "D8:14",
+      "D8:16"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 21,
+      "total_tokens": 20673,
+      "elapsed_seconds": 1.118973970413208
+    }
+  },
+  {
+    "question": "What special memory does \"Harry Potter and the Philosopher's Stone\" bring to Tim?",
+    "predicted": "\"Harry Potter and the Philosopher's Stone\" brings back special memories for Tim of watching the movie with his family, which he describes as an amazing experience filled with magic.",
+    "ground_truth": "Watching it with his family",
+    "category": "open-domain",
+    "evidence": [
+      "D8:16"
+    ],
+    "stats": {
+      "input_tokens": 20656,
+      "output_tokens": 35,
+      "total_tokens": 20691,
+      "elapsed_seconds": 1.6288700103759766
+    }
+  },
+  {
+    "question": "Which movie does Tim mention they enjoy watching during Thanksgiving?",
+    "predicted": "Tim mentions that they usually watch \"Home Alone\" during Thanksgiving.",
+    "ground_truth": "\"Home Alone\"",
+    "category": "open-domain",
+    "evidence": [
+      "D8:24"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 13,
+      "total_tokens": 20662,
+      "elapsed_seconds": 0.8985610008239746
+    }
+  },
+  {
+    "question": "What tradition does Tim mention they love during Thanksgiving?",
+    "predicted": "Tim mentions that during Thanksgiving, they love prepping the feast and talking about what they're thankful for, as well as watching some movies afterward.",
+    "ground_truth": "Prepping the feast and talking about what they're thankful for",
+    "category": "open-domain",
+    "evidence": [
+      "D8:22"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 27,
+      "total_tokens": 20675,
+      "elapsed_seconds": 1.0267939567565918
+    }
+  },
+  {
+    "question": "How long did John and his high school basketball teammates play together?",
+    "predicted": "John and his high school basketball teammates played together for four years.",
+    "ground_truth": "Four years",
+    "category": "open-domain",
+    "evidence": [
+      "D9:4"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 13,
+      "total_tokens": 20664,
+      "elapsed_seconds": 1.0776481628417969
+    }
+  },
+  {
+    "question": "How was John's experience in New York City?",
+    "predicted": "John described his experience in New York City as amazing, highlighting that there was something new and exciting everywhere he went. He enjoyed exploring the city and trying all the restaurants, calling it a must-visit destination.",
+    "ground_truth": "Amazing",
+    "category": "open-domain",
+    "evidence": [
+      "D9:8"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 42,
+      "total_tokens": 20689,
+      "elapsed_seconds": 1.5643858909606934
+    }
+  },
+  {
+    "question": "What did John say about NYC, enticing Tim to visit?",
+    "predicted": "John described NYC as amazing, highlighting that there is always something new and exciting to explore, along with great restaurants to try. He emphasized that it's a must-visit and an adventure one would never forget.",
+    "ground_truth": "It's got so much to check out - the culture, food - you won't regret it.",
+    "category": "open-domain",
+    "evidence": [
+      "D9:10"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 41,
+      "total_tokens": 20691,
+      "elapsed_seconds": 1.3226301670074463
+    }
+  },
+  {
+    "question": "What kind of soup did John make recently?",
+    "predicted": "John made a tasty soup but did not provide a specific recipe for it; he mentioned adding sage for flavor.",
+    "ground_truth": "tasty soup with sage",
+    "category": "open-domain",
+    "evidence": [
+      "D10:4",
+      "D10:8"
+    ],
+    "stats": {
+      "input_tokens": 20647,
+      "output_tokens": 22,
+      "total_tokens": 20669,
+      "elapsed_seconds": 0.9650712013244629
+    }
+  },
+  {
+    "question": "What spice did John add to the soup for flavor?",
+    "predicted": "John added sage to the soup for flavor.",
+    "ground_truth": "sage",
+    "category": "open-domain",
+    "evidence": [
+      "D10:8"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 9,
+      "total_tokens": 20658,
+      "elapsed_seconds": 1.27534818649292
+    }
+  },
+  {
+    "question": "What is Tim excited to see at Universal Studios?",
+    "predicted": "Tim is excited to see the Harry Potter attractions at Universal Studios.",
+    "ground_truth": "The Harry Potter stuff",
+    "category": "open-domain",
+    "evidence": [
+      "D10:11"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 13,
+      "total_tokens": 20661,
+      "elapsed_seconds": 0.7748270034790039
+    }
+  },
+  {
+    "question": "Where are John and his teammates planning to explore on a team trip?",
+    "predicted": "John and his teammates are still deciding on the destination for their team trip, but they are considering exploring a new city.",
+    "ground_truth": "a new city",
+    "category": "open-domain",
+    "evidence": [
+      "D11:7"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 24,
+      "total_tokens": 20676,
+      "elapsed_seconds": 1.3517959117889404
+    }
+  },
+  {
+    "question": "What city did Tim suggest to John for the team trip next month?",
+    "predicted": "Tim suggested Edinburgh, Scotland for John's team trip next month.",
+    "ground_truth": "Edinburgh, Scotland",
+    "category": "open-domain",
+    "evidence": [
+      "D11:10"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 12,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.9486801624298096
+    }
+  },
+  {
+    "question": "What does John want to do after his basketball career?",
+    "predicted": "John wants to use his platform to make a positive difference and inspire others, potentially by starting a foundation and doing charity work. He aims to leave a meaningful legacy and help underserved communities with access to sports programs.",
+    "ground_truth": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "category": "open-domain",
+    "evidence": [
+      "D11:19"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 42,
+      "total_tokens": 20691,
+      "elapsed_seconds": 1.4984498023986816
+    }
+  },
+  {
+    "question": "What advice did Tim give John about picking endorsements?",
+    "predicted": "Tim advised John to ensure that the endorsements align with his values and brand, and to look for companies that share his desire to make a change and help others. He emphasized the importance of authenticity in endorsements for John's followers.",
+    "ground_truth": "Ensure they align with values and brand, look for companies that share the desire to make a change and help others, make sure the endorsement feels authentic",
+    "category": "open-domain",
+    "evidence": [
+      "D11:22"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 44,
+      "total_tokens": 20692,
+      "elapsed_seconds": 1.619452953338623
+    }
+  },
+  {
+    "question": "What book recommendation did Tim give to John for the trip?",
+    "predicted": "Tim recommended \"The Name of the Wind\" by Patrick Rothfuss to John for his trip.",
+    "ground_truth": "A fantasy novel by Patrick Rothfuss",
+    "category": "open-domain",
+    "evidence": [
+      "D11:24"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 20,
+      "total_tokens": 20670,
+      "elapsed_seconds": 0.8606610298156738
+    }
+  },
+  {
+    "question": "What type of venue did John and his girlfriend choose for their wedding ceremony?",
+    "predicted": "John and his girlfriend chose a lovely greenhouse venue for their wedding ceremony.",
+    "ground_truth": "Greenhouse",
+    "category": "open-domain",
+    "evidence": [
+      "D12:4"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 14,
+      "total_tokens": 20667,
+      "elapsed_seconds": 0.8794732093811035
+    }
+  },
+  {
+    "question": "What was the setting for John and his wife's first dance?",
+    "predicted": "John and his wife's first dance took place at a cozy restaurant, which was described as dreamy with music and candlelight.",
+    "ground_truth": "Cozy restaurant",
+    "category": "open-domain",
+    "evidence": [
+      "D12:10"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 24,
+      "total_tokens": 20674,
+      "elapsed_seconds": 1.968317985534668
+    }
+  },
+  {
+    "question": "Which basketball team does Tim support?",
+    "predicted": "The conversation does not specify which basketball team Tim supports.",
+    "ground_truth": "The Wolves",
+    "category": "open-domain",
+    "evidence": [
+      "D12:21"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 11,
+      "total_tokens": 20656,
+      "elapsed_seconds": 0.76546311378479
+    }
+  },
+  {
+    "question": "What passion does Tim mention connects him with people from all over the world?",
+    "predicted": "Tim mentions that his passion for fantasy stuff, particularly related to Harry Potter, connects him with people from all over the world.",
+    "ground_truth": "passion for fantasy stuff",
+    "category": "open-domain",
+    "evidence": [
+      "D13:1"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 25,
+      "total_tokens": 20678,
+      "elapsed_seconds": 0.9765911102294922
+    }
+  },
+  {
+    "question": "How does John describe the game season for his team?",
+    "predicted": "John describes the game season for his team as intense, mentioning that they faced tough losses and great wins, but overall, he feels they did pretty well.",
+    "ground_truth": "intense with tough losses and great wins",
+    "category": "open-domain",
+    "evidence": [
+      "D13:4"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 31,
+      "total_tokens": 20680,
+      "elapsed_seconds": 0.9523179531097412
+    }
+  },
+  {
+    "question": "How does John say his team handles tough opponents?",
+    "predicted": "John says that when facing tough opponents, they back each other up and won't quit, which drives them to get better.",
+    "ground_truth": "by backing each other up and not quitting",
+    "category": "open-domain",
+    "evidence": [
+      "D13:6"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 24,
+      "total_tokens": 20672,
+      "elapsed_seconds": 0.9943220615386963
+    }
+  },
+  {
+    "question": "What motivates John's team to get better, according to John?",
+    "predicted": "John's team is motivated to get better by their shared love for basketball, the support they provide each other, and the camaraderie they build both on and off the court. They push each other to improve and create a strong bond that drives their performance.",
+    "ground_truth": "facing tough opponents",
+    "category": "open-domain",
+    "evidence": [
+      "D13:6"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 51,
+      "total_tokens": 20701,
+      "elapsed_seconds": 1.3117051124572754
+    }
+  },
+  {
+    "question": "What did John's team win at the end of the season?",
+    "predicted": "John's team won a trophy at the end of the season.",
+    "ground_truth": "a trophy",
+    "category": "open-domain",
+    "evidence": [
+      "D13:8"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 13,
+      "total_tokens": 20663,
+      "elapsed_seconds": 0.773259162902832
+    }
+  },
+  {
+    "question": "Where did Tim capture the photography of the sunset over the mountain range?",
+    "predicted": "The conversation does not specify where Tim captured the photography of the sunset over the mountain range.",
+    "ground_truth": "Smoky Mountains",
+    "category": "open-domain",
+    "evidence": [
+      "D14:16"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 18,
+      "total_tokens": 20670,
+      "elapsed_seconds": 0.880443811416626
+    }
+  },
+  {
+    "question": "How does John feel about being seen as a mentor by some of the younger players?",
+    "predicted": "John feels great about being seen as a mentor by some of the younger players. He finds it rewarding to provide them with advice and support, and he enjoys being a positive role model in their lives.",
+    "ground_truth": "It feels great",
+    "category": "open-domain",
+    "evidence": [
+      "D14:11"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 40,
+      "total_tokens": 20695,
+      "elapsed_seconds": 1.3033499717712402
+    }
+  },
+  {
+    "question": "What does John find rewarding about mentoring the younger players?",
+    "predicted": "John finds mentoring the younger players rewarding because he enjoys watching their growth, improvement, and confidence develop. He appreciates being able to make a positive impact on their lives and help shape their future.",
+    "ground_truth": "Seeing their growth, improvement, and confidence",
+    "category": "open-domain",
+    "evidence": [
+      "D14:7"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 38,
+      "total_tokens": 20687,
+      "elapsed_seconds": 1.134511947631836
+    }
+  },
+  {
+    "question": "What has John been able to help the younger players achieve?",
+    "predicted": "John has been able to help the younger players develop their skills, gain confidence, and reach their goals through mentoring. He provides advice and support both on and off the court, making a positive impact on their lives.",
+    "ground_truth": "reach their goals",
+    "category": "open-domain",
+    "evidence": [
+      "D14:5"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 43,
+      "total_tokens": 20693,
+      "elapsed_seconds": 1.403432846069336
+    }
+  },
+  {
+    "question": "What genre is the novel that Tim is writing?",
+    "predicted": "Tim is writing a fantasy novel.",
+    "ground_truth": "Fantasy",
+    "category": "open-domain",
+    "evidence": [
+      "D15:3"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 7,
+      "total_tokens": 20655,
+      "elapsed_seconds": 0.6836831569671631
+    }
+  },
+  {
+    "question": "Who is one of Tim's sources of inspiration for writing?",
+    "predicted": "One of Tim's sources of inspiration for writing is J.K. Rowling. He admires her captivating storytelling and the detail in her books.",
+    "ground_truth": "J.K. Rowling",
+    "category": "open-domain",
+    "evidence": [
+      "D15:7"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 28,
+      "total_tokens": 20678,
+      "elapsed_seconds": 0.9840691089630127
+    }
+  },
+  {
+    "question": "What J.K. Rowling quote does Tim resonate with?",
+    "predicted": "Tim resonates with the quote by J.K. Rowling: \"Turn on the light - happiness hides in the darkest of times.\"",
+    "ground_truth": "\"Turn on the light - happiness hides in the darkest of times.\"",
+    "category": "open-domain",
+    "evidence": [
+      "D15:11"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 25,
+      "total_tokens": 20674,
+      "elapsed_seconds": 1.6238150596618652
+    }
+  },
+  {
+    "question": "What does John write on the whiteboard to help him stay motivated?",
+    "predicted": "John writes down some motivational quotes and strategies on the whiteboard to help him stay focused and push through tough workouts.",
+    "ground_truth": "motivational quotes and strategies",
+    "category": "open-domain",
+    "evidence": [
+      "D15:14"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 23,
+      "total_tokens": 20675,
+      "elapsed_seconds": 1.0914299488067627
+    }
+  },
+  {
+    "question": "What hobby is a therapy for John when away from the court?",
+    "predicted": "Cooking is a therapy for John when he's away from the court. He enjoys it as a way to be creative and experiment with flavors.",
+    "ground_truth": "Cooking",
+    "category": "open-domain",
+    "evidence": [
+      "D15:30"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 27,
+      "total_tokens": 20678,
+      "elapsed_seconds": 0.9473600387573242
+    }
+  },
+  {
+    "question": "What type of meal does John often cook using a slow cooker?",
+    "predicted": "John often cooks honey garlic chicken with roasted vegetables using a slow cooker.",
+    "ground_truth": "honey garlic chicken with roasted veg",
+    "category": "open-domain",
+    "evidence": [
+      "D15:32",
+      "D15:33"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 14,
+      "total_tokens": 20665,
+      "elapsed_seconds": 1.6979711055755615
+    }
+  },
+  {
+    "question": "How will John share the honey garlic chicken recipe with the other person?",
+    "predicted": "John mentioned that he would write down the honey garlic chicken recipe and mail it to Tim.",
+    "ground_truth": "write it down and mail it",
+    "category": "open-domain",
+    "evidence": [
+      "D15:34"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 18,
+      "total_tokens": 20670,
+      "elapsed_seconds": 0.8426580429077148
+    }
+  },
+  {
+    "question": "What was Tim's huge writing issue last week,as mentioned on November 6, 2023?",
+    "predicted": "Tim's huge writing issue last week was that he got stuck on a plot twist and couldn't find his way out, which was frustrating for him.",
+    "ground_truth": "He got stuck on a plot twist",
+    "category": "open-domain",
+    "evidence": [
+      "D16:1"
+    ],
+    "stats": {
+      "input_tokens": 20659,
+      "output_tokens": 29,
+      "total_tokens": 20688,
+      "elapsed_seconds": 1.077854871749878
+    }
+  },
+  {
+    "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+    "predicted": "Tim has a basketball signed by his favorite player, which serves as a reminder of all the hard work he has put in.",
+    "ground_truth": "a basketball signed by his favorite player",
+    "category": "open-domain",
+    "evidence": [
+      "D16:7"
+    ],
+    "stats": {
+      "input_tokens": 20656,
+      "output_tokens": 25,
+      "total_tokens": 20681,
+      "elapsed_seconds": 0.9925918579101562
+    }
+  },
+  {
+    "question": "Why do Tim and John find LeBron inspiring?",
+    "predicted": "Tim and John find LeBron inspiring because of his skills, leadership, and determination on the court. John admires LeBron's work ethic and dedication to the game, while Tim is inspired by LeBron's moments of determination, such as his iconic block in the Finals, which exemplifies never giving up.",
+    "ground_truth": "LeBron's determination and the epic block in Game 7 of the '16 Finals",
+    "category": "open-domain",
+    "evidence": [
+      "D16:9",
+      "D16:10"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 62,
+      "total_tokens": 20710,
+      "elapsed_seconds": 1.5438809394836426
+    }
+  },
+  {
+    "question": "How did John describe the views during their road trip out on the European coastline?",
+    "predicted": "John described the views during their road trip out on the European coastline as amazing, stating that they were spectacular and that they had lots of fun bonding and creating amazing memories.",
+    "ground_truth": "Spectacular",
+    "category": "open-domain",
+    "evidence": [
+      "D17:3"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 34,
+      "total_tokens": 20688,
+      "elapsed_seconds": 0.9984438419342041
+    }
+  },
+  {
+    "question": "What is one of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023?",
+    "predicted": "One of Tim's favorite fantasy TV shows, as mentioned on November 11, 2023, is \"The Wheel of Time.\"",
+    "ground_truth": "\"That\"",
+    "category": "open-domain",
+    "evidence": [
+      "D17:10"
+    ],
+    "stats": {
+      "input_tokens": 20660,
+      "output_tokens": 27,
+      "total_tokens": 20687,
+      "elapsed_seconds": 1.2365000247955322
+    }
+  },
+  {
+    "question": "How does Tim stay motivated during difficult study sessions?",
+    "predicted": "Tim stays motivated during difficult study sessions by breaking up his studying into smaller parts, studying for 25 minutes followed by a 5-minute break for something fun. This approach helps him feel less overwhelmed and keeps him on track.",
+    "ground_truth": "Visualizing goals and success",
+    "category": "open-domain",
+    "evidence": [
+      "D18:6"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 45,
+      "total_tokens": 20693,
+      "elapsed_seconds": 1.3491840362548828
+    }
+  },
+  {
+    "question": "What did Tim say about his injury on 16 November, 2023?",
+    "predicted": "On 16 November 2023, Tim mentioned that he had a tough week with exams but was plowing through. He did not specifically mention an injury on that date; instead, it was John who talked about his injury.",
+    "ground_truth": "The doctor said it's not too serious",
+    "category": "open-domain",
+    "evidence": [
+      "D18:10"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 46,
+      "total_tokens": 20700,
+      "elapsed_seconds": 1.2162108421325684
+    }
+  },
+  {
+    "question": "What was the setback Tim faced in his writing project on 21 November, 2023?",
+    "predicted": "Tim faced a setback when he tried writing a story based on his experiences in the UK, but it didn't go the way he wanted.",
+    "ground_truth": "Story based on experiences in the UK didn't go as planned",
+    "category": "open-domain",
+    "evidence": [
+      "D19:3"
+    ],
+    "stats": {
+      "input_tokens": 20657,
+      "output_tokens": 27,
+      "total_tokens": 20684,
+      "elapsed_seconds": 1.1114628314971924
+    }
+  },
+  {
+    "question": "How did John overcome his ankle injury from last season?",
+    "predicted": "John overcame his ankle injury by staying focused on his recovery and working hard to strengthen his body through physical therapy. He emphasized the importance of patience and perseverance during the healing process.",
+    "ground_truth": "stayed focused on recovery and worked hard to strengthen his body",
+    "category": "open-domain",
+    "evidence": [
+      "D19:6"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 35,
+      "total_tokens": 20684,
+      "elapsed_seconds": 1.816404104232788
+    }
+  },
+  {
+    "question": "What motivated Tim to keep pushing himself to get better in writing and reading?",
+    "predicted": "Tim is motivated to keep pushing himself in writing and reading by his passion for storytelling and the joy it brings him. He also finds inspiration in the works of authors like J.K. Rowling, whose captivating writing style encourages him to improve his own skills.",
+    "ground_truth": "Love for writing and reading",
+    "category": "open-domain",
+    "evidence": [
+      "D19:9"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 50,
+      "total_tokens": 20703,
+      "elapsed_seconds": 1.4366357326507568
+    }
+  },
+  {
+    "question": "How did John overcome a mistake he made during a big game in basketball?",
+    "predicted": "John faced a tough time when he messed up during a big game, but instead of getting stuck in that moment, he worked hard to improve. He learned that resilience is key and that owning up to mistakes is important, which helped him grow as a player and teammate.",
+    "ground_truth": "Worked hard to get better and focused on growth",
+    "category": "open-domain",
+    "evidence": [
+      "D19:10"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 54,
+      "total_tokens": 20707,
+      "elapsed_seconds": 1.6241600513458252
+    }
+  },
+  {
+    "question": "What book did John recently finish rereading that left him feeling inspired and hopeful about following dreams?",
+    "predicted": "John recently finished rereading \"The Alchemist,\" which left him feeling inspired and hopeful about following dreams.",
+    "ground_truth": "The Alchemist",
+    "category": "open-domain",
+    "evidence": [
+      "D19:20"
+    ],
+    "stats": {
+      "input_tokens": 20657,
+      "output_tokens": 21,
+      "total_tokens": 20678,
+      "elapsed_seconds": 0.9119868278503418
+    }
+  },
+  {
+    "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+    "predicted": "John found \"The Alchemist\" to be inspiring, as it motivated him to keep chasing his dreams and trust the process. He felt that the book helped him reflect on the importance of pursuing one's personal legend.",
+    "ground_truth": "made him think again about following dreams and searching for personal legends",
+    "category": "open-domain",
+    "evidence": [
+      "D19:20"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 42,
+      "total_tokens": 20694,
+      "elapsed_seconds": 1.3227686882019043
+    }
+  },
+  {
+    "question": "What is John trying out to improve his strength and flexibility after recovery from ankle injury?",
+    "predicted": "John is trying out yoga to improve his strength and flexibility after recovering from his ankle injury.",
+    "ground_truth": "yoga",
+    "category": "open-domain",
+    "evidence": [
+      "D20:2"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 18,
+      "total_tokens": 20673,
+      "elapsed_seconds": 1.0152630805969238
+    }
+  },
+  {
+    "question": "How long does John usually hold the yoga pose he shared with Tim?",
+    "predicted": "John typically holds the yoga pose for 30-60 seconds.",
+    "ground_truth": "30-60 seconds",
+    "category": "open-domain",
+    "evidence": [
+      "D20:10"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 13,
+      "total_tokens": 20665,
+      "elapsed_seconds": 0.9121420383453369
+    }
+  },
+  {
+    "question": "Where was the forest picture shared by John on December 1,2023 taken?",
+    "predicted": "The forest picture shared by John on December 1, 2023, was taken near his hometown.",
+    "ground_truth": "near his hometown",
+    "category": "open-domain",
+    "evidence": [
+      "D20:28"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 21,
+      "total_tokens": 20676,
+      "elapsed_seconds": 1.0139250755310059
+    }
+  },
+  {
+    "question": "What did Tim recently start learning in addition to being part of a travel club and working on studies?",
+    "predicted": "Tim recently started learning how to play the violin.",
+    "ground_truth": "an instrument",
+    "category": "open-domain",
+    "evidence": [
+      "D21:9"
+    ],
+    "stats": {
+      "input_tokens": 20658,
+      "output_tokens": 10,
+      "total_tokens": 20668,
+      "elapsed_seconds": 0.8066909313201904
+    }
+  },
+  {
+    "question": "What instrument is Tim learning to play in December 2023?",
+    "predicted": "Tim is learning to play the violin.",
+    "ground_truth": "violin",
+    "category": "open-domain",
+    "evidence": [
+      "D21:11"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 8,
+      "total_tokens": 20659,
+      "elapsed_seconds": 0.8771200180053711
+    }
+  },
+  {
+    "question": "How long has Tim been playing the piano for, as of December 2023?",
+    "predicted": "Tim has been playing the piano for about four months as of December 2023.",
+    "ground_truth": "about four months",
+    "category": "open-domain",
+    "evidence": [
+      "D21:13"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 17,
+      "total_tokens": 20672,
+      "elapsed_seconds": 1.2571909427642822
+    }
+  },
+  {
+    "question": "What book did Tim just finish reading on 8th December, 2023?",
+    "predicted": "Tim just finished reading \"A Dance with Dragons\" on 8th December, 2023.",
+    "ground_truth": "\"A Dance with Dragons\"",
+    "category": "open-domain",
+    "evidence": [
+      "D22:13"
+    ],
+    "stats": {
+      "input_tokens": 20655,
+      "output_tokens": 20,
+      "total_tokens": 20675,
+      "elapsed_seconds": 0.8461658954620361
+    }
+  },
+  {
+    "question": "Which book did Tim recommend to John as a good story on 8th December, 2023?",
+    "predicted": "Tim recommended \"A Dance with Dragons\" as a good story to John on 8th December, 2023.",
+    "ground_truth": "\"A Dance with Dragons\"",
+    "category": "open-domain",
+    "evidence": [
+      "D22:13"
+    ],
+    "stats": {
+      "input_tokens": 20659,
+      "output_tokens": 24,
+      "total_tokens": 20683,
+      "elapsed_seconds": 1.0444610118865967
+    }
+  },
+  {
+    "question": "What is the topic of discussion between John and Tim on 11 December, 2023?",
+    "predicted": "On 11 December 2023, John and Tim discuss their recent experiences and successes. John shares that he had a career-high in assists during a big basketball game, while Tim talks about a tough time he had with his English lit class but feels positive about his analysis. They also touch on the importance of teamwork and the joy of sports.",
+    "ground_truth": "Academic achievements and sports successes",
+    "category": "open-domain",
+    "evidence": [
+      "D23:1",
+      "D23:2",
+      "D23:3"
+    ],
+    "stats": {
+      "input_tokens": 20657,
+      "output_tokens": 69,
+      "total_tokens": 20726,
+      "elapsed_seconds": 1.671436071395874
+    }
+  },
+  {
+    "question": "What kind of game did John have a career-high in assists in?",
+    "predicted": "John had a career-high in assists during a big game against their rival team.",
+    "ground_truth": "basketball",
+    "category": "open-domain",
+    "evidence": [
+      "D23:3"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 16,
+      "total_tokens": 20668,
+      "elapsed_seconds": 1.0104572772979736
+    }
+  },
+  {
+    "question": "What was John's way of dealing with doubts and stress when he was younger?",
+    "predicted": "John dealt with doubts and stress by practicing basketball outside for hours, dreaming of playing in big games. This practice served as a way for him to express himself and cope with challenges.",
+    "ground_truth": "practicing basketball outside for hours",
+    "category": "open-domain",
+    "evidence": [
+      "D23:9"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 36,
+      "total_tokens": 20689,
+      "elapsed_seconds": 1.1808178424835205
+    }
+  },
+  {
+    "question": "How did John feel about the atmosphere during the big game against the rival team?",
+    "predicted": "John felt that the atmosphere during the big game against the rival team was really electric and intense. He enjoyed being out there making plays for his team and loved seeing his teammates succeed.",
+    "ground_truth": "electric and intense",
+    "category": "open-domain",
+    "evidence": [
+      "D23:5"
+    ],
+    "stats": {
+      "input_tokens": 20654,
+      "output_tokens": 36,
+      "total_tokens": 20690,
+      "elapsed_seconds": 1.055466890335083
+    }
+  },
+  {
+    "question": "How did John feel after being able to jog without pain?",
+    "predicted": "John felt great after being able to jog without any pain. He described it as a huge success and a relief after being out for so long.",
+    "ground_truth": "It was a huge success.",
+    "category": "open-domain",
+    "evidence": [
+      "D24:16"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 29,
+      "total_tokens": 20679,
+      "elapsed_seconds": 1.1184041500091553
+    }
+  },
+  {
+    "question": "What kind of deal did John get in December?",
+    "predicted": "In December, John got an endorsement deal with a popular beverage company.",
+    "ground_truth": "Deal with a renowned outdoor gear company",
+    "category": "open-domain",
+    "evidence": [
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 14,
+      "total_tokens": 20662,
+      "elapsed_seconds": 0.9094371795654297
+    }
+  },
+  {
+    "question": "Where was the photoshoot done for John's gear deal?",
+    "predicted": "The photoshoot for John's gear deal was done in a gorgeous forest.",
+    "ground_truth": "In a gorgeous forest",
+    "category": "open-domain",
+    "evidence": [
+      "D25:4"
+    ],
+    "stats": {
+      "input_tokens": 20649,
+      "output_tokens": 14,
+      "total_tokens": 20663,
+      "elapsed_seconds": 1.0148260593414307
+    }
+  },
+  {
+    "question": "In which area has John's team seen the most growth during training?",
+    "predicted": "John's team has seen the most growth in communication and bonding during training, which has helped their performances by allowing them to understand each other's strengths and weaknesses.",
+    "ground_truth": "Communication and bonding",
+    "category": "open-domain",
+    "evidence": [
+      "D25:14"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 31,
+      "total_tokens": 20682,
+      "elapsed_seconds": 1.1165387630462646
+    }
+  },
+  {
+    "question": "What type of seminars is John conducting?",
+    "predicted": "John is conducting seminars to help people with their sports and marketing.",
+    "ground_truth": "Sports and marketing seminars",
+    "category": "open-domain",
+    "evidence": [
+      "D26:1"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 13,
+      "total_tokens": 20659,
+      "elapsed_seconds": 0.9148647785186768
+    }
+  },
+  {
+    "question": "What activity did Tim do after reading the stories about the Himalayan trek?",
+    "predicted": "After reading the stories about the Himalayan trek, Tim visited a travel agency to see what the requirements would be for his next dream trip.",
+    "ground_truth": "visited a travel agency",
+    "category": "open-domain",
+    "evidence": [
+      "D26:12"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 27,
+      "total_tokens": 20679,
+      "elapsed_seconds": 0.9099116325378418
+    }
+  },
+  {
+    "question": "What is one cause that John supports with his influence and resources?",
+    "predicted": "John supports youth sports and fights for fair chances in sports for underserved communities. He collaborates with organizations to create more opportunities for young athletes.",
+    "ground_truth": "youth sports and fair chances in sports",
+    "category": "open-domain",
+    "evidence": [
+      "D26:21"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 28,
+      "total_tokens": 20679,
+      "elapsed_seconds": 1.52866792678833
+    }
+  },
+  {
+    "question": "What new fantasy TV series is Tim excited about?",
+    "predicted": "Tim is excited about the new fantasy TV series called \"The Wheel of Time.\"",
+    "ground_truth": "\"The Wheel of Time\"",
+    "category": "open-domain",
+    "evidence": [
+      "D26:36"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 16,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.8087928295135498
+    }
+  },
+  {
+    "question": "Which language is Tim learning?",
+    "predicted": "Tim is learning German.",
+    "ground_truth": "German",
+    "category": "open-domain",
+    "evidence": [
+      "D27:5"
+    ],
+    "stats": {
+      "input_tokens": 20644,
+      "output_tokens": 5,
+      "total_tokens": 20649,
+      "elapsed_seconds": 0.7441310882568359
+    }
+  },
+  {
+    "question": "What language does Tim know besides German?",
+    "predicted": "Tim knows French besides German.",
+    "ground_truth": "Spanish",
+    "category": "open-domain",
+    "evidence": [
+      "D27:6"
+    ],
+    "stats": {
+      "input_tokens": 20646,
+      "output_tokens": 6,
+      "total_tokens": 20652,
+      "elapsed_seconds": 1.2914009094238281
+    }
+  },
+  {
+    "question": "What book did Tim get in Italy that inspired him to cook?",
+    "predicted": "The specific title of the book Tim got in Italy that inspired him to cook is not mentioned in the conversation.",
+    "ground_truth": "a cooking book",
+    "category": "open-domain",
+    "evidence": [
+      "D27:4"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 22,
+      "total_tokens": 20673,
+      "elapsed_seconds": 1.43015718460083
+    }
+  },
+  {
+    "question": "What is John's favorite book series?",
+    "predicted": "John's favorite book series is \"Harry Potter.\"",
+    "ground_truth": "Harry Potter",
+    "category": "open-domain",
+    "evidence": [
+      "D27:19"
+    ],
+    "stats": {
+      "input_tokens": 20645,
+      "output_tokens": 10,
+      "total_tokens": 20655,
+      "elapsed_seconds": 0.9099578857421875
+    }
+  },
+  {
+    "question": "According to John, who is his favorite character from Lord of the Rings?",
+    "predicted": "John's favorite character from Lord of the Rings is Aragorn.",
+    "ground_truth": "Aragorn",
+    "category": "open-domain",
+    "evidence": [
+      "D27:24"
+    ],
+    "stats": {
+      "input_tokens": 20653,
+      "output_tokens": 13,
+      "total_tokens": 20666,
+      "elapsed_seconds": 1.3254048824310303
+    }
+  },
+  {
+    "question": "Why does John like Aragorn from Lord of the Rings?",
+    "predicted": "John likes Aragorn because he is a great leader who puts others first, and he eventually becomes king. John admires Aragorn's bravery, selflessness, and down-to-earth attitude, which inspire him to stay true and be a leader in everything he does.",
+    "ground_truth": "brave, selfless, down-to-earth attitude",
+    "category": "open-domain",
+    "evidence": [
+      "D27:30"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 53,
+      "total_tokens": 20703,
+      "elapsed_seconds": 1.2990317344665527
+    }
+  },
+  {
+    "question": "What kind of painting does John have in his room as a reminder?",
+    "predicted": "John has a painting of Aragorn in his room to remind him to stay true and be a leader in everything he does.",
+    "ground_truth": "a painting of Aragorn",
+    "category": "open-domain",
+    "evidence": [
+      "D27:28"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 25,
+      "total_tokens": 20677,
+      "elapsed_seconds": 1.2461259365081787
+    }
+  },
+  {
+    "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+    "predicted": "The painting of Aragorn is a reminder for John to stay true and be a leader in everything he does.",
+    "ground_truth": "be a leader",
+    "category": "open-domain",
+    "evidence": [
+      "D27:28"
+    ],
+    "stats": {
+      "input_tokens": 20656,
+      "output_tokens": 22,
+      "total_tokens": 20678,
+      "elapsed_seconds": 0.8930461406707764
+    }
+  },
+  {
+    "question": "What map does Tim show to his friend John?",
+    "predicted": "Tim shows John a map of Middle-earth from \"The Lord of the Rings.\"",
+    "ground_truth": "a map of Middle-earth from LOTR",
+    "category": "open-domain",
+    "evidence": [
+      "D27:33"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 16,
+      "total_tokens": 20664,
+      "elapsed_seconds": 0.9312648773193359
+    }
+  },
+  {
+    "question": "Where will Tim be going for a semester abroad?",
+    "predicted": "Tim will be going to Galway, Ireland for a semester abroad.",
+    "ground_truth": "Ireland",
+    "category": "open-domain",
+    "evidence": [
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 20648,
+      "output_tokens": 13,
+      "total_tokens": 20661,
+      "elapsed_seconds": 1.0727050304412842
+    }
+  },
+  {
+    "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+    "predicted": "Tim will be staying in Galway during his semester abroad in Ireland.",
+    "ground_truth": "Galway",
+    "category": "open-domain",
+    "evidence": [
+      "D28:3"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 13,
+      "total_tokens": 20665,
+      "elapsed_seconds": 0.9624843597412109
+    }
+  },
+  {
+    "question": "What charity event did John organize recently in 2024?",
+    "predicted": "John organized a benefit basketball game to raise money for charity.",
+    "ground_truth": "benefit basketball game",
+    "category": "open-domain",
+    "evidence": [
+      "D28:10"
+    ],
+    "stats": {
+      "input_tokens": 20650,
+      "output_tokens": 12,
+      "total_tokens": 20662,
+      "elapsed_seconds": 1.7303051948547363
+    }
+  },
+  {
+    "question": "What achievement did John share with Tim in January 2024?",
+    "predicted": "In January 2024, John shared with Tim that he got an endorsement deal with a popular beverage company.",
+    "ground_truth": "endorsement with a popular beverage company",
+    "category": "open-domain",
+    "evidence": [
+      "D29:4"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 22,
+      "total_tokens": 20673,
+      "elapsed_seconds": 0.9138867855072021
+    }
+  },
+  {
+    "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+    "predicted": "John felt thrilled and described it as a crazy experience. He expressed that it was not just about the signing, but also about feeling like all his hard work paid off, making it a rewarding moment.",
+    "ground_truth": "crazy feeling, sense of accomplishment",
+    "category": "open-domain",
+    "evidence": [
+      "D29:6"
+    ],
+    "stats": {
+      "input_tokens": 20652,
+      "output_tokens": 40,
+      "total_tokens": 20692,
+      "elapsed_seconds": 1.1937057971954346
+    }
+  },
+  {
+    "question": "Which city did John recommend to Tim in January 2024?",
+    "predicted": "John recommended Barcelona to Tim in January 2024.",
+    "ground_truth": "Barcelona",
+    "category": "open-domain",
+    "evidence": [
+      "D29:12"
+    ],
+    "stats": {
+      "input_tokens": 20651,
+      "output_tokens": 11,
+      "total_tokens": 20662,
+      "elapsed_seconds": 0.9389598369598389
+    }
+  }
+]

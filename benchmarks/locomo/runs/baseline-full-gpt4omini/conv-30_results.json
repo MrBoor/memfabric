@@ -1,0 +1,1242 @@
+[
+  {
+    "question": "When Jon has lost his job as a banker?",
+    "predicted": "Jon lost his job as a banker on January 19, 2023.",
+    "ground_truth": "19 January, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:2"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 16,
+      "total_tokens": 11071,
+      "elapsed_seconds": 1.364081859588623
+    }
+  },
+  {
+    "question": "When Gina has lost her job at Door Dash?",
+    "predicted": "Gina lost her job at Door Dash in January 2023.",
+    "ground_truth": "January, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 14,
+      "total_tokens": 11069,
+      "elapsed_seconds": 0.9125251770019531
+    }
+  },
+  {
+    "question": "How do Jon and Gina both like to destress?",
+    "predicted": "Both Jon and Gina like to destress through dancing. They express that dance serves as a way to relieve stress and brings them joy.",
+    "ground_truth": "by dancing",
+    "category": "open-domain",
+    "evidence": [
+      "D1:7",
+      "D1:6"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 27,
+      "total_tokens": 11083,
+      "elapsed_seconds": 1.1500217914581299
+    }
+  },
+  {
+    "question": "What do Jon and Gina both have in common?",
+    "predicted": "Jon and Gina both share a passion for dance and have experienced job loss, which led them to pursue their own businesses. They are both determined to succeed in their respective ventures\u2014Jon with his dance studio and Gina with her clothing store. Additionally, they support and encourage each other throughout their journeys.",
+    "ground_truth": "They lost their jobs and decided to start their own businesses.",
+    "category": "single-hop",
+    "evidence": [
+      "D1:2",
+      "D1:3",
+      "D1:4",
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 59,
+      "total_tokens": 11114,
+      "elapsed_seconds": 1.4354779720306396
+    }
+  },
+  {
+    "question": "Why did Jon decide to start his dance studio?",
+    "predicted": "Jon decided to start his dance studio because he is passionate about dancing and wants to share the joy it brings him with others. Losing his job as a banker also gave him the push he needed to pursue his dream.",
+    "ground_truth": "He lost his job and decided to start his own business to share his passion.",
+    "category": "open-domain",
+    "evidence": [
+      "D1:2",
+      "D1:4"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 43,
+      "total_tokens": 11098,
+      "elapsed_seconds": 1.3372771739959717
+    }
+  },
+  {
+    "question": "What Jon thinks the ideal dance studio should look like?",
+    "predicted": "Jon envisions his ideal dance studio as a space with great natural light and a good dance floor, specifically Marley flooring, which is grippy yet allows for movement. He wants it to be a place that inspires both him and his students.",
+    "ground_truth": "By the water, with natural light and Marley flooring",
+    "category": "single-hop",
+    "evidence": [
+      "D1:20",
+      "D2:4",
+      "D2:8"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 48,
+      "total_tokens": 11104,
+      "elapsed_seconds": 2.6584107875823975
+    }
+  },
+  {
+    "question": "When is Jon's group performing at a festival?",
+    "predicted": "Jon's group is performing at a festival next month from the conversation, which would be February 2023.",
+    "ground_truth": "February, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:24"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 22,
+      "total_tokens": 11077,
+      "elapsed_seconds": 1.0919461250305176
+    }
+  },
+  {
+    "question": "When did Gina launch an ad campaign for her store?",
+    "predicted": "Gina launched an ad campaign for her clothing store on 29 January 2023.",
+    "ground_truth": "29 January, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 18,
+      "total_tokens": 11074,
+      "elapsed_seconds": 1.1032509803771973
+    }
+  },
+  {
+    "question": "When was Jon in Paris?",
+    "predicted": "Jon mentioned he was in Paris on January 29, 2023.",
+    "ground_truth": "28 January 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:4"
+    ],
+    "stats": {
+      "input_tokens": 11051,
+      "output_tokens": 15,
+      "total_tokens": 11066,
+      "elapsed_seconds": 4.595988035202026
+    }
+  },
+  {
+    "question": "Which city have both Jean and John visited?",
+    "predicted": "Both Gina and Jon mentioned visiting Paris and Rome. Jon specifically mentioned going to Paris, while Gina mentioned she has only been to Rome.",
+    "ground_truth": "Rome",
+    "category": "single-hop",
+    "evidence": [
+      "D2:5",
+      "D15:1"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 27,
+      "total_tokens": 11081,
+      "elapsed_seconds": 1.0356369018554688
+    }
+  },
+  {
+    "question": "When did Gina team up with a local artist for some cool designs?",
+    "predicted": "Gina mentioned teaming up with a local artist for some cool designs on 1 February, 2023.",
+    "ground_truth": "February, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:5"
+    ],
+    "stats": {
+      "input_tokens": 11059,
+      "output_tokens": 22,
+      "total_tokens": 11081,
+      "elapsed_seconds": 1.373960256576538
+    }
+  },
+  {
+    "question": "When did Gina get her tattoo?",
+    "predicted": "Gina got her tattoo a few years ago.",
+    "ground_truth": "A few years ago",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:15"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 10,
+      "total_tokens": 11062,
+      "elapsed_seconds": 0.9219129085540771
+    }
+  },
+  {
+    "question": "When did Jon start to go to the gym?",
+    "predicted": "Jon started hitting the gym last week, as mentioned in Session 6 on 16 March, 2023.",
+    "ground_truth": "March, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 23,
+      "total_tokens": 11078,
+      "elapsed_seconds": 1.0567827224731445
+    }
+  },
+  {
+    "question": "When did Gina open her online clothing store?",
+    "predicted": "Gina opened her online clothing store after losing her job at Door Dash, which she mentioned in the conversation on 29 January, 2023.",
+    "ground_truth": "16 March, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:6"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 30,
+      "total_tokens": 11084,
+      "elapsed_seconds": 2.2006888389587402
+    }
+  },
+  {
+    "question": "When did Jon start expanding his studio's social media presence?",
+    "predicted": "Jon started expanding his dance studio's social media presence around the time he was discussing marketing strategies with Gina, specifically mentioned in Session 18 on July 21, 2023.",
+    "ground_truth": "April, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:13"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 36,
+      "total_tokens": 11093,
+      "elapsed_seconds": 1.4237089157104492
+    }
+  },
+  {
+    "question": "When did Jon host a dance competition?",
+    "predicted": "Jon mentioned he was getting ready for a dance competition near him next month during a conversation on February 4, 2023.",
+    "ground_truth": "May, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:13"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 26,
+      "total_tokens": 11079,
+      "elapsed_seconds": 1.2263402938842773
+    }
+  },
+  {
+    "question": "When did Jon go to a fair to get more exposure for his dance studio?",
+    "predicted": "Jon went to a fair to show off his studio on April 25, 2023.",
+    "ground_truth": "24 April, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:1"
+    ],
+    "stats": {
+      "input_tokens": 11061,
+      "output_tokens": 19,
+      "total_tokens": 11080,
+      "elapsed_seconds": 0.9817318916320801
+    }
+  },
+  {
+    "question": "Why did Gina decide to start her own clothing store?",
+    "predicted": "Gina decided to start her own clothing store after losing her job at Door Dash. She wanted to take control of her own destiny and combine her passion for fashion trends with her love for dance.",
+    "ground_truth": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+    "category": "single-hop",
+    "evidence": [
+      "D6:8",
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 39,
+      "total_tokens": 11095,
+      "elapsed_seconds": 1.2486870288848877
+    }
+  },
+  {
+    "question": "Do Jon and Gina start businesses out of what they love?",
+    "predicted": "Yes, both Jon and Gina start businesses based on their passions. Jon opens a dance studio because of his love for dancing, while Gina starts an online clothing store that combines her interests in fashion and dance.",
+    "ground_truth": "Yes",
+    "category": "single-hop",
+    "evidence": [
+      "D1:4",
+      "D6:8"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 41,
+      "total_tokens": 11098,
+      "elapsed_seconds": 1.4298617839813232
+    }
+  },
+  {
+    "question": "When did Gina interview for a design internship?",
+    "predicted": "Gina interviewed for a design internship on 4 February, 2023.",
+    "ground_truth": "10 May, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:14"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 16,
+      "total_tokens": 11070,
+      "elapsed_seconds": 1.012477159500122
+    }
+  },
+  {
+    "question": "When did Gina get accepted for the design internship?",
+    "predicted": "Gina got accepted for the design internship on 27 May, 2023.",
+    "ground_truth": "27 May, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 17,
+      "total_tokens": 11072,
+      "elapsed_seconds": 1.0173768997192383
+    }
+  },
+  {
+    "question": "When did Jon start reading \"The Lean Startup\"?",
+    "predicted": "Jon mentioned he started reading \"The Lean Startup\" on 21 June, 2023.",
+    "ground_truth": "May, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:6"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 19,
+      "total_tokens": 11074,
+      "elapsed_seconds": 0.9290890693664551
+    }
+  },
+  {
+    "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+    "predicted": "Gina developed a video presentation to teach how to style her fashion pieces after she mentioned it in the conversation on 13 June, 2023.",
+    "ground_truth": "June, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:4"
+    ],
+    "stats": {
+      "input_tokens": 11062,
+      "output_tokens": 30,
+      "total_tokens": 11092,
+      "elapsed_seconds": 1.1980469226837158
+    }
+  },
+  {
+    "question": "How did Gina promote her clothes store?",
+    "predicted": "Gina promoted her clothing store by launching an ad campaign, working hard on her online store, and planning to collaborate with fashion bloggers and influencers to gain more attention. She also focused on sourcing trendy pieces and creating a unique shopping experience for her customers.",
+    "ground_truth": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+    "category": "single-hop",
+    "evidence": [
+      "D5:5",
+      "D16:3",
+      "D8:4",
+      "D13:4"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 50,
+      "total_tokens": 11103,
+      "elapsed_seconds": 1.3228552341461182
+    }
+  },
+  {
+    "question": "Which events has Jon participated in to promote his business venture?",
+    "predicted": "Jon has participated in a fair to showcase his dance studio and attended networking events to connect with potential investors and gain advice for his business. He is also planning to host a dance competition to showcase local talent and bring more attention to his studio.",
+    "ground_truth": "fair, networking events, dance competition",
+    "category": "single-hop",
+    "evidence": [
+      "D10:1",
+      "D16:6",
+      "D8:4"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 48,
+      "total_tokens": 11105,
+      "elapsed_seconds": 1.4358930587768555
+    }
+  },
+  {
+    "question": "What does Jon's dance studio offer?",
+    "predicted": "Jon's dance studio offers dance classes and workshops, as well as one-on-one mentoring and training to help dancers reach their full potential.",
+    "ground_truth": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+    "category": "single-hop",
+    "evidence": [
+      "D13:7",
+      "D8:13"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 27,
+      "total_tokens": 11080,
+      "elapsed_seconds": 1.2177257537841797
+    }
+  },
+  {
+    "question": "When did Jon receive mentorship to promote his venture?",
+    "predicted": "Jon received mentorship on June 16, 2023, when he mentioned being mentored by an amazing business person, which inspired him to chase his dreams even more.",
+    "ground_truth": "15 June, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 34,
+      "total_tokens": 11089,
+      "elapsed_seconds": 1.1223170757293701
+    }
+  },
+  {
+    "question": "Did Jon and Gina both participate in dance competitions?",
+    "predicted": "Yes, both Jon and Gina participated in dance competitions. Jon mentioned that his dance crew took home first place in a local competition, and Gina shared that she competed in a few competitions, with her favorite memory being when her team won first place at a regionals.",
+    "ground_truth": "Yes",
+    "category": "single-hop",
+    "evidence": [
+      "D1:14",
+      "D14:14",
+      "D1:16",
+      "D1:17",
+      "D9:10"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 53,
+      "total_tokens": 11108,
+      "elapsed_seconds": 1.5221779346466064
+    }
+  },
+  {
+    "question": "When was Jon in Rome?",
+    "predicted": "Jon mentioned he was in Paris the day before a conversation on January 29, 2023, but he did not specify when he was in Rome. Therefore, the exact date of his trip to Rome is not provided in the conversation.",
+    "ground_truth": "June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:1"
+    ],
+    "stats": {
+      "input_tokens": 11051,
+      "output_tokens": 48,
+      "total_tokens": 11099,
+      "elapsed_seconds": 1.4235551357269287
+    }
+  },
+  {
+    "question": "Which cities has Jon visited?",
+    "predicted": "Jon has visited Paris and Rome.",
+    "ground_truth": "Paris, Rome",
+    "category": "single-hop",
+    "evidence": [
+      "D2:4",
+      "D15:1"
+    ],
+    "stats": {
+      "input_tokens": 11051,
+      "output_tokens": 7,
+      "total_tokens": 11058,
+      "elapsed_seconds": 0.8091771602630615
+    }
+  },
+  {
+    "question": "When Jon is planning to open his dance studio?",
+    "predicted": "Jon is planning to open his dance studio on the day after the conversation on June 19, 2023, which would be June 20, 2023.",
+    "ground_truth": "20 June, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:5"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 34,
+      "total_tokens": 11089,
+      "elapsed_seconds": 1.0544393062591553
+    }
+  },
+  {
+    "question": "How long did it take for Jon to open his studio?",
+    "predicted": "Jon mentioned that he lost his job as a banker and decided to start his own business, a dance studio, on January 20, 2023. He stated that the official opening night of the studio was on June 20, 2023. Therefore, it took him about five months to open his studio.",
+    "ground_truth": "six months",
+    "category": "single-hop",
+    "evidence": [
+      "D1:2",
+      "D15:13"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 64,
+      "total_tokens": 11121,
+      "elapsed_seconds": 5.642119884490967
+    }
+  },
+  {
+    "question": "When did Gina design a limited collection of hoodies?",
+    "predicted": "Gina designed a limited edition line of hoodies the week before she mentioned it in the conversation, which was on July 21, 2023.",
+    "ground_truth": "June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:3"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 31,
+      "total_tokens": 11087,
+      "elapsed_seconds": 1.058372974395752
+    }
+  },
+  {
+    "question": "When did Jon visit networking events for his store?",
+    "predicted": "Jon mentioned attending networking events to promote his business on July 21, 2023.",
+    "ground_truth": "20 June, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:6"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 18,
+      "total_tokens": 11073,
+      "elapsed_seconds": 1.024465799331665
+    }
+  },
+  {
+    "question": "When did Gina start being recognized by fashion editors?",
+    "predicted": "Gina mentioned being noticed by fashion editors in the conversation on 9 July 2023.",
+    "ground_truth": "July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 19,
+      "total_tokens": 11074,
+      "elapsed_seconds": 4.915742874145508
+    }
+  },
+  {
+    "question": "When did Jon start learning marketing and analytics tools?",
+    "predicted": "Jon started learning marketing and analytics tools on the week of 17 July, 2023, as mentioned in the conversation.",
+    "ground_truth": "July, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:4"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 25,
+      "total_tokens": 11080,
+      "elapsed_seconds": 1.1004598140716553
+    }
+  },
+  {
+    "question": "When did Jon and Gina decide to collaborate to create dance content?",
+    "predicted": "Jon and Gina decided to collaborate to create dance content during their conversation on 21 July 2023. They discussed making content and managing Jon's social media accounts to promote his dance studio.",
+    "ground_truth": "21 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:18"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 38,
+      "total_tokens": 11096,
+      "elapsed_seconds": 1.260897159576416
+    }
+  },
+  {
+    "question": "When did Gina mention Shia Labeouf?",
+    "predicted": "Gina mentioned Shia Labeouf during their conversation on 23 July, 2023, when she quoted him saying, \"Just do it!\"",
+    "ground_truth": " 23 July, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:4"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 31,
+      "total_tokens": 11086,
+      "elapsed_seconds": 1.0726161003112793
+    }
+  },
+  {
+    "question": "When did Gina go to a dance class with a group of friends?",
+    "predicted": "Gina went to a dance class with a group of friends last Friday, but the specific date is not mentioned in the conversation.",
+    "ground_truth": "21 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:6"
+    ],
+    "stats": {
+      "input_tokens": 11059,
+      "output_tokens": 26,
+      "total_tokens": 11085,
+      "elapsed_seconds": 1.0122349262237549
+    }
+  },
+  {
+    "question": "What is Gina's favorite style of dance?",
+    "predicted": "Gina's favorite style of dance is contemporary.",
+    "ground_truth": "Contemporary",
+    "category": "open-domain",
+    "evidence": [
+      "D1:9"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 10,
+      "total_tokens": 11064,
+      "elapsed_seconds": 0.813967227935791
+    }
+  },
+  {
+    "question": "What is Jon's favorite style of dance?",
+    "predicted": "Jon's favorite style of dance is contemporary.",
+    "ground_truth": "Contemporary",
+    "category": "open-domain",
+    "evidence": [
+      "D1:8"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 9,
+      "total_tokens": 11063,
+      "elapsed_seconds": 7.672878980636597
+    }
+  },
+  {
+    "question": "What was Gina's favorite dancing memory?",
+    "predicted": "Gina's favorite dancing memory was when her team won first place at a regional competition at age fifteen with a contemporary piece called \"Finding Freedom.\"",
+    "ground_truth": "Winning first place at a regionals dance competition",
+    "category": "open-domain",
+    "evidence": [
+      "D1:17"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 29,
+      "total_tokens": 11082,
+      "elapsed_seconds": 1.1105108261108398
+    }
+  },
+  {
+    "question": "What kind of dance piece did Gina's team perform to win first place?",
+    "predicted": "Gina's team performed a contemporary piece called \"Finding Freedom\" to win first place at a regional competition.",
+    "ground_truth": "\"Finding Freedom\"",
+    "category": "open-domain",
+    "evidence": [
+      "D1:19"
+    ],
+    "stats": {
+      "input_tokens": 11060,
+      "output_tokens": 22,
+      "total_tokens": 11082,
+      "elapsed_seconds": 1.2283599376678467
+    }
+  },
+  {
+    "question": "What do the dancers in the photo represent?",
+    "predicted": "The dancers in the photo represent the joy and passion of dance, as well as the hard work and dedication that goes into their performances. They symbolize the community and support that Jon aims to create in his dance studio, where individuals can express themselves and grow as dancers.",
+    "ground_truth": "They are performing at the festival",
+    "category": "open-domain",
+    "evidence": [
+      "D1:25"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 53,
+      "total_tokens": 11107,
+      "elapsed_seconds": 1.2170131206512451
+    }
+  },
+  {
+    "question": "What does Gina say about the dancers in the photo?",
+    "predicted": "Gina says, \"Wow! It looks awesome! Thanks for the support, it really means a lot.\" This indicates she appreciates the dancers in the photo and finds them impressive.",
+    "ground_truth": "They look graceful",
+    "category": "open-domain",
+    "evidence": [
+      "D1:26"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 36,
+      "total_tokens": 11092,
+      "elapsed_seconds": 1.08894681930542
+    }
+  },
+  {
+    "question": "What is Jon's attitude towards being part of the dance festival?",
+    "predicted": "Jon is excited about being part of the dance festival. He expresses enthusiasm about his dance crew's performance and is eager to share the joy of dancing with others.",
+    "ground_truth": "Glad",
+    "category": "open-domain",
+    "evidence": [
+      "D1:28"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 32,
+      "total_tokens": 11090,
+      "elapsed_seconds": 1.1438462734222412
+    }
+  },
+  {
+    "question": "What kind of flooring is Jon looking for in his dance studio?",
+    "predicted": "Jon is looking for Marley flooring for his dance studio, as it is commonly used in dance studios and provides the right amount of grip and movement.",
+    "ground_truth": "Marley flooring",
+    "category": "open-domain",
+    "evidence": [
+      "D2:8"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 29,
+      "total_tokens": 11087,
+      "elapsed_seconds": 1.1242249011993408
+    }
+  },
+  {
+    "question": "What did Gina find for her clothing store on 1 February, 2023?",
+    "predicted": "On 1 February 2023, Gina found a perfect spot for her clothing store and was excited about it. She also mentioned that she emailed some wholesalers and received a positive response from one of them.",
+    "ground_truth": "The perfect spot for her store",
+    "category": "open-domain",
+    "evidence": [
+      "D3:2"
+    ],
+    "stats": {
+      "input_tokens": 11062,
+      "output_tokens": 41,
+      "total_tokens": 11103,
+      "elapsed_seconds": 1.2415790557861328
+    }
+  },
+  {
+    "question": "What did Gina design for her store?",
+    "predicted": "Gina designed a cozy and inviting space for her clothing store, choosing furniture that looks great and is comfortable, with a chandelier that adds a glam feel while matching the store's style.",
+    "ground_truth": "the space, furniture, and decor",
+    "category": "open-domain",
+    "evidence": [
+      "D3:4"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 37,
+      "total_tokens": 11090,
+      "elapsed_seconds": 1.1642990112304688
+    }
+  },
+  {
+    "question": "What did Gina want her customers to feel in her store?",
+    "predicted": "Gina wanted her customers to feel cozy and like they were in a cool oasis. She aimed to create a special shopping experience that would make them want to come back.",
+    "ground_truth": "cozy and comfortable",
+    "category": "open-domain",
+    "evidence": [
+      "D3:6",
+      "D3:8"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 34,
+      "total_tokens": 11091,
+      "elapsed_seconds": 2.066204071044922
+    }
+  },
+  {
+    "question": "What did Jon say about Gina's progress with her store?",
+    "predicted": "Jon congratulated Gina on her store, expressing that it looks great and acknowledging her hard work. He also mentioned that her commitment and creativity in her business really stand out.",
+    "ground_truth": "hard work's paying off",
+    "category": "open-domain",
+    "evidence": [
+      "D3:3"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 34,
+      "total_tokens": 11091,
+      "elapsed_seconds": 1.0461301803588867
+    }
+  },
+  {
+    "question": "What made Gina choose the furniture and decor for her store?",
+    "predicted": "Gina chose the furniture and decor for her store to reflect her own style and to make her customers feel cozy. She wanted the space to look great and be comfortable for her customers.",
+    "ground_truth": "personal style and customer comfort",
+    "category": "open-domain",
+    "evidence": [
+      "D3:6"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 37,
+      "total_tokens": 11094,
+      "elapsed_seconds": 1.1941030025482178
+    }
+  },
+  {
+    "question": "What did Jon say about creating a special experience for customers?",
+    "predicted": "Jon mentioned that creating a special experience for customers is key to making them feel welcome and encouraging them to return. He emphasized the importance of building relationships with customers and letting them know that you care.",
+    "ground_truth": "It's the key to making them feel welcome and coming back",
+    "category": "open-domain",
+    "evidence": [
+      "D3:9"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 39,
+      "total_tokens": 11096,
+      "elapsed_seconds": 1.219264030456543
+    }
+  },
+  {
+    "question": "What did Gina say about creating an experience for her customers?",
+    "predicted": "Gina mentioned that she wants to make her store comfortable and inviting for her customers, creating an experience that will make them want to come back. She emphasized the importance of making her customers feel like they're in a cool oasis.",
+    "ground_truth": "making them want to come back",
+    "category": "open-domain",
+    "evidence": [
+      "D3:8"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 45,
+      "total_tokens": 11102,
+      "elapsed_seconds": 1.8276300430297852
+    }
+  },
+  {
+    "question": "How is Gina's store doing?",
+    "predicted": "Gina's store is doing well; she has launched an ad campaign, acquired new unique pieces, and is seeing more sales from her promotions. She is excited about the growth and is focused on building her customer base.",
+    "ground_truth": "The store is doing great.",
+    "category": "open-domain",
+    "evidence": [
+      "D4:2"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 44,
+      "total_tokens": 11096,
+      "elapsed_seconds": 1.3931729793548584
+    }
+  },
+  {
+    "question": "What does Gina's tattoo symbolize?",
+    "predicted": "Gina's tattoo symbolizes freedom and serves as a reminder to follow her passions and express herself without worrying about what others think.",
+    "ground_truth": "Freedom and expressing herself through dance",
+    "category": "open-domain",
+    "evidence": [
+      "D5:15"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 25,
+      "total_tokens": 11077,
+      "elapsed_seconds": 1.0178909301757812
+    }
+  },
+  {
+    "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+    "predicted": "Jon and Gina compared their entrepreneurial journeys to a rollercoaster, highlighting the ups and downs they both experienced while starting their businesses. They also mentioned that setbacks can lead to growth and opportunities, emphasizing the importance of perseverance.",
+    "ground_truth": "dancing together and supporting each other",
+    "category": "open-domain",
+    "evidence": [
+      "D6:15",
+      "D6:16"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 44,
+      "total_tokens": 11100,
+      "elapsed_seconds": 1.3589260578155518
+    }
+  },
+  {
+    "question": "What advice does Gina give to Jon about running a successful business?",
+    "predicted": "Gina advises Jon to build relationships with customers, create a strong brand identity, and stay positive. She also emphasizes the importance of networking and reaching out to people in his field for help and contacts. Additionally, she suggests using social media and collaborating with influencers to increase visibility for his dance studio.",
+    "ground_truth": "build relationships with customers, create a strong brand image, stay positive",
+    "category": "open-domain",
+    "evidence": [
+      "D7:5"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 59,
+      "total_tokens": 11117,
+      "elapsed_seconds": 1.5495250225067139
+    }
+  },
+  {
+    "question": "Why did Jon shut down his bank account?",
+    "predicted": "Jon shut down his bank account to help his business grow.",
+    "ground_truth": "for his business",
+    "category": "open-domain",
+    "evidence": [
+      "D8:1"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 12,
+      "total_tokens": 11066,
+      "elapsed_seconds": 0.8884580135345459
+    }
+  },
+  {
+    "question": "Why did Gina combine her clothing business with dance?",
+    "predicted": "Gina combined her clothing business with dance because she is passionate about both fashion trends and dance, and she wanted to blend her love for both to showcase her creativity and share her passion with others.",
+    "ground_truth": "she is passionate about dance and fashion",
+    "category": "open-domain",
+    "evidence": [
+      "D8:8"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 39,
+      "total_tokens": 11094,
+      "elapsed_seconds": 1.4274928569793701
+    }
+  },
+  {
+    "question": "What does Jon's dance make him?",
+    "predicted": "Jon's dance makes him feel happy and alive; it serves as a way for him to express himself and find joy. He mentions that dancing brings him joy and is a stress-buster since childhood.",
+    "ground_truth": "happy",
+    "category": "open-domain",
+    "evidence": [
+      "D9:5"
+    ],
+    "stats": {
+      "input_tokens": 11053,
+      "output_tokens": 40,
+      "total_tokens": 11093,
+      "elapsed_seconds": 1.3189291954040527
+    }
+  },
+  {
+    "question": "What did Gina receive from a dance contest?",
+    "predicted": "Gina received a trophy from a dance contest.",
+    "ground_truth": "a trophy",
+    "category": "open-domain",
+    "evidence": [
+      "D9:10"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 10,
+      "total_tokens": 11064,
+      "elapsed_seconds": 1.025691032409668
+    }
+  },
+  {
+    "question": "How does Gina stay confident in her business?",
+    "predicted": "Gina stays confident in her business by reminding herself of her successes and progress, having a good support system, and focusing on why she started her business. She also emphasizes the importance of believing in herself and her abilities.",
+    "ground_truth": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+    "category": "open-domain",
+    "evidence": [
+      "D10:8"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 44,
+      "total_tokens": 11098,
+      "elapsed_seconds": 1.633716106414795
+    }
+  },
+  {
+    "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+    "predicted": "Gina got accepted for a fashion internship on May 23, 2023.",
+    "ground_truth": "fashion internship",
+    "category": "open-domain",
+    "evidence": [
+      "D12:1"
+    ],
+    "stats": {
+      "input_tokens": 11064,
+      "output_tokens": 17,
+      "total_tokens": 11081,
+      "elapsed_seconds": 0.9525580406188965
+    }
+  },
+  {
+    "question": "Where is Gina's fashion internship?",
+    "predicted": "Gina's fashion internship is part-time in the fashion department of an international company.",
+    "ground_truth": "fashion department of an international company",
+    "category": "open-domain",
+    "evidence": [
+      "D12:3"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 17,
+      "total_tokens": 11069,
+      "elapsed_seconds": 1.0738189220428467
+    }
+  },
+  {
+    "question": "What book is Jon currently reading?",
+    "predicted": "Jon is currently reading \"The Lean Startup.\"",
+    "ground_truth": "The Lean Startup",
+    "category": "open-domain",
+    "evidence": [
+      "D12:6"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 9,
+      "total_tokens": 11061,
+      "elapsed_seconds": 0.7954838275909424
+    }
+  },
+  {
+    "question": "What is Jon offering to the dancers at his dance studio?",
+    "predicted": "Jon is offering dance classes, workshops, and one-on-one mentoring and training to help dancers reach their full potential.",
+    "ground_truth": "One-on-one mentoring and training",
+    "category": "open-domain",
+    "evidence": [
+      "D13:7"
+    ],
+    "stats": {
+      "input_tokens": 11057,
+      "output_tokens": 23,
+      "total_tokens": 11080,
+      "elapsed_seconds": 1.1351609230041504
+    }
+  },
+  {
+    "question": "How does Jon use the clipboard with a notepad attached to it?",
+    "predicted": "The conversation does not mention Jon using a clipboard with a notepad attached to it. Therefore, I cannot provide an answer regarding how he uses it.",
+    "ground_truth": "To set goals, track achievements, and find areas for improvement",
+    "category": "open-domain",
+    "evidence": [
+      "D13:11"
+    ],
+    "stats": {
+      "input_tokens": 11059,
+      "output_tokens": 30,
+      "total_tokens": 11089,
+      "elapsed_seconds": 1.1162338256835938
+    }
+  },
+  {
+    "question": "What does Jon tell Gina he won't do?",
+    "predicted": "Jon tells Gina that he won't quit on his dreams.",
+    "ground_truth": "quit",
+    "category": "open-domain",
+    "evidence": [
+      "D14:17"
+    ],
+    "stats": {
+      "input_tokens": 11054,
+      "output_tokens": 11,
+      "total_tokens": 11065,
+      "elapsed_seconds": 0.9121170043945312
+    }
+  },
+  {
+    "question": "What did Jon take a trip to Rome for?",
+    "predicted": "Jon took a trip to Rome to clear his mind a little.",
+    "ground_truth": "To clear his mind",
+    "category": "open-domain",
+    "evidence": [
+      "D15:1"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 13,
+      "total_tokens": 11068,
+      "elapsed_seconds": 1.3189129829406738
+    }
+  },
+  {
+    "question": "What is Jon working on opening?",
+    "predicted": "Jon is working on opening a dance studio.",
+    "ground_truth": "a dance studio",
+    "category": "open-domain",
+    "evidence": [
+      "D15:3"
+    ],
+    "stats": {
+      "input_tokens": 11052,
+      "output_tokens": 9,
+      "total_tokens": 11061,
+      "elapsed_seconds": 0.7160489559173584
+    }
+  },
+  {
+    "question": "How does Gina describe the studio that Jon has opened?",
+    "predicted": "Gina describes Jon's studio as amazing and expresses her excitement about it, saying that he has put a lot of work into it and that she is pumped for the launch. She also mentions that it will be a go-to spot for self-expression.",
+    "ground_truth": "amazing",
+    "category": "open-domain",
+    "evidence": [
+      "D15:6"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 50,
+      "total_tokens": 11106,
+      "elapsed_seconds": 1.6119699478149414
+    }
+  },
+  {
+    "question": "How does Jon feel about the opening night of his dance studio?",
+    "predicted": "Jon feels excited about the opening night of his dance studio. He has put a lot of work into it and is looking forward to seeing everything come together.",
+    "ground_truth": "excited",
+    "category": "open-domain",
+    "evidence": [
+      "D15:7"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 31,
+      "total_tokens": 11089,
+      "elapsed_seconds": 1.1688671112060547
+    }
+  },
+  {
+    "question": "How does Gina describe the feeling that dance brings?",
+    "predicted": "Gina describes dance as her go-to for stress relief, stating that it helps her feel expressive and graceful. She emphasizes that dance is important for her mental health and brings her joy.",
+    "ground_truth": "magical",
+    "category": "open-domain",
+    "evidence": [
+      "D15:8"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 37,
+      "total_tokens": 11092,
+      "elapsed_seconds": 1.388559103012085
+    }
+  },
+  {
+    "question": "What does Jon plan to do at the grand opening of his dance studio?",
+    "predicted": "Jon plans to savor the moment and enjoy the good vibes at the grand opening of his dance studio, as he has put a lot of work into it and is excited for the event.",
+    "ground_truth": "savor all the good vibes",
+    "category": "open-domain",
+    "evidence": [
+      "D15:9"
+    ],
+    "stats": {
+      "input_tokens": 11060,
+      "output_tokens": 37,
+      "total_tokens": 11097,
+      "elapsed_seconds": 1.5283467769622803
+    }
+  },
+  {
+    "question": "What does Gina say to Jon about the grand opening?",
+    "predicted": "Gina expresses her excitement for Jon's grand opening by saying, \"Congrats, Jon! The studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow.\" She also encourages him to savor the moment, saying, \"Enjoy the good feels tomorrow, you earned it!\"",
+    "ground_truth": "Let's live it up and make some great memories",
+    "category": "open-domain",
+    "evidence": [
+      "D15:12"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 62,
+      "total_tokens": 11118,
+      "elapsed_seconds": 1.7198748588562012
+    }
+  },
+  {
+    "question": "What is the general sentiment about the upcoming grand opening?",
+    "predicted": "The general sentiment about the upcoming grand opening is very positive and excited. Both Jon and Gina express enthusiasm and support for the event, with Jon feeling pumped and ready to give it his best, and Gina expressing pride and excitement for him.",
+    "ground_truth": "excitement",
+    "category": "open-domain",
+    "evidence": [
+      "D15:18",
+      "D15:19"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 47,
+      "total_tokens": 11103,
+      "elapsed_seconds": 1.5723638534545898
+    }
+  },
+  {
+    "question": "What did Gina make a limited edition line of?",
+    "predicted": "Gina made a limited edition line of hoodies to show off her style and creativity.",
+    "ground_truth": "Hoodies",
+    "category": "open-domain",
+    "evidence": [
+      "D16:3"
+    ],
+    "stats": {
+      "input_tokens": 11055,
+      "output_tokens": 18,
+      "total_tokens": 11073,
+      "elapsed_seconds": 1.0865869522094727
+    }
+  },
+  {
+    "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+    "predicted": "Gina believes Jon is a perfect mentor and guide because he loves what he does and brings joy to others, which is rewarding. She appreciates his positivity and determination, suggesting that these qualities will contribute to the success of his dance studio.",
+    "ground_truth": "His positivity and determination",
+    "category": "open-domain",
+    "evidence": [
+      "D17:7"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 47,
+      "total_tokens": 11105,
+      "elapsed_seconds": 6.750422954559326
+    }
+  },
+  {
+    "question": "What plans does Jon have after receiving advice at the networking event?",
+    "predicted": "After receiving advice at the networking event, Jon plans to spruce up his business plan and tweak his pitch to investors. He is also working on an online platform to showcase the dance studio's offerings.",
+    "ground_truth": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+    "category": "open-domain",
+    "evidence": [
+      "D18:10"
+    ],
+    "stats": {
+      "input_tokens": 11058,
+      "output_tokens": 39,
+      "total_tokens": 11097,
+      "elapsed_seconds": 1.544783115386963
+    }
+  },
+  {
+    "question": "What offer does Gina make to Jon regarding social media?",
+    "predicted": "Gina offers to help Jon with making content and managing his social media accounts for his dance studio.",
+    "ground_truth": "Helping with making content and managing his social media accounts.",
+    "category": "open-domain",
+    "evidence": [
+      "D18:13"
+    ],
+    "stats": {
+      "input_tokens": 11056,
+      "output_tokens": 20,
+      "total_tokens": 11076,
+      "elapsed_seconds": 1.0575506687164307
+    }
+  }
+]

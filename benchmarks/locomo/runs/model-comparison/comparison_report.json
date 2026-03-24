@@ -1,0 +1,68 @@
+{
+  "sample_id": "conv-26",
+  "version": "v2",
+  "query_model": "gpt-4o-mini",
+  "judge_model": "gpt-4o-mini",
+  "models": {
+    "haiku": {
+      "provider": "anthropic",
+      "model_id": "claude-haiku-4-5-20251001",
+      "j_score": 0.7828947368421053,
+      "f1": 0.1440932095350599,
+      "bleu1": 0.08812258538925975,
+      "num_files": 15,
+      "memory_bytes": 20609,
+      "ingest_tokens": 1028007,
+      "ingest_seconds": 502.1538896560669,
+      "tool_calls": 174
+    },
+    "sonnet": {
+      "provider": "anthropic",
+      "model_id": "claude-sonnet-4-20250514",
+      "j_score": 0.8355263157894737,
+      "f1": 0.1388427733295943,
+      "bleu1": 0.08161183972887108,
+      "num_files": 23,
+      "memory_bytes": 27221,
+      "ingest_tokens": 1482979,
+      "ingest_seconds": 931.47065782547,
+      "tool_calls": 163
+    },
+    "deepseek-v3": {
+      "provider": "openrouter",
+      "model_id": "deepseek/deepseek-chat-v3-0324",
+      "j_score": 0.7960526315789473,
+      "f1": 0.14558016266640778,
+      "bleu1": 0.09022024630759139,
+      "num_files": 34,
+      "memory_bytes": 20135,
+      "ingest_tokens": 340931,
+      "ingest_seconds": 602.4798471927643,
+      "tool_calls": 144
+    },
+    "minimax-m2.5": {
+      "provider": "openrouter",
+      "model_id": "minimax/minimax-m2.5",
+      "j_score": 0.8223684210526315,
+      "f1": 0.13818507051580897,
+      "bleu1": 0.08253698872800358,
+      "num_files": 18,
+      "memory_bytes": 23040,
+      "ingest_tokens": 1051565,
+      "ingest_seconds": 1938.2960314750671,
+      "tool_calls": 142
+    },
+    "mimo-v2-pro": {
+      "provider": "openrouter",
+      "model_id": "xiaomi/mimo-v2-pro",
+      "j_score": 0.8421052631578947,
+      "f1": 0.15047697881615932,
+      "bleu1": 0.09043312484650545,
+      "num_files": 27,
+      "memory_bytes": 21996,
+      "ingest_tokens": 934090,
+      "ingest_seconds": 1860.1548771858215,
+      "tool_calls": 148
+    }
+  }
+}

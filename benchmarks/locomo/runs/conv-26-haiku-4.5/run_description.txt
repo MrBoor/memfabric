@@ -1,0 +1,135 @@
+# MemFabric LoCoMo Benchmark: conv-26 Run
+
+**Date:** 2026-03-20
+**Conversation:** conv-26 (Caroline & Melanie, 19 sessions)
+**Ingest model:** Claude Haiku 4.5 (`claude-haiku-4-5-20251001`)
+**Query model:** GPT-4o-mini
+**Judge model:** GPT-4o-mini
+
+---
+
+## Results
+
+### J-Score: 78.9% (120/152 correct)
+
+| Category    | J-Score | F1    | BLEU-1 | Count |
+|-------------|---------|-------|--------|-------|
+| **Overall** | **78.9%** | 13.4% | 8.1% | 152 |
+| Temporal    | **100.0%** | 7.8% | 4.5% | 13 |
+| Open-domain | 84.3%  | 16.1% | 10.0% | 70 |
+| Multi-hop   | 70.3%  | 14.9% | 8.7%  | 37 |
+| Single-hop  | 68.8%  | 8.2%  | 4.5%  | 32 |
+
+### Competitive Context
+
+| System | J-Score | Infrastructure |
+|--------|---------|---------------|
+| MemMachine v0.2 | ~84.9% | Vector DB + reranker |
+| Engram | ~80.0% | SQLite |
+| **MemFabric (this run)** | **78.9%** | **Markdown files only** |
+| Full context baseline | ~73% | Dump everything into LLM |
+| Mem0 | ~66.9% | Qdrant vector DB |
+
+Note: This is a single conversation (conv-26). Full benchmark uses 10 conversations. Scores may vary.
+
+---
+
+## Memory State
+
+11 markdown files, 59 KB total:
+
+| File | Size |
+|------|------|
+| caroline-melanie-friendship.md | 24,382 bytes |
+| caroline-personal-growth-and-identity.md | 8,756 bytes |
+| melanie-hobbies-and-interests.md | 5,697 bytes |
+| caroline-hobbies-and-interests.md | 5,522 bytes |
+| melanie-family-activities.md | 4,513 bytes |
+| melanie-family-and-life-situation.md | 2,973 bytes |
+| caroline-adoption-plans.md | 2,815 bytes |
+| caroline-career-interests.md | 1,732 bytes |
+| melanie-self-care-and-wellness.md | 1,229 bytes |
+| caroline-support-system-and-relationships.md | 928 bytes |
+| caroline-sentimental-objects.md | 518 bytes |
+
+---
+
+## Token & Latency Stats
+
+### Ingest Phase
+- **Total tokens:** 427,195
+- **Tool calls:** 194
+- **Wall time:** 320.5s (5 min 21 sec)
+- **Avg tokens/session:** ~22,484
+
+### Query Phase
+- **Total tokens:** 956,800
+- **Avg tokens/query:** 6,295
+- **Avg tool calls/query:** 2.5
+- **Avg latency/query:** 5.1s
+- **p50 latency:** 4.6s
+- **p95 latency:** 8.9s
+
+### Total
+- **Ingest + Query tokens:** ~1.38M
+- **Total wall time:** ~18 min (ingest 5 min + query 13 min + judge 5 min)
+
+---
+
+## Error Analysis
+
+32 wrong answers out of 152. Key failure patterns:
+
+### 1. Missing details — info not captured during ingest (12 cases)
+The LLM failed to extract certain specific facts during ingestion. Examples:
+- Melanie's charity race → not stored at all
+- Melanie has **3** children → stored as 2
+- Caroline's pet guinea pig → not captured
+- Book title "Becoming Nicole" → mentioned but not stored
+- Melanie plays violin (only clarinet was stored)
+
+**Root cause:** Haiku sometimes skims over minor details in longer sessions. A more thorough ingest prompt or a stronger ingest model would help.
+
+### 2. Wrong file retrieved — retrieval miss (8 cases)
+The query model picked the wrong files or didn't read enough files. Examples:
+- "What did Caroline research?" → read career file instead of adoption file
+- "What events has Caroline participated in to help children?" → focused on adoption, missed mentoring/school speech
+
+**Root cause:** Filename-based retrieval sometimes misses when the answer lives in a file with a non-obvious name. The adoption info was in `caroline-adoption-plans.md` but the query was about "research."
+
+### 3. Temporal imprecision (6 cases)
+Relative dates not stored precisely enough. Examples:
+- "When did Caroline give a speech?" → Gold: "week before 9 June 2023", Pred: "June 9, 2023"
+- "When did Melanie go to pottery?" → Gold: "Friday before 15 July 2023", Pred: different date
+
+**Root cause:** The ingest model sometimes stores "on June 9" when the conversation says "last week" during the June 9 session. Need to be more careful about computing actual dates from relative references.
+
+### 4. Hallucinated details (6 cases)
+The model provided plausible but incorrect specifics. Examples:
+- Caroline's grandma is from **Sweden** → predicted Poland
+- Charity race was for **mental health** → predicted adoption
+- Painting was **blue streaks** → predicted sunset-inspired
+
+**Root cause:** When memory files lack the specific detail, GPT-4o-mini fills in plausible-sounding answers instead of saying "I don't know."
+
+---
+
+## Observations
+
+1. **Temporal questions scored 100%** — dates were stored effectively and the LLM reasons about them well. This is notably where other systems struggle (human baseline on temporal is only 20.3% in the original paper).
+
+2. **The friendship file is too large** (24KB). `caroline-melanie-friendship.md` became a catch-all. A reorganize step between sessions could split this into more focused files, improving retrieval precision.
+
+3. **Single-hop scored lowest (68.8%)** — surprising since these should be the easiest. The issue is that single-hop questions often ask about very specific details (pet species, exact book titles, number of children) that weren't captured during ingest.
+
+4. **F1/BLEU are low but misleading** — our answers are verbose (1-3 sentences) while gold answers are terse (1-5 words). J-score is the right metric here; the answers are substantively correct 79% of the time.
+
+---
+
+## Potential Improvements
+
+1. **Better ingest prompt** — instruct the model to capture ALL specific details: names, numbers, book titles, dates, pets, specific items.
+2. **Reorganize after ingest** — split large files, ensure filenames match likely query patterns.
+3. **Stronger ingest model** — Sonnet or GPT-4o would capture more details than Haiku.
+4. **Query prompt tuning** — instruct the model to say "I don't know" rather than guessing when info isn't in memory.
+5. **Read more files** — the model averages 2.5 file reads per query; reading 3-4 might catch more answers.

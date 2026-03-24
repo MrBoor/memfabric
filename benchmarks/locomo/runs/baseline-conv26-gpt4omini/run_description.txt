@@ -1,0 +1,53 @@
+# Full-Context Baseline: conv-26
+
+**Date:** 2026-03-21
+**Dataset:** conv-26 only (152 questions excl. adversarial)
+**Method:** Full conversation dumped into LLM context (no memory system)
+**Query model:** GPT-4o-mini
+**Judge model:** GPT-4o-mini
+**Total runtime:** 517s (~9 min)
+
+---
+
+## Results
+
+### J-Score: 77.0%
+
+| Category    | J-Score  | F1    | BLEU-1 | Count |
+|-------------|----------|-------|--------|-------|
+| **Overall** | **77.0%** | 24.2% | 16.0% | 152 |
+| Open-domain | 94.3%   | 32.5% | -     | 70  |
+| Single-hop  | 81.2%   | 16.9% | -     | 32  |
+| Temporal    | 69.2%   | 10.9% | -     | 13  |
+| Multi-hop   | 43.2%   | 19.5% | -     | 37  |
+
+---
+
+## Comparison: Baseline vs MemFabric (conv-26)
+
+| Metric      | Full Context | MemFabric (Haiku+4o-mini) | Delta  |
+|-------------|-------------|---------------------------|--------|
+| **J-score** | 77.0%       | 72.4%                     | -4.6pp |
+| Open-domain | **94.3%**   | 81.4%                     | -12.9pp |
+| Single-hop  | **81.2%**   | 65.6%                     | -15.6pp |
+| Temporal    | 69.2%       | **84.6%**                 | +15.4pp |
+| Multi-hop   | 43.2%       | **56.8%**                 | +13.6pp |
+
+### Key observations
+
+The baseline outperforms MemFabric on conv-26 overall (77.0% vs 72.4%),
+but the category breakdown tells a more nuanced story:
+
+1. **Open-domain and single-hop favor the baseline** — with the full
+   conversation in context, the LLM can find specific details directly.
+   MemFabric loses points when the ingest phase fails to capture details.
+
+2. **Multi-hop and temporal favor MemFabric** — organized memory files help
+   the LLM synthesize across sessions. The baseline struggles with multi-hop
+   (43.2%) because relevant facts are scattered across a long context.
+
+3. **F1/BLEU are higher for baseline** — the LLM can quote directly from
+   the conversation, producing answers closer to gold tokens.
+
+Note: This is one conversation. The published full-context baseline across all
+10 conversations is ~73%, which MemFabric's full-run 78.7% beats by 5.7pp.

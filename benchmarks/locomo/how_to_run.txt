@@ -1,0 +1,102 @@
+How to Run the LoCoMo Benchmark
+================================
+
+Prerequisites
+-------------
+- Python 3.12+
+- API keys: ANTHROPIC_API_KEY, OPENAI_API_KEY
+- Optional: OPENROUTER_API_KEY (for MiMo, DeepSeek, MiniMax models)
+
+Install
+-------
+cd benchmarks/locomo
+pip install -r requirements.txt
+
+Dataset
+-------
+Download locomo10.json from https://huggingface.co/datasets/Percena/locomo-mc10
+Place it at data/locomo10.json
+
+Quick Start
+-----------
+# Single conversation eval (conv-26, fastest feedback loop)
+python run_benchmark.py --single
+
+# Full 10-conversation eval
+python run_benchmark.py
+
+# Full-context baseline (no memory system)
+python run_benchmark.py --baseline --single
+
+# Model comparison on one conversation
+python run_model_comparison.py
+
+Phases
+------
+The benchmark runs three phases: ingest, query, evaluate.
+You can run them individually:
+
+python run_benchmark.py --phase ingest
+python run_benchmark.py --phase query
+python run_benchmark.py --phase evaluate
+
+Key Flags
+---------
+--single                Run on conv-26 only (default single-conversation target)
+--baseline              Full-context baseline instead of MemFabric
+--version v1|v2         Tool/prompt version (default: latest)
+--concurrency N         Parallel API calls (default: 10)
+--ingest-model MODEL    Model for memory extraction (default: claude-haiku-4-5-20251001)
+--query-model MODEL     Model for answering questions (default: gpt-4o-mini)
+--judge-model MODEL     Model for J-score judging (default: gpt-4o-mini)
+--ingest-provider       anthropic|openai (API provider for ingest)
+--query-provider        anthropic|openai (API provider for query)
+--memory-dir DIR        Base directory for memory files (default: memory)
+--results-dir DIR       Directory for query results (default: results)
+--list-versions         List available tool versions and exit
+--include-adversarial   Include adversarial questions in scoring (excluded by default)
+--quiet                 Suppress verbose output
+
+Examples
+--------
+# Best known configuration (MiMo ingest, v2 tools)
+python run_benchmark.py --ingest-model MiMo-V2-Pro \
+                        --ingest-provider openai \
+                        --version v2
+
+# Custom models
+python run_benchmark.py --ingest-model claude-opus-4-1-20250805 \
+                        --query-model gpt-4-turbo \
+                        --judge-model gpt-4-turbo
+
+# Specific conversations
+python run_benchmark.py --samples conv-26 conv-42
+
+Output
+------
+Each run is saved in runs/ with:
+- run_description.txt        Config, results, analysis
+- evaluation_report.json     Aggregate scores
+- evaluation_report_detailed.json  Per-question results with judge reasoning
+- conv-*_results.json        Raw predicted answers
+- *-memory/                  Memory files created during ingest
+
+Versioning
+----------
+Tool definitions and prompts are versioned in src/versions.py.
+Never edit an old version — always create a new one.
+This ensures any run can be reproduced exactly.
+
+Metrics
+-------
+- J-score (primary): LLM-as-judge, CORRECT/WRONG per question
+- F1: Token-level precision/recall
+- BLEU-1: Unigram precision with brevity penalty
+- Category 5 (adversarial) questions are excluded by default
+
+Cost Estimates
+--------------
+Single conversation (--single): ~$1
+Full 10-conversation eval: ~$8
+  Ingest: ~$5 (MiMo via OpenRouter)
+  Query + Judge: ~$3 (GPT-4o-mini)

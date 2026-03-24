@@ -1,0 +1,85 @@
+# Full-Context Baseline: All 10 Conversations
+
+**Date:** 2026-03-21
+**Dataset:** LoCoMo (all 10 conversations, 1,540 questions excl. adversarial)
+**Method:** Full conversation dumped into LLM context (no memory system)
+**Query model:** GPT-4o-mini
+**Judge model:** GPT-4o-mini
+**Total runtime:** ~72 min
+
+---
+
+## Results
+
+### J-Score: 77.2% (baseline) vs 78.7% (MemFabric)
+
+MemFabric wins overall by 1.5pp, but the story is in the categories:
+
+| Category    | Baseline | MemFabric | Delta   | Winner    | Count |
+|-------------|----------|-----------|---------|-----------|-------|
+| **Overall** | 77.2%    | **78.7%** | +1.5pp  | MemFabric | 1,540 |
+| Open-domain | **90.1%** | 84.5%    | -5.6pp  | Baseline  | 841   |
+| Single-hop  | 76.2%    | 76.2%    | 0       | Tie       | 282   |
+| Temporal    | 57.3%    | **69.8%** | +12.5pp | MemFabric | 96    |
+| Multi-hop   | 50.2%    | **68.2%** | +18.1pp | MemFabric | 321   |
+
+---
+
+## Performance vs Conversation Length
+
+Sorted from shortest to longest conversation:
+
+| Conv    | Sessions | ~Tokens | Baseline | MemFabric | Winner    |
+|---------|----------|---------|----------|-----------|-----------|
+| conv-30 | 19       | 11,698  | 80.2%    | **87.7%** | MemFabric |
+| conv-26 | 19       | 15,725  | **79.6%** | 72.4%   | Baseline  |
+| conv-49 | 25       | 16,711  | 78.2%    | **82.1%** | MemFabric |
+| conv-42 | 29       | 19,533  | 73.4%    | **76.9%** | MemFabric |
+| conv-48 | 30       | 20,263  | **77.5%** | 72.8%   | Baseline  |
+| conv-50 | 30       | 21,649  | 75.3%    | **80.4%** | MemFabric |
+| conv-47 | 31       | 21,863  | 74.0%    | **83.3%** | MemFabric |
+| conv-44 | 28       | 21,876  | 79.7%    | **83.7%** | MemFabric |
+| conv-43 | 29       | 23,000  | **77.5%** | 74.7%   | Baseline  |
+| conv-41 | 32       | 24,017  | 79.6%    | **80.9%** | MemFabric |
+
+**MemFabric wins 7 out of 10 conversations.** Baseline wins 3.
+
+No clear correlation between conversation length and which system wins —
+the baseline performs surprisingly well even on longer conversations (~20K+
+tokens). This is likely because GPT-4o-mini's 128K context handles all
+conversations comfortably (max is ~24K tokens).
+
+---
+
+## Analysis
+
+### Why the baseline is stronger than expected
+
+The published full-context baseline (~73%) used older models. GPT-4o-mini
+is much better at finding information in long contexts, pushing the baseline
+to 77.2%. This narrows MemFabric's advantage.
+
+### Where each system excels
+
+1. **Baseline wins on open-domain (90.1% vs 84.5%)** — with the full
+   conversation available, the model can find specific details and combine
+   them with world knowledge more effectively.
+
+2. **MemFabric wins decisively on multi-hop (+18.1pp) and temporal (+12.5pp)**
+   — organized memory files make cross-session reasoning easier. The baseline
+   struggles when facts are scattered across a 20K-token conversation.
+
+3. **Single-hop is a tie (76.2%)** — both approaches handle simple lookups
+   equally well.
+
+### Implications
+
+The baseline is a strong competitor when conversations fit in context. MemFabric's
+value increases with:
+- More sessions requiring cross-session reasoning
+- Questions requiring temporal ordering of events
+- Conversations that exceed the model's effective attention span
+
+For real-world use where conversations grow over months/years and far exceed
+context limits, MemFabric's approach becomes essential — the baseline simply
+cannot scale.

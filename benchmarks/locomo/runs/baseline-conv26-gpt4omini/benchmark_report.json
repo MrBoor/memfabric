@@ -1,0 +1,100 @@
+{
+  "config": {
+    "data": "data/locomo10.json",
+    "phase": "all",
+    "ingest_provider": "anthropic",
+    "query_provider": "openai",
+    "ingest_model": "claude-haiku-4-5-20251001",
+    "query_model": "gpt-4o-mini",
+    "judge_model": "gpt-4o-mini",
+    "samples": [
+      "conv-26"
+    ],
+    "memory_dir": "memory",
+    "snapshot_dir": "memory_snapshots",
+    "results_dir": "runs/baseline-conv26-gpt4omini",
+    "baseline": true,
+    "include_adversarial": false,
+    "quiet": false
+  },
+  "baseline_query": {
+    "conv-26": {
+      "num_questions": 152,
+      "total_tokens": 2170180,
+      "avg_tokens_per_query": 14277.5
+    }
+  },
+  "evaluation": {
+    "overall": {
+      "overall": {
+        "f1": 0.24207485218278943,
+        "bleu1": 0.1604921126206654,
+        "j_score": 0.7697368421052632,
+        "count": 152
+      },
+      "per_category": {
+        "multi-hop": {
+          "f1": 0.1948156614181883,
+          "bleu1": 0.13487874470510083,
+          "j_score": 0.43243243243243246,
+          "count": 37
+        },
+        "open-domain": {
+          "f1": 0.3250349230085044,
+          "bleu1": 0.2171191798375927,
+          "j_score": 0.9428571428571428,
+          "count": 70
+        },
+        "single-hop": {
+          "f1": 0.16933100735595397,
+          "bleu1": 0.10380753508954316,
+          "j_score": 0.8125,
+          "count": 32
+        },
+        "temporal": {
+          "f1": 0.1089354779480899,
+          "bleu1": 0.06800798867350337,
+          "j_score": 0.6923076923076923,
+          "count": 13
+        }
+      }
+    },
+    "samples": {
+      "conv-26": {
+        "overall": {
+          "f1": 0.24207485218278943,
+          "bleu1": 0.1604921126206654,
+          "j_score": 0.7697368421052632,
+          "count": 152
+        },
+        "per_category": {
+          "multi-hop": {
+            "f1": 0.1948156614181883,
+            "bleu1": 0.13487874470510083,
+            "j_score": 0.43243243243243246,
+            "count": 37
+          },
+          "open-domain": {
+            "f1": 0.3250349230085044,
+            "bleu1": 0.2171191798375927,
+            "j_score": 0.9428571428571428,
+            "count": 70
+          },
+          "single-hop": {
+            "f1": 0.16933100735595397,
+            "bleu1": 0.10380753508954316,
+            "j_score": 0.8125,
+            "count": 32
+          },
+          "temporal": {
+            "f1": 0.1089354779480899,
+            "bleu1": 0.06800798867350337,
+            "j_score": 0.6923076923076923,
+            "count": 13
+          }
+        }
+      }
+    }
+  },
+  "total_elapsed_seconds": 516.9099338054657
+}

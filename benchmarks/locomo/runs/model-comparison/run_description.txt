@@ -1,0 +1,72 @@
+# Model Comparison: Ingest Quality Across 5 LLMs
+
+**Date:** 2026-03-21
+**Dataset:** conv-26 only (19 sessions, 152 questions)
+**Version:** v2
+**Query model:** GPT-4o-mini (same for all)
+**Judge model:** GPT-4o-mini (same for all)
+
+This isolates the effect of the ingest model — same memory tools, same query
+model, same judge. Only the model that extracts and stores memories differs.
+
+---
+
+## Results
+
+| Model | J-Score | F1 | Files | Memory | Ingest Tokens | Time |
+|-------|---------|-----|-------|--------|---------------|------|
+| **MiMo-V2-Pro** | **84.2%** | 15.0% | 27 | 22 KB | 934K | 31 min |
+| Sonnet | 83.6% | 13.9% | 23 | 27 KB | 1.48M | 16 min |
+| MiniMax M2.5 | 82.2% | 13.8% | 18 | 23 KB | 1.05M | 32 min |
+| DeepSeek V3 | 79.6% | 14.6% | 34 | 20 KB | 341K | 10 min |
+| Haiku 4.5 | 78.3% | 14.4% | 15 | 21 KB | 1.03M | 8 min |
+
+---
+
+## Analysis
+
+### Ranking surprises
+
+1. **MiMo-V2-Pro wins at 84.2%** — Xiaomi's model produces the best memory
+   organization. 27 well-focused files that the query model can navigate
+   effectively. This is a strong result for a relatively unknown model.
+
+2. **Sonnet is close at 83.6%** — as expected, the stronger Anthropic model
+   captures more details than Haiku. The 5.3pp gap over Haiku confirms that
+   ingest quality matters.
+
+3. **DeepSeek is fast and cheap but mediocre** — only 341K tokens (by far the
+   cheapest) but created 34 files, suggesting over-fragmentation. Many tiny
+   files may hurt retrieval — too many choices for the query model.
+
+4. **Haiku is the baseline at 78.3%** — cheapest Anthropic option, fewest
+   files (15), gets the job done but misses details.
+
+### Key insight: file count sweet spot
+
+| Files | Best model | J-Score |
+|-------|-----------|---------|
+| 15 | Haiku | 78.3% |
+| 18 | MiniMax | 82.2% |
+| 23 | Sonnet | 83.6% |
+| 27 | MiMo | 84.2% |
+| 34 | DeepSeek | 79.6% |
+
+There's a sweet spot around 20-27 files. Too few (Haiku: 15) means topics are
+lumped together. Too many (DeepSeek: 34) means the query model has too many
+filenames to choose from. MiMo and Sonnet hit the sweet spot.
+
+### Cost efficiency
+
+| Model | J-Score | Est. Cost (ingest only) |
+|-------|---------|------------------------|
+| DeepSeek V3 | 79.6% | ~$0.05 |
+| Haiku 4.5 | 78.3% | ~$1.80 |
+| MiMo-V2-Pro | 84.2% | ~$0.50* |
+| MiniMax M2.5 | 82.2% | ~$0.50* |
+| Sonnet | 83.6% | ~$10 |
+
+*OpenRouter pricing varies; estimates based on typical rates.
+
+MiMo-V2-Pro offers the best quality/cost ratio — top accuracy at a fraction
+of Sonnet's cost.

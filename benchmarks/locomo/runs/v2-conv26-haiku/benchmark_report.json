@@ -1,0 +1,48 @@
+{
+  "config": {
+    "data": "data/locomo10.json",
+    "phase": "ingest",
+    "ingest_provider": "anthropic",
+    "query_provider": "openai",
+    "ingest_model": "claude-haiku-4-5-20251001",
+    "query_model": "gpt-4o-mini",
+    "judge_model": "gpt-4o-mini",
+    "samples": [
+      "conv-26"
+    ],
+    "single": true,
+    "memory_dir": "memory-v2",
+    "snapshot_dir": "memory_snapshots",
+    "results_dir": "runs/v2-conv26-haiku",
+    "baseline": false,
+    "version": "v2",
+    "list_versions": false,
+    "concurrency": 10,
+    "include_adversarial": false,
+    "quiet": false
+  },
+  "memfabric_version": {
+    "version": "v2",
+    "description": "Production-aligned tools. Better descriptions, get_status, synthesize, aggressive detail extraction.",
+    "num_tools": 5,
+    "tool_names": [
+      "list_memories",
+      "read_memory",
+      "remember",
+      "update_memory",
+      "reorganize"
+    ]
+  },
+  "ingest": {
+    "conv-26": {
+      "input_tokens": 1314028,
+      "output_tokens": 49170,
+      "total_tokens": 1363198,
+      "tool_calls": 183,
+      "llm_calls": 153,
+      "elapsed_seconds": 513.6588110923767,
+      "errors": []
+    }
+  },
+  "total_elapsed_seconds": 513.9661629199982
+}

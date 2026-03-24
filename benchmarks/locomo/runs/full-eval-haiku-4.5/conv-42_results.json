@@ -1,0 +1,3497 @@
+[
+  {
+    "question": "Is it likely that Nate has friends besides Joanna?",
+    "predicted": "Yes, it is likely that Nate has friends besides Joanna. He has mentioned hanging out with new people at his video game tournaments and has made friends through his gaming activities, including organizing a gaming party and meeting fellow gamers at conventions.",
+    "ground_truth": "Yesteammates on hisvideo game team.",
+    "category": "temporal",
+    "evidence": [
+      "D1:7"
+    ],
+    "stats": {
+      "input_tokens": 13806,
+      "output_tokens": 113,
+      "total_tokens": 13919,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 14.5795259475708
+    }
+  },
+  {
+    "question": "What kind of interests do Joanna and Nate share?",
+    "predicted": "Joanna and Nate share interests in watching movies and cooking, particularly in creating dairy-free desserts. They both enjoy discussing their creative projects, with Joanna focusing on writing screenplays and Nate participating in video game tournaments while also exploring culinary experiments. Additionally, they appreciate nature and have plans to go hiking together, which reflects their shared love for the outdoors.",
+    "ground_truth": "Watching movies, making desserts",
+    "category": "single-hop",
+    "evidence": [
+      "D1:10",
+      "D1:11",
+      "D1:12",
+      "D3:4",
+      "D4:9",
+      "D10:9",
+      "D20:2"
+    ],
+    "stats": {
+      "input_tokens": 20154,
+      "output_tokens": 156,
+      "total_tokens": 20310,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 11.905811071395874
+    }
+  },
+  {
+    "question": "When did Joanna first watch \"Eternal Sunshine of the Spotless Mind?",
+    "predicted": "Joanna first watched \"Eternal Sunshine of the Spotless Mind\" around 2019, approximately three years before she noted it as her favorite movie.",
+    "ground_truth": "2019",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:18"
+    ],
+    "stats": {
+      "input_tokens": 8804,
+      "output_tokens": 63,
+      "total_tokens": 8867,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.235867023468018
+    }
+  },
+  {
+    "question": "When did Nate win his first video game tournament?",
+    "predicted": "Nate won his first video game tournament on January 14, 2022, competing in Counter-Strike: Global Offensive.",
+    "ground_truth": "the week before 21Janury, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 58,
+      "total_tokens": 8171,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.665570020675659
+    }
+  },
+  {
+    "question": "What pets wouldn't cause any discomfort to Joanna?",
+    "predicted": "Joanna is allergic to most reptiles and animals with fur, which causes her discomfort, including symptoms like a puffy and itchy face. She has expressed interest in getting pets, specifically mentioning turtles, as they do not trigger her allergies. Therefore, turtles would be a suitable pet option for her.",
+    "ground_truth": "Hairless cats or pigs,since they don't have fur, which is one of the main causes of Joanna's allergy.",
+    "category": "temporal",
+    "evidence": [
+      "D2:23"
+    ],
+    "stats": {
+      "input_tokens": 14476,
+      "output_tokens": 126,
+      "total_tokens": 14602,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.763612031936646
+    }
+  },
+  {
+    "question": "What are Joanna's hobbies?",
+    "predicted": "Joanna's hobbies include writing, reading, watching movies, and exploring nature. She enjoys immersing herself in dramas and romcoms, and finds inspiration in nature, which she describes as calming and a great way to reset. Additionally, she loves baking and cooking, particularly experimenting with dairy-free desserts.",
+    "ground_truth": "Writing, watchingmovies, exploringnature, hanging withfriends.",
+    "category": "single-hop",
+    "evidence": [
+      "D1:10",
+      "D2:25"
+    ],
+    "stats": {
+      "input_tokens": 8777,
+      "output_tokens": 93,
+      "total_tokens": 8870,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.575482130050659
+    }
+  },
+  {
+    "question": "How long has Nate had his first two turtles?",
+    "predicted": "Nate has had his first two turtles for over three years. He mentioned that they bring him joy and help him stay calm during stressful times.",
+    "ground_truth": "three years",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 13807,
+      "output_tokens": 96,
+      "total_tokens": 13903,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.030879974365234
+    }
+  },
+  {
+    "question": "When did Joanna finish her first screenplay?",
+    "predicted": "Joanna finished her first screenplay on January 21, 2022. She experienced a mix of relief, excitement, and anxiety upon completing it and planned to submit it to film festivals.",
+    "ground_truth": "The Friday before 23January, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:3"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 70,
+      "total_tokens": 8853,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.315848112106323
+    }
+  },
+  {
+    "question": "When did Nate get his first two turtles?",
+    "predicted": "Nate got his first two turtles around January 2022, as he mentioned having them for three years during a conversation on January 23, 2022.",
+    "ground_truth": "2019",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 13804,
+      "output_tokens": 100,
+      "total_tokens": 13904,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.713201999664307
+    }
+  },
+  {
+    "question": "What major achievement did Joanna accomplish in January 2022?",
+    "predicted": "In January 2022, Joanna accomplished the major achievement of completing her first full screenplay, which she printed on January 21, 2022. The screenplay is a mix of drama and romance, and she expressed a rollercoaster of emotions, including relief and excitement, as she planned to submit it to film festivals.",
+    "ground_truth": "finished her screenplay and printed it",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:3"
+    ],
+    "stats": {
+      "input_tokens": 14485,
+      "output_tokens": 132,
+      "total_tokens": 14617,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.560950994491577
+    }
+  },
+  {
+    "question": "What emotions is Joanna feeling about  the screenplay she submitted?",
+    "predicted": "Joanna is experiencing a rollercoaster of emotions regarding the screenplay she submitted. She feels relief and excitement but also anxiety and worry about how it will be received, hoping that a producer or director will love it and get it produced.",
+    "ground_truth": "Relief, excitement,worry, hope,anxiety.",
+    "category": "single-hop",
+    "evidence": [
+      "D2:7",
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 8795,
+      "output_tokens": 79,
+      "total_tokens": 8874,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.60561203956604
+    }
+  },
+  {
+    "question": "What is Joanna allergic to?",
+    "predicted": "Joanna is allergic to most reptiles, animals with fur, and recently discovered she is also allergic to cockroaches. When exposed to these allergens, her face gets puffy and itchy.",
+    "ground_truth": "Most reptiles,animals with fur,cockroaches, dairy",
+    "category": "single-hop",
+    "evidence": [
+      "D4:4",
+      "D5:11",
+      "D2:23"
+    ],
+    "stats": {
+      "input_tokens": 14467,
+      "output_tokens": 105,
+      "total_tokens": 14572,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.01906681060791
+    }
+  },
+  {
+    "question": "What underlying condition might Joanna have based on her allergies?",
+    "predicted": "Joanna has allergies to most reptiles, animals with fur, and recently discovered she's also allergic to cockroaches. These allergies may suggest an underlying condition such as allergic rhinitis or asthma, which can be associated with multiple environmental allergens.",
+    "ground_truth": "asthma",
+    "category": "temporal",
+    "evidence": [
+      "D5:11",
+      "D2:23"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 79,
+      "total_tokens": 8871,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8833792209625244
+    }
+  },
+  {
+    "question": "When did Joanna have an audition for a writing gig?",
+    "predicted": "Joanna had an audition for a writing gig on March 23, 2022. She described the experience as having mixed emotions, feeling both excited and anxious while waiting to hear back.",
+    "ground_truth": "23 March, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:2"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 70,
+      "total_tokens": 8862,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.028985977172852
+    }
+  },
+  {
+    "question": "What nickname does Nate use for Joanna?",
+    "predicted": "Nate uses the nickname \"Tilly\" for Joanna, which is also the name of a stuffed animal dog he gave her. The stuffed animal serves as a reminder of a real dog Joanna had before developing allergies.",
+    "ground_truth": "Jo",
+    "category": "temporal",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 20662,
+      "output_tokens": 94,
+      "total_tokens": 20756,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 10.595844984054565
+    }
+  },
+  {
+    "question": "When did Nate get purple hair?",
+    "predicted": "Nate dyed his hair purple around April 8, 2022. He described the color as bright and bold, reflecting his personality, and felt very positive about the change.",
+    "ground_truth": "The week before 15April, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 13798,
+      "output_tokens": 103,
+      "total_tokens": 13901,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.254057884216309
+    }
+  },
+  {
+    "question": "What physical transformation did Nate undergo in April 2022?",
+    "predicted": "In April 2022, Nate underwent a physical transformation by dyeing his hair a bright and bold color, which he described as reflecting his personality and wanting to stand out. He felt positive and liberated by this change.",
+    "ground_truth": "dyed his hair purple",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:1",
+      "D7:3"
+    ],
+    "stats": {
+      "input_tokens": 13812,
+      "output_tokens": 111,
+      "total_tokens": 13923,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.20288896560669
+    }
+  },
+  {
+    "question": "What movie did Joanna watch on 1 May, 2022?",
+    "predicted": "On May 1, 2022, Joanna watched \"The Lord of the Rings\" Trilogy, which was recommended to her by Nate. She described it as awesome and considered it probably the greatest trilogy of all time, according to Nate's opinion.",
+    "ground_truth": "Lord of the Rings",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:1"
+    ],
+    "stats": {
+      "input_tokens": 14491,
+      "output_tokens": 117,
+      "total_tokens": 14608,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.265375852584839
+    }
+  },
+  {
+    "question": "Which outdoor spot did Joanna visit in May?",
+    "predicted": "In May, Joanna discovered several amazing hiking trails in her town, including a beautiful location called Whispering Falls, which she described as peaceful and serene. She took photos of the trails and expressed how hiking inspires her creative writing.",
+    "ground_truth": "Whispering Falls waterfall",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:7"
+    ],
+    "stats": {
+      "input_tokens": 14476,
+      "output_tokens": 112,
+      "total_tokens": 14588,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.770258188247681
+    }
+  },
+  {
+    "question": "How many times has Joanna found new hiking trails?",
+    "predicted": "Joanna has found new hiking trails three times. She discovered a gorgeous hiking trail in her hometown on April 16, 2022, found several new trails on May 12, 2022, and has mentioned her expertise in hiking since then.",
+    "ground_truth": "twice",
+    "category": "single-hop",
+    "evidence": [
+      "D8:4",
+      "D11:3"
+    ],
+    "stats": {
+      "input_tokens": 8789,
+      "output_tokens": 83,
+      "total_tokens": 8872,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.674391031265259
+    }
+  },
+  {
+    "question": "When did Nate adopt Max?",
+    "predicted": "Nate adopted Max on May 20, 2022. He shared the news with Joanna, who complimented Max and expressed happiness about the joy he brings to Nate.",
+    "ground_truth": "May 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:3"
+    ],
+    "stats": {
+      "input_tokens": 8048,
+      "output_tokens": 66,
+      "total_tokens": 8114,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.996326208114624
+    }
+  },
+  {
+    "question": "Who was the new addition to Nate's family in May 2022?",
+    "predicted": "In May 2022, Nate adopted a dog named Max, who became the new addition to his family.",
+    "ground_truth": "Max",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:3"
+    ],
+    "stats": {
+      "input_tokens": 8075,
+      "output_tokens": 53,
+      "total_tokens": 8128,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9245800971984863
+    }
+  },
+  {
+    "question": "When did Joanna start writing her third screenplay?",
+    "predicted": "Joanna started writing her third screenplay on May 20, 2022, when she completed it. The screenplay is about loss, identity, and connection, and she had been working on it for some time before finishing.",
+    "ground_truth": "May 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:13",
+      "D12:14"
+    ],
+    "stats": {
+      "input_tokens": 8786,
+      "output_tokens": 77,
+      "total_tokens": 8863,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.963616132736206
+    }
+  },
+  {
+    "question": "Which of Joanna's screenplay were rejected from production companies?",
+    "predicted": "Joanna received a rejection letter from a major company for one of her screenplays on June 3, 2022. The rejection was generic and left her feeling disheartened, but she remained determined not to let it affect her.",
+    "ground_truth": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+    "category": "single-hop",
+    "evidence": [
+      "D14:1",
+      "D3:1",
+      "D2:7",
+      "D24:12",
+      "D24:13"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 81,
+      "total_tokens": 8873,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.200265884399414
+    }
+  },
+  {
+    "question": "When is Nate hosting a gaming party?",
+    "predicted": "Nate is hosting a gaming party around June 17, 2022. He plans to invite friends from recent tournaments and is preparing custom controller decorations as gifts for the guests.",
+    "ground_truth": "The weekend after 3June, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:20"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 68,
+      "total_tokens": 8175,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.330556869506836
+    }
+  },
+  {
+    "question": "When did Joanna hike with her buddies?",
+    "predicted": "Joanna went hiking with her buddies on the weekend of June 3-5, 2022. They planned to check out a new trail with a waterfall, and she expressed excitement about the hike.",
+    "ground_truth": "The weekend after 3June, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:19"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 73,
+      "total_tokens": 8856,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9588537216186523
+    }
+  },
+  {
+    "question": "When did Nate win his third tourney?",
+    "predicted": "Nate won his third tournament on July 8, 2022. This tournament was held online, and he expressed pride in his accomplishment and the ability to earn money doing something he loves.",
+    "ground_truth": "The week before 3June, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:8"
+    ],
+    "stats": {
+      "input_tokens": 13804,
+      "output_tokens": 106,
+      "total_tokens": 13910,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.533308267593384
+    }
+  },
+  {
+    "question": "What places has Joanna submitted her work to?",
+    "predicted": "Joanna has submitted her work to film festivals and a film contest. As of June 24, 2022, she submitted a screenplay to a film contest, and she also submitted her first full screenplay to film festivals around January 21, 2022.",
+    "ground_truth": "film contest, film festival.",
+    "category": "single-hop",
+    "evidence": [
+      "D2:7",
+      "D16:1"
+    ],
+    "stats": {
+      "input_tokens": 8786,
+      "output_tokens": 85,
+      "total_tokens": 8871,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.7466378211975098
+    }
+  },
+  {
+    "question": "When did Nate make vegan icecream and share it with a vegan diet group?",
+    "predicted": "Nate made vegan ice cream on June 17, 2022, and shared it with his vegan diet group, where it was well-received. He planned to share the recipe with Joanna the following day.",
+    "ground_truth": "The Friday before 24June, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:8"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 75,
+      "total_tokens": 8206,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4976582527160645
+    }
+  },
+  {
+    "question": "When is Joanna going to make Nate's ice cream for her family?",
+    "predicted": "Joanna plans to make Nate's ice cream for her family this weekend, as she mentioned her family loves when she makes them new things.",
+    "ground_truth": "The weekend of 24June, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:11"
+    ],
+    "stats": {
+      "input_tokens": 20686,
+      "output_tokens": 79,
+      "total_tokens": 20765,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.806064128875732
+    }
+  },
+  {
+    "question": "What kind of writings does Joanna do?",
+    "predicted": "Joanna primarily writes screenplays, having completed multiple scripts that explore themes of loss, identity, and self-discovery. She has also recently started writing a book that delves into similar emotional topics. Writing is a significant part of her life, serving as both a creative outlet and a means of personal expression.",
+    "ground_truth": "Screenplays,books, online blog posts, journal",
+    "category": "single-hop",
+    "evidence": [
+      "D2:3",
+      "D17:14",
+      "D18:1",
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 94,
+      "total_tokens": 8877,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9659650325775146
+    }
+  },
+  {
+    "question": "When did Nate win his fourth video game tournament?",
+    "predicted": "Nate won his fourth video game tournament on Friday, July 8, 2022. This tournament was held online, and he expressed pride in his accomplishment and the ability to earn money doing what he loves.",
+    "ground_truth": "The Friday before 10July, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 13807,
+      "output_tokens": 110,
+      "total_tokens": 13917,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.664279937744141
+    }
+  },
+  {
+    "question": "Where did Joanna travel to in July 2022?",
+    "predicted": "In July 2022, Joanna traveled to Woodhaven, a small town in the Midwest, for a road trip focused on movie research. She described it as a much-needed break where she explored new places, saw lovely scenery and historic buildings, and visited a library with an interesting old book collection that inspired her next script.",
+    "ground_truth": "Woodhaven",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:4"
+    ],
+    "stats": {
+      "input_tokens": 14482,
+      "output_tokens": 132,
+      "total_tokens": 14614,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.158463954925537
+    }
+  },
+  {
+    "question": "When did someone write Joanna a touching letter?",
+    "predicted": "Someone wrote Joanna a touching letter after reading an online blog post she made about a difficult moment in her life. The letter deeply moved her, as the person expressed that her story brought them comfort, highlighting the impact her writing can have.",
+    "ground_truth": "The week before 14August, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 20666,
+      "output_tokens": 98,
+      "total_tokens": 20764,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 6.35364031791687
+    }
+  },
+  {
+    "question": "What book recommendations has Joanna given to Nate?",
+    "predicted": "Joanna has recommended a fantasy book series to Nate, which she described as looking awesome and plans to add to her reading list. Additionally, she expressed her enjoyment of \"Little Women,\" which Nate had recommended to her, and she thanked him for that suggestion.",
+    "ground_truth": "\"Little Women\",'A Court of Thorns andRoses'.",
+    "category": "single-hop",
+    "evidence": [
+      "D3:17",
+      "D19:14",
+      "D19:16"
+    ],
+    "stats": {
+      "input_tokens": 20666,
+      "output_tokens": 103,
+      "total_tokens": 20769,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.022051095962524
+    }
+  },
+  {
+    "question": "When did Nate take time off to chill with his pets?",
+    "predicted": "Nate took time off to chill with his pets on April 17, 2022. He mentioned that spending time with his turtles brings him peace and happiness, and he enjoys watching them play, which helps him appreciate the small moments in life.",
+    "ground_truth": "The weekend of 22August, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:9"
+    ],
+    "stats": {
+      "input_tokens": 13813,
+      "output_tokens": 117,
+      "total_tokens": 13930,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.190896034240723
+    }
+  },
+  {
+    "question": "When did Joanna share her book with her writers group?",
+    "predicted": "Joanna shared her book with her writers group on August 22, 2022. She was nervous about sharing it but received great feedback from the group.",
+    "ground_truth": "The week before 22August, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:6"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 64,
+      "total_tokens": 8856,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8808929920196533
+    }
+  },
+  {
+    "question": "When did Nate win an international tournament?",
+    "predicted": "Nate won an international tournament on August 21, 2022. This victory marked a significant achievement in his gaming career, allowing him to make a living from something he is passionate about.",
+    "ground_truth": "21 August, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:1"
+    ],
+    "stats": {
+      "input_tokens": 13801,
+      "output_tokens": 106,
+      "total_tokens": 13907,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.772997140884399
+    }
+  },
+  {
+    "question": "When did Joanna make a desert with almond milk?",
+    "predicted": "Joanna made a dessert with almond milk on April 17, 2022, when she planned to try making Nate's dairy-free ice cream recipe that includes coconut milk, vanilla extract, sugar, and a pinch of salt. She expressed her excitement about making it that night.",
+    "ground_truth": "The Friday before 14September, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:9"
+    ],
+    "stats": {
+      "input_tokens": 39545,
+      "output_tokens": 127,
+      "total_tokens": 39672,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 14.93860411643982
+    }
+  },
+  {
+    "question": "When did Nate attend a cooking show?",
+    "predicted": "Nate attended a cooking show on September 12, 2022, where he taught people vegan ice cream recipes. He found the experience a bit nerve-wracking but ultimately enjoyed it and picked up a few new recipes.",
+    "ground_truth": "The Monday before 14September, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:4"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 78,
+      "total_tokens": 8185,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.675750970840454
+    }
+  },
+  {
+    "question": "When did Joanna's laptop crash?",
+    "predicted": "Joanna's laptop crashed around September 7, 2022, resulting in the loss of all her work, which she described as a major blow. She has since acquired an external drive for backups to prevent this from happening again.",
+    "ground_truth": "The week before 14September, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:1"
+    ],
+    "stats": {
+      "input_tokens": 8780,
+      "output_tokens": 79,
+      "total_tokens": 8859,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.26066517829895
+    }
+  },
+  {
+    "question": "When did Joanna make a chocolate tart with raspberries?",
+    "predicted": "Joanna made a chocolate tart with raspberries on September 5, 2022. She described it as a favorite dairy-free treat that includes an almond flour crust, chocolate ganache, and fresh raspberries.",
+    "ground_truth": "5 October, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D22:1"
+    ],
+    "stats": {
+      "input_tokens": 14482,
+      "output_tokens": 110,
+      "total_tokens": 14592,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.60295295715332
+    }
+  },
+  {
+    "question": "What movies have both Joanna and Nate seen?",
+    "predicted": "Joanna and Nate have both seen \"Little Women\" and \"The Lord of the Rings\" Trilogy. Joanna recommended \"Little Women\" to Nate, and he enjoyed it, while he recommended \"The Lord of the Rings\" Trilogy to her, which she also loved.",
+    "ground_truth": "\"Little Women\", \"Lord of the Rings\"",
+    "category": "single-hop",
+    "evidence": [
+      "D3:17",
+      "D10:1",
+      "D22:8"
+    ],
+    "stats": {
+      "input_tokens": 20151,
+      "output_tokens": 141,
+      "total_tokens": 20292,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.423593997955322
+    }
+  },
+  {
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "predicted": "Joanna finished writing her book around September 29, 2022, after putting in a lot of late nights and edits. She expressed pride in her completed work and was excited about what would happen next with it.",
+    "ground_truth": "four months",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:14",
+      "D22:9"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 76,
+      "total_tokens": 8874,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.767102003097534
+    }
+  },
+  {
+    "question": "When did Nate win a lot of money in a video game tournament?",
+    "predicted": "Nate won a significant amount of money in a video game tournament on September 29, 2022. He expressed disbelief at how much he made and mentioned that it relieved his financial stress, allowing him to enjoy his hobbies without worry.",
+    "ground_truth": "September 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D22:2"
+    ],
+    "stats": {
+      "input_tokens": 8125,
+      "output_tokens": 80,
+      "total_tokens": 8205,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5738821029663086
+    }
+  },
+  {
+    "question": "When did Joanna finish up the writing for her book?",
+    "predicted": "Joanna finished writing her book around September 29, 2022. She dedicated a lot of late nights and edits to complete it and expressed pride in her finished work.",
+    "ground_truth": "The week before 6October, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D22:9"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 67,
+      "total_tokens": 8859,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.958127975463867
+    }
+  },
+  {
+    "question": "What board games has Nate played?",
+    "predicted": "Nate has played Catan, a strategy board game, which he enjoyed at a game convention. He describes it as competitive yet chill, focusing on building settlements and trading resources. There are no other specific board games mentioned in the available memories.",
+    "ground_truth": "Chess, Catan.",
+    "category": "single-hop",
+    "evidence": [
+      "D16:2",
+      "D23:7"
+    ],
+    "stats": {
+      "input_tokens": 8104,
+      "output_tokens": 81,
+      "total_tokens": 8185,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.2663509845733643
+    }
+  },
+  {
+    "question": "What places has Nate met new people?",
+    "predicted": "Nate has met new people primarily at video game tournaments, where he has connected with fellow gamers and formed friendships. He also met new friends at a game convention, where he played games like Catan and enjoyed the chill atmosphere with others who share his interests. Additionally, he made friends with a couple while walking his dog, Max, and arranged playdates for their dogs.",
+    "ground_truth": "A tournament and agaming convention.",
+    "category": "single-hop",
+    "evidence": [
+      "D14:8",
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 13801,
+      "output_tokens": 142,
+      "total_tokens": 13943,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.360111236572266
+    }
+  },
+  {
+    "question": "When did Nate go to a convention and meet new people?",
+    "predicted": "Nate attended a game convention on October 7, 2022, where he met new people outside his normal circle. He found the experience overwhelming but rewarding, making new friends who share his gaming interests.",
+    "ground_truth": "The Friday before 9October, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 8119,
+      "output_tokens": 74,
+      "total_tokens": 8193,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.625434160232544
+    }
+  },
+  {
+    "question": "How many times has Joanna's scripts been rejected?",
+    "predicted": "Joanna's scripts have been rejected at least once; she received a generic rejection letter from a major company after finishing a screenplay on June 3, 2022. There is no mention of the total number of rejections she has faced.",
+    "ground_truth": "Twice",
+    "category": "single-hop",
+    "evidence": [
+      "D14:1",
+      "D24:12"
+    ],
+    "stats": {
+      "input_tokens": 14479,
+      "output_tokens": 116,
+      "total_tokens": 14595,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.647387981414795
+    }
+  },
+  {
+    "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+    "predicted": "Nate gave Joanna a stuffed animal to remind her of good vibes, which she loved and called sweet. This gift brings her joy and serves as a reminder of the small, positive moments in life.",
+    "ground_truth": "stuffed toy pup",
+    "category": "single-hop",
+    "evidence": [
+      "D13:9",
+      "D24:2"
+    ],
+    "stats": {
+      "input_tokens": 8075,
+      "output_tokens": 71,
+      "total_tokens": 8146,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.6118898391723633
+    }
+  },
+  {
+    "question": "When did Nate get Tilly for Joanna?",
+    "predicted": "Nate got Tilly, the stuffed animal dog, for Joanna on October 21, 2022. He gave it to her as a gift to remind her of good vibes, and she named it after a real dog she used to have in Michigan.",
+    "ground_truth": "25 May, 2022",
+    "category": "single-hop",
+    "evidence": [
+      "D13:9",
+      "D24:2"
+    ],
+    "stats": {
+      "input_tokens": 14476,
+      "output_tokens": 119,
+      "total_tokens": 14595,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.618812084197998
+    }
+  },
+  {
+    "question": "How many of Joanna's writing have made it to the big screen?",
+    "predicted": "Joanna has had three of her screenplays produced and shown on the big screen. The most recent was on October 23, 2022, and she also had a screenplay that appeared on June 4, 2022.",
+    "ground_truth": "two",
+    "category": "single-hop",
+    "evidence": [
+      "D15:1",
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 14491,
+      "output_tokens": 114,
+      "total_tokens": 14605,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.702623128890991
+    }
+  },
+  {
+    "question": "How many times has Nate taken his turtles on a walk?",
+    "predicted": "Nate has taken his turtles for a walk at least once, as he mentioned doing so when he was bored, and the turtles seemed to enjoy it. They looked tired afterward and were relaxing in their tank.",
+    "ground_truth": "Twice.",
+    "category": "single-hop",
+    "evidence": [
+      "D5:4",
+      "D25:15"
+    ],
+    "stats": {
+      "input_tokens": 13813,
+      "output_tokens": 109,
+      "total_tokens": 13922,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.135970830917358
+    }
+  },
+  {
+    "question": "When was Joanna's second movie script shown on the big screens?",
+    "predicted": "Joanna's second movie script was shown on the big screen on June 4, 2022. This marked the first time her second screenplay was produced and displayed publicly.",
+    "ground_truth": "The Sunday before 25October, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D25:1"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 67,
+      "total_tokens": 8865,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8224120140075684
+    }
+  },
+  {
+    "question": "What is Joanna inspired by?",
+    "predicted": "Joanna is inspired by various sources, including nature, her personal experiences, and stories about courage and self-discovery. She finds peace and creativity in hiking and often uses her experiences in nature to fuel her writing. Additionally, themes of loss, identity, and connection are prevalent in her work, reflecting her own journey and emotions.",
+    "ground_truth": "Personal experiences,her own journey ofself discovery, Nate,nature, validation,stories about findingcourage and takingrisks, people she knows, stuff she sees, imagination",
+    "category": "single-hop",
+    "evidence": [
+      "D4:6",
+      "D7:6",
+      "D11:11",
+      "D26:3",
+      "D26:7",
+      "D25:10"
+    ],
+    "stats": {
+      "input_tokens": 8777,
+      "output_tokens": 98,
+      "total_tokens": 8875,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9370529651641846
+    }
+  },
+  {
+    "question": "What animal do both Nate and Joanna like?",
+    "predicted": "Both Nate and Joanna like turtles. Nate owns turtles and finds them calming, while Joanna has expressed a desire to have turtles as pets, especially since they are a type of animal she can consider without triggering her allergies.",
+    "ground_truth": "Turtles.",
+    "category": "single-hop",
+    "evidence": [
+      "D5:6",
+      "D26:9"
+    ],
+    "stats": {
+      "input_tokens": 14623,
+      "output_tokens": 111,
+      "total_tokens": 14734,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.491511106491089
+    }
+  },
+  {
+    "question": "When did Joanna plan to go over to Nate's and share recipes?",
+    "predicted": "Joanna planned to visit Nate to share recipes on June 25, 2022, when Nate offered to give her a vegan ice cream recipe. She expressed enthusiasm about making it for her family that weekend.",
+    "ground_truth": "5 November, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D26:19"
+    ],
+    "stats": {
+      "input_tokens": 14491,
+      "output_tokens": 109,
+      "total_tokens": 14600,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.772914886474609
+    }
+  },
+  {
+    "question": "What things has Nate reccomended to Joanna?",
+    "predicted": "Nate has recommended several things to Joanna, including:\n\n1. **Movies**: He recommended \"Little Women\" to her after she suggested it to him.\n2. **Books**: Nate suggested a book series featuring adventures and magic, which Joanna recognized and said was on her list.\n3. **Recipes**: He offered Joanna a recipe for coconut milk ice cream and shared his vegan ice cream recipe, which she expressed interest in making for her family.\n\nTheir conversations reflect a supportive dynamic where they exchange recommendations and encourage each other's creative pursuits.",
+    "ground_truth": "A pet,\"The Lord of the Rings\" movies,a dragon book series,coconut flavoring,\"Project Hail Mary\" book,Xenoblade Chronicles, dairy-free margarine, coconut oil",
+    "category": "single-hop",
+    "evidence": [
+      "D2:14",
+      "D9:12",
+      "D9:14",
+      "D10:11",
+      "D19:17",
+      "D27:23",
+      "D10:19"
+    ],
+    "stats": {
+      "input_tokens": 8060,
+      "output_tokens": 140,
+      "total_tokens": 8200,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.14488434791565
+    }
+  },
+  {
+    "question": "What does Joanna do to remember happy memories?",
+    "predicted": "Joanna remembers happy memories by engaging in activities that bring her joy, such as writing, exploring nature, and watching movies. She finds inspiration and peace in nature, which helps her reset and appreciate small joyful moments. Additionally, she keeps a cork board filled with inspiring quotes and family photos, reminding her of love and support, which also contributes to her happiness.",
+    "ground_truth": "Hangs them on a corkboard, writes themin a notebook.",
+    "category": "single-hop",
+    "evidence": [
+      "D15:9",
+      "D27:34"
+    ],
+    "stats": {
+      "input_tokens": 8786,
+      "output_tokens": 104,
+      "total_tokens": 8890,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 11.877127885818481
+    }
+  },
+  {
+    "question": "What Console does Nate own?",
+    "predicted": "The memory files do not specify which console Nate owns. If you need more specific information about his gaming setup or preferences, please let me know!",
+    "ground_truth": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+    "category": "temporal",
+    "evidence": [
+      "D27:23"
+    ],
+    "stats": {
+      "input_tokens": 8101,
+      "output_tokens": 61,
+      "total_tokens": 8162,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1015548706054688
+    }
+  },
+  {
+    "question": "What mediums does Nate use to play games?",
+    "predicted": "Nate primarily plays video games on his dedicated gaming computer, which he uses for both practice and competition. He enjoys games like Counter-Strike: Global Offensive and Street Fighter, and he also participates in various video game tournaments. Additionally, he engages in gaming content creation for YouTube.",
+    "ground_truth": "Gamecube, PC,Playstation.",
+    "category": "single-hop",
+    "evidence": [
+      "D22:2",
+      "D27:21",
+      "D27:15"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 89,
+      "total_tokens": 8199,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5299489498138428
+    }
+  },
+  {
+    "question": "How many letters has Joanna recieved?",
+    "predicted": "There is no information in the available memories regarding the number of letters Joanna has received.",
+    "ground_truth": "Two",
+    "category": "single-hop",
+    "evidence": [
+      "D14:1",
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 14470,
+      "output_tokens": 84,
+      "total_tokens": 14554,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.08355188369751
+    }
+  },
+  {
+    "question": "What video games does Nate play?",
+    "predicted": "Nate primarily plays **Counter-Strike: Global Offensive** (CS:GO) and **Street Fighter**, having participated in multiple tournaments for both games. He also enjoys playing **Cyberpunk 2077** and **Xenoblade Chronicles**, and he is a fan of Nintendo games.",
+    "ground_truth": "Valorant, Counter Strike:Global Offensive,Xenoblade Chronicles, StreetFighter, Cyberpunk 2077",
+    "category": "single-hop",
+    "evidence": [
+      "D10:6",
+      "D27:1",
+      "D27:23",
+      "D1:7",
+      "D23:17"
+    ],
+    "stats": {
+      "input_tokens": 8104,
+      "output_tokens": 91,
+      "total_tokens": 8195,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.857717752456665
+    }
+  },
+  {
+    "question": "When did Nate win a big Valorant tourney?",
+    "predicted": "Nate won a big Valorant tournament on November 5, 2022. He described it as an incredible feeling to see his name as the champion.",
+    "ground_truth": "The Saturday before 7November, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D27:1"
+    ],
+    "stats": {
+      "input_tokens": 8116,
+      "output_tokens": 64,
+      "total_tokens": 8180,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.600452899932861
+    }
+  },
+  {
+    "question": "Which torunament did Nate win in the beginning of November 2022?",
+    "predicted": "Nate won a big Valorant tournament on November 5, 2022. He described it as the best feeling to see his name as the champion.",
+    "ground_truth": "Valorant",
+    "category": "multi-hop",
+    "evidence": [
+      "D27:1"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 64,
+      "total_tokens": 8195,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.940262794494629
+    }
+  },
+  {
+    "question": "What alternative career might Nate consider after gaming?",
+    "predicted": "Nate might consider pursuing a career in writing, as he has expressed interest in this area and has asked for advice on how to get started. Additionally, he is creating gaming content for YouTube, which could also serve as an alternative career path after gaming.",
+    "ground_truth": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+    "category": "temporal",
+    "evidence": [
+      "D5:8",
+      "D19:3",
+      "D25:19",
+      "D28:25"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 84,
+      "total_tokens": 8194,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.004896879196167
+    }
+  },
+  {
+    "question": "What pets does Nate have?",
+    "predicted": "Nate has turtles that he has owned for over three years, and he recently adopted a dog named Max. The turtles bring him joy and help him relax, while Max is energetic and adds happiness to Nate's life.",
+    "ground_truth": "A dog and threeturtles.",
+    "category": "single-hop",
+    "evidence": [
+      "D8:3",
+      "D12:3",
+      "D28:23"
+    ],
+    "stats": {
+      "input_tokens": 13795,
+      "output_tokens": 111,
+      "total_tokens": 13906,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.179008960723877
+    }
+  },
+  {
+    "question": "How many hikes has Joanna been on?",
+    "predicted": "Joanna has been on several hikes, including discovering new trails in her hometown and enjoying nature as a source of inspiration for her writing. She considers herself an expert hiker now and has expressed a desire to go hiking with Nate. However, the exact number of hikes she has completed is not specified in the available memories.",
+    "ground_truth": "Four",
+    "category": "temporal",
+    "evidence": [
+      "D7:6",
+      "D11:5",
+      "D14:21",
+      "D28:22"
+    ],
+    "stats": {
+      "input_tokens": 40211,
+      "output_tokens": 135,
+      "total_tokens": 40346,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 6.206783056259155
+    }
+  },
+  {
+    "question": "How many turtles does Nate have?",
+    "predicted": "Nate has three turtles. He recently got a third turtle and is very happy with the decision, as they bring him joy and peace.",
+    "ground_truth": "Three",
+    "category": "single-hop",
+    "evidence": [
+      "D8:3",
+      "D28:23"
+    ],
+    "stats": {
+      "input_tokens": 8104,
+      "output_tokens": 60,
+      "total_tokens": 8164,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.672822952270508
+    }
+  },
+  {
+    "question": "What activities does Nate do with his turtles?",
+    "predicted": "Nate enjoys spending time with his turtles by taking them for walks, watching them play, and even bringing them into the kitchen while he cooks. He finds their different personalities charming and appreciates how they help him relax and bring joy to his life. Recently, he took them to the beach, which he described as a peaceful experience.",
+    "ground_truth": "takes them onwalks, holds them,feeds themstrawberries, givesthem baths.",
+    "category": "single-hop",
+    "evidence": [
+      "D25:21",
+      "D25:23",
+      "D28:31"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 98,
+      "total_tokens": 8208,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.985466241836548
+    }
+  },
+  {
+    "question": "What do both Joanna and Nate appreciate the beauty of?",
+    "predicted": "Both Joanna and Nate appreciate the beauty of nature. Joanna finds peace and inspiration in nature, often describing it as calming and a great way to reset, while Nate also expresses that nature inspires him and helps him think deeply.",
+    "ground_truth": "Nature",
+    "category": "single-hop",
+    "evidence": [
+      "D11:9",
+      "D28:23"
+    ],
+    "stats": {
+      "input_tokens": 14629,
+      "output_tokens": 112,
+      "total_tokens": 14741,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.803361892700195
+    }
+  },
+  {
+    "question": "When did Joanna plan on going to Nate's to watch him play with his turtles?",
+    "predicted": "Joanna planned to visit Nate to watch him play with his turtles on April 17, 2022. During their conversation, she expressed her interest in going hiking with him, and they discussed spending time together outdoors.",
+    "ground_truth": "10 November, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:32"
+    ],
+    "stats": {
+      "input_tokens": 13827,
+      "output_tokens": 111,
+      "total_tokens": 13938,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.544462203979492
+    }
+  },
+  {
+    "question": "What state did Joanna visit in summer 2021?",
+    "predicted": "Joanna visited Woodhaven, a small town in the Midwest, during a road trip for movie research in July 2022.",
+    "ground_truth": "Indiana",
+    "category": "temporal",
+    "evidence": [
+      "D28:22"
+    ],
+    "stats": {
+      "input_tokens": 21403,
+      "output_tokens": 77,
+      "total_tokens": 21480,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 6.615505933761597
+    }
+  },
+  {
+    "question": "What recommendations has Nate received from Joanna?",
+    "predicted": "Joanna has provided Nate with several recommendations, particularly in the realm of writing and creative pursuits. She advised him to read widely, try different genres, and practice writing while gathering feedback. Additionally, she encouraged him to have faith in himself and not be afraid to share his work, emphasizing that it's tough but worth it.",
+    "ground_truth": "\"Eternal Sunshine of the Spotless Mind\" movie, \"A Court of Thorns and Roses\" book, pointers for making living room comfy, starting a cork board for memories, \"Little Women\" movie",
+    "category": "single-hop",
+    "evidence": [
+      "D1:16",
+      "D3:17",
+      "D15:14",
+      "D15:15",
+      "D19:15",
+      "D19:16",
+      "D23:26"
+    ],
+    "stats": {
+      "input_tokens": 8054,
+      "output_tokens": 95,
+      "total_tokens": 8149,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.679094076156616
+    }
+  },
+  {
+    "question": "What are Nate's favorite desserts?",
+    "predicted": "Nate's favorite desserts include coconut milk ice cream, which he describes as smooth and creamy, and dairy-free chocolate mousse. He enjoys experimenting with different flavors and has recently made a variety of coconut milk ice cream recipes.",
+    "ground_truth": "coconut milk icecream, dairy-free chocolate cake with berries, chocolate and mixed-berry icecream, dairy-free chocolate mousse",
+    "category": "single-hop",
+    "evidence": [
+      "D3:4",
+      "D3:10",
+      "D21:10",
+      "D3:12"
+    ],
+    "stats": {
+      "input_tokens": 8104,
+      "output_tokens": 76,
+      "total_tokens": 8180,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.418626070022583
+    }
+  },
+  {
+    "question": "How has Nate tried to disburse his vegan ice-cream recipes?",
+    "predicted": "Nate has shared his vegan ice cream recipes by offering them to friends, particularly Joanna, who has expressed interest in his creations. He has also started teaching people how to make dairy-free desserts, which includes his coconut milk ice cream recipe. Additionally, he showcased his vegan ice cream recipes on his own cooking show, which he found to be a rewarding experience.",
+    "ground_truth": "teaching others, cooking show",
+    "category": "single-hop",
+    "evidence": [
+      "D18:8",
+      "D21:4"
+    ],
+    "stats": {
+      "input_tokens": 8128,
+      "output_tokens": 104,
+      "total_tokens": 8232,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.7260091304779053
+    }
+  },
+  {
+    "question": "When did Nate win his second tournament?",
+    "predicted": "Nate won his second tournament around April 25, 2022. He played Street Fighter in this tournament, which was a surprise victory for him, and he described the experience as super awesome with lots of adrenaline.",
+    "ground_truth": "The week before 2 May, 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:4"
+    ],
+    "stats": {
+      "input_tokens": 13801,
+      "output_tokens": 111,
+      "total_tokens": 13912,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.828690052032471
+    }
+  },
+  {
+    "question": "How many video game tournaments has Nate participated in?",
+    "predicted": "Nate has participated in a total of five video game tournaments as of November 2022. He won his first tournament on January 14, 2022, and has continued to compete, winning additional tournaments throughout the year.",
+    "ground_truth": "nine",
+    "category": "single-hop",
+    "evidence": [
+      "D1:3",
+      "D6:7",
+      "D10:4",
+      "D14:8",
+      "D17:1",
+      "D19:1",
+      "D20:1",
+      "D22:2",
+      "D27:1"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 78,
+      "total_tokens": 8191,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8800601959228516
+    }
+  },
+  {
+    "question": "How many screenplays has Joanna written?",
+    "predicted": "Joanna has written three completed screenplays as of May 25, 2022. She has also been actively working on additional projects, including a new screenplay and a book.",
+    "ground_truth": "three",
+    "category": "single-hop",
+    "evidence": [
+      "D2:3",
+      "D4:10",
+      "D5:1",
+      "D12:13",
+      "D12:14"
+    ],
+    "stats": {
+      "input_tokens": 14473,
+      "output_tokens": 103,
+      "total_tokens": 14576,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.979176998138428
+    }
+  },
+  {
+    "question": "How many tournaments has Nate won?",
+    "predicted": "Nate has won a total of five video game tournaments. His victories include his first tournament on January 14, 2022, followed by wins on April 25, May 27, July 8, and most recently, November 5, 2022.",
+    "ground_truth": "seven",
+    "category": "single-hop",
+    "evidence": [
+      "D1:3",
+      "D10:4",
+      "D14:8",
+      "D17:1",
+      "D19:1",
+      "D22:2",
+      "D27:1"
+    ],
+    "stats": {
+      "input_tokens": 8104,
+      "output_tokens": 87,
+      "total_tokens": 8191,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.30931305885315
+    }
+  },
+  {
+    "question": "What recipes has Joanna made?",
+    "predicted": "Joanna has made several recipes, particularly focusing on dairy-free desserts. Notable creations include a dairy-free vanilla cake with strawberry filling and coconut cream frosting, dairy-free chocolate coconut cupcakes with raspberry frosting, and a chocolate raspberry tart with an almond flour crust. She enjoys experimenting with flavors and is committed to making delicious desserts that accommodate dietary restrictions.",
+    "ground_truth": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+    "category": "single-hop",
+    "evidence": [
+      "D10:9",
+      "D10:11",
+      "D19:8",
+      "D20:2",
+      "D20:10",
+      "D21:11",
+      "D22:1",
+      "D21:3",
+      "D21:17"
+    ],
+    "stats": {
+      "input_tokens": 8777,
+      "output_tokens": 100,
+      "total_tokens": 8877,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4613566398620605
+    }
+  },
+  {
+    "question": "What recipes has Nate made?",
+    "predicted": "Nate has made several recipes, including:\n\n1. **Coconut milk ice cream** - He has experimented with different flavors and described it as rich and creamy. He also shared the recipe with Joanna.\n2. **Dairy-free chocolate cake with berries** - He was proud of this creation and enjoys experimenting in the kitchen.\n3. **Chocolate and vanilla swirl ice cream** - Made for a friend who loved it.\n4. **Lactose-free dessert using coconut milk** - He described it as super yummy and invited Joanna to try it.\n\nHe has a passion for making desserts and enjoys sharing his recipes with others.",
+    "ground_truth": "coconut milk icecream, chocolate and vanilla swirl",
+    "category": "single-hop",
+    "evidence": [
+      "D3:4",
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 8101,
+      "output_tokens": 158,
+      "total_tokens": 8259,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.937320232391357
+    }
+  },
+  {
+    "question": "What are the skills that Nate has helped others learn?",
+    "predicted": "Nate has helped others learn how to make dairy-free desserts, particularly coconut milk ice cream, which he describes as creamy and rich. He finds sharing his love for these recipes fun and rewarding. Additionally, he has provided baking tips, such as using dairy-free margarine or coconut oil instead of butter.",
+    "ground_truth": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+    "category": "single-hop",
+    "evidence": [
+      "D18:8",
+      "D26:12",
+      "D14:16"
+    ],
+    "stats": {
+      "input_tokens": 8116,
+      "output_tokens": 93,
+      "total_tokens": 8209,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.2542738914489746
+    }
+  },
+  {
+    "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+    "predicted": "No, the first half of September 2022 was not a good month career-wise for Joanna, as she experienced a significant setback when her laptop crashed, resulting in the loss of all her work. Nate also faced a letdown in a video game tournament during this time.",
+    "ground_truth": "No; because both of them faced setbacks in their career",
+    "category": "temporal",
+    "evidence": [
+      "D20:1",
+      "D21:1"
+    ],
+    "stats": {
+      "input_tokens": 14668,
+      "output_tokens": 123,
+      "total_tokens": 14791,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.206933975219727
+    }
+  },
+  {
+    "question": "What kind of job is Joanna beginning to preform the duties of because of her movie scripts?",
+    "predicted": "Joanna is beginning to perform the duties of a screenwriter due to her work on movie scripts. She has completed multiple screenplays, submitted them to film festivals, and has had scripts produced and shown on the big screen. Additionally, she is now exploring writing a book, indicating her growing involvement in the writing field.",
+    "ground_truth": "filmmaker.",
+    "category": "temporal",
+    "evidence": [
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 8816,
+      "output_tokens": 96,
+      "total_tokens": 8912,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.6637868881225586
+    }
+  },
+  {
+    "question": "When did Nate take his turtles to the beach?",
+    "predicted": "Nate took his turtles to the beach in Tampa on November 10, 2022. He enjoys seeing them soak in the sun and finds their presence calming.",
+    "ground_truth": "10 November, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D29:6"
+    ],
+    "stats": {
+      "input_tokens": 13807,
+      "output_tokens": 100,
+      "total_tokens": 13907,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.693936109542847
+    }
+  },
+  {
+    "question": "What state did Nate visit?",
+    "predicted": "Nate visited Woodhaven, a small town in the Midwest, during a road trip for movie research. He described the scenery and historic buildings he saw there, which inspired ideas for his next script.",
+    "ground_truth": "Florida",
+    "category": "temporal",
+    "evidence": [
+      "D29:6"
+    ],
+    "stats": {
+      "input_tokens": 13794,
+      "output_tokens": 107,
+      "total_tokens": 13901,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.181859970092773
+    }
+  },
+  {
+    "question": "What is one of Joanna's favorite movies?",
+    "predicted": "One of Joanna's favorite movies is a romantic drama about memory and relationships, which she first watched around 2019. She loves the idea and acting in the film and has watched it multiple times.",
+    "ground_truth": "\"Eternal Sunshineof the Spotless Mind\"",
+    "category": "open-domain",
+    "evidence": [
+      "D1:18",
+      "D",
+      "D1:20"
+    ],
+    "stats": {
+      "input_tokens": 8786,
+      "output_tokens": 72,
+      "total_tokens": 8858,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.490086793899536
+    }
+  },
+  {
+    "question": "What color did Nate choose for his hair?",
+    "predicted": "Nate chose a bright and bold color for his hair, which he dyed around April 8, 2022. He described the color as reflecting his personality, stating, \"bright and bold - like me!\"",
+    "ground_truth": "purple",
+    "category": "open-domain",
+    "evidence": [
+      "D7:1",
+      "D7:3"
+    ],
+    "stats": {
+      "input_tokens": 13804,
+      "output_tokens": 110,
+      "total_tokens": 13914,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.005465030670166
+    }
+  },
+  {
+    "question": "What is Nate's favorite movie trilogy?",
+    "predicted": "Nate's favorite movie trilogy is not explicitly named in the memories, but he has mentioned that he loves fantasy and sci-fi movies, particularly for their world-building, battles, and storytelling. He describes his favorite trilogy as one that always blows him away.",
+    "ground_truth": "Lord of the Rings",
+    "category": "open-domain",
+    "evidence": [
+      "D9:12"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 83,
+      "total_tokens": 8190,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.086232662200928
+    }
+  },
+  {
+    "question": "What is Nate's favorite book series about?",
+    "predicted": "Nate's favorite book series features adventures, magic, and great characters, which he describes as a must-read and highly recommends to others. He particularly enjoys the action scenes and the engaging plot, indicating that it has awesome battles and interesting characters.",
+    "ground_truth": "dragons",
+    "category": "open-domain",
+    "evidence": [
+      "D9:14"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 81,
+      "total_tokens": 8191,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.259947061538696
+    }
+  },
+  {
+    "question": "What kind of lighting does Nate's gaming room have?",
+    "predicted": "The memory files do not contain specific information about the lighting in Nate's gaming room. Therefore, I cannot provide an answer regarding the type of lighting he has.",
+    "ground_truth": "red and purple lighting",
+    "category": "open-domain",
+    "evidence": [
+      "D10:2"
+    ],
+    "stats": {
+      "input_tokens": 38198,
+      "output_tokens": 103,
+      "total_tokens": 38301,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 11.055286645889282
+    }
+  },
+  {
+    "question": "What game was the second tournament that Nate won based on?",
+    "predicted": "Nate's second tournament win was based on the game **Street Fighter**, which he played instead of his usual game, **Counter-Strike: Global Offensive (CS:GO)**. He won this tournament around April 25, 2022.",
+    "ground_truth": "Street Fighter",
+    "category": "open-domain",
+    "evidence": [
+      "D10:4",
+      "D10:6"
+    ],
+    "stats": {
+      "input_tokens": 13813,
+      "output_tokens": 117,
+      "total_tokens": 13930,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.766467094421387
+    }
+  },
+  {
+    "question": "What is Joanna's third screenplay about?",
+    "predicted": "Joanna's third screenplay, completed on May 20, 2022, explores themes of loss, identity, and connection. It is a personal story that she had wanted to write for a long time, requiring her to be vulnerable and delve deep into these topics. She believes that meaningful stories come from personal experiences and feelings.",
+    "ground_truth": "loss, identity, and connection",
+    "category": "open-domain",
+    "evidence": [
+      "D12:13",
+      "D12:14"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 98,
+      "total_tokens": 8881,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3702149391174316
+    }
+  },
+  {
+    "question": "What is Nate's favorite video game?",
+    "predicted": "Nate's favorite video game is \"Counter-Strike: Global Offensive,\" as he has participated in tournaments for it. He also enjoys playing \"Street Fighter\" and is currently playing \"Cyberpunk 2077.\"",
+    "ground_truth": "Xenoblade Chronicles",
+    "category": "open-domain",
+    "evidence": [
+      "D27:22",
+      "D27:23"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 75,
+      "total_tokens": 8182,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3696110248565674
+    }
+  },
+  {
+    "question": "What type of movies does Nate enjoy watching the most?",
+    "predicted": "Nate enjoys watching action and sci-fi movies the most, particularly because he loves the special effects. He also appreciates classic movies and is interested in trying romantic dramas recommended by Joanna.",
+    "ground_truth": "action and sci-fi",
+    "category": "open-domain",
+    "evidence": [
+      "D1:13"
+    ],
+    "stats": {
+      "input_tokens": 8116,
+      "output_tokens": 68,
+      "total_tokens": 8184,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.06007981300354
+    }
+  },
+  {
+    "question": "What did Joanna just finish last Friday on 23 January, 2022?",
+    "predicted": "On Friday, January 21, 2022, Joanna completed her first full screenplay, which is a mix of drama and romance. She experienced a rollercoaster of emotions, including relief and excitement, and planned to submit it to film festivals.",
+    "ground_truth": "screenplay",
+    "category": "open-domain",
+    "evidence": [
+      "D2:3"
+    ],
+    "stats": {
+      "input_tokens": 20171,
+      "output_tokens": 137,
+      "total_tokens": 20308,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.791743040084839
+    }
+  },
+  {
+    "question": "What genre is Joanna's first screenplay?",
+    "predicted": "Joanna's first screenplay is a mix of drama and romance. She completed it on January 21, 2022, and planned to submit it to film festivals.",
+    "ground_truth": "drama and romance",
+    "category": "open-domain",
+    "evidence": [
+      "D2:5"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 66,
+      "total_tokens": 8849,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.454155921936035
+    }
+  },
+  {
+    "question": "What are Joanna's plans for her finished screenplay in January 2022?",
+    "predicted": "In January 2022, Joanna completed her first full screenplay, which is a mix of drama and romance. She plans to submit it to film festivals and hopes to attract producers and directors to review it.",
+    "ground_truth": "submit it to film festivals and get producers and directors to check it out",
+    "category": "open-domain",
+    "evidence": [
+      "D2:7"
+    ],
+    "stats": {
+      "input_tokens": 8804,
+      "output_tokens": 73,
+      "total_tokens": 8877,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.322059154510498
+    }
+  },
+  {
+    "question": "For how long has Nate had his turtles?",
+    "predicted": "Nate has had his turtles for over 3 years as of January 23, 2022.",
+    "ground_truth": "3 years",
+    "category": "open-domain",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 53,
+      "total_tokens": 8163,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.302734851837158
+    }
+  },
+  {
+    "question": "What did Nate think of the coconut milk ice cream he made?",
+    "predicted": "Nate thought the coconut milk ice cream he made turned out \"pretty good,\" describing it as rich and creamy. He mentioned it might become his new favorite snack and expressed plans to try it again with different flavors and toppings.",
+    "ground_truth": "Super good, rich and creamy",
+    "category": "open-domain",
+    "evidence": [
+      "D3:6"
+    ],
+    "stats": {
+      "input_tokens": 8122,
+      "output_tokens": 77,
+      "total_tokens": 8199,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.0365540981292725
+    }
+  },
+  {
+    "question": "Which dairy-free dessert flavors does Nate enjoy?",
+    "predicted": "Nate enjoys several dairy-free dessert flavors, including coconut milk, chocolate, and mixed berry. His favorite is coconut milk ice cream, which he describes as smooth and creamy with a tropical twist. He also likes dairy-free chocolate mousse, which he finds super creamy and similar to traditional mousse.",
+    "ground_truth": "chocolate and mixed berry",
+    "category": "open-domain",
+    "evidence": [
+      "D3:10"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 90,
+      "total_tokens": 8200,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.575929880142212
+    }
+  },
+  {
+    "question": "What did Joanna recently watch and recommend to Nate on February 7, 2022?",
+    "predicted": "On February 7, 2022, Joanna recommended the movie \"Little Women\" to Nate, describing it as an amazing story about sisterhood, love, and reaching for dreams. She considered it a must-see film and enjoys giving movie recommendations to others.",
+    "ground_truth": "\"Little Women\"",
+    "category": "open-domain",
+    "evidence": [
+      "D3:17"
+    ],
+    "stats": {
+      "input_tokens": 14503,
+      "output_tokens": 119,
+      "total_tokens": 14622,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.013335704803467
+    }
+  },
+  {
+    "question": "What is \"Little Women\" about according to Joanna?",
+    "predicted": "Joanna recently watched \"Little Women\" and described it as an amazing story about sisterhood, love, and reaching for your dreams. She considers it a must-see film and enjoys giving movie recommendations to others.",
+    "ground_truth": "Sisterhood, love, and reaching for your dreams",
+    "category": "open-domain",
+    "evidence": [
+      "D3:17"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 74,
+      "total_tokens": 8866,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.301114797592163
+    }
+  },
+  {
+    "question": "What flavor of ice cream did Nate make for his friend on 25 February, 2022?",
+    "predicted": "On February 25, 2022, Nate made chocolate and vanilla swirl ice cream for a friend, who loved it. He expressed his passion for making desserts and offered to share a dairy-free coconut milk ice cream recipe with Joanna.",
+    "ground_truth": "chocolate and vanilla swirl",
+    "category": "open-domain",
+    "evidence": [
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 13837,
+      "output_tokens": 114,
+      "total_tokens": 13951,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.212924957275391
+    }
+  },
+  {
+    "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+    "predicted": "On February 25, 2022, Joanna was inspired to work on her new screenplay by her personal experiences and her journey of self-discovery after a loss. The screenplay follows a thirty-year-old woman who embarks on a road trip to heal and explore her identity, reflecting themes similar to those in her first screenplay.",
+    "ground_truth": "personal experiences and her own journey of self-discovery",
+    "category": "open-domain",
+    "evidence": [
+      "D4:16"
+    ],
+    "stats": {
+      "input_tokens": 14494,
+      "output_tokens": 132,
+      "total_tokens": 14626,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.982886791229248
+    }
+  },
+  {
+    "question": "Why does Nate like turtles as pets?",
+    "predicted": "Nate likes turtles as pets because they have big personalities, bring him joy, and help him stay calm during stressful times. He appreciates their low-maintenance nature and finds their slow pace a comforting change from the rush of life. Additionally, he enjoys the small moments with them, which remind him to appreciate life's little pleasures.",
+    "ground_truth": "Their slow pace and calming nature",
+    "category": "open-domain",
+    "evidence": [
+      "D5:6"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 97,
+      "total_tokens": 8204,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.938178062438965
+    }
+  },
+  {
+    "question": "How does Nate describe the process of taking care of turtles?",
+    "predicted": "Nate describes taking care of turtles as a calming and enjoyable experience. He finds them low-maintenance, appreciates their unique personalities, and enjoys watching them eat and play. He emphasizes that they help him relax and bring joy, especially during stressful times.",
+    "ground_truth": "Not tough; keep their area clean, feed them properly, give them enough light.",
+    "category": "open-domain",
+    "evidence": [
+      "D5:8"
+    ],
+    "stats": {
+      "input_tokens": 8119,
+      "output_tokens": 82,
+      "total_tokens": 8201,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.305984020233154
+    }
+  },
+  {
+    "question": "What was Joanna's audition for?",
+    "predicted": "Joanna's audition was for a writing gig, which took place on March 23, 2022. She felt it went alright but had mixed emotions about the experience, feeling both excited and anxious while waiting to hear back.",
+    "ground_truth": "writing gig",
+    "category": "open-domain",
+    "evidence": [
+      "D6:2"
+    ],
+    "stats": {
+      "input_tokens": 14470,
+      "output_tokens": 113,
+      "total_tokens": 14583,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.591772079467773
+    }
+  },
+  {
+    "question": "Why did Nate choose the hair color he did?",
+    "predicted": "Nate chose his hair color to be bright and bold, reflecting his personality. He wanted to stand out from regular options and described the change as liberating, feeling very positive and excited about it.",
+    "ground_truth": "Bright and bold - like him",
+    "category": "open-domain",
+    "evidence": [
+      "D7:5"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 72,
+      "total_tokens": 8185,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.695116996765137
+    }
+  },
+  {
+    "question": "What are the main ingredients of the ice cream recipe shared by Nate?",
+    "predicted": "The main ingredients of the ice cream recipe shared by Nate are coconut milk, vanilla extract, sugar, and a pinch of salt. He also mentioned that he enjoys experimenting with different flavors and toppings.",
+    "ground_truth": "Coconut milk, vanilla extract, sugar, salt",
+    "category": "open-domain",
+    "evidence": [
+      "D8:19"
+    ],
+    "stats": {
+      "input_tokens": 8125,
+      "output_tokens": 71,
+      "total_tokens": 8196,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.174432039260864
+    }
+  },
+  {
+    "question": "What is Joanna's project called in the writers group?",
+    "predicted": "Joanna's project in the writers group is called \"Finding Home.\" It focuses on a girl on a journey to find her true home and has been described as rewarding and emotional.",
+    "ground_truth": "\"Finding Home\"",
+    "category": "open-domain",
+    "evidence": [
+      "D9:3"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 68,
+      "total_tokens": 8860,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.9620680809021
+    }
+  },
+  {
+    "question": "What is Nate's favorite genre of movies?",
+    "predicted": "Nate's favorite movie genres are action and sci-fi, as he loves the special effects in those films. He also enjoys classic movies and is interested in trying romantic dramas recommended by Joanna.",
+    "ground_truth": "Fantasy and sci-fi",
+    "category": "open-domain",
+    "evidence": [
+      "D9:10"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 70,
+      "total_tokens": 8180,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.358415126800537
+    }
+  },
+  {
+    "question": "What kind of books does Nate enjoy?",
+    "predicted": "Nate enjoys reading fantasy book series that feature adventures, magic, and great characters. He describes one of his favorite series as a must-read with awesome action scenes and a great plot, and he is always looking for new recommendations in the fantasy genre.",
+    "ground_truth": "Adventures and magic",
+    "category": "open-domain",
+    "evidence": [
+      "D9:14"
+    ],
+    "stats": {
+      "input_tokens": 8107,
+      "output_tokens": 82,
+      "total_tokens": 8189,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3674538135528564
+    }
+  },
+  {
+    "question": "What kind of films does Joanna enjoy?",
+    "predicted": "Joanna enjoys watching dramas and romantic comedies, as she loves getting immersed in feelings and plots. Her favorite movie is a romantic drama about memory and relationships, which she has watched multiple times.",
+    "ground_truth": "Dramas and emotionally-driven films",
+    "category": "open-domain",
+    "evidence": [
+      "D9:9"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 71,
+      "total_tokens": 8854,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.492302894592285
+    }
+  },
+  {
+    "question": "Which activity helps Nate escape and stimulates his imagination?",
+    "predicted": "Nate finds escape and stimulation for his imagination through playing video games and watching movies, particularly action and sci-fi genres. He describes these activities as a great way to express his creativity and passion, and they help him unwind from life's stresses.",
+    "ground_truth": "watching fantasy and sci-fi movies",
+    "category": "open-domain",
+    "evidence": [
+      "D9:10"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 80,
+      "total_tokens": 8193,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4641671180725098
+    }
+  },
+  {
+    "question": "What filling did Joanna use in the cake she made recently in May 2022?",
+    "predicted": "In May 2022, Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting. She enjoys experimenting in the kitchen and finds it rewarding to create tasty desserts.",
+    "ground_truth": "strawberry",
+    "category": "open-domain",
+    "evidence": [
+      "D10:11"
+    ],
+    "stats": {
+      "input_tokens": 20174,
+      "output_tokens": 123,
+      "total_tokens": 20297,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.76854395866394
+    }
+  },
+  {
+    "question": "What kind of frosting did Joanna use on the cake she made recently in May 2022?",
+    "predicted": "In May 2022, Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting. She enjoys experimenting in the kitchen and creating tasty dairy-free desserts.",
+    "ground_truth": "coconut cream",
+    "category": "open-domain",
+    "evidence": [
+      "D10:11"
+    ],
+    "stats": {
+      "input_tokens": 8816,
+      "output_tokens": 66,
+      "total_tokens": 8882,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.780080080032349
+    }
+  },
+  {
+    "question": "What does Nate feel he could do when out in cool places like Whispering Falls?",
+    "predicted": "Nate feels that when he is out in cool places like Whispering Falls, he can get deep in thought and reflect on his life or think about new recipes. He expressed interest in potentially writing a drama inspired by his experiences in nature.",
+    "ground_truth": "write a whole movie",
+    "category": "open-domain",
+    "evidence": [
+      "D11:13"
+    ],
+    "stats": {
+      "input_tokens": 20075,
+      "output_tokens": 99,
+      "total_tokens": 20174,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 16.09515404701233
+    }
+  },
+  {
+    "question": "What creative activity does Nate joke about pursuing after being inspired by their hikes with Jo?",
+    "predicted": "Nate joked about potentially thinking of a drama and publishing his own screenplay after being inspired by their hikes with Jo. He expressed interest in pursuing writing during their discussions about nature and creativity.",
+    "ground_truth": "Start thinking about a drama and publish a screenplay",
+    "category": "open-domain",
+    "evidence": [
+      "D11:16"
+    ],
+    "stats": {
+      "input_tokens": 13827,
+      "output_tokens": 104,
+      "total_tokens": 13931,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.125201225280762
+    }
+  },
+  {
+    "question": "Who invited Nate to join her on the trails sometime?",
+    "predicted": "Joanna invited Nate to join her on the trails sometime, and Nate accepted the invitation.",
+    "ground_truth": "Joanna",
+    "category": "open-domain",
+    "evidence": [
+      "D11:17"
+    ],
+    "stats": {
+      "input_tokens": 20156,
+      "output_tokens": 105,
+      "total_tokens": 20261,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.4671630859375
+    }
+  },
+  {
+    "question": "What did Nate do for Joanna on 25 May, 2022?",
+    "predicted": "On May 25, 2022, Nate gave Joanna a stuffed animal as a gift to remind her of good vibes, which she loved and called sweet. They also discussed the importance of appreciating small joys in life, and Joanna shared her experience of finishing her screenplay, acknowledging the tough times she faced.",
+    "ground_truth": "get her a stuffed animal",
+    "category": "open-domain",
+    "evidence": [
+      "D13:9"
+    ],
+    "stats": {
+      "input_tokens": 8075,
+      "output_tokens": 92,
+      "total_tokens": 8167,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8802340030670166
+    }
+  },
+  {
+    "question": "How does Nate describe the stuffed animal he got for Joanna?",
+    "predicted": "Nate described the stuffed animal he got for Joanna as a gift to remind her of good vibes. Joanna loved the gift and called it sweet, promising to cherish it. Nate mentioned that looking at the stuffed animal makes him grin.",
+    "ground_truth": "A stuffed animal to remind you of the good vibes",
+    "category": "open-domain",
+    "evidence": [
+      "D13:11"
+    ],
+    "stats": {
+      "input_tokens": 8066,
+      "output_tokens": 77,
+      "total_tokens": 8143,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.470318078994751
+    }
+  },
+  {
+    "question": "What event is Nate organizing in June 2022?",
+    "predicted": "Nate is organizing a gaming party on June 17, 2022. He plans to invite friends from recent tournaments as well as old friends and teammates, and he is getting custom controller decorations as gifts for the guests.",
+    "ground_truth": "A gaming party",
+    "category": "open-domain",
+    "evidence": [
+      "D14:20"
+    ],
+    "stats": {
+      "input_tokens": 8116,
+      "output_tokens": 77,
+      "total_tokens": 8193,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.804322242736816
+    }
+  },
+  {
+    "question": "Who did Nate plan to invite to his gaming party in June 2022?",
+    "predicted": "Nate planned to invite his tournament friends and old friends/teammates from other tournaments to his gaming party in June 2022. He also mentioned getting custom controller decorations as gifts for the guests.",
+    "ground_truth": "Tournament friends, old friends, teammates",
+    "category": "open-domain",
+    "evidence": [
+      "D14:22"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 73,
+      "total_tokens": 8204,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.491695165634155
+    }
+  },
+  {
+    "question": "What special items did Nate get for everyone at his gaming party?",
+    "predicted": "At his gaming party, Nate got custom controller decorations as gifts for his guests. Most attendees liked the controller accessories, and the party was described as a great success.",
+    "ground_truth": "Custom controller decorations",
+    "category": "open-domain",
+    "evidence": [
+      "D14:24"
+    ],
+    "stats": {
+      "input_tokens": 8122,
+      "output_tokens": 65,
+      "total_tokens": 8187,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7777810096740723
+    }
+  },
+  {
+    "question": "What did Joanna write yesterday that appeared on the big screen?",
+    "predicted": "Yesterday, Joanna's writing appeared on the big screen for the first time. She expressed a mix of emotions, including excitement and nervousness, as it was inspiring to see her words come to life.",
+    "ground_truth": "screenplay bits",
+    "category": "open-domain",
+    "evidence": [
+      "D15:1"
+    ],
+    "stats": {
+      "input_tokens": 8795,
+      "output_tokens": 72,
+      "total_tokens": 8867,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8622918128967285
+    }
+  },
+  {
+    "question": "What superhero is Joanna a fan of?",
+    "predicted": "Joanna is a fan of Spider-Man, appreciating Peter Parker's struggles between being a hero and a person. She also enjoys all superheroes and admires Iron Man for his tech and humor.",
+    "ground_truth": "Spider-Man",
+    "category": "open-domain",
+    "evidence": [
+      "D15:3"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 70,
+      "total_tokens": 8853,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.213756799697876
+    }
+  },
+  {
+    "question": "Which superhero toy figure does Nate share a photo of?",
+    "predicted": "Nate shares a photo of an Iron Man toy figure. He loves Iron Man's tech and sarcastic humor, and the figure serves as a reminder for him to keep working on his goals.",
+    "ground_truth": "Iron Man",
+    "category": "open-domain",
+    "evidence": [
+      "D15:4"
+    ],
+    "stats": {
+      "input_tokens": 13810,
+      "output_tokens": 106,
+      "total_tokens": 13916,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.1375157833099365
+    }
+  },
+  {
+    "question": "What is displayed on Joanna's cork board for motivation and creativity?",
+    "predicted": "Joanna's cork board is filled with inspiring quotes and pictures that serve as motivation and creativity boosters. It also includes family photos and keepsakes, reminding her of the love and encouragement from her family, which helps keep her motivated.",
+    "ground_truth": "inspiring quotes, photos, and little keepsakes",
+    "category": "open-domain",
+    "evidence": [
+      "D15:7"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 78,
+      "total_tokens": 8876,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1508588790893555
+    }
+  },
+  {
+    "question": "What does the photo on Joanna's cork board remind her of?",
+    "predicted": "The photo on Joanna's cork board reminds her of the love and encouragement from her family every day. This family support is significant to her and helps keep her motivated.",
+    "ground_truth": "love and encouragement from her family",
+    "category": "open-domain",
+    "evidence": [
+      "D15:11"
+    ],
+    "stats": {
+      "input_tokens": 21411,
+      "output_tokens": 84,
+      "total_tokens": 21495,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 8.564542055130005
+    }
+  },
+  {
+    "question": "What did Nate make and share with his vegan diet group?",
+    "predicted": "Nate made vegan ice cream using coconut milk and shared it with his vegan diet group. The ice cream was well-received and described as \"awesome!\"",
+    "ground_truth": "vegan ice cream",
+    "category": "open-domain",
+    "evidence": [
+      "D16:8"
+    ],
+    "stats": {
+      "input_tokens": 8119,
+      "output_tokens": 63,
+      "total_tokens": 8182,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.100942850112915
+    }
+  },
+  {
+    "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+    "predicted": "The gaming party hosted by Nate in June 2022 had 7 attendees. The party was described as \"hectic but fun,\" and most guests expressed interest in doing it again the following month.",
+    "ground_truth": "7",
+    "category": "open-domain",
+    "evidence": [
+      "D16:6"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 72,
+      "total_tokens": 8203,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9516220092773438
+    }
+  },
+  {
+    "question": "What recipe Nate offer to share with Joanna?",
+    "predicted": "Nate offered to share a coconut milk ice cream recipe with Joanna. He described it as rich and creamy, and Joanna expressed enthusiasm about trying it for her family.",
+    "ground_truth": "vegan ice cream recipe",
+    "category": "open-domain",
+    "evidence": [
+      "D16:10"
+    ],
+    "stats": {
+      "input_tokens": 13803,
+      "output_tokens": 100,
+      "total_tokens": 13903,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.366874933242798
+    }
+  },
+  {
+    "question": "What did Joanna plan to do with the recipe Nate promised to share?",
+    "predicted": "Joanna planned to try making the coconut milk ice cream recipe that Nate promised to share. She expressed enthusiasm about making it for her family, mentioning that they love when she tries new things in the kitchen.",
+    "ground_truth": "make it for her family",
+    "category": "open-domain",
+    "evidence": [
+      "D16:11"
+    ],
+    "stats": {
+      "input_tokens": 14491,
+      "output_tokens": 108,
+      "total_tokens": 14599,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.420482873916626
+    }
+  },
+  {
+    "question": "How many video game tournaments has Nate won by July 10, 2022?",
+    "predicted": "By July 10, 2022, Nate had won four video game tournaments. His most recent victory was on July 8, 2022.",
+    "ground_truth": "Four",
+    "category": "open-domain",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 8134,
+      "output_tokens": 63,
+      "total_tokens": 8197,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7305169105529785
+    }
+  },
+  {
+    "question": "Where did Joanna go for a road trip for research?",
+    "predicted": "Joanna went on a road trip to Woodhaven, a small town in the Midwest, for research while Nate was winning his tournament. She described it as a much-needed break that allowed her to explore new places and get inspired, visiting the local library where she found an interesting old book collection that sparked ideas for her next script.",
+    "ground_truth": "Woodhaven",
+    "category": "open-domain",
+    "evidence": [
+      "D17:4"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 98,
+      "total_tokens": 8890,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.1816229820251465
+    }
+  },
+  {
+    "question": "What did Joanna discover at the library in Woodhaven?",
+    "predicted": "Joanna discovered a cool old book collection at the library in Woodhaven, including a fascinating book from the 1900s with stories and sketches. This book provided insights about the town and its interesting past, which sparked ideas for her next script.",
+    "ground_truth": "cool old book collection",
+    "category": "open-domain",
+    "evidence": [
+      "D17:4"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 82,
+      "total_tokens": 8874,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.832695007324219
+    }
+  },
+  {
+    "question": "What specific themes are explored in Joanna's new book?",
+    "predicted": "Joanna's new book explores themes of loss, redemption, and forgiveness, presenting a deep and emotional story. This project marks her first attempt at publishing a book, and she is excited about how it will resonate with readers.",
+    "ground_truth": "loss, redemption, and forgiveness",
+    "category": "open-domain",
+    "evidence": [
+      "D17:16"
+    ],
+    "stats": {
+      "input_tokens": 21403,
+      "output_tokens": 96,
+      "total_tokens": 21499,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 8.181963920593262
+    }
+  },
+  {
+    "question": "What inspired Joanna's new script in July 2022?",
+    "predicted": "Joanna's new script in July 2022 was inspired by her road trip to Woodhaven, a small town in the Midwest, where she explored lovely scenery and historic buildings. During her visit to the library, she discovered an old book with stories and sketches that provided insights about the town and its people, sparking ideas for her next screenplay. Additionally, she is working on a book that explores themes of loss, redemption, and forgiveness, which she describes as a deep and emotional story.",
+    "ground_truth": "Woodhaven's interesting past and people",
+    "category": "open-domain",
+    "evidence": [
+      "D17:8"
+    ],
+    "stats": {
+      "input_tokens": 14485,
+      "output_tokens": 166,
+      "total_tokens": 14651,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.005216121673584
+    }
+  },
+  {
+    "question": "What did Nate do while Joanna was on her road trip?",
+    "predicted": "While Joanna was on her road trip, Nate was busy winning his fourth video game tournament on July 8, 2022. He described the victory as indescribable and felt proud of his accomplishments, as it allowed him to make money doing something he loves.",
+    "ground_truth": "Won a video game tournament",
+    "category": "open-domain",
+    "evidence": [
+      "D17:2"
+    ],
+    "stats": {
+      "input_tokens": 13812,
+      "output_tokens": 120,
+      "total_tokens": 13932,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.875901937484741
+    }
+  },
+  {
+    "question": "What does Nate do that he loves and can make money from?",
+    "predicted": "Nate loves playing video games and has found success in competitive gaming, winning multiple tournaments and making money from it. He also enjoys cooking, particularly making dairy-free desserts like coconut milk ice cream, and has started teaching others how to make these desserts.",
+    "ground_truth": "Competing in video game tournaments",
+    "category": "open-domain",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 8122,
+      "output_tokens": 82,
+      "total_tokens": 8204,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.880661964416504
+    }
+  },
+  {
+    "question": "How did Joanna feel when someone wrote her a letter after reading her blog post?",
+    "predicted": "[No answer produced within turn limit]",
+    "ground_truth": "Touched",
+    "category": "open-domain",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 1674,
+      "output_tokens": 31,
+      "total_tokens": 1705,
+      "tool_calls": 2,
+      "llm_calls": 2,
+      "elapsed_seconds": 4.494109153747559
+    }
+  },
+  {
+    "question": "What kind of impact does Joanna hope to have with her writing?",
+    "predicted": "Joanna hopes her writing will have a meaningful impact by providing comfort and connection to others. She was deeply touched by a letter from a reader who found solace in her blog post about a difficult time in her life, which reinforced her belief in the power of her words to make a difference. This realization motivates her to continue writing, even on challenging days.",
+    "ground_truth": "share her stories and hopefully have an impact",
+    "category": "open-domain",
+    "evidence": [
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 103,
+      "total_tokens": 8901,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5830867290496826
+    }
+  },
+  {
+    "question": "What kind of content did Joanna share that someone wrote her a letter about?",
+    "predicted": "Joanna shared an online blog post about a hard moment in her life, which prompted someone to write her a letter expressing that her story brought them comfort. This experience deeply touched her and reinforced the impact her writing can have on others.",
+    "ground_truth": "A blog post about a hard moment in her life",
+    "category": "open-domain",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 8804,
+      "output_tokens": 79,
+      "total_tokens": 8883,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.388177156448364
+    }
+  },
+  {
+    "question": "What motivates Joanna to keep writing even on tough days?",
+    "predicted": "Joanna is motivated to keep writing even on tough days because she finds joy and healing in the process. Writing allows her to express her feelings and create meaningful stories from personal experiences, which she believes can make a difference in others' lives. Additionally, the support from friends and the sense of belonging she feels in her writers' group further inspire her to persevere.",
+    "ground_truth": "Knowing that her writing can make a difference",
+    "category": "open-domain",
+    "evidence": [
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 105,
+      "total_tokens": 8897,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.885819911956787
+    }
+  },
+  {
+    "question": "What type of ice cream does Joanna mention that Nate makes and is delicious?",
+    "predicted": "Joanna mentions that Nate makes delicious coconut milk ice cream, which he describes as rich and creamy. She has expressed her excitement about trying his creations and has complimented his cooking skills.",
+    "ground_truth": "Coconut milk ice cream",
+    "category": "open-domain",
+    "evidence": [
+      "D18:9"
+    ],
+    "stats": {
+      "input_tokens": 13821,
+      "output_tokens": 104,
+      "total_tokens": 13925,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.597524166107178
+    }
+  },
+  {
+    "question": "How did Nate feel about sharing his love for dairy-free desserts with Joanna?",
+    "predicted": "Nate felt excited and proud about sharing his love for dairy-free desserts with Joanna. He enjoyed experimenting in the kitchen and was eager to offer her recipes, especially since Joanna expressed interest in his creations and complimented his cooking skills. Their supportive dynamic allowed Nate to feel encouraged in sharing his culinary passions.",
+    "ground_truth": "Happy to share",
+    "category": "open-domain",
+    "evidence": [
+      "D18:12"
+    ],
+    "stats": {
+      "input_tokens": 13822,
+      "output_tokens": 127,
+      "total_tokens": 13949,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 8.610960245132446
+    }
+  },
+  {
+    "question": "What did Joanna share with her writers group in August 2022?",
+    "predicted": "In August 2022, Joanna shared her book with her writers group, feeling nervous but ultimately receiving great feedback. She celebrated this success by making a delicious treat and expressed that her hard work was paying off, which made her feel awesome knowing people liked her writing.",
+    "ground_truth": "her book",
+    "category": "open-domain",
+    "evidence": [
+      "D19:6"
+    ],
+    "stats": {
+      "input_tokens": 8801,
+      "output_tokens": 85,
+      "total_tokens": 8886,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.003821611404419
+    }
+  },
+  {
+    "question": "How did Joanna celebrate after sharing her book with her writers group?",
+    "predicted": "After sharing her book with her writers group, Joanna celebrated by making a delicious treat. She received great feedback from the group, which made her feel awesome about her writing.",
+    "ground_truth": "making a delicious treat",
+    "category": "open-domain",
+    "evidence": [
+      "D19:8"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 66,
+      "total_tokens": 8864,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.176887035369873
+    }
+  },
+  {
+    "question": "How did Nate celebrate winning the international tournament?",
+    "predicted": "Nate celebrated winning the international tournament on August 21, 2022, by feeling incredibly proud of his accomplishments and the success he achieved in gaming. He expressed excitement about being able to make a living doing something he loves and was stoked to see his hard work paying off.",
+    "ground_truth": "Taking time off to chill with pets",
+    "category": "open-domain",
+    "evidence": [
+      "D19:9"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 89,
+      "total_tokens": 8199,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.827659845352173
+    }
+  },
+  {
+    "question": "Why is Joanna experimenting with dairy-free options in her dessert recipes?",
+    "predicted": "Joanna is experimenting with dairy-free options in her dessert recipes because she is lactose intolerant. She became interested in trying dairy-free desserts after hearing about Nate's creations and has been actively seeking recipes that accommodate her dietary restrictions while still being delicious.",
+    "ground_truth": "lactose intolerance",
+    "category": "open-domain",
+    "evidence": [
+      "D20:10"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 81,
+      "total_tokens": 8879,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.165445804595947
+    }
+  },
+  {
+    "question": "What substitution does Nate suggest for butter in dairy-free baking?",
+    "predicted": "Nate suggests using dairy-free margarine or coconut oil as a substitute for butter in dairy-free baking. He emphasizes the importance of checking labels to ensure they are dairy-free.",
+    "ground_truth": "dairy-free margarine or coconut oil",
+    "category": "open-domain",
+    "evidence": [
+      "D20:15"
+    ],
+    "stats": {
+      "input_tokens": 8119,
+      "output_tokens": 67,
+      "total_tokens": 8186,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.314661741256714
+    }
+  },
+  {
+    "question": "What type of show did Nate host where he taught vegan ice cream recipes?",
+    "predicted": "Nate hosted a cooking show where he taught people how to make vegan ice cream recipes. This event took place on September 12, 2022, and he described the experience as nerve-wracking but enjoyable.",
+    "ground_truth": "a cooking show",
+    "category": "open-domain",
+    "evidence": [
+      "D21:4"
+    ],
+    "stats": {
+      "input_tokens": 13822,
+      "output_tokens": 111,
+      "total_tokens": 13933,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.904536724090576
+    }
+  },
+  {
+    "question": "What is Nate's favorite dish from the cooking show he hosted?",
+    "predicted": "Nate's favorite dish from the cooking show he hosted is coconut milk ice cream, which he describes as smooth, creamy, and with a tropical coconut twist. He enjoys making it and has been experimenting with different flavors.",
+    "ground_truth": "Coconut milk ice cream",
+    "category": "open-domain",
+    "evidence": [
+      "D21:6"
+    ],
+    "stats": {
+      "input_tokens": 8122,
+      "output_tokens": 76,
+      "total_tokens": 8198,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.324458122253418
+    }
+  },
+  {
+    "question": "What is one of Nate's favorite dairy-free treats besides coconut milk ice cream?",
+    "predicted": "One of Nate's favorite dairy-free treats, besides coconut milk ice cream, is dairy-free chocolate mousse, which he describes as super creamy and tasting like the real thing.",
+    "ground_truth": "dairy-free chocolate mousse",
+    "category": "open-domain",
+    "evidence": [
+      "D21:10"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 66,
+      "total_tokens": 8197,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3980977535247803
+    }
+  },
+  {
+    "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+    "predicted": "Joanna shared a photo of a chocolate raspberry tart that features an almond flour crust, chocolate ganache, and fresh raspberries. She describes it as delicious and is one of her favorite dairy-free treats.",
+    "ground_truth": "chocolate raspberry tart",
+    "category": "open-domain",
+    "evidence": [
+      "D21:11"
+    ],
+    "stats": {
+      "input_tokens": 8831,
+      "output_tokens": 73,
+      "total_tokens": 8904,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8947479724884033
+    }
+  },
+  {
+    "question": "What kind of cake did Joanna share a photo of that she likes making for birthdays and special days?",
+    "predicted": "Joanna shared a photo of a dairy-free chocolate cake with raspberries, which she loves making for birthdays and special days. She describes it as moist and delicious, with the perfect sweetness level.",
+    "ground_truth": "chocolate cake with raspberries",
+    "category": "open-domain",
+    "evidence": [
+      "D21:13"
+    ],
+    "stats": {
+      "input_tokens": 8819,
+      "output_tokens": 71,
+      "total_tokens": 8890,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9377899169921875
+    }
+  },
+  {
+    "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+    "predicted": "The two main ingredients in the dessert Joanna shared a photo of, which includes blueberries, coconut milk, and a gluten-free crust, are blueberries and coconut milk.",
+    "ground_truth": "blueberries and coconut milk",
+    "category": "open-domain",
+    "evidence": [
+      "D21:17"
+    ],
+    "stats": {
+      "input_tokens": 8837,
+      "output_tokens": 64,
+      "total_tokens": 8901,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5144402980804443
+    }
+  },
+  {
+    "question": "What movie did Nate recently watch and enjoy on October 6, 2022?",
+    "predicted": "On October 6, 2022, Nate watched \"Little Women\" and enjoyed it, describing it as great with captivating acting and story. He considered it a good movie recommendation, as it was suggested to him by Joanna.",
+    "ground_truth": "Little Women",
+    "category": "open-domain",
+    "evidence": [
+      "D22:8"
+    ],
+    "stats": {
+      "input_tokens": 8134,
+      "output_tokens": 78,
+      "total_tokens": 8212,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.168553829193115
+    }
+  },
+  {
+    "question": "What did Joanna make for one of the ladies at her writing club?",
+    "predicted": "Joanna made a cute little bookmark for one of the ladies at her writing club, knowing that the lady also loves DIYs.",
+    "ground_truth": "a bookmark",
+    "category": "open-domain",
+    "evidence": [
+      "D22:19"
+    ],
+    "stats": {
+      "input_tokens": 8801,
+      "output_tokens": 58,
+      "total_tokens": 8859,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.062985897064209
+    }
+  },
+  {
+    "question": "What game did Nate play at the game convention he attended on 9 October, 2022?",
+    "predicted": "At the game convention Nate attended on October 7, 2022, he played Catan, a strategy board game focused on building settlements and trading resources. He enjoyed the competitive yet chill atmosphere of the game.",
+    "ground_truth": "Catan",
+    "category": "open-domain",
+    "evidence": [
+      "D23:7"
+    ],
+    "stats": {
+      "input_tokens": 8143,
+      "output_tokens": 75,
+      "total_tokens": 8218,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.520901203155518
+    }
+  },
+  {
+    "question": "What movie has Nate recently seen that blew his mind?",
+    "predicted": "Nate recently watched \"Inception\" and described it as a movie that blew his mind with all the twists and dream elements.",
+    "ground_truth": "\"Inception\"",
+    "category": "open-domain",
+    "evidence": [
+      "D23:17"
+    ],
+    "stats": {
+      "input_tokens": 8116,
+      "output_tokens": 58,
+      "total_tokens": 8174,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.226219892501831
+    }
+  },
+  {
+    "question": "What game has Nate been playing nonstop with a futuristic setting and gameplay on October 9, 2022?",
+    "predicted": "On October 9, 2022, Nate was playing \"Cyberpunk 2077\" nonstop, enjoying its futuristic setting and gameplay.",
+    "ground_truth": "Cyberpunk 2077",
+    "category": "open-domain",
+    "evidence": [
+      "D23:17"
+    ],
+    "stats": {
+      "input_tokens": 8149,
+      "output_tokens": 60,
+      "total_tokens": 8209,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9530558586120605
+    }
+  },
+  {
+    "question": "What did Nate share a photo of when mentioning unwinding at home?",
+    "predicted": "Nate shared a photo of his turtles when mentioning unwinding at home. He finds watching them comforting and enjoys their calming presence.",
+    "ground_truth": "a bookcase filled with dvds and movies",
+    "category": "open-domain",
+    "evidence": [
+      "D23:15"
+    ],
+    "stats": {
+      "input_tokens": 20063,
+      "output_tokens": 77,
+      "total_tokens": 20140,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 10.81307601928711
+    }
+  },
+  {
+    "question": "How did Joanna describe the classic movie he watched?",
+    "predicted": "Joanna described the classic movie she watched as \"awesome,\" noting that the story was gripping and the actors were great. She rated it a 9 or 10 out of 10 and expressed how the movie really stuck with her, emphasizing her love for how films can evoke emotions and transport viewers to different places.",
+    "ground_truth": "gripping with great actors",
+    "category": "open-domain",
+    "evidence": [
+      "D23:18"
+    ],
+    "stats": {
+      "input_tokens": 14626,
+      "output_tokens": 131,
+      "total_tokens": 14757,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.81718897819519
+    }
+  },
+  {
+    "question": "What does Joanna recommend to make a living room comfy like hers?",
+    "predicted": "Joanna recommends creating a comfy living room by having a comfortable couch that fits multiple people, a fluffy couch, a weighted blanket, and dimmable lights. She believes that investing in small things that enhance comfort is worthwhile, as they contribute to a peaceful and enjoyable space for watching movies and relaxing.",
+    "ground_truth": "couch for multiple people, fluffy blanket, lights that can be dimmed",
+    "category": "open-domain",
+    "evidence": [
+      "D23:26"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 92,
+      "total_tokens": 8890,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.954320907592773
+    }
+  },
+  {
+    "question": "What helps Joanna stay focused and brings her joy?",
+    "predicted": "Joanna stays focused and finds joy through her writing, which she describes as a major part of her identity and a way to express her feelings. She also enjoys exploring nature, which inspires her creativity and helps her reset. Additionally, spending time with friends and baking dairy-free desserts brings her happiness.",
+    "ground_truth": "stuffed animal dog named Tilly",
+    "category": "open-domain",
+    "evidence": [
+      "D24:8"
+    ],
+    "stats": {
+      "input_tokens": 8789,
+      "output_tokens": 91,
+      "total_tokens": 8880,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 11.728097915649414
+    }
+  },
+  {
+    "question": "What does Joanna do while she writes?",
+    "predicted": "While Joanna writes, she often has her stuffed animal dog, Tilly, with her, which brings her joy and helps her stay focused. She also finds inspiration in nature, particularly when hiking, as it calms her and allows her to express her feelings through her writing. Additionally, she uses a cork board filled with inspiring quotes and pictures to motivate her creativity.",
+    "ground_truth": "have a stuffed animal dog named Tilly with her",
+    "category": "open-domain",
+    "evidence": [
+      "D24:4"
+    ],
+    "stats": {
+      "input_tokens": 8783,
+      "output_tokens": 105,
+      "total_tokens": 8888,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.946523904800415
+    }
+  },
+  {
+    "question": "Why did Joanna name the stuffed animal dog Tilly?",
+    "predicted": "Joanna named the stuffed animal dog Tilly after a real dog she used to have in Michigan. The stuffed animal brings her joy and helps her remember her childhood dog, especially since she developed allergies that prevent her from having pets. Tilly serves as a meaningful reminder of her past without triggering her allergies.",
+    "ground_truth": "after a dog she had in Michigan",
+    "category": "open-domain",
+    "evidence": [
+      "D24:6"
+    ],
+    "stats": {
+      "input_tokens": 14482,
+      "output_tokens": 128,
+      "total_tokens": 14610,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 11.155279159545898
+    }
+  },
+  {
+    "question": "What does Joanna do after receiving a rejection from a production company?",
+    "predicted": "After receiving a rejection from a production company on June 3, 2022, Joanna felt disheartened but was determined not to let it bring her down. She appreciated the encouragement from supportive friends and planned to go hiking that weekend to clear her mind and find inspiration.",
+    "ground_truth": "keep grinding and moving ahead",
+    "category": "open-domain",
+    "evidence": [
+      "D24:14"
+    ],
+    "stats": {
+      "input_tokens": 8798,
+      "output_tokens": 88,
+      "total_tokens": 8886,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4693169593811035
+    }
+  },
+  {
+    "question": "How does Nate feel about Joanna's ability to bounce back from setbacks?",
+    "predicted": "Nate feels very supportive of Joanna's ability to bounce back from setbacks. He consistently encourages her, reminding her that rejection doesn't reflect her talent and urging her not to give up on her dreams. Nate expresses pride in Joanna for her resilience and commitment to her creative pursuits, reinforcing a strong, supportive dynamic between them.",
+    "ground_truth": "respect Joanna for being able to bounce back",
+    "category": "open-domain",
+    "evidence": [
+      "D24:15"
+    ],
+    "stats": {
+      "input_tokens": 8072,
+      "output_tokens": 94,
+      "total_tokens": 8166,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.052871942520142
+    }
+  },
+  {
+    "question": "What encouragement does Nate give to Joanna after her setback?",
+    "predicted": "After Joanna faced a setback with her screenplay rejection, Nate offered her sympathy and encouragement, reminding her that rejection doesn't reflect her talent. He urged her not to give up on her dreams and expressed confidence in her abilities, which Joanna appreciated and found motivating.",
+    "ground_truth": "rejections don't define her, keep grinding and she'll find the perfect opportunity",
+    "category": "open-domain",
+    "evidence": [
+      "D24:13"
+    ],
+    "stats": {
+      "input_tokens": 8063,
+      "output_tokens": 81,
+      "total_tokens": 8144,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.229212999343872
+    }
+  },
+  {
+    "question": "What does Nate rely on for cheer and joy?",
+    "predicted": "Nate relies on his turtles for cheer and joy, as they bring him comfort and help him relax during stressful times. He finds watching them and spending time with them to be calming and uplifting. Additionally, he enjoys playing video games and watching movies, which also contribute to his happiness.",
+    "ground_truth": "his turtles",
+    "category": "open-domain",
+    "evidence": [
+      "D24:3"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 89,
+      "total_tokens": 8202,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.985264778137207
+    }
+  },
+  {
+    "question": "What does Joanna use to remember her dog from Michigan?",
+    "predicted": "Joanna uses a stuffed animal dog named Tilly to remember her childhood dog from Michigan. Tilly was given to her by Nate and serves as a meaningful reminder of her past pet, allowing her to cherish those memories without triggering her allergies.",
+    "ground_truth": "naming a stuffed animal dog Tilly",
+    "category": "open-domain",
+    "evidence": [
+      "D24:6"
+    ],
+    "stats": {
+      "input_tokens": 14482,
+      "output_tokens": 115,
+      "total_tokens": 14597,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 9.040849208831787
+    }
+  },
+  {
+    "question": "What did Joanna contribute to that was shown on the big screen on the Sunday before October 25, 2022?",
+    "predicted": "Joanna contributed to a movie script that was shown on the big screen on Sunday, October 23, 2022. This marked the third time one of her scripts has been produced and she felt a mix of emotions, describing the experience as amazing and unforgettable.",
+    "ground_truth": "movie script",
+    "category": "open-domain",
+    "evidence": [
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 14521,
+      "output_tokens": 120,
+      "total_tokens": 14641,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.853533983230591
+    }
+  },
+  {
+    "question": "What inspires Joanna to create drawings of her characters?",
+    "predicted": "Joanna is inspired to create drawings of her characters as part of her writing process. She uses visual drawings to help bring her characters to life in her mind, allowing her to write better by seeing how an idea transforms into a person with their own desires and concerns. She draws inspiration from various sources, including people she knows and her imagination.",
+    "ground_truth": "visuals to help bring the characters alive in her head so she can write better",
+    "category": "open-domain",
+    "evidence": [
+      "D25:8"
+    ],
+    "stats": {
+      "input_tokens": 8789,
+      "output_tokens": 100,
+      "total_tokens": 8889,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.38703989982605
+    }
+  },
+  {
+    "question": "Where does Joanna get her ideas for the characters from?",
+    "predicted": "Joanna gets her character ideas from various sources, including people she knows, things she has seen, and her imagination. She creates visual drawings of her characters to help bring them to life in her writing.",
+    "ground_truth": "people she knows, things she saw, her imagination",
+    "category": "open-domain",
+    "evidence": [
+      "D25:10"
+    ],
+    "stats": {
+      "input_tokens": 8792,
+      "output_tokens": 73,
+      "total_tokens": 8865,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.010464906692505
+    }
+  },
+  {
+    "question": "How did Joanna feel on October 25, 2022 about seeing her characters come alive on the big screen?",
+    "predicted": "On October 25, 2022, Joanna felt a mix of emotions after seeing her characters come alive on the big screen for the third time. She described the experience as surreal and satisfying, highlighting that her characters \"jumped off the page and became real.\" Overall, she found the experience amazing and unforgettable, feeling that her hard work and determination had paid off.",
+    "ground_truth": "surreal and cool",
+    "category": "open-domain",
+    "evidence": [
+      "D25:6"
+    ],
+    "stats": {
+      "input_tokens": 8828,
+      "output_tokens": 106,
+      "total_tokens": 8934,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.4935548305511475
+    }
+  },
+  {
+    "question": "What type of diet do Nate's turtles have?",
+    "predicted": "Nate's turtles have a varied diet that includes a combination of vegetables, fruits, and insects. He enjoys watching them eat fruit, as they get excited about it.",
+    "ground_truth": "combination of vegetables, fruits, and insects",
+    "category": "open-domain",
+    "evidence": [
+      "D25:19"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 66,
+      "total_tokens": 8179,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.3515729904174805
+    }
+  },
+  {
+    "question": "What ingredient did Nate use to make the ice cream lactose-free?",
+    "predicted": "Nate used coconut milk to make the ice cream lactose-free. He described it as rich and creamy, and it has become one of his favorite snacks.",
+    "ground_truth": "coconut milk",
+    "category": "open-domain",
+    "evidence": [
+      "D26:18"
+    ],
+    "stats": {
+      "input_tokens": 8122,
+      "output_tokens": 63,
+      "total_tokens": 8185,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.32950496673584
+    }
+  },
+  {
+    "question": "What did Joanna find in old notebooks last week that prompted her to reflect on her progress as a writer?",
+    "predicted": "Last week, Joanna found old notebooks containing her early writings, including a favorite story from when she was 10 about a brave little turtle. This discovery prompted her to reflect on her progress as a writer, recognizing how themes of courage and risk-taking have remained central to her work.",
+    "ground_truth": "early writings",
+    "category": "open-domain",
+    "evidence": [
+      "D26:5"
+    ],
+    "stats": {
+      "input_tokens": 8822,
+      "output_tokens": 88,
+      "total_tokens": 8910,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.129848957061768
+    }
+  },
+  {
+    "question": "What game is Nate currently playing and recommends to others on November 7, 2022?",
+    "predicted": "As of November 7, 2022, Nate is currently playing \"Xenoblade Chronicles,\" a fantasy RPG, and he highly recommends it to others. He describes the game as awesome and a blast, and he started playing it based on friends' recommendations.",
+    "ground_truth": "\"Xenoblade Chronicles\"",
+    "category": "open-domain",
+    "evidence": [
+      "D27:23"
+    ],
+    "stats": {
+      "input_tokens": 8140,
+      "output_tokens": 86,
+      "total_tokens": 8226,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 7.071421146392822
+    }
+  },
+  {
+    "question": "What did Joanna receive from her brother that brought back childhood memories?",
+    "predicted": "Joanna received a stuffed animal dog from Nate, which she named Tilly after a real dog she used to have in Michigan. This gift brought back childhood memories and joy, as it allowed her to remember her childhood pet without triggering her allergies.",
+    "ground_truth": "a handwritten letter",
+    "category": "open-domain",
+    "evidence": [
+      "D27:29"
+    ],
+    "stats": {
+      "input_tokens": 14488,
+      "output_tokens": 116,
+      "total_tokens": 14604,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.842071056365967
+    }
+  },
+  {
+    "question": "What is the type of game \"Xenoblade Chronicles\" that Nate is playing?",
+    "predicted": "Nate is currently playing \"Xenoblade Chronicles,\" which is a fantasy role-playing game (RPG). He describes it as awesome and highly recommends it, noting that it's part of a Japanese game series and a big fan of Nintendo games.",
+    "ground_truth": "fantasy RPG",
+    "category": "open-domain",
+    "evidence": [
+      "D27:23"
+    ],
+    "stats": {
+      "input_tokens": 8137,
+      "output_tokens": 82,
+      "total_tokens": 8219,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.720003843307495
+    }
+  },
+  {
+    "question": "What dish did Nate make on 9 November, 2022?",
+    "predicted": "On November 9, 2022, Nate made homemade coconut ice cream, which he was proud of, especially since the sprinkles changed the color this time around.",
+    "ground_truth": "Homemade coconut ice cream",
+    "category": "open-domain",
+    "evidence": [
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 8125,
+      "output_tokens": 66,
+      "total_tokens": 8191,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.851752758026123
+    }
+  },
+  {
+    "question": "What project is Joanna working on in her notebook on November 9, 2022?",
+    "predicted": "On November 9, 2022, Joanna was working on a new movie script that is a love story filled with challenges. She had put a lot of hard work into it and was hoping to get it on the big screen.",
+    "ground_truth": "A suspenseful thriller set in a small Midwestern town",
+    "category": "open-domain",
+    "evidence": [
+      "D28:12"
+    ],
+    "stats": {
+      "input_tokens": 20177,
+      "output_tokens": 134,
+      "total_tokens": 20311,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.1399853229522705
+    }
+  },
+  {
+    "question": "What is Nate creating for YouTube on 9 November, 2022?",
+    "predicted": "On November 9, 2022, Nate was creating gaming content for YouTube. He saw it as a fun way to entertain others and share his love of gaming while connecting with fellow enthusiasts.",
+    "ground_truth": "gaming content",
+    "category": "open-domain",
+    "evidence": [
+      "D28:13"
+    ],
+    "stats": {
+      "input_tokens": 8131,
+      "output_tokens": 72,
+      "total_tokens": 8203,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.667483329772949
+    }
+  },
+  {
+    "question": "What inspired Nate to start making gaming videos?",
+    "predicted": "Nate was inspired to start making gaming videos as a way to entertain others and satisfy his video game cravings when there aren't tournaments. He enjoys watching gaming videos himself and thought it would be fun to create his own content, hoping to share his love of gaming and connect with others who enjoy it.",
+    "ground_truth": "Love of gaming and connecting with others who enjoy it too",
+    "category": "open-domain",
+    "evidence": [
+      "D28:15"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 91,
+      "total_tokens": 8201,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.7308919429779053
+    }
+  },
+  {
+    "question": "What new content is Nate creating for YouTube?",
+    "predicted": "Nate is creating gaming content for YouTube, aiming to entertain others and satisfy his own video game cravings when there aren't tournaments. He is excited to share his love of gaming and connect with fellow enthusiasts, and he is currently watching other gaming videos to understand audience preferences.",
+    "ground_truth": "Gaming videos",
+    "category": "open-domain",
+    "evidence": [
+      "D28:13"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 86,
+      "total_tokens": 8199,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 6.223798036575317
+    }
+  },
+  {
+    "question": "What advice does Joanna give to Nate about making YouTube videos?",
+    "predicted": "Joanna advises Nate on making YouTube videos by encouraging him to read widely and explore different genres to build a solid understanding of storytelling. She emphasizes the importance of practicing, sharing his work for feedback, and having faith in himself, acknowledging that while writing can be tough, it's ultimately rewarding.",
+    "ground_truth": "Watch other people's videos to understand what the audience likes",
+    "category": "open-domain",
+    "evidence": [
+      "D28:18"
+    ],
+    "stats": {
+      "input_tokens": 20162,
+      "output_tokens": 145,
+      "total_tokens": 20307,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 11.47274112701416
+    }
+  },
+  {
+    "question": "What did Joanna take a picture of near Fort Wayne last summer?",
+    "predicted": "I couldn't find any specific information about Joanna taking a picture near Fort Wayne last summer in the available memories. If you have more details or context, I might be able to help further!",
+    "ground_truth": "Sunset",
+    "category": "open-domain",
+    "evidence": [
+      "D28:22"
+    ],
+    "stats": {
+      "input_tokens": 75062,
+      "output_tokens": 210,
+      "total_tokens": 75272,
+      "tool_calls": 8,
+      "llm_calls": 5,
+      "elapsed_seconds": 24.32582998275757
+    }
+  },
+  {
+    "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+    "predicted": "Joanna was inspired to take a picture of the sunset in the field near Fort Wayne after experiencing a gorgeous sunset while hiking. The vibrant sunset reminded her of the importance of showing the world who we are, reflecting her appreciation for nature and its calming effects.",
+    "ground_truth": "The incredible sunset and surrounding beauty",
+    "category": "open-domain",
+    "evidence": [
+      "D28:22"
+    ],
+    "stats": {
+      "input_tokens": 14500,
+      "output_tokens": 118,
+      "total_tokens": 14618,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 10.111523866653442
+    }
+  },
+  {
+    "question": "Why did Nate get a third turtle?",
+    "predicted": "Nate got a third turtle because he saw another turtle at a pet store and felt compelled to adopt it. He mentioned that his tank was big enough for three turtles and expressed happiness about the decision, describing the turtles as his \"best buddies ever.\"",
+    "ground_truth": "He saw another one at a pet store and wanted to get it",
+    "category": "open-domain",
+    "evidence": [
+      "D28:25"
+    ],
+    "stats": {
+      "input_tokens": 14621,
+      "output_tokens": 118,
+      "total_tokens": 14739,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.648648023605347
+    }
+  },
+  {
+    "question": "What does Nate want to do when he goes over to Joanna's place?",
+    "predicted": "Nate wants to go over to Joanna's place to spend time together, particularly to try out his cooking creations or to make them together. They both enjoy watching movies and have a supportive dynamic where they encourage each other's creative projects.",
+    "ground_truth": "Watch one of Joanna's movies together or go to the park",
+    "category": "open-domain",
+    "evidence": [
+      "D28:29"
+    ],
+    "stats": {
+      "input_tokens": 8075,
+      "output_tokens": 77,
+      "total_tokens": 8152,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.235191822052002
+    }
+  },
+  {
+    "question": "What did Nate take to the beach in Tampa?",
+    "predicted": "Nate took his turtles to the beach in Tampa on November 10, 2022. He enjoys having them around as they bring him peace and remind him to appreciate the small things in life.",
+    "ground_truth": "turtles",
+    "category": "open-domain",
+    "evidence": [
+      "D29:6"
+    ],
+    "stats": {
+      "input_tokens": 8113,
+      "output_tokens": 72,
+      "total_tokens": 8185,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.401400089263916
+    }
+  },
+  {
+    "question": "What does Nate love most about having turtles?",
+    "predicted": "Nate loves having turtles because they bring him joy and help him stay calm during stressful times. He appreciates their unique personalities and finds comfort in watching them, which reminds him to enjoy the small moments in life.",
+    "ground_truth": "They make him feel calm and don't require much looking after",
+    "category": "open-domain",
+    "evidence": [
+      "D29:8"
+    ],
+    "stats": {
+      "input_tokens": 8110,
+      "output_tokens": 74,
+      "total_tokens": 8184,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8187479972839355
+    }
+  },
+  {
+    "question": "What did Nate share a photo of as a part of his experimentation in November 2022?",
+    "predicted": "In November 2022, Nate shared a photo of colorful bowls of coconut milk ice cream with different flavors as part of his experimentation. He was experimenting with flavors and offered to share the ice cream with Joanna, who complimented the colors and mix-ins.",
+    "ground_truth": "colorful bowls of coconut milk ice cream",
+    "category": "open-domain",
+    "evidence": [
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 8140,
+      "output_tokens": 83,
+      "total_tokens": 8223,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.648902177810669
+    }
+  }
+]

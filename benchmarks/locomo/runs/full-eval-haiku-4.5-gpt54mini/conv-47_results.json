@@ -1,0 +1,2605 @@
+[
+  {
+    "question": "What are John's suspected health problems?",
+    "predicted": "I couldn\u2019t find any memory entries about John having suspected health problems. The memories mention work stress and difficult times, but nothing specific about a medical issue.",
+    "ground_truth": "Obesity",
+    "category": "temporal",
+    "evidence": [
+      "D1:27"
+    ],
+    "stats": {
+      "input_tokens": 7594,
+      "output_tokens": 106,
+      "total_tokens": 7700,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2408249378204346
+    }
+  },
+  {
+    "question": "Which recreational activity was James pursuing on March 16, 2022?",
+    "predicted": "On March 16, 2022, James was pursuing bowling \u2014 he loved bowling and had recently gotten 2 strikes.",
+    "ground_truth": "bowling",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:26"
+    ],
+    "stats": {
+      "input_tokens": 12777,
+      "output_tokens": 87,
+      "total_tokens": 12864,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 2.677576780319214
+    }
+  },
+  {
+    "question": "Which places or events have John and James planned to meet at?",
+    "predicted": "John and James planned to meet at McGee\u2019s Pub on August 27, 2022. They also planned to do VR gaming together on March 19, 2022, and discussed hanging out at slot machines and arcades as alternatives to bowling.",
+    "ground_truth": "VR Club, McGee's, baseball game",
+    "category": "single-hop",
+    "evidence": [
+      "D1:36",
+      "D21:15",
+      "D23:5",
+      "D23:6"
+    ],
+    "stats": {
+      "input_tokens": 5845,
+      "output_tokens": 93,
+      "total_tokens": 5938,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0178449153900146
+    }
+  },
+  {
+    "question": "Do both James and John have pets?",
+    "predicted": "James does \u2014 he has multiple dogs, including Max and Daisy. John does not currently have pets, though he said he wants one someday.",
+    "ground_truth": "No",
+    "category": "single-hop",
+    "evidence": [
+      "D1:12",
+      "D2:18"
+    ],
+    "stats": {
+      "input_tokens": 9143,
+      "output_tokens": 100,
+      "total_tokens": 9243,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.963334321975708
+    }
+  },
+  {
+    "question": "When did John resume playing drums in his adulthood?",
+    "predicted": "John resumed playing drums in adulthood around March 2022 \u2014 by March 27, 2022, he\u2019d been playing for about a month.",
+    "ground_truth": "February 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:5"
+    ],
+    "stats": {
+      "input_tokens": 7722,
+      "output_tokens": 69,
+      "total_tokens": 7791,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.014448881149292
+    }
+  },
+  {
+    "question": "What are John and James' favorite games?",
+    "predicted": "John\u2019s favorite game appears to be The Witcher 3, and he also really likes FIFA 23 and chess. James\u2019s favorite game appears to be Apex Legends, with The Witcher 3 and Civilization VI also standing out as favorites.",
+    "ground_truth": "John's favorite game is CS:GO, and James's is Apex Legends.",
+    "category": "single-hop",
+    "evidence": [
+      "D3:11",
+      "D4:16"
+    ],
+    "stats": {
+      "input_tokens": 11673,
+      "output_tokens": 124,
+      "total_tokens": 11797,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3668229579925537
+    }
+  },
+  {
+    "question": "Does James live in Connecticut?",
+    "predicted": "I couldn\u2019t find any memory that says James lives in Connecticut. The memories I checked mention his plans, hobbies, and trips, but not his current residence.",
+    "ground_truth": "Likely yes",
+    "category": "temporal",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 6463,
+      "output_tokens": 108,
+      "total_tokens": 6571,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3295726776123047
+    }
+  },
+  {
+    "question": "In which state is the shelter from which James adopted the puppy?",
+    "predicted": "James adopted the puppy from a shelter in Stamford, which is in Connecticut.",
+    "ground_truth": "Connecticut.",
+    "category": "temporal",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4700,
+      "output_tokens": 52,
+      "total_tokens": 4752,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7705907821655273
+    }
+  },
+  {
+    "question": "How many pets does James have?",
+    "predicted": "James has three pets \u2014 all dogs: Max, Daisy, and Ned.",
+    "ground_truth": "Three dogs.",
+    "category": "single-hop",
+    "evidence": [
+      "D1:12",
+      "D1:14",
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4682,
+      "output_tokens": 52,
+      "total_tokens": 4734,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.505023956298828
+    }
+  },
+  {
+    "question": "What are the names of James's dogs?",
+    "predicted": "James\u2019s dogs are Max, Daisy, and Ned.",
+    "ground_truth": "Ned, Daisy, Max",
+    "category": "single-hop",
+    "evidence": [
+      "D1:14",
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4688,
+      "output_tokens": 48,
+      "total_tokens": 4736,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0439679622650146
+    }
+  },
+  {
+    "question": "When did James adopt Ned?",
+    "predicted": "James adopted Ned around April 5, 2022, and the memory notes this on April 12, 2022.",
+    "ground_truth": "first week of April 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4679,
+      "output_tokens": 63,
+      "total_tokens": 4742,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1441938877105713
+    }
+  },
+  {
+    "question": "How was John feeling on April 10, 2022?",
+    "predicted": "I couldn\u2019t find a specific memory entry for how John was feeling on April 10, 2022. The closest nearby entry is from April 12, which says he was excited about a new RPG and found it immersive despite minor bugs.",
+    "ground_truth": "seeking solitude",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:7"
+    ],
+    "stats": {
+      "input_tokens": 7731,
+      "output_tokens": 88,
+      "total_tokens": 7819,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.243196725845337
+    }
+  },
+  {
+    "question": "Did James have a girlfriend during April 2022?",
+    "predicted": "I couldn\u2019t find any memory indicating that James had a girlfriend in April 2022. The first clear girlfriend-related memory is Samantha, and that starts in August/September 2022.",
+    "ground_truth": "Presumably not",
+    "category": "temporal",
+    "evidence": [
+      "D6:6"
+    ],
+    "stats": {
+      "input_tokens": 4386,
+      "output_tokens": 112,
+      "total_tokens": 4498,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1449661254882812
+    }
+  },
+  {
+    "question": "When did James visit Italy?",
+    "predicted": "I couldn\u2019t find any memory saying when James visited Italy. The memories mention trips to Toronto/Vancouver and Nuuk, Greenland, but not Italy.",
+    "ground_truth": "In 2021",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:12"
+    ],
+    "stats": {
+      "input_tokens": 6463,
+      "output_tokens": 105,
+      "total_tokens": 6568,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4946861267089844
+    }
+  },
+  {
+    "question": "When did James buy himself a new adventure book?",
+    "predicted": "James bought himself a new adventure book on April 26, 2022.",
+    "ground_truth": "April 26, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:11"
+    ],
+    "stats": {
+      "input_tokens": 7160,
+      "output_tokens": 56,
+      "total_tokens": 7216,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.40525484085083
+    }
+  },
+  {
+    "question": "When did James start playing Civilization VI?",
+    "predicted": "James started playing Civilization VI around late March 2022; by April 29, 2022, he\u2019d been playing it for about a month.",
+    "ground_truth": "March 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:29"
+    ],
+    "stats": {
+      "input_tokens": 7154,
+      "output_tokens": 71,
+      "total_tokens": 7225,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.145026922225952
+    }
+  },
+  {
+    "question": "What is the game with different colored cards that was John talking about with James?",
+    "predicted": "It was **UNO** \u2014 the card game where you match by color or number and use action cards like draw and skip.",
+    "ground_truth": "UNO",
+    "category": "temporal",
+    "evidence": [
+      "D8:34"
+    ],
+    "stats": {
+      "input_tokens": 14170,
+      "output_tokens": 121,
+      "total_tokens": 14291,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.548025131225586
+    }
+  },
+  {
+    "question": "What is the board game where you have to find the imposter that John mentions to James?",
+    "predicted": "John mentions an impostor game to James, but the memory doesn\u2019t give a specific board game name. It only says they played an \u201cimpostor game\u201d with friends and that it was super fun.",
+    "ground_truth": "Mafia",
+    "category": "temporal",
+    "evidence": [
+      "D8:36"
+    ],
+    "stats": {
+      "input_tokens": 14179,
+      "output_tokens": 138,
+      "total_tokens": 14317,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.344325065612793
+    }
+  },
+  {
+    "question": "Which books has John recommended to James?",
+    "predicted": "John recommended a few books to James, including **The Name of the Wind** and the **The Expanse** series. He also mentioned his favorite series **The Stormlight Archive** and **Kingkiller Chronicle**, but those were described more as his favorites than direct recommendations.",
+    "ground_truth": "The Name of the Wind, Stormlight Archive, Kingkiller Chronicles, Expanse",
+    "category": "single-hop",
+    "evidence": [
+      "D8:14",
+      "D14:10"
+    ],
+    "stats": {
+      "input_tokens": 10319,
+      "output_tokens": 132,
+      "total_tokens": 10451,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5654189586639404
+    }
+  },
+  {
+    "question": "Was James feeling lonely before meeting Samantha?",
+    "predicted": "I don\u2019t see any memory saying James felt lonely before meeting Samantha. The memory only says he met her at a beach outing and later started dating her.",
+    "ground_truth": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+    "category": "temporal",
+    "evidence": [
+      "D9:16"
+    ],
+    "stats": {
+      "input_tokens": 3792,
+      "output_tokens": 70,
+      "total_tokens": 3862,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1273207664489746
+    }
+  },
+  {
+    "question": "How many charity tournaments has John organized till date?",
+    "predicted": "I found evidence of 2 charity tournaments John organized: a CS:GO tournament on May 7, 2022, and a gaming tournament on October 30, 2022.",
+    "ground_truth": "two",
+    "category": "single-hop",
+    "evidence": [
+      "D10:2",
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 7722,
+      "output_tokens": 77,
+      "total_tokens": 7799,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1423468589782715
+    }
+  },
+  {
+    "question": "When did John first organize a charity tournament with his friends?",
+    "predicted": "John first organized a charity tournament on May 7, 2022. It was a CS:GO tournament with his friends that raised money for charity.",
+    "ground_truth": "May 7, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:2"
+    ],
+    "stats": {
+      "input_tokens": 10331,
+      "output_tokens": 107,
+      "total_tokens": 10438,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2924070358276367
+    }
+  },
+  {
+    "question": "Who or which organizations have been the beneficiaries of John's charity tournaments?",
+    "predicted": "John\u2019s charity tournaments benefited a dog shelter near his street and, with the remaining money, homeless people in the community. He also held a separate gaming tournament that raised money for a children\u2019s hospital.",
+    "ground_truth": "animal shelter, homeless, children's hospital",
+    "category": "single-hop",
+    "evidence": [
+      "D10:10",
+      "D10:12",
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 9543,
+      "output_tokens": 113,
+      "total_tokens": 9656,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.302043914794922
+    }
+  },
+  {
+    "question": "When will John start his new job?",
+    "predicted": "John was set to start his new job in July 2022. The memory from June 13, 2022 says he got the offer and was \u201cstarting next month.\u201d",
+    "ground_truth": "In July, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:5"
+    ],
+    "stats": {
+      "input_tokens": 7597,
+      "output_tokens": 111,
+      "total_tokens": 7708,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.648101806640625
+    }
+  },
+  {
+    "question": "What kind of games has James tried to develop?",
+    "predicted": "James has tried to develop strategy games, especially ones inspired by Civilization and Total War. He\u2019s also worked on a 2D adventure game with puzzles and a game that combined gaming and storytelling.",
+    "ground_truth": "football simulator, virtual world inspired by Witcher 3",
+    "category": "single-hop",
+    "evidence": [
+      "D13:7",
+      "D1:4",
+      "D27:2"
+    ],
+    "stats": {
+      "input_tokens": 7681,
+      "output_tokens": 114,
+      "total_tokens": 7795,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.09792423248291
+    }
+  },
+  {
+    "question": "Are John and James fans of the same football team?",
+    "predicted": "No \u2014 James is a Liverpool FC fan, while John supports Manchester City.",
+    "ground_truth": "No, James is a Liverpool fan and John is a Manchester City fan.",
+    "category": "temporal",
+    "evidence": [
+      "D13:12",
+      "D13:15"
+    ],
+    "stats": {
+      "input_tokens": 11679,
+      "output_tokens": 90,
+      "total_tokens": 11769,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0854690074920654
+    }
+  },
+  {
+    "question": "Which countries has James visited?",
+    "predicted": "James has visited Italy, Turkey, and Mexico.",
+    "ground_truth": "Italy, Mexico, Turkey, Canada, Greenland",
+    "category": "single-hop",
+    "evidence": [
+      "D6:12",
+      "D6:14",
+      "D16:9",
+      "D17:22"
+    ],
+    "stats": {
+      "input_tokens": 7148,
+      "output_tokens": 50,
+      "total_tokens": 7198,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7895758152008057
+    }
+  },
+  {
+    "question": "What kind of classes has James joined?",
+    "predicted": "James has joined a cooking class, and he also started a course that combines gaming and programming. He\u2019s additionally been taking a music/instrument class, since he started learning an instrument and practices daily.",
+    "ground_truth": "game design course, cooking classes",
+    "category": "single-hop",
+    "evidence": [
+      "D13:6",
+      "D23:13"
+    ],
+    "stats": {
+      "input_tokens": 7154,
+      "output_tokens": 80,
+      "total_tokens": 7234,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.493311882019043
+    }
+  },
+  {
+    "question": "When did James volunteer at an organization?",
+    "predicted": "James volunteered with an organization that provides necessary items to people who are less fortunate in around May 2022. He mentioned this on June 19, 2022.",
+    "ground_truth": "May 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:9"
+    ],
+    "stats": {
+      "input_tokens": 7820,
+      "output_tokens": 109,
+      "total_tokens": 7929,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.249027967453003
+    }
+  },
+  {
+    "question": "When did James depart for his trip to Canada?",
+    "predicted": "James departed for his trip to Canada on July 11, 2022, leaving the evening after buying his tickets on July 9.",
+    "ground_truth": "July 11, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:9"
+    ],
+    "stats": {
+      "input_tokens": 6475,
+      "output_tokens": 104,
+      "total_tokens": 6579,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.140674114227295
+    }
+  },
+  {
+    "question": "Which country did James book tickets for in July 2022?",
+    "predicted": "In July 2022, James booked tickets to Toronto, Canada.",
+    "ground_truth": "Canada",
+    "category": "temporal",
+    "evidence": [
+      "D16:9",
+      "D16:11"
+    ],
+    "stats": {
+      "input_tokens": 5845,
+      "output_tokens": 55,
+      "total_tokens": 5900,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.038543939590454
+    }
+  },
+  {
+    "question": "How many days did James plan to spend on his trip in Canada?",
+    "predicted": "James planned to spend 9 days on his trip in Canada, from July 11 to July 20, 2022.",
+    "ground_truth": "19 days",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:9",
+      "D16:13"
+    ],
+    "stats": {
+      "input_tokens": 5848,
+      "output_tokens": 67,
+      "total_tokens": 5915,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7578129768371582
+    }
+  },
+  {
+    "question": "Where was James at on July 12, 2022?",
+    "predicted": "I found that James was on a trip around that time: he left for Toronto on July 11, 2022, planned to visit Toronto and Vancouver, and was expected back on July 20. A later note says he also took a trip to Nuuk, Greenland, but I don\u2019t have a precise location for James specifically on July 12, 2022.",
+    "ground_truth": "Toronto, Canada",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:9"
+    ],
+    "stats": {
+      "input_tokens": 6484,
+      "output_tokens": 151,
+      "total_tokens": 6635,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4245262145996094
+    }
+  },
+  {
+    "question": "Did John and James study together?",
+    "predicted": "Yes \u2014 the memories show John and James planned to study/learn together in a few areas, like chess openings and programming resources, though I don\u2019t see a specific general \u201cstudying together\u201d session.",
+    "ground_truth": "Yes",
+    "category": "temporal",
+    "evidence": [
+      "D17:13"
+    ],
+    "stats": {
+      "input_tokens": 14143,
+      "output_tokens": 137,
+      "total_tokens": 14280,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5781118869781494
+    }
+  },
+  {
+    "question": "Which countries did James visit in July 2022?",
+    "predicted": "In July 2022, James visited Canada and Greenland. The memories mention a trip to Toronto and Vancouver in Canada, and another trip to Nuuk in Greenland.",
+    "ground_truth": "Canada, Greenland",
+    "category": "single-hop",
+    "evidence": [
+      "D16:9",
+      "D17:22"
+    ],
+    "stats": {
+      "input_tokens": 6478,
+      "output_tokens": 108,
+      "total_tokens": 6586,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1154778003692627
+    }
+  },
+  {
+    "question": "What additional country did James visit during his trip to Canada?",
+    "predicted": "James visited Greenland during his trip to Canada \u2014 specifically Nuuk, Greenland.",
+    "ground_truth": "Greenland",
+    "category": "temporal",
+    "evidence": [
+      "D17:22"
+    ],
+    "stats": {
+      "input_tokens": 5842,
+      "output_tokens": 55,
+      "total_tokens": 5897,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.148632764816284
+    }
+  },
+  {
+    "question": "Who is Jill?",
+    "predicted": "Jill is John\u2019s partner. She\u2019s mentioned in a note from July 22, 2022, where James brought back souvenirs for both John and Jill.",
+    "ground_truth": "Most likely John's partner.",
+    "category": "temporal",
+    "evidence": [
+      "D17:24"
+    ],
+    "stats": {
+      "input_tokens": 6841,
+      "output_tokens": 128,
+      "total_tokens": 6969,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.330632209777832
+    }
+  },
+  {
+    "question": "When did John spend time with his sister and dogs?",
+    "predicted": "I couldn\u2019t find a memory that specifically says when John spent time with his sister and dogs. The closest related entries mention John spending time with his siblings and dogs separately, but not together in one event.",
+    "ground_truth": "July 21, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:28"
+    ],
+    "stats": {
+      "input_tokens": 10328,
+      "output_tokens": 117,
+      "total_tokens": 10445,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.140666961669922
+    }
+  },
+  {
+    "question": "What happened to John's job situation in 2022?",
+    "predicted": "In 2022, John\u2019s job situation changed a lot: he started the year stressed and busy at work, then got his dream job in June, but by August he had left his IT job after 3 years and moved into work he felt better matched his values and interests. Later that year, he focused more on gaming-related work, mentoring, and game development.",
+    "ground_truth": "quit his IT Job, secured his dream job, aspires to become an eSports competition organizer",
+    "category": "single-hop",
+    "evidence": [
+      "D4:36",
+      "D18:1",
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 5068,
+      "output_tokens": 113,
+      "total_tokens": 5181,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1429848670959473
+    }
+  },
+  {
+    "question": "When did John start his job in IT?",
+    "predicted": "John started his IT job in July 2022 \u2014 he got the offer on June 13, 2022 and was set to start the next month.",
+    "ground_truth": "2019",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 5062,
+      "output_tokens": 70,
+      "total_tokens": 5132,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7304182052612305
+    }
+  },
+  {
+    "question": "What kind of tricks do James's pets know?",
+    "predicted": "James\u2019s pets know tricks like sit, stay, paw, and rollover. He also taught them to balance on a skateboard.",
+    "ground_truth": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+    "category": "single-hop",
+    "evidence": [
+      "D2:17",
+      "D14:17",
+      "D14:23",
+      "D17:16"
+    ],
+    "stats": {
+      "input_tokens": 4691,
+      "output_tokens": 62,
+      "total_tokens": 4753,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8561480045318604
+    }
+  },
+  {
+    "question": "When did James meet Samantha?",
+    "predicted": "James met Samantha on August 9, 2022, at a beach outing with his dogs.",
+    "ground_truth": "August 9, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:12"
+    ],
+    "stats": {
+      "input_tokens": 3786,
+      "output_tokens": 59,
+      "total_tokens": 3845,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9913179874420166
+    }
+  },
+  {
+    "question": "When did James take his 3 dogs to the beach?",
+    "predicted": "James took his three dogs to the beach on August 9, 2022.",
+    "ground_truth": "August 9, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:12"
+    ],
+    "stats": {
+      "input_tokens": 9132,
+      "output_tokens": 109,
+      "total_tokens": 9241,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1686840057373047
+    }
+  },
+  {
+    "question": "When did John plan his next meeting with his siblings?",
+    "predicted": "I couldn\u2019t find any memory about John planning a meeting with his siblings. The closest relevant entry is about John and James planning to meet at McGee\u2019s Pub on August 27, 2022.",
+    "ground_truth": "In September, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D20:17"
+    ],
+    "stats": {
+      "input_tokens": 5839,
+      "output_tokens": 82,
+      "total_tokens": 5921,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8349449634552002
+    }
+  },
+  {
+    "question": "Why didn't John want to go to Starbucks?",
+    "predicted": "John didn\u2019t want to go to Starbucks because he preferred to have a beer instead. James then suggested McGee\u2019s Pub, and John agreed to go there.",
+    "ground_truth": "Possibly because he likes to drink beer on his days off.",
+    "category": "temporal",
+    "evidence": [
+      "D21:12",
+      "D21:14"
+    ],
+    "stats": {
+      "input_tokens": 10879,
+      "output_tokens": 127,
+      "total_tokens": 11006,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.240468978881836
+    }
+  },
+  {
+    "question": "What kind of beer does McGee's bar serve?",
+    "predicted": "I couldn\u2019t find any memory about McGee\u2019s bar or what beer it serves.",
+    "ground_truth": "Stout, lager",
+    "category": "single-hop",
+    "evidence": [
+      "D21:15",
+      "D21:17",
+      "D23:3"
+    ],
+    "stats": {
+      "input_tokens": 11679,
+      "output_tokens": 92,
+      "total_tokens": 11771,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1470656394958496
+    }
+  },
+  {
+    "question": "When did John and James meet at McGee's bar?",
+    "predicted": "They planned to meet at McGee\u2019s Pub on August 27, 2022, and the meetup was discussed on August 26, 2022.",
+    "ground_truth": "August 27, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:18"
+    ],
+    "stats": {
+      "input_tokens": 6481,
+      "output_tokens": 108,
+      "total_tokens": 6589,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1724321842193604
+    }
+  },
+  {
+    "question": "When did James ask Samantha to be his girlfriend?",
+    "predicted": "James asked Samantha to be his girlfriend on September 3, 2022, at the theater.",
+    "ground_truth": "September 3, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 3798,
+      "output_tokens": 59,
+      "total_tokens": 3857,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2125661373138428
+    }
+  },
+  {
+    "question": "When did James, Samantha and John go to the baseball game together?",
+    "predicted": "They were planning to go together on Sunday, September 11, 2022. James invited John to join him and Samantha at the baseball game.",
+    "ground_truth": "September 11, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:5",
+      "D23:6"
+    ],
+    "stats": {
+      "input_tokens": 14164,
+      "output_tokens": 126,
+      "total_tokens": 14290,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1624691486358643
+    }
+  },
+  {
+    "question": "What gaming equipments did John buy or refurbish?",
+    "predicted": "John bought new gaming equipment including a Sennheiser headset and a Logitech mouse, and he also refurbished his gaming desk. He also has a gaming PC with a powerful graphics card, plus a gaming chair and keyboard.",
+    "ground_truth": "Sennheiser headphones, Logitech mouse, gaming desk",
+    "category": "single-hop",
+    "evidence": [
+      "D23:8",
+      "D23:10",
+      "D20:9"
+    ],
+    "stats": {
+      "input_tokens": 7722,
+      "output_tokens": 83,
+      "total_tokens": 7805,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9952919483184814
+    }
+  },
+  {
+    "question": "When did James start taking cooking classes?",
+    "predicted": "James started cooking classes on September 2, 2022.",
+    "ground_truth": "September 2, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:13"
+    ],
+    "stats": {
+      "input_tokens": 7154,
+      "output_tokens": 53,
+      "total_tokens": 7207,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0625672340393066
+    }
+  },
+  {
+    "question": "Which new games did John start play during the course of the conversation with James?",
+    "predicted": "John started playing a few new games during the conversation, including chess, board games like \u201cDungeons of the Dragon,\u201d the impostor game, Cyberpunk 2077, Assassin\u2019s Creed Valhalla, The Witcher 3, and FIFA 23. He also mentioned exploring strategy and RPG games more broadly.",
+    "ground_truth": "AC Valhalla, Witcher 3, FIFA 23, Dungeons of the Dragons, futuristic dystopian game",
+    "category": "single-hop",
+    "evidence": [
+      "D5:4",
+      "D19:7",
+      "D30:14",
+      "D24:1",
+      "D24:3",
+      "D8:20"
+    ],
+    "stats": {
+      "input_tokens": 10343,
+      "output_tokens": 140,
+      "total_tokens": 10483,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.243929862976074
+    }
+  },
+  {
+    "question": "When did John start working on his 2D Adventure mobile game?",
+    "predicted": "John started working on the 2D Adventure mobile game a few months before September 20, 2022. The memory doesn\u2019t give an exact start date, only that he\u2019d been working on it for \u201cthe past few months.\u201d",
+    "ground_truth": "approximately summer of 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D25:9"
+    ],
+    "stats": {
+      "input_tokens": 9546,
+      "output_tokens": 121,
+      "total_tokens": 9667,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3539669513702393
+    }
+  },
+  {
+    "question": "How long did it take for James to complete his Witcher-inspired game?",
+    "predicted": "James\u2019s Witcher-inspired game was completed on October 13, 2022, but the memory doesn\u2019t say exactly how long it took overall. It does mention he had been working on a related game project for weeks earlier in 2022.",
+    "ground_truth": "six months",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:1",
+      "D27:2"
+    ],
+    "stats": {
+      "input_tokens": 7696,
+      "output_tokens": 125,
+      "total_tokens": 7821,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.105816125869751
+    }
+  },
+  {
+    "question": "What kind of programming-related events has John hosted?",
+    "predicted": "John has hosted programming-related events like a programming seminar, an online programming competition, and a CS:GO tournament that brought together his programming friends. He also organized an online programming group collaboration/project.",
+    "ground_truth": "online programming competition, programming seminar",
+    "category": "single-hop",
+    "evidence": [
+      "D27:1",
+      "D28:6"
+    ],
+    "stats": {
+      "input_tokens": 9534,
+      "output_tokens": 112,
+      "total_tokens": 9646,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.278867244720459
+    }
+  },
+  {
+    "question": "When did John and his programming friends host an online programming competition?",
+    "predicted": "John and his programmer friends hosted the online programming competition on October 13, 2022. The memory says it happened \u201clast week\u201d from that date, so it was likely in early October 2022.",
+    "ground_truth": "Last week before 13 October 2022.",
+    "category": "multi-hop",
+    "evidence": [
+      "D27:1"
+    ],
+    "stats": {
+      "input_tokens": 10334,
+      "output_tokens": 119,
+      "total_tokens": 10453,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3472650051116943
+    }
+  },
+  {
+    "question": "Which of James's family members have visited him in the last year?",
+    "predicted": "James\u2019s mother visited him on October 19, 2022, and she came with her army friend. I don\u2019t see any other family-member visits mentioned in the memories from the last year.",
+    "ground_truth": "mother, sister",
+    "category": "single-hop",
+    "evidence": [
+      "D17:28",
+      "D28:19"
+    ],
+    "stats": {
+      "input_tokens": 6487,
+      "output_tokens": 116,
+      "total_tokens": 6603,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.139599084854126
+    }
+  },
+  {
+    "question": "When did James' mother and her friend visit him?",
+    "predicted": "James\u2019s mother and her army friend visited him on October 19, 2022.",
+    "ground_truth": "October 19, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:19"
+    ],
+    "stats": {
+      "input_tokens": 3969,
+      "output_tokens": 57,
+      "total_tokens": 4026,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.6556499004364014
+    }
+  },
+  {
+    "question": "When did James try Cyberpunk 2077 game?",
+    "predicted": "James tried Cyberpunk 2077 on October 20, 2022, and mentioned it on October 21, 2022.",
+    "ground_truth": "October 20, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:27"
+    ],
+    "stats": {
+      "input_tokens": 7163,
+      "output_tokens": 68,
+      "total_tokens": 7231,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9332396984100342
+    }
+  },
+  {
+    "question": "When did John and his gaming friends organize the charity tournament?",
+    "predicted": "John organized the charity gaming tournament on May 7, 2022. It was mentioned as a CS:GO tournament with his friends that raised money for charity.",
+    "ground_truth": "On the night of October 30 to 31, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 10331,
+      "output_tokens": 109,
+      "total_tokens": 10440,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1884407997131348
+    }
+  },
+  {
+    "question": "What games has John played with his friends at charity tournaments?",
+    "predicted": "John played CS:GO in a charity tournament, and he also organized a charity gaming tournament where they played Fortnite, Overwatch, and Apex Legends.",
+    "ground_truth": "CS:GO, Fortnite, Overwatch and Apex Legends",
+    "category": "single-hop",
+    "evidence": [
+      "D10:4",
+      "D29:1",
+      "D29:3"
+    ],
+    "stats": {
+      "input_tokens": 10331,
+      "output_tokens": 106,
+      "total_tokens": 10437,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2013251781463623
+    }
+  },
+  {
+    "question": "What was James' big moment with Samantha in October 2023?",
+    "predicted": "I couldn\u2019t find any memory entry about a big moment with Samantha in October 2023. The latest Samantha-related memories I found were from 2022, including them moving in together in October 2022.",
+    "ground_truth": "They decided to live together and rented an apartment not far from McGee's bar.",
+    "category": "multi-hop",
+    "evidence": [
+      "D29:8",
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 10715,
+      "output_tokens": 128,
+      "total_tokens": 10843,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 3.2712860107421875
+    }
+  },
+  {
+    "question": "How long did James and Samantha date for before deciding to move in together?",
+    "predicted": "James and Samantha dated for about 2 months before deciding to move in together. They started dating around September 3, 2022, and decided to move in together on October 31, 2022.",
+    "ground_truth": "nearly three months",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:14",
+      "D29:8",
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 6317,
+      "output_tokens": 119,
+      "total_tokens": 6436,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0342020988464355
+    }
+  },
+  {
+    "question": "When did James, his family and his dogs start on a road trip together?",
+    "predicted": "James started the road trip with his family and dogs on November 4, 2022. A later note on November 7 says he was still on that road trip.",
+    "ground_truth": "November 4, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D30:1"
+    ],
+    "stats": {
+      "input_tokens": 11620,
+      "output_tokens": 148,
+      "total_tokens": 11768,
+      "tool_calls": 5,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.54866886138916
+    }
+  },
+  {
+    "question": "How long did John practice chess for before winning the chess tournament?",
+    "predicted": "I couldn\u2019t find an exact duration for how long John practiced chess before winning the tournament. The memory only says he had recently started playing chess and later won the regional chess tournament on November 1, 2022.",
+    "ground_truth": "nearly four months",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:1",
+      "D30:2",
+      "D30:4"
+    ],
+    "stats": {
+      "input_tokens": 7731,
+      "output_tokens": 83,
+      "total_tokens": 7814,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1442880630493164
+    }
+  },
+  {
+    "question": "When did James and his family visit Mark and Josh?",
+    "predicted": "I couldn\u2019t find any memory about James and his family visiting Mark and Josh. If you want, I can check other memory files for a possible mention under different names or dates.",
+    "ground_truth": "November 7, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D31:1"
+    ],
+    "stats": {
+      "input_tokens": 6478,
+      "output_tokens": 112,
+      "total_tokens": 6590,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.036458969116211
+    }
+  },
+  {
+    "question": "When did John work with a game developer on a project?",
+    "predicted": "John worked with a game developer on an online board game on November 7, 2022.",
+    "ground_truth": "November 5-6, 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D31:2"
+    ],
+    "stats": {
+      "input_tokens": 5071,
+      "output_tokens": 58,
+      "total_tokens": 5129,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9028539657592773
+    }
+  },
+  {
+    "question": "What programming languages has James worked with?",
+    "predicted": "James has worked with Python and C++.",
+    "ground_truth": "Python and C++",
+    "category": "open-domain",
+    "evidence": [
+      "D1:8"
+    ],
+    "stats": {
+      "input_tokens": 3820,
+      "output_tokens": 47,
+      "total_tokens": 3867,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8876550197601318
+    }
+  },
+  {
+    "question": "What type of mobile application does James plan to build with John?",
+    "predicted": "James plans to build a dog walking/pet care mobile app with John.",
+    "ground_truth": "An app for dog walking and pet care",
+    "category": "open-domain",
+    "evidence": [
+      "D1:14"
+    ],
+    "stats": {
+      "input_tokens": 5845,
+      "output_tokens": 56,
+      "total_tokens": 5901,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7837862968444824
+    }
+  },
+  {
+    "question": "How does James plan to make his dog-sitting app unique?",
+    "predicted": "James wants to make the dog-sitting app unique by focusing on dog walking and pet care, not just a generic app. The memory doesn\u2019t mention any more specific differentiators beyond that.",
+    "ground_truth": "By allowing users to customize their pup's preferences/needs",
+    "category": "open-domain",
+    "evidence": [
+      "D1:16"
+    ],
+    "stats": {
+      "input_tokens": 5845,
+      "output_tokens": 79,
+      "total_tokens": 5924,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0685582160949707
+    }
+  },
+  {
+    "question": "What has John mostly found with the metal detector so far?",
+    "predicted": "John has mostly found bottle caps, a couple of coins, and once a gold ring with the metal detector.",
+    "ground_truth": "bottle caps",
+    "category": "open-domain",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 7728,
+      "output_tokens": 61,
+      "total_tokens": 7789,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9374768733978271
+    }
+  },
+  {
+    "question": "What did James offer to do for John regarding pets?",
+    "predicted": "James offered to help John find the perfect pet if John decides to get one in the future.",
+    "ground_truth": "help find the perfect pet",
+    "category": "open-domain",
+    "evidence": [
+      "D2:19"
+    ],
+    "stats": {
+      "input_tokens": 7221,
+      "output_tokens": 93,
+      "total_tokens": 7314,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.140505075454712
+    }
+  },
+  {
+    "question": "What instrument is John learning to play as of 27 March, 2022?",
+    "predicted": "As of 27 March, 2022, John was learning to play the drums.",
+    "ground_truth": "Drums",
+    "category": "open-domain",
+    "evidence": [
+      "D3:2",
+      "D3:3"
+    ],
+    "stats": {
+      "input_tokens": 7743,
+      "output_tokens": 57,
+      "total_tokens": 7800,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8396070003509521
+    }
+  },
+  {
+    "question": "How long has John been playing the drums as of 27 March, 2022?",
+    "predicted": "As of 27 March 2022, John had been playing the drums for about a month.",
+    "ground_truth": "One month",
+    "category": "open-domain",
+    "evidence": [
+      "D3:5"
+    ],
+    "stats": {
+      "input_tokens": 7746,
+      "output_tokens": 59,
+      "total_tokens": 7805,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.451218843460083
+    }
+  },
+  {
+    "question": "What game did John play in an intense tournament at the gaming convention in March 2022?",
+    "predicted": "John played CS:GO in the intense tournament at the gaming convention in March 2022.",
+    "ground_truth": "CS:GO",
+    "category": "open-domain",
+    "evidence": [
+      "D3:11"
+    ],
+    "stats": {
+      "input_tokens": 7749,
+      "output_tokens": 58,
+      "total_tokens": 7807,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8340072631835938
+    }
+  },
+  {
+    "question": "What game was James playing in the online gaming tournament in April 2022?",
+    "predicted": "James was playing Apex Legends in the online gaming tournament in April 2022.",
+    "ground_truth": "Apex Legends",
+    "category": "open-domain",
+    "evidence": [
+      "D4:16"
+    ],
+    "stats": {
+      "input_tokens": 7178,
+      "output_tokens": 56,
+      "total_tokens": 7234,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9344589710235596
+    }
+  },
+  {
+    "question": "How does James communicate with his gaming team?",
+    "predicted": "James communicates with his gaming team using voice chat, which he says is fast and helps the team work together effectively.",
+    "ground_truth": "voice chat",
+    "category": "open-domain",
+    "evidence": [
+      "D4:14"
+    ],
+    "stats": {
+      "input_tokens": 7157,
+      "output_tokens": 63,
+      "total_tokens": 7220,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7797269821166992
+    }
+  },
+  {
+    "question": "What advice did James receive from the famous players he met at the tournament?",
+    "predicted": "James met the whole team at the tournament, and one of the famous players gave him gaming tips. He also received autographs from team members.",
+    "ground_truth": "never put your ego above team success",
+    "category": "open-domain",
+    "evidence": [
+      "D4:12"
+    ],
+    "stats": {
+      "input_tokens": 7841,
+      "output_tokens": 104,
+      "total_tokens": 7945,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.809479236602783
+    }
+  },
+  {
+    "question": "What did James adopt in April 2022?",
+    "predicted": "In April 2022, James adopted a new puppy named Ned from a shelter in Stamford.",
+    "ground_truth": "a pup",
+    "category": "open-domain",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4691,
+      "output_tokens": 56,
+      "total_tokens": 4747,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.736377239227295
+    }
+  },
+  {
+    "question": "What is the name of the pup that was adopted by James?",
+    "predicted": "The pup James adopted was named Ned.",
+    "ground_truth": "Ned",
+    "category": "open-domain",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 4700,
+      "output_tokens": 45,
+      "total_tokens": 4745,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.751204013824463
+    }
+  },
+  {
+    "question": "Why did James embody the appearance of the game character from the woman he saw during a walk?",
+    "predicted": "James said he was inspired by a stranger he saw while walking his dogs; he was struck by her eyes and appearance and felt \u201clove at first sight.\u201d He then used her appearance as the basis for a game character in a programming project.",
+    "ground_truth": "He found her appearance and eyes amazing.",
+    "category": "open-domain",
+    "evidence": [
+      "D6:6"
+    ],
+    "stats": {
+      "input_tokens": 7853,
+      "output_tokens": 123,
+      "total_tokens": 7976,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.32077693939209
+    }
+  },
+  {
+    "question": "What inspired James to create the game character in the virtual world?",
+    "predicted": "James was inspired by The Witcher 3 \u2014 its amazing world and story pushed him to create the game character in the virtual world.",
+    "ground_truth": "Appearance of a woman he saw during a walk",
+    "category": "open-domain",
+    "evidence": [
+      "D6:6"
+    ],
+    "stats": {
+      "input_tokens": 7169,
+      "output_tokens": 67,
+      "total_tokens": 7236,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.040745973587036
+    }
+  },
+  {
+    "question": "Which country did James visit in 2021?",
+    "predicted": "James visited Greenland in 2021.",
+    "ground_truth": "Italy",
+    "category": "open-domain",
+    "evidence": [
+      "D6:12"
+    ],
+    "stats": {
+      "input_tokens": 6475,
+      "output_tokens": 84,
+      "total_tokens": 6559,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0400750637054443
+    }
+  },
+  {
+    "question": "What impresses John about Japan?",
+    "predicted": "John is impressed by Japan\u2019s megacities \u2014 especially how technologically advanced everything is and the mesmerizing huge screens on the buildings. He also really enjoyed the tasty street food there.",
+    "ground_truth": "Technologically advanced megacities and tasty street food",
+    "category": "open-domain",
+    "evidence": [
+      "D6:15"
+    ],
+    "stats": {
+      "input_tokens": 10316,
+      "output_tokens": 111,
+      "total_tokens": 10427,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.243583917617798
+    }
+  },
+  {
+    "question": "What kind of assignment was giving John a hard time at work?",
+    "predicted": "John was having a hard time with a difficult coding project that involved creating a new algorithm. He was stuck and frustrated because he wasn\u2019t making progress.",
+    "ground_truth": "Coding assignment",
+    "category": "open-domain",
+    "evidence": [
+      "D7:13"
+    ],
+    "stats": {
+      "input_tokens": 5074,
+      "output_tokens": 68,
+      "total_tokens": 5142,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1389739513397217
+    }
+  },
+  {
+    "question": "What breed is Daisy, one of James' dogs?",
+    "predicted": "Daisy is a Labrador.",
+    "ground_truth": "Labrador",
+    "category": "open-domain",
+    "evidence": [
+      "D9:12"
+    ],
+    "stats": {
+      "input_tokens": 4694,
+      "output_tokens": 43,
+      "total_tokens": 4737,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9391071796417236
+    }
+  },
+  {
+    "question": "What type of pizza is James' favorite?",
+    "predicted": "James\u2019s favorite pizza is pepperoni pizza. The memory also says he enjoys cheese pizza and prosciutto pizza.",
+    "ground_truth": "Pepperoni",
+    "category": "open-domain",
+    "evidence": [
+      "D9:18"
+    ],
+    "stats": {
+      "input_tokens": 7157,
+      "output_tokens": 63,
+      "total_tokens": 7220,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.247692108154297
+    }
+  },
+  {
+    "question": "What type of pizza is John's favorite?",
+    "predicted": "John\u2019s favorite pizza is Hawaiian pizza.",
+    "ground_truth": "Hawaiian",
+    "category": "open-domain",
+    "evidence": [
+      "D9:19"
+    ],
+    "stats": {
+      "input_tokens": 10319,
+      "output_tokens": 84,
+      "total_tokens": 10403,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.144365072250366
+    }
+  },
+  {
+    "question": "What did John organize with his friends on May 8, 2022?",
+    "predicted": "On May 8, 2022, John organized a CS:GO tournament with his friends. It was successful, had lots of participants, and raised money for charity.",
+    "ground_truth": "A tournament for CS:GO",
+    "category": "open-domain",
+    "evidence": [
+      "D10:4"
+    ],
+    "stats": {
+      "input_tokens": 7740,
+      "output_tokens": 74,
+      "total_tokens": 7814,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0235378742218018
+    }
+  },
+  {
+    "question": "What did John and his friends do with the remaining money after helping the dog shelter?",
+    "predicted": "After helping the dog shelter, John and his friends used the remaining money to buy groceries and cook food for homeless people in the community.",
+    "ground_truth": "Bought groceries and cooked food for the homeless",
+    "category": "open-domain",
+    "evidence": [
+      "D10:12"
+    ],
+    "stats": {
+      "input_tokens": 10346,
+      "output_tokens": 103,
+      "total_tokens": 10449,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9868359565734863
+    }
+  },
+  {
+    "question": "What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?",
+    "predicted": "The money from John\u2019s May 2022 charity tournament was mainly raised for a dog shelter near his street. After that, the remaining funds were used to buy groceries and cook food for homeless people in the community.",
+    "ground_truth": "Raise money for a dog shelter",
+    "category": "open-domain",
+    "evidence": [
+      "D10:10"
+    ],
+    "stats": {
+      "input_tokens": 10370,
+      "output_tokens": 119,
+      "total_tokens": 10489,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4042341709136963
+    }
+  },
+  {
+    "question": "What did the system John created help the charitable foundation with?",
+    "predicted": "John\u2019s system helped the charitable foundation switch from paper-based manual inventory records to a digital smartphone-based inventory management system. It also streamlined tracking of inventory, resources, and donations, and generated reports for analysis.",
+    "ground_truth": "tracking inventory, resources, and donations",
+    "category": "open-domain",
+    "evidence": [
+      "D11:5"
+    ],
+    "stats": {
+      "input_tokens": 9540,
+      "output_tokens": 114,
+      "total_tokens": 9654,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9413073062896729
+    }
+  },
+  {
+    "question": "What did John create for the charitable foundation that helped generate reports for analysis?",
+    "predicted": "John created a smartphone-based inventory management application for the charitable foundation. It replaced their paper-based manual records and generated reports for analysis.",
+    "ground_truth": "computer application on smartphones",
+    "category": "open-domain",
+    "evidence": [
+      "D11:3"
+    ],
+    "stats": {
+      "input_tokens": 9549,
+      "output_tokens": 99,
+      "total_tokens": 9648,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.868922710418701
+    }
+  },
+  {
+    "question": "What did John receive for achieving second place in the tournament?",
+    "predicted": "John received money as a prize and a trophy for taking second place in the tournament.",
+    "ground_truth": "money and a trophy",
+    "category": "open-domain",
+    "evidence": [
+      "D12:5",
+      "D12:6"
+    ],
+    "stats": {
+      "input_tokens": 10331,
+      "output_tokens": 93,
+      "total_tokens": 10424,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2318577766418457
+    }
+  },
+  {
+    "question": "What project is James working on in his game design course?",
+    "predicted": "James is working on a football simulator project in his gaming and programming course. He mentioned he was collecting player databases for a new part of it.",
+    "ground_truth": "a new part of the football simulator, collecting player databases",
+    "category": "open-domain",
+    "evidence": [
+      "D13:8"
+    ],
+    "stats": {
+      "input_tokens": 7166,
+      "output_tokens": 69,
+      "total_tokens": 7235,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.14072585105896
+    }
+  },
+  {
+    "question": "Who does James support in football matches?",
+    "predicted": "James supports Liverpool FC in football matches. He\u2019s a passionate Liverpool fan and doesn\u2019t miss a single Liverpool game.",
+    "ground_truth": "Liverpool",
+    "category": "open-domain",
+    "evidence": [
+      "D13:12"
+    ],
+    "stats": {
+      "input_tokens": 7154,
+      "output_tokens": 63,
+      "total_tokens": 7217,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8348639011383057
+    }
+  },
+  {
+    "question": "Which football club does John support?",
+    "predicted": "John supports Manchester City.",
+    "ground_truth": "Manchester City",
+    "category": "open-domain",
+    "evidence": [
+      "D13:15"
+    ],
+    "stats": {
+      "input_tokens": 7713,
+      "output_tokens": 44,
+      "total_tokens": 7757,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.225104808807373
+    }
+  },
+  {
+    "question": "What disagreement do James and John have about their football teams?",
+    "predicted": "James is a Liverpool fan, while John supports Manchester City. They made a friendly bet over which team would finish higher in the league standings.",
+    "ground_truth": "debating on which team will perform better in the championship",
+    "category": "open-domain",
+    "evidence": [
+      "D13:15"
+    ],
+    "stats": {
+      "input_tokens": 5842,
+      "output_tokens": 69,
+      "total_tokens": 5911,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.188961029052734
+    }
+  },
+  {
+    "question": "What is Max good at doing according to James?",
+    "predicted": "James says Max is good at gaming, especially strategy and teamwork. I don\u2019t see a more specific skill mentioned in the memories.",
+    "ground_truth": "catching frisbees in mid-air",
+    "category": "open-domain",
+    "evidence": [
+      "D14:23"
+    ],
+    "stats": {
+      "input_tokens": 8238,
+      "output_tokens": 120,
+      "total_tokens": 8358,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.546649217605591
+    }
+  },
+  {
+    "question": "What is the main focus of the organization that James volunteered with?",
+    "predicted": "James volunteered with an organization that provides necessary items to people who are less fortunate. He described its main focus as helping those in need by giving them essential goods.",
+    "ground_truth": "providing necessary items to those who are less fortunate",
+    "category": "open-domain",
+    "evidence": [
+      "D15:11"
+    ],
+    "stats": {
+      "input_tokens": 7169,
+      "output_tokens": 72,
+      "total_tokens": 7241,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.376793146133423
+    }
+  },
+  {
+    "question": "Will there be an interview required to volunteer with the organization James volunteered for?",
+    "predicted": "No \u2014 James told John that no interview is required to volunteer there. He said they just need to be friendly, polite, and genuinely want to help people.",
+    "ground_truth": "No",
+    "category": "open-domain",
+    "evidence": [
+      "D15:15"
+    ],
+    "stats": {
+      "input_tokens": 14647,
+      "output_tokens": 96,
+      "total_tokens": 14743,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.167517900466919
+    }
+  },
+  {
+    "question": "How did John relax in his free time on 9 July, 2022?",
+    "predicted": "On 9 July, 2022, John relaxed by reading. He said he loves getting lost in the imaginative worlds of authors as a fun escape from reality.",
+    "ground_truth": "Reading",
+    "category": "open-domain",
+    "evidence": [
+      "D16:8"
+    ],
+    "stats": {
+      "input_tokens": 7743,
+      "output_tokens": 72,
+      "total_tokens": 7815,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.443174123764038
+    }
+  },
+  {
+    "question": "What did James enjoy doing on cold winter days?",
+    "predicted": "James enjoyed reading while snuggled under the covers on cold winter days.",
+    "ground_truth": "Reading while snuggled under the covers",
+    "category": "open-domain",
+    "evidence": [
+      "D16:9"
+    ],
+    "stats": {
+      "input_tokens": 7160,
+      "output_tokens": 55,
+      "total_tokens": 7215,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9870820045471191
+    }
+  },
+  {
+    "question": "What new hobby did James become interested in on 9 July, 2022?",
+    "predicted": "On 9 July, 2022, James became interested in extreme sports. He had recently been surfing and also went rope jumping from 150 meters.",
+    "ground_truth": "Extreme sports",
+    "category": "open-domain",
+    "evidence": [
+      "D16:5"
+    ],
+    "stats": {
+      "input_tokens": 7181,
+      "output_tokens": 71,
+      "total_tokens": 7252,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4009878635406494
+    }
+  },
+  {
+    "question": "Where did James plan to visit after Toronto?",
+    "predicted": "James planned to visit Vancouver after Toronto. The memory says he planned to visit both Toronto and Vancouver, possibly other places.",
+    "ground_truth": "Vancouver",
+    "category": "open-domain",
+    "evidence": [
+      "D16:11"
+    ],
+    "stats": {
+      "input_tokens": 5833,
+      "output_tokens": 65,
+      "total_tokens": 5898,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9236631393432617
+    }
+  },
+  {
+    "question": "When did James plan to return from his trip to Toronto and Vancouver?",
+    "predicted": "James planned to return on July 20, 2022.",
+    "ground_truth": "July 20",
+    "category": "open-domain",
+    "evidence": [
+      "D16:13"
+    ],
+    "stats": {
+      "input_tokens": 5848,
+      "output_tokens": 54,
+      "total_tokens": 5902,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0565907955169678
+    }
+  },
+  {
+    "question": "What online game did John start playing recently for improving strategy?",
+    "predicted": "John recently started playing chess online to improve his strategic thinking. He said it feels like \u201csolving an endless puzzle\u201d and that he\u2019s also studying openings and analyzing games.",
+    "ground_truth": "Chess",
+    "category": "open-domain",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 10331,
+      "output_tokens": 111,
+      "total_tokens": 10442,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.6369028091430664
+    }
+  },
+  {
+    "question": "What made John leave his IT job?",
+    "predicted": "John left his IT job because he wanted a change and felt he needed to focus on things that aligned with his values and passions, especially the gaming industry.",
+    "ground_truth": "to focus on things that align with his values and passions",
+    "category": "open-domain",
+    "evidence": [
+      "D18:3"
+    ],
+    "stats": {
+      "input_tokens": 5059,
+      "output_tokens": 69,
+      "total_tokens": 5128,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5544989109039307
+    }
+  },
+  {
+    "question": "Which game tournaments does John plan to organize besides CS:GO?",
+    "predicted": "Besides CS:GO, John planned to organize tournaments for Fortnite, Overwatch, and Apex Legends. He also mentioned interest in organizing competitions for other genres he\u2019s exploring, like strategy and RPG games.",
+    "ground_truth": "Fortnite competitions",
+    "category": "open-domain",
+    "evidence": [
+      "D18:9"
+    ],
+    "stats": {
+      "input_tokens": 10334,
+      "output_tokens": 116,
+      "total_tokens": 10450,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.341862916946411
+    }
+  },
+  {
+    "question": "What happened to James's puppy during the recent visit to the clinic?",
+    "predicted": "James took his puppy to the clinic for a routine check-up, and the puppy was vaccinated. The memory says the puppy was healthy and okay afterward.",
+    "ground_truth": "routine examination and vaccination",
+    "category": "open-domain",
+    "evidence": [
+      "D18:16"
+    ],
+    "stats": {
+      "input_tokens": 5311,
+      "output_tokens": 102,
+      "total_tokens": 5413,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.293002128601074
+    }
+  },
+  {
+    "question": "What game genre did John start exploring instead of shooters?",
+    "predicted": "John started exploring strategy and RPG games instead of shooters.",
+    "ground_truth": "strategy and RPG games",
+    "category": "open-domain",
+    "evidence": [
+      "D19:3"
+    ],
+    "stats": {
+      "input_tokens": 7725,
+      "output_tokens": 50,
+      "total_tokens": 7775,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9593098163604736
+    }
+  },
+  {
+    "question": "Which RPG game is John playing and enjoying on 10 August, 2022?",
+    "predicted": "On 10 August 2022, John is playing **The Witcher 3** and is hooked on it. He especially loves the storytelling, characters, and immersive choices.",
+    "ground_truth": "The Witcher 3",
+    "category": "open-domain",
+    "evidence": [
+      "D19:7"
+    ],
+    "stats": {
+      "input_tokens": 7743,
+      "output_tokens": 75,
+      "total_tokens": 7818,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.002336025238037
+    }
+  },
+  {
+    "question": "What aspect of \"The Witcher 3\" does John find immersive?",
+    "predicted": "John finds the game immersive because his choices shape the world. He also loves the storytelling, characters, and stunning graphics.",
+    "ground_truth": "shaping the world with choices",
+    "category": "open-domain",
+    "evidence": [
+      "D19:7"
+    ],
+    "stats": {
+      "input_tokens": 7737,
+      "output_tokens": 63,
+      "total_tokens": 7800,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2973880767822266
+    }
+  },
+  {
+    "question": "Whose phone number did James receive during the beach outing?",
+    "predicted": "I couldn\u2019t find any memory about a beach outing or whose phone number James received there.",
+    "ground_truth": "Samantha",
+    "category": "open-domain",
+    "evidence": [
+      "D19:14"
+    ],
+    "stats": {
+      "input_tokens": 6481,
+      "output_tokens": 94,
+      "total_tokens": 6575,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1459200382232666
+    }
+  },
+  {
+    "question": "What is James planning to do after receiving Samantha's phone number?",
+    "predicted": "James is planning to ask Samantha out on a date and call her the next day, August 11, 2022.",
+    "ground_truth": "call her",
+    "category": "open-domain",
+    "evidence": [
+      "D19:14"
+    ],
+    "stats": {
+      "input_tokens": 3807,
+      "output_tokens": 64,
+      "total_tokens": 3871,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0114901065826416
+    }
+  },
+  {
+    "question": "What is John organizing with his siblings?",
+    "predicted": "John is organizing a gaming night with his siblings next month. He\u2019s also been helping them with a coding project, including a text-based adventure game.",
+    "ground_truth": "a gaming night",
+    "category": "open-domain",
+    "evidence": [
+      "D20:17"
+    ],
+    "stats": {
+      "input_tokens": 7716,
+      "output_tokens": 69,
+      "total_tokens": 7785,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2687549591064453
+    }
+  },
+  {
+    "question": "What type of beer does John not like?",
+    "predicted": "John does not like dark beer. He agreed to go to McGee\u2019s Pub because they had light beers available.",
+    "ground_truth": "dark beer",
+    "category": "open-domain",
+    "evidence": [
+      "D21:16"
+    ],
+    "stats": {
+      "input_tokens": 10322,
+      "output_tokens": 99,
+      "total_tokens": 10421,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3438262939453125
+    }
+  },
+  {
+    "question": "What were some difficulties James faced during the development of his game?",
+    "predicted": "The memories don\u2019t mention specific difficulties James faced while developing his game. They only say he found the process rewarding and that he put in a lot of work, but no concrete problems are recorded.",
+    "ground_truth": "balancing mechanics and ensuring fairness",
+    "category": "open-domain",
+    "evidence": [
+      "D22:7"
+    ],
+    "stats": {
+      "input_tokens": 7169,
+      "output_tokens": 79,
+      "total_tokens": 7248,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3564400672912598
+    }
+  },
+  {
+    "question": "What has John been teaching his siblings?",
+    "predicted": "John has been teaching his siblings coding/programming. They\u2019re starting with basic games and stories, and he\u2019s helping them build a text-based adventure game.",
+    "ground_truth": "coding",
+    "category": "open-domain",
+    "evidence": [
+      "D22:10"
+    ],
+    "stats": {
+      "input_tokens": 10319,
+      "output_tokens": 107,
+      "total_tokens": 10426,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.343356132507324
+    }
+  },
+  {
+    "question": "What kind of programs are John's siblings making?",
+    "predicted": "John\u2019s siblings are making basic programs, including small games and stories. They\u2019re also working on a text-based adventure game with John to learn coding.",
+    "ground_truth": "basic games and stories",
+    "category": "open-domain",
+    "evidence": [
+      "D22:12"
+    ],
+    "stats": {
+      "input_tokens": 12007,
+      "output_tokens": 124,
+      "total_tokens": 12131,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1396279335021973
+    }
+  },
+  {
+    "question": "Which company's headphones did John choose for gaming?",
+    "predicted": "John chose headphones from Sennheiser for gaming. He picked them because of excellent reviews praising their sound quality.",
+    "ground_truth": "Sennheiser",
+    "category": "open-domain",
+    "evidence": [
+      "D23:10"
+    ],
+    "stats": {
+      "input_tokens": 10322,
+      "output_tokens": 99,
+      "total_tokens": 10421,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.6532649993896484
+    }
+  },
+  {
+    "question": "What did James and Samantha discover they both enjoy at McGee's bar?",
+    "predicted": "They discovered they both enjoy stout at McGee\u2019s Pub. James suggested McGee\u2019s because they serve great stout, and John agreed to go even though he doesn\u2019t like dark beer.",
+    "ground_truth": "Lager beer",
+    "category": "open-domain",
+    "evidence": [
+      "D23:3"
+    ],
+    "stats": {
+      "input_tokens": 9760,
+      "output_tokens": 114,
+      "total_tokens": 9874,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1403541564941406
+    }
+  },
+  {
+    "question": "How much does James pay per cooking class?",
+    "predicted": "James pays $10 per cooking class.",
+    "ground_truth": "$10",
+    "category": "open-domain",
+    "evidence": [
+      "D23:15"
+    ],
+    "stats": {
+      "input_tokens": 9742,
+      "output_tokens": 85,
+      "total_tokens": 9827,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.102897882461548
+    }
+  },
+  {
+    "question": "What did James learn to make in the cooking class besides omelette and meringue?",
+    "predicted": "Besides omelette and meringue, James learned how to make dough in the cooking class.",
+    "ground_truth": "Dough",
+    "category": "open-domain",
+    "evidence": [
+      "D23:15"
+    ],
+    "stats": {
+      "input_tokens": 7850,
+      "output_tokens": 94,
+      "total_tokens": 7944,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.991806983947754
+    }
+  },
+  {
+    "question": "Why did James sign up for a cooking class?",
+    "predicted": "James signed up for the cooking class because he wanted to learn something new, even though he hadn\u2019t liked cooking before. He also hoped to improve his skills and eventually treat John to something he made.",
+    "ground_truth": "He wanted to learn something new",
+    "category": "open-domain",
+    "evidence": [
+      "D23:13"
+    ],
+    "stats": {
+      "input_tokens": 9745,
+      "output_tokens": 117,
+      "total_tokens": 9862,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.332418203353882
+    }
+  },
+  {
+    "question": "What did James prepare for the first time in the cooking class?",
+    "predicted": "James prepared a great omelette for the first time in his cooking class, and he also made meringue.",
+    "ground_truth": "Omelette",
+    "category": "open-domain",
+    "evidence": [
+      "D23:13"
+    ],
+    "stats": {
+      "input_tokens": 7835,
+      "output_tokens": 98,
+      "total_tokens": 7933,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2420921325683594
+    }
+  },
+  {
+    "question": "What is the name of the board game John tried in September 2022?",
+    "predicted": "John tried a board game called **\u201cDungeons of the Dragon\u201d** in September 2022.",
+    "ground_truth": "Dungeons of the Dragon",
+    "category": "open-domain",
+    "evidence": [
+      "D24:3"
+    ],
+    "stats": {
+      "input_tokens": 7740,
+      "output_tokens": 60,
+      "total_tokens": 7800,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0386056900024414
+    }
+  },
+  {
+    "question": "Where does James get his ideas from?",
+    "predicted": "James gets creative ideas from books, movies, and dreams. One specific dream he had about a medieval castle with puzzles and traps inspired sketches and notes.",
+    "ground_truth": "books, movies, dreams",
+    "category": "open-domain",
+    "evidence": [
+      "D24:4"
+    ],
+    "stats": {
+      "input_tokens": 7154,
+      "output_tokens": 70,
+      "total_tokens": 7224,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1410770416259766
+    }
+  },
+  {
+    "question": "What kind of dream did James have recently?",
+    "predicted": "I couldn\u2019t find any memory about a recent dream James had. The closest related entry is about him being inspired by a stranger he saw on a walk, but it doesn\u2019t mention a dream.",
+    "ground_truth": "a dream with a medieval castle full of puzzles and traps",
+    "category": "open-domain",
+    "evidence": [
+      "D24:8"
+    ],
+    "stats": {
+      "input_tokens": 3963,
+      "output_tokens": 78,
+      "total_tokens": 4041,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9342997074127197
+    }
+  },
+  {
+    "question": "What kind of music does John like?",
+    "predicted": "John is into electronic and rock music.",
+    "ground_truth": "electronic and rock music",
+    "category": "open-domain",
+    "evidence": [
+      "D24:13"
+    ],
+    "stats": {
+      "input_tokens": 7716,
+      "output_tokens": 47,
+      "total_tokens": 7763,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7915689945220947
+    }
+  },
+  {
+    "question": "What instrument did James used to play when he was younger?",
+    "predicted": "James used to play guitar when he was younger.",
+    "ground_truth": "guitar",
+    "category": "open-domain",
+    "evidence": [
+      "D24:14"
+    ],
+    "stats": {
+      "input_tokens": 7166,
+      "output_tokens": 50,
+      "total_tokens": 7216,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1868679523468018
+    }
+  },
+  {
+    "question": "What did John use to play when he was younger to let off steam?",
+    "predicted": "John used to play drums when he was younger, and he said it was a fun way to let off steam.",
+    "ground_truth": "drums",
+    "category": "open-domain",
+    "evidence": [
+      "D24:15"
+    ],
+    "stats": {
+      "input_tokens": 7737,
+      "output_tokens": 62,
+      "total_tokens": 7799,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.140982151031494
+    }
+  },
+  {
+    "question": "What career milestone did John achieve recently in September 2022?",
+    "predicted": "In September 2022, John achieved a major career milestone by creating his first mobile game. It was a 2D adventure game with puzzles and exploration, and it was set to launch in October 2022.",
+    "ground_truth": "making his first mobile game",
+    "category": "open-domain",
+    "evidence": [
+      "D25:7"
+    ],
+    "stats": {
+      "input_tokens": 5074,
+      "output_tokens": 82,
+      "total_tokens": 5156,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5530807971954346
+    }
+  },
+  {
+    "question": "What type of game is John's upcoming mobile game?",
+    "predicted": "John\u2019s upcoming mobile game is a 2D adventure game with puzzles and exploration.",
+    "ground_truth": "2D adventure",
+    "category": "open-domain",
+    "evidence": [
+      "D25:9"
+    ],
+    "stats": {
+      "input_tokens": 9534,
+      "output_tokens": 90,
+      "total_tokens": 9624,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9593379497528076
+    }
+  },
+  {
+    "question": "What does John do to stay informed and constantly learn about game design?",
+    "predicted": "John stays informed by reading game design books, watching tutorials, keeping up with developer forums, and reading a gaming magazine with tutorials, developer interviews, and tips. He believes constant learning is key to improving as a game developer.",
+    "ground_truth": "watch tutorials and keep up with developer forums",
+    "category": "open-domain",
+    "evidence": [
+      "D25:13"
+    ],
+    "stats": {
+      "input_tokens": 7734,
+      "output_tokens": 84,
+      "total_tokens": 7818,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.551689863204956
+    }
+  },
+  {
+    "question": "What kind of gig was John offered at the game dev non-profit organization?",
+    "predicted": "John was offered a volunteer programming mentor position at the game dev non-profit, where he\u2019d teach coding and help with game development projects.",
+    "ground_truth": "programming mentor for game developers",
+    "category": "open-domain",
+    "evidence": [
+      "D26:3"
+    ],
+    "stats": {
+      "input_tokens": 5080,
+      "output_tokens": 65,
+      "total_tokens": 5145,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.178703784942627
+    }
+  },
+  {
+    "question": "What does John feel about starting the journey as a programming mentor for game developers?",
+    "predicted": "John feels very excited and inspired about it. He said the programming mentor role at the game dev non-profit combines his love of gaming and helping people, and he enjoys sharing knowledge and seeing others reach their potential.",
+    "ground_truth": "excited and inspired",
+    "category": "open-domain",
+    "evidence": [
+      "D26:5"
+    ],
+    "stats": {
+      "input_tokens": 7621,
+      "output_tokens": 117,
+      "total_tokens": 7738,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2840099334716797
+    }
+  },
+  {
+    "question": "What kind of games is James excited to play with his new video card?",
+    "predicted": "James is excited to play RPGs, especially new games like Cyberpunk 2077, on his upgraded video card. He also mentioned being interested in strategy games and other new genres.",
+    "ground_truth": "RPGs",
+    "category": "open-domain",
+    "evidence": [
+      "D26:10"
+    ],
+    "stats": {
+      "input_tokens": 7175,
+      "output_tokens": 77,
+      "total_tokens": 7252,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9441308975219727
+    }
+  },
+  {
+    "question": "What inspired James to create his game?",
+    "predicted": "James was inspired mainly by The Witcher 3, especially its amazing world and story. He also drew on his love of storytelling and gaming, and even childhood sketches/comic ideas.",
+    "ground_truth": "Witcher 3",
+    "category": "open-domain",
+    "evidence": [
+      "D27:6"
+    ],
+    "stats": {
+      "input_tokens": 7675,
+      "output_tokens": 112,
+      "total_tokens": 7787,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2858190536499023
+    }
+  },
+  {
+    "question": "What sparked James' passion for gaming when he was a kid?",
+    "predicted": "James said his passion for gaming was sparked by playing Nintendo as a kid\u2014his first system. He spent hours on Super Mario and The Legend of Zelda, and those games hooked him ever since.",
+    "ground_truth": "Super Mario and The Legend of Zelda games",
+    "category": "open-domain",
+    "evidence": [
+      "D28:25"
+    ],
+    "stats": {
+      "input_tokens": 7169,
+      "output_tokens": 79,
+      "total_tokens": 7248,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.115338087081909
+    }
+  },
+  {
+    "question": "What did James lose progress on due to a power outage?",
+    "predicted": "James lost some game progress while he was in the middle of a big reveal in a game, because the power outage made him forget to save.",
+    "ground_truth": "a game",
+    "category": "open-domain",
+    "evidence": [
+      "D28:3"
+    ],
+    "stats": {
+      "input_tokens": 3972,
+      "output_tokens": 68,
+      "total_tokens": 4040,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0371031761169434
+    }
+  },
+  {
+    "question": "What games were played at the gaming tournament organized by John on 31 October, 2022?",
+    "predicted": "John\u2019s gaming tournament on 31 October 2022 featured Fortnite, Overwatch, and Apex Legends.",
+    "ground_truth": "Fortnite, Overwatch, Apex Legends",
+    "category": "open-domain",
+    "evidence": [
+      "D29:1",
+      "D29:3"
+    ],
+    "stats": {
+      "input_tokens": 10355,
+      "output_tokens": 97,
+      "total_tokens": 10452,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1963300704956055
+    }
+  },
+  {
+    "question": "What was the purpose of the gaming tournament organized by John on 31 October, 2022?",
+    "predicted": "The tournament was organized to raise money for a children\u2019s hospital. John said it was a charity event, combining gaming with a good cause.",
+    "ground_truth": "To raise money for a children's hospital",
+    "category": "open-domain",
+    "evidence": [
+      "D29:1",
+      "D29:3"
+    ],
+    "stats": {
+      "input_tokens": 7752,
+      "output_tokens": 67,
+      "total_tokens": 7819,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9757719039916992
+    }
+  },
+  {
+    "question": "What decision did James and Samantha make on 31 October, 2022?",
+    "predicted": "On 31 October 2022, James and Samantha decided to move in together. They rented an apartment not far from McGee\u2019s bar, which they both liked.",
+    "ground_truth": "To move in together",
+    "category": "open-domain",
+    "evidence": [
+      "D29:8",
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 9965,
+      "output_tokens": 97,
+      "total_tokens": 10062,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 2.596494197845459
+    }
+  },
+  {
+    "question": "Where did James and Samantha decide to live together on 31 October, 2022?",
+    "predicted": "They decided to rent an apartment not far from McGee\u2019s bar.",
+    "ground_truth": "In an apartment not far from McGee's bar",
+    "category": "open-domain",
+    "evidence": [
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 3822,
+      "output_tokens": 53,
+      "total_tokens": 3875,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8976130485534668
+    }
+  },
+  {
+    "question": "Why did James and Samantha choose an apartment near McGee's bar?",
+    "predicted": "They chose an apartment near McGee\u2019s bar because it was convenient for meeting up there, and James specifically suggested McGee\u2019s since they serve great stout. John agreed, noting they also had light beers available.",
+    "ground_truth": "They love spending time together at the bar",
+    "category": "open-domain",
+    "evidence": [
+      "D29:12"
+    ],
+    "stats": {
+      "input_tokens": 6487,
+      "output_tokens": 118,
+      "total_tokens": 6605,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.656592845916748
+    }
+  },
+  {
+    "question": "What game is John hooked on playing on 5 November, 2022?",
+    "predicted": "John is hooked on FIFA 23. He described it as a great football game and suggested playing it together once James gets comfortable with it.",
+    "ground_truth": "FIFA 23",
+    "category": "open-domain",
+    "evidence": [
+      "D30:14"
+    ],
+    "stats": {
+      "input_tokens": 7740,
+      "output_tokens": 67,
+      "total_tokens": 7807,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.939741849899292
+    }
+  },
+  {
+    "question": "What did John suggest James practice before playing FIFA 23 together?",
+    "predicted": "John suggested that James practice the FIFA 23 controls first so he could get comfortable with the game. He also said the game requires a gamepad and good timing.",
+    "ground_truth": "Control with a gamepad and timing",
+    "category": "open-domain",
+    "evidence": [
+      "D30:18"
+    ],
+    "stats": {
+      "input_tokens": 5845,
+      "output_tokens": 74,
+      "total_tokens": 5919,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0710411071777344
+    }
+  },
+  {
+    "question": "What project did John work on with a game developer by 7 November, 2022?",
+    "predicted": "By 7 November 2022, John had collaborated with a game developer on an online board game.",
+    "ground_truth": "An online board game",
+    "category": "open-domain",
+    "evidence": [
+      "D31:4"
+    ],
+    "stats": {
+      "input_tokens": 5092,
+      "output_tokens": 59,
+      "total_tokens": 5151,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.008716106414795
+    }
+  },
+  {
+    "question": "What is the name of John's cousin's dog?",
+    "predicted": "John\u2019s cousin\u2019s dog is named Luna.",
+    "ground_truth": "Luna",
+    "category": "open-domain",
+    "evidence": [
+      "D31:22"
+    ],
+    "stats": {
+      "input_tokens": 11625,
+      "output_tokens": 102,
+      "total_tokens": 11727,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0749940872192383
+    }
+  }
+]

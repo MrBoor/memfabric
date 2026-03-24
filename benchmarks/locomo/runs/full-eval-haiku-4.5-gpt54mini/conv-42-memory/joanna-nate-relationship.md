@@ -1,0 +1,1120 @@
+
+## 2022-01-21
+- Joanna and Nate are friends who haven't seen each other in a while
+- They reconnected on January 21, 2022 at 7:31 pm
+- Shared interests: both enjoy watching movies
+- Joanna is not into video games
+- Nate is interested in Joanna's movie recommendations
+
+## 2022-01-23
+## 2022-01-21
+- Joanna and Nate are friends who haven't seen each other in a while
+- They reconnected on January 21, 2022 at 7:31 pm
+- Shared interests: both enjoy watching movies
+- Joanna is not into video games
+- Nate is interested in Joanna's movie recommendations
+
+## 2022-01-23
+- Haven't talked in a few days (as of January 23, 2022)
+- Joanna shared her excitement about completing her first screenplay with Nate
+- Nate congratulated Joanna on finishing her screenplay
+- Nate shared about his turtles and recommended pets as a stress relief
+- Joanna expressed interest in getting pets but mentioned her allergies
+- Nate asked about Joanna's allergies and showed concern
+- Nate shared about hanging out with new people at his tournament
+- Joanna asked about the dynamics of being competitors
+- They discussed sources of joy and how to handle anxiety
+- Supportive dynamic: Nate encouraged Joanna to keep pursuing her passion for writing
+
+## 2022-02-07
+## 2022-02-07
+- Reconnected on February 7, 2022 at 9:27 am
+- Joanna shared her excitement and anxiety about submitting her screenplay to a film festival
+- Nate offered supportive words and positive vibes
+- Joanna expressed that Nate's support means a lot to her
+- Nate shared his recent culinary experiments (coconut milk ice cream and dairy-free chocolate cake)
+- Joanna complimented Nate's cooking skills and called him talented
+- Joanna expressed interest in visiting Nate to try his creations or making them herself
+- Nate recommended "Little Women" to Joanna after she recommended it to him
+- They have a supportive, encouraging dynamic
+- Joanna is interested in Nate's movie recommendations and will ask him for them in the future
+- Nate promised to tell Joanna first what he thinks of "Little Women" after he watches it
+
+## 2022-02-25
+## 2022-02-25
+- Reconnected on February 25, 2022 at 1:07 pm
+- Nate had been away for a while but reached out to Joanna
+- Nate shared his recent ice cream creation (chocolate and vanilla swirl)
+- Joanna expressed interest in Nate's dairy-free recipe
+- Nate offered to send Joanna a coconut milk ice cream recipe
+- Joanna is keen to try Nate's recipes and promised to keep him posted on how it turns out
+- Joanna complimented Nate's cooking, saying his creations are amazing and she can't stop thinking about them
+- Nate expressed appreciation for Joanna's support and enjoyment of his desserts
+- Joanna shared her new screenplay project with Nate
+- Nate showed interest and asked about the new screenplay
+- Joanna explained the plot and themes of her new screenplay
+- Nate acknowledged the deep topic and expressed enthusiasm
+- Joanna shared that the screenplay is inspired by her own personal experiences and journey
+- Nate expressed admiration for Joanna's courage in writing about personal experiences
+- Nate expressed excitement about seeing Joanna's first screenplay come to fruition
+- Joanna expressed hope that her screenplay will get noticed and made into a film
+- Nate offered encouragement and support, crossing his fingers for her success
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+
+## 2022-03-18
+## 2022-03-18
+- Reconnected on March 18, 2022 at 6:59 pm
+- Joanna shared her completion of her second screenplay with Nate
+- Nate congratulated Joanna and encouraged her to believe in herself
+- Nate shared photos of his turtles with Joanna
+- Joanna expressed admiration for the turtles and asked about Nate's choice to have them
+- Nate explained his attraction to turtles and their calming effect
+- Joanna expressed interest in getting pets but mentioned her allergies (including a new allergy to cockroaches)
+- Nate offered to send Joanna photos of his turtles so she can enjoy them without getting too close
+- Joanna expressed investment in Nate's turtles
+- Nate asked about Joanna's next steps for her screenplay
+- Joanna shared her research and networking efforts
+- Nate encouraged her to keep up the hard work
+- Joanna expressed gratitude for Nate's support
+- Nate encouraged her not to quit and assured her the path forward will show up
+- Joanna expressed that having Nate's support throughout the process is a blessing
+- Nate affirmed his commitment to supporting Joanna
+- Strong supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's success and well-being
+
+## 2022-03-24
+## 2022-03-24
+- Reconnected on March 24, 2022 at 1:43 pm
+- Joanna shared her audition experience for a writing gig with Nate
+  - Audition was on March 23, 2022
+  - Went alright but she has mixed emotions
+  - Nate congratulated her and expressed faith in her
+  - Nate encouraged her to keep him posted
+- Joanna asked about what's new with Nate
+- Nate shared about his current video game tournament participation
+  - Describes it as intense with lots of adrenaline
+  - Joanna wished him best of luck
+- Joanna mentioned her go-to place for writing inspiration (with lots of books)
+- Nate asked Joanna for advice on pursuing writing
+- Joanna provided detailed writing advice to Nate:
+  - Read lots and try different genres
+  - Build solid understanding of literature
+  - Don't be afraid to write and share, even with friends
+  - Practice and gather feedback
+  - Have faith in yourself
+  - Acknowledged it's tough but worth it
+- Nate thanked Joanna for her help and kind words
+- Nate expressed he'll keep working hard on writing and see what happens
+- Joanna wished Nate luck with his project
+- Nate expressed confidence in Joanna's success
+- Both encouraged each other to keep going for their dreams and work hard
+- Supportive, encouraging dynamic continues
+- They share creative interests (writing) and support each other's projects
+- Nate is now interested in pursuing writing in addition to his other hobbies
+
+## 2022-04-15
+- Reconnected on April 15, 2022 at 7:37 pm
+- Nate shared his recent hair dye with Joanna
+  - Joanna was excited to see it and complimented his new hair color
+  - Joanna asked what made him choose that shade
+  - Nate explained his choice was based on wanting to be bright, bold, and stand out
+- Joanna shared her recent hiking experience and sunset viewing with Nate
+  - Nate expressed jealousy and asked about upcoming trips
+  - Joanna mentioned the sunset inspired her about showing the world who we are
+- Joanna shared that her writing is consuming her right now
+  - Hoping for good news soon
+  - Nate acknowledged that big projects can be taxing
+  - Nate asked her to keep him posted on how it goes
+  - Joanna expressed that Nate's support means a lot to her
+- Nate's boldness in dyeing his hair inspired Joanna
+- Supportive, encouraging dynamic continues
+- They plan to see each other soon
+
+## 2022-04-17
+**Reconnected on April 17, 2022 at 6:44 pm**
+- Joanna shared her recent hiking discovery and love of nature with Nate
+  - Nate expressed curiosity about the trail
+  - Joanna wants to convince Nate to go hiking with her
+  - Nate is open to the idea, saying it might be fun going with someone else
+- Joanna shared her recent reading activities with Nate
+  - Nate related to having unread books
+- Joanna shared her dairy-free ice cream recipe request with Nate
+  - Nate provided the recipe: coconut milk, vanilla extract, sugar, and a pinch of salt
+  - Joanna is lactose intolerant and needs dairy-free options
+  - Joanna plans to try making it tonight
+  - Nate asked her to let him know how it turns out
+  - Joanna promised to report back
+- Nate shared about his turtles with Joanna
+  - Joanna expressed love for his turtles
+  - Nate loves watching them play and sometimes brings them to the kitchen while cooking
+- Nate shared his philosophy on finding peace and happiness
+  - Spending time with pets and hobbies helps him take a break from reality
+  - Small things have powerful effects on happiness
+- Joanna shared her philosophy on nature and peace
+  - Nature is her haven
+  - Walking in nature, feeling it, hearing the sounds is calming
+  - Worries and stress vanish in nature
+- Both discussed how nature and small things inspire happiness and peace
+- Supportive, encouraging dynamic continues
+- They share appreciation for nature, small moments, and finding peace in life
+
+## 2022-04-21
+## 2022-04-21
+**Reconnected on April 21, 2022 at 7:44 pm**
+- Joanna shared her excitement about joining a writers group with Nate
+  - Nate congratulated her and acknowledged the importance of supportive groups
+  - Nate asked about her projects with the group
+- Joanna shared her script "Finding Home" with Nate
+  - Nate expressed that it sounds really special and meaningful
+- Joanna asked about Nate's upcoming gaming tournament
+  - Nate shared it's his 4th tournament next month
+  - Joanna related to the nerves and excitement, sharing her own acting experience
+- Nate asked if Joanna had considered going back to acting
+  - Joanna confirmed she's in the photo Nate was referring to
+  - Joanna explained acting was her first passion but she now shines in writing
+  - Joanna is open to returning to acting someday
+- Nate encouraged Joanna to follow her passion for writing and acting
+- Joanna asked what inspires Nate's passion
+  - Nate shared his love of fantasy and sci-fi movies and video games
+- Joanna expressed appreciation for how video games spark imagination
+- Nate shared his favorite trilogy (fantasy/sci-fi)
+  - Joanna asked for more details
+- Joanna asked for book recommendations
+  - Nate recommended a series with adventures, magic, and great characters
+  - Joanna recognized the series and said it's been on her list
+  - Joanna thanked Nate for the recommendation and promised to check it out
+- Nate asked Joanna to let him know what she thinks when she reads it
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- They exchange recommendations and show genuine interest in each other's hobbies
+
+## 2022-05-02
+**Reconnected on May 2, 2022 at 11:54 am**
+- Joanna shared her excitement about watching "The Lord of the Rings" Trilogy after Nate's recommendation
+  - Nate was glad she enjoyed it
+  - Nate considers it probably the greatest trilogy of all time
+- Joanna complimented Nate's gaming room and asked about his gaming activities
+  - Nate shared his recent tournament win
+  - Joanna expressed pride in Nate's accomplishments
+- Nate shared his second tournament win with Joanna
+  - Joanna congratulated him
+  - Nate explained he played Street Fighter this time instead of his usual CS:GO
+  - Joanna expressed surprise and asked how it felt
+  - Nate described the experience as super awesome with lots of adrenaline
+- Joanna shared her recent baking projects with Nate
+  - Showed him a picture of a dairy-free vanilla cake with strawberry filling and coconut cream frosting
+  - Nate complimented the frosting
+  - Joanna explained the cake details and thanked Nate for his coconut recommendation
+  - Nate complimented her talent at making dairy-free desserts
+- Joanna shared her philosophy on baking and cooking
+  - Describes them as creative outlets
+  - Loves experimenting and creating tasty desserts
+  - Finds it rewarding to see people enjoy her creations
+  - Plans to keep trying new things
+- Nate encouraged Joanna to keep up the good work
+- Joanna thanked Nate for his help and support
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- They exchange recommendations (movies, recipes) and show genuine interest in each other's hobbies
+
+## 2022-05-12
+**Reconnected on May 12, 2022 at 3:35 pm**
+- Joanna shared her recent hiking discoveries with Nate
+  - Found amazing trails in her town
+  - Took photos of Whispering Falls
+  - Nate asked about the location and complimented the scenery
+- Joanna shared how hiking inspires her writing
+  - Nate acknowledged that nature can be a break from the craziness
+  - Joanna expressed that hiking has opened a new world for her
+  - Nate expressed enthusiasm about her inspiration
+- Joanna shared that hiking makes her feel like writing a drama
+  - Nate expressed genuine interest and excitement
+- Nate shared his own experience with nature
+  - Gets deep in thought and thinks about his life or new recipes
+  - Joanna related to thinking about life while out and about
+  - Joanna noted something special about these trails made her feel like writing a drama
+- Nate suggested going hiking together
+  - Expressed interest in potentially thinking of a drama himself
+  - Joked about publishing his own screenplay
+- Joanna enthusiastically accepted the invitation
+  - Invited Nate to come down and join her on the trails sometime
+- Nate confirmed the plan
+  - Thanked Joanna for the invite
+- Supportive, encouraging dynamic continues
+- They share appreciation for nature and creative inspiration
+- They are making concrete plans to spend time together hiking
+
+## 2022-05-20
+**Reconnected on May 20, 2022 at 7:49 pm**
+- Nate shared his new pet adoption with Joanna
+  - Adopted a dog named Max
+  - Joanna complimented Max, saying he's adorable
+  - Joanna asked how long Nate has had Max
+  - Nate explained Max is adopted and full of energy
+  - Joanna expressed happiness about Max bringing Nate joy
+- Nate asked if Joanna has thought about getting a pet
+  - Joanna explained her allergies prevent her from getting pets
+  - Joanna mentioned she's too lazy to research alternative pets for her allergies
+  - Nate expressed sympathy about the allergy situation
+  - Nate asked how Joanna finds comfort without pets
+- Joanna shared her sources of comfort with Nate
+  - Writing and creative projects get her through tough times
+  - Grateful for supportive friends
+- Nate acknowledged that writing and supportive relationships are therapeutic
+- Joanna shared her third completed screenplay with Nate
+  - Showed him what she's been working on
+  - Nate asked if it's her third one
+  - Joanna confirmed it's her third screenplay
+- Joanna explained her screenplay topic and creative process
+  - About loss, identity, and connection
+  - Personal story she's had for ages but just got the guts to write
+  - Had to be vulnerable and dig deep into those topics
+  - Proud of the completed work
+- Nate complimented the screenplay and acknowledged Joanna's pattern of writing about sadness and loss
+  - Joanna explained her writing philosophy
+  - Believes meaningful stories come from personal experiences and feelings
+  - Finds it scary but writes best when being true to herself
+- Nate expressed pride in Joanna for staying strong and being true to herself
+  - Encouraged her to keep it up
+- Joanna expressed gratitude for Nate's support
+  - Nate's support makes the journey easier
+  - Knowing Nate is cheering her on helps her
+- Nate encouraged Joanna to keep going and reach for her dreams
+  - Complimented her talent and potential
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's success and well-being
+
+## 2022-05-25
+**Reconnected on May 25, 2022 at 3:00 pm**
+- Nate shared his recent dog walk and new friendship with Joanna
+  - Met a couple with a dog while walking Max
+  - Arranged doggy playdates
+  - Joanna complimented the encounter and encouraged him to keep it up
+- Nate shared his joy about Max's happiness with Joanna
+  - Joanna acknowledged the stress-relieving benefits of having a peaceful presence
+- Nate gave Joanna a gift
+  - A stuffed animal to remind her of good vibes
+  - Joanna loved the gift and called it sweet
+  - Joanna promised to cherish it
+- They discussed appreciating small joys in life
+  - Nate mentioned the stuffed animal makes him grin when he looks at it
+  - Joanna agreed that small things make life better
+  - Both discussed how small moments bring happiness and make life worth it
+- Joanna shared about finishing her screenplay
+  - Mentioned tough times while finishing it
+  - Realized that small joyful moments make the journey worth it
+  - Nate acknowledged that little moments make it all worth it, especially during tough times
+  - Nate emphasized enjoying the ride is key
+- Joanna shared her completed screenplay with Nate
+  - Joanna values Nate's opinion on her work
+  - Nate expressed enthusiasm and support
+  - Nate promised to support her
+  - Joanna promised to keep Nate updated
+  - Nate encouraged her to keep it up
+- Joanna expressed gratitude for Nate's support
+  - Nate's support is greatly appreciated
+- Supportive, encouraging dynamic continues
+- They share appreciation for small joys and meaningful moments
+- Nate is invested in Joanna's creative success
+
+## 2022-06-03
+**Reconnected on June 3, 2022 at 5:44 pm**
+- Joanna shared her screenplay rejection with Nate
+  - Received a generic rejection letter from a major company
+  - Nate offered sympathy and encouragement
+  - Nate reminded her that rejection doesn't mean she's not talented
+  - Nate encouraged her not to give up on her dreams
+  - Joanna appreciated his kind words and encouragement
+  - Joanna expressed determination not to let it bring her down
+- Nate shared his recent tournament victory with Joanna
+  - Won another regional video game tournament last week
+  - Met new people at the tournament
+  - Joanna congratulated him on his victory
+  - Joanna acknowledged his gaming skills and hard work
+  - Nate expressed that winning was a huge confidence boost
+  - Joanna expressed happiness about his progress
+  - Joanna noted she's been hearing about his tournaments throughout the years
+  - Nate appreciated her support over the years
+- Nate shared his tournament friends' interest in hanging out with him
+  - They asked for tips on how to improve their game
+  - Nate offered to help them
+  - Joanna complimented him for helping strangers and stepping outside his comfort zone
+- Joanna shared her hiking plans with Nate
+  - Planning to go hiking with buddies this weekend
+  - Checking out a new trail with a waterfall
+  - Very excited about it
+  - Nate encouraged her to have fun and take lots of pictures
+- Nate shared his gaming party plans with Joanna
+  - Organizing a gaming party two weekends later
+  - Will invite tournament friends and old friends/teammates
+  - Getting custom controller decorations as gifts
+  - Joanna asked if he'd invite his tournament friends
+  - Nate confirmed he would invite them along with old friends and teammates
+  - Joanna wished him the best on the party
+  - Nate expressed confidence it will be a blast
+  - Joanna complimented the custom controller decoration idea
+  - Nate expressed confidence the guests will love the gift
+- Supportive, encouraging dynamic continues
+- They share genuine interest in each other's activities and accomplishments
+- They exchange encouragement and support for upcoming events
+
+## 2022-06-05
+**Reconnected on June 5, 2022 at 2:12 pm**
+- Joanna shared her screenplay success with Nate
+  - Wrote bits for a screenplay that appeared on the big screen on June 4, 2022
+  - Nate congratulated her and expressed that seeing her hard work pay off must have felt amazing
+  - Nate acknowledged it was scary but awesome
+  - Nate told her she's inspiring
+- Joanna asked Nate about a Spider-Man pin she noticed on his purse last time they saw each other
+  - Nate asked if Spider-Man is her favorite superhero
+  - Joanna explained Spider-Man is a favorite but she loves all superheroes
+  - Joanna appreciates each superhero's unique story and powers
+- Nate shared his favorite superhero with Joanna
+  - Iron Man is his top pick
+  - Loves the tech and sarcastic humor
+  - Joanna complimented Iron Man's tech and funny jokes
+  - Joanna asked what made him get the figure
+- Nate explained his Iron Man figure
+  - Got it because it reminded him of something he loves
+  - The figure's presence in his room reminds him to keep working on his goals
+- Joanna shared her room inspiration with Nate
+  - Cork board full of inspiring quotes and pictures
+  - Describes it as her little corner of inspiration
+  - Nate asked to see a picture of it
+  - Joanna showed him a picture of her cork board
+  - Cork board has quotes, photos, and little keepsakes
+- Nate complimented the family photo on her cork board
+  - Joanna explained the photo reminds her of love and encouragement from family
+  - Nate acknowledged that family support is invaluable
+  - Joanna expressed that family support means a lot and keeps her going
+- Nate expressed interest in starting his own cork board
+  - Joanna recommended it
+  - Joanna joked that he should be willing to explain what it is to his friends
+  - Nate confirmed he would explain it to his friends
+- Supportive, encouraging dynamic continues
+- They share appreciation for inspiration and motivation in their living spaces
+- They discuss personal items and what inspires them
+
+## 2022-06-24
+**Reconnected on June 24, 2022 at 10:55 am**
+- Joanna shared her recent screenplay submission with Nate
+  - Just submitted her recent screenplay to a film contest
+  - Nate congratulated her and expressed hope it does well
+- Nate shared his gaming party success with Joanna
+  - 7 people attended
+  - Most guests liked the controller accessories he gave them
+  - Joanna asked if his friends liked the controller accessories
+  - Nate acknowledged most did but wasn't sure if all would continue using them
+  - Joanna affirmed that the thought behind a gift matters more than continued use
+  - Nate agreed
+  - 6 out of 7 attendees said they'd want to do it again next month
+  - Joanna congratulated him on the success
+- Nate shared his vegan ice cream creation with Joanna
+  - Made vegan ice cream last Friday (June 17, 2022)
+  - Shared it with people in his vegan diet group
+  - Joanna expressed interest in the recipe ("Mm, yum!")
+  - Nate offered to give her the recipe tomorrow (June 25, 2022)
+  - Joanna expressed enthusiasm about making it for her family this weekend
+  - Joanna mentioned her family loves when she makes them new things
+  - Nate expressed confidence they'll love the ice cream
+  - Joanna promised to keep Nate updated on how it went
+  - Nate expressed eagerness to hear about it
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's creative success and family happiness
+
+## 2022-07-10
+**Reconnected on July 10, 2022 at 2:34 pm**
+- Nate shared his fourth tournament victory with Joanna
+  - Won on Friday, July 8, 2022
+  - Tournament was online
+  - Describes the victory as indescribable
+  - Really proud of his accomplishment and ability to make money doing what he loves
+  - Joanna congratulated him and expressed pride in his hard work paying off
+  - Joanna encouraged him to keep it up
+- Joanna shared her road trip for movie research with Nate
+  - Took it while Nate was winning his tournament
+  - Describes it as a much-needed break and chance to explore new places and get inspired
+  - Nate asked where she went and if she discovered interesting places
+  - Joanna explained she went to Woodhaven, a small town in the Midwest
+  - Saw lovely scenery and historic buildings
+  - Checked out the library with a cool old book collection
+  - Nate expressed interest in the place
+  - Joanna found a super cool book from the 1900s with stories and sketches
+  - Nate asked if she found any cool books
+  - Joanna explained the book provided insights about the town and people
+  - Woodhaven's interesting past sparked ideas for her next script
+  - Nate acknowledged that real-life stories are the best for inspiration
+  - Nate expressed excitement about her next screenplay
+- Joanna shared her new screenplay project with Nate
+  - It's different from her previous work
+  - Has the potential to be something awesome
+  - Joanna promised to keep Nate posted
+  - Nate expressed confidence it will do as well as her last one
+  - Nate encouraged her to keep trying and believe in herself
+  - Joanna expressed gratitude for his encouragement
+  - Nate affirmed her talent and encouraged her to keep going
+- Joanna shared her new book writing project with Nate
+  - Recently started writing a book since her movie did well
+  - Nate expressed curiosity about the book
+  - Joanna explained the book explores loss, redemption, and forgiveness
+  - Describes it as a deep and emotional story
+  - Very excited about the project
+  - Nate expressed excitement about how it will play out
+  - Joanna expressed gratitude for his excitement
+  - Joanna explained this is her first attempt at publishing a book
+  - Nate offered encouragement and expressed confidence people will love it
+  - Joanna expressed gratitude for his belief in her
+  - Joanna promised to keep doing her best and thanked him for support
+  - Nate affirmed his commitment to supporting her
+  - Nate encouraged her to believe in herself and her talent
+  - Nate called her incredible
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's creative success and well-being
+- Joanna values Nate's encouragement and support throughout her creative journey
+
+## 2022-08-14
+**Reconnected on August 14, 2022 at 6:12 pm**
+- Joanna shared her recent writing focus with Nate
+  - Has been busy with writing projects and going all out with it
+  - Describes it as the best thing ever - a mix of highs and lows
+  - Journal is her rock
+  - Writing is a huge part of her now
+  - Nate expressed enthusiasm and called her inspiring
+- Joanna shared her writing philosophy with Nate
+  - Writing is an escape and way to express feelings
+  - Gives her a chance to put thoughts and feelings down and make something good out of it
+  - Words have a magical way of healing
+  - Nate acknowledged how words can turn something sad into something special
+- Joanna shared a recent positive experience with her writing with Nate
+  - Someone wrote her a letter after reading an online blog post about a hard moment in her life
+  - The letter touched her deeply
+  - The person said her story brought them comfort
+  - Realized her words have the power to make a difference
+  - Nate congratulated her and told her she's changing lives
+  - Joanna expressed gratitude for his kind words
+  - Joanna explained that knowing her writing can make a difference keeps her going
+- Nate shared his recent teaching endeavor with Joanna
+  - Started teaching people how to make dairy-free desserts
+  - Sharing his love for dairy-free desserts has been fun and rewarding
+  - Joanna complimented his work and expressed love for his coconut milk ice cream
+- Nate shared his new coconut milk ice cream recipe with Joanna
+  - Recently created a new recipe
+  - Describes it as creamy, rich, and dairy-free
+  - Offered to share the recipe with Joanna
+  - Joanna expressed enthusiasm and thanked him for sharing
+  - Joanna mentioned wanting to surprise her family with something delicious
+  - Nate wished her family luck and asked her to keep him posted
+  - Joanna promised to keep him posted on how it goes
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's creative success and family happiness
+
+## 2022-08-22
+**Reconnected on August 22, 2022 at 10:57 am**
+- Nate shared his international tournament victory with Joanna
+  - Won on August 21, 2022
+  - Joanna was proud of him and congratulated him
+  - Nate expressed that gaming has brought him success and he's able to make a living at something he's passionate about
+  - Joanna acknowledged that turning passion into a career is awesome
+- Nate shared his new turtle tank with Joanna
+  - Got a new tank for his turtles
+  - Joanna complimented the turtles, calling them adorable
+  - Joanna noted they have more room to swim now
+  - Nate explained the turtles are his "little buddies" and always calm and peaceful
+  - Nate shared that the tank expansion has made them happy
+  - Nate explained that coming home after a long day of gaming is better because of them
+- Joanna shared her writers group success with Nate
+  - Was super nervous last week when she shared her book with her writers group
+  - Got great feedback from the group
+  - Nate congratulated her and acknowledged that getting feedback means people are connecting with her writing
+  - Joanna expressed that it feels great knowing people like her writing
+- Joanna shared her celebration with Nate
+  - Celebrated by making a delicious treat
+  - Nate asked if she celebrated
+- Nate shared his weekend plans with Joanna
+  - Taking some time off this weekend to chill with his pets
+  - Asked if anything cool is happening with Joanna
+- Joanna shared her weekend plans with Nate
+  - Relaxing and recharging with a long walk and some reading
+  - Describes it as a good break
+  - Nate expressed that they both need a break
+  - Nate expressed that he's glad she's able to find a way to recharge
+  - Nate emphasized that taking time off is incredibly important
+- Joanna shared her philosophy on self-care with Nate
+  - Has learned that taking breaks and looking after herself are important for her inspiration and mental health
+  - It's all about finding balance
+  - Nate agreed that balance is key
+  - Nate acknowledged that taking care of ourselves helps us be more creative and happier
+- Nate asked Joanna for book recommendations
+  - Joanna recommended finding a fantasy book series to read through
+  - Joanna noted that most fiction series are great reads when trying to relax
+  - Nate asked about a specific series
+  - Joanna confirmed it's a great one
+  - Joanna asked Nate to let her know what he thinks when he's finished
+  - Nate agreed to report back
+- Nate recommended a book series to Joanna
+  - Describes it as having awesome battles and interesting characters
+  - Joanna expressed that the series looks awesome
+  - Joanna said she'll have to check it out sometime
+  - Nate encouraged her to read it
+  - Nate described the action scenes as awesome and the plot as great
+  - Nate said it's one of his favorites
+  - Joanna said she'll definitely add it to her list and thanked him for the recommendation
+- Supportive, encouraging dynamic continues
+- They exchange book recommendations and show genuine interest in each other's reading habits
+- They discuss the importance of balance, self-care, and taking breaks
+- They support each other's need for rest and relaxation
+
+## 2022-09-05
+**Reconnected on September 5, 2022 at 6:03 pm**
+- Nate shared his recent turtle time and tournament setback with Joanna
+  - Has been hanging with his turtles, which has been helpful
+  - Recently had a letdown in a video game tournament
+  - Didn't do too great but is trying to stay positive
+  - Joanna offered sympathy and positive vibes
+- Joanna shared her recent recipe revision and baking projects with Nate
+  - Revised one of her old recipes and made a new dish
+  - Nate complimented the dish, saying it looks super good
+  - Joanna explained she's been tinkering with recipes to find comfort and get creative
+- Nate asked what else Joanna is making
+  - Joanna shared she's tweaking a dessert recipe to make it yummier and more accessible
+  - Nate expressed enthusiasm about the project
+- Joanna shared her flavor experiments with Nate
+  - Trying out chocolate, raspberry, and coconut flavors
+  - Describes it as "a blast"
+  - Nate complimented the flavors, saying they sound delicious
+- Nate asked if Joanna is only trying dairy-free options
+  - Joanna confirmed she's lactose intolerant and trying dairy-free options
+  - Using coconut or almond milk instead of regular milk
+  - Describes it as a fun challenge to make yummy treats for everyone's diets
+  - Made dairy-free chocolate coconut cupcakes with raspberry frosting
+  - Nate complimented the cupcakes
+  - Nate appreciated that Joanna makes desserts that work for everyone's diets
+- Joanna shared her variety of dairy-free desserts with Nate
+  - Making all sorts of desserts: cookies, pies, cakes, everything
+  - Plans to share more recipes with Nate soon
+  - Nate expressed eagerness to try them
+- Nate asked to join Joanna in baking and cooking
+  - Believes baking and cooking bring people together
+  - Joanna enthusiastically agreed
+  - Called Nate "a fellow Chef in the kitchen"
+  - Acknowledged that a fellow chef is always helpful
+- Joanna asked Nate for dairy-free baking tips
+  - Nate provided helpful suggestions:
+    - Use dairy-free margarine or coconut oil instead of butter
+    - Check labels to ensure they're dairy-free
+  - Joanna thanked him and expressed enthusiasm about trying his ideas
+- Nate offered ongoing support
+  - Loves to help and told Joanna to shoot him a question anytime she needs
+  - Joanna promised to see him soon
+  - Nate said goodbye and wished her good luck
+- Supportive, encouraging dynamic continues
+- They share creative interests in cooking and baking
+- Nate is invested in Joanna's culinary projects
+- They plan to cook and bake together in the future
+
+## 2022-09-14
+**Reconnected on September 14, 2022 at 1:43 pm**
+- Joanna shared her laptop crash and data loss with Nate
+  - Nate offered sympathy and suggested backing up work in the future
+  - Joanna explained she now has an external drive for backups
+- Nate shared his cooking show experience with Joanna
+  - Taught people vegan ice cream recipes on his own cooking show last Monday
+  - Joanna congratulated him and expressed she'll tune in
+  - Joanna asked about his favorite dish from the show
+- Nate shared his favorite dairy-free dessert with Joanna
+  - Coconut milk ice cream is at the top of his list
+  - Joanna expressed amazement at the color and texture
+  - Joanna appreciated that he's making dairy-free options
+  - Joanna asked for the recipe
+  - Nate offered to share it
+  - Joanna expressed she'd love to try making it
+- Joanna shared her dairy-free dessert preferences with Nate
+  - Dairy-free is a must for her, especially for desserts
+  - Made a delicious dessert with almond milk last Friday
+  - Asked Nate about his favorite dairy-free desserts
+- Nate shared his favorite dairy-free desserts with Joanna
+  - Coconut milk ice cream is one of his favorites
+  - Also loves dairy-free chocolate mousse
+  - Asked Joanna about her favorite dairy-free sweet treat
+- Joanna shared her favorite dairy-free treat with Nate
+  - Chocolate raspberry tart with almond flour crust, chocolate ganache, and fresh raspberries
+  - Nate expressed amazement and said he needs to try baking it
+- Nate asked what other treats Joanna likes making
+- Joanna shared her dairy-free chocolate cake with raspberries
+  - Made with almond flour, coconut oil, chocolate, and raspberries
+  - Her favorite for birthdays and special days
+  - Nate expressed amazement and asked how she made it
+- Joanna shared another dessert recipe with Nate
+  - Made with blueberries, coconut milk, and a gluten-free crust
+  - So creamy and delicious
+  - Nate expressed amazement and said he'll definitely try it
+  - Joanna offered to help and said she's sure he'll enjoy it
+- Supportive, encouraging dynamic continues
+- They share creative interests in dairy-free cooking and baking
+- They exchange recipes and show genuine interest in each other's culinary creations
+
+## 2022-10-06
+## 2022-10-06
+**Reconnected on October 6, 2022 at 11:15 am**
+- Joanna shared her recent dairy-free recipe success with Nate
+  - Tried a new dairy-free recipe that was a winner with her family
+  - Loves mixing and matching flavors
+  - Nate complimented the tart, saying it looks yummy
+- Nate shared his recent tournament victory with Joanna
+  - Won a really big video game tournament last week
+  - Made a lot of money from it
+  - Joanna congratulated him and expressed pride in his accomplishment
+  - Joanna asked if he saved the money for something special
+- Nate shared his feelings about the tournament winnings with Joanna
+  - Saved some but not sure what to do with it
+  - Completely content already and doesn't have big plans
+  - Nice to have the extra cash on hand
+  - Joanna acknowledged that having extra cash brings freedom and relaxation
+  - Nate agreed and expressed relief about not having to stress about money
+  - Can now just enjoy his movies and games
+- Joanna asked Nate for movie recommendations
+  - Nate recommended "Little Women"
+  - Described it as great with awesome acting and captivating story
+  - Joanna mentioned she had recommended it to him a while back
+  - Joanna watched it too and loved it
+  - Joanna explained the themes she loved: sisterhood, love, and chasing dreams
+- Joanna shared her book completion with Nate
+  - Finished writing her book last week
+  - Put in a ton of late nights and edits
+  - Very proud of the finished work
+  - Can't wait to see what happens next
+  - Nate congratulated her and acknowledged the effort required
+  - Nate expressed confidence it will be great
+  - Joanna expressed gratitude for Nate's support
+  - Joanna noted that dedication and late nights got her there, just like Nate with his tournament
+  - Joanna appreciates Nate's support throughout the process
+- Nate expressed his commitment to supporting Joanna
+  - "I'm always here for you, Joanna!"
+  - Expressed pride in Joanna's hard work and accomplishments
+  - Encouraged her to keep going
+- Joanna expressed her reliance on Nate's support
+  - Won't give up on her goals as long as Nate is there to support her
+- Nate made a special gift for Joanna
+  - Joanna was impressed and asked what inspired him
+  - Nate explained he figured she could look back on it whenever she needs encouragement
+  - That was all the inspiration he needed
+  - Nate also mentioned that Joanna's life path is inspirational
+  - Joanna was touched by the gesture and promised to cherish it
+  - Joanna will remember it when she needs encouragement the most
+  - Nate explained that encouragement is what got him so far in his gaming career
+  - Nate wanted to share the love of encouragement with Joanna
+- Joanna shared her DIY bookmark project with Nate
+  - Made a cute little bookmark for one of the ladies at her writing club
+  - Nate complimented the bookmark and expressed confidence the lady will love it
+  - Joanna explained she absolutely loves DIYs and knows the lady does too
+  - Nate asked her to let him know how it goes
+  - Joanna promised to update him
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- Nate is invested in Joanna's success and well-being
+- Joanna relies on Nate's support and encouragement
+- They exchange creative gifts and show genuine care for each other
+
+## 2022-10-09
+**Reconnected on October 9, 2022 at 10:58 am**
+- Nate shared his game convention experience with Joanna
+  - Attended last Friday (October 7, 2022)
+  - Met new people outside his normal circle
+  - Found it a bit overwhelming but rewarding
+  - Made new friends who share his gaming interests
+  - Joanna encouraged him to step outside his comfort zone
+  - Joanna acknowledged that rewards can be great from new experiences
+- Nate shared his new gaming friendships with Joanna
+  - Made friends at the convention who love games
+  - Already planned a gaming session together
+  - Joanna expressed happiness about him meeting people who share his interests
+- Nate shared his Catan experience with Joanna
+  - Played Catan at the convention
+  - Joanna asked if it's competitive or chill
+  - Nate explained it can be both
+  - They were competing but still had lots of fun
+  - Joanna acknowledged that competitive games can be difficult when people get upset
+  - Joanna was glad they were all chill
+- Nate shared his philosophy on gaming with Joanna
+  - Gaming is his escape from life struggles
+  - Doesn't get crazy competitive over games
+  - The people at the convention had the same chill attitude
+  - Joanna encouraged him to keep doing what makes him happy
+- Nate suggested Joanna go to a writing convention
+  - Joanna expressed interest and plans to look into it
+  - Joanna thanked him for the idea
+- Nate shared his evening activities with Joanna
+  - Mostly chilling at home
+  - Playing video games or watching movies helps him unwind
+  - Joanna asked what his favorite game or movie is
+- Nate shared his recent movie and game viewing with Joanna
+  - Recently watched "Inception"
+  - Describes it as a movie that blew his mind with twists and dream stuff
+  - Currently playing "Cyberpunk 2077" nonstop
+  - Loves the futuristic setting and gameplay
+  - Joanna shared that she watched a classic movie recently
+  - Joanna described it as gripping with great actors
+  - Joanna rates it 9 or 10 out of 10
+- Nate asked what Joanna loves about watching movies
+  - Joanna explained movies take us to different places and make us feel emotions
+  - Nate agreed that movies take him to new worlds and fill him with emotions
+  - Nate appreciates movies for chilling out after a day
+  - Joanna agreed and emphasized movies as a great escape
+- Joanna complimented her living room setup
+  - Joanna mentioned having a comfy room
+  - Nate expressed jealousy and asked for pointers
+  - Joanna offered advice on making a living room comfy:
+    - Get a couch that can fit multiple people and allows laying down
+    - Make sure it's really fluffy
+    - Invest in a weighted blanket
+    - Get dimmable lights
+  - Nate thanked her for the tips and plans to try them out
+- Joanna shared her philosophy on investing in comfort
+  - Gets super invested in random little things
+  - Believes it's all worth it when you end up with things that make life nicer
+  - Nate thanked her for the tip
+- Supportive, encouraging dynamic continues
+- They share appreciation for movies and comfort in their homes
+- Nate is interested in Joanna's lifestyle advice
+
+## 2022-10-21
+**Reconnected on October 21, 2022 at 2:01 pm**
+- Joanna shared her recent recipe development with Nate
+  - Recently revised and perfected a recipe for her family
+  - The recipe turned out really tasty
+  - Nate expressed interest in her cooking
+- Nate shared his tournament stress with Joanna
+  - Currently stressed about tournament progress due to tough competitors
+  - Joanna acknowledged the stress
+  - Nate shared that his turtles cheer him up
+- Joanna shared her stuffed animal companion with Nate
+  - Has a stuffed animal dog that Nate gave her
+  - Named it Tilly after a real dog she used to have in Michigan
+  - Tilly is always with her while she writes
+  - Nate expressed gladness that the gift means so much to her
+- Joanna explained the significance of the name Tilly
+  - Used to have a dog named Tilly in Michigan
+  - Developed allergies and had to get rid of the dog
+  - The stuffed animal helps her remember Tilly and her childhood
+  - The name brings her joy and helps her remember when she could hold animals without allergic reactions
+  - Nate found the story touching
+- Joanna shared how Tilly helps her with writing
+  - Tilly helps her stay focused and brings her joy
+  - Even stuffed animals can have a powerful positive effect
+  - Nate related to how small things (like watching turtles) can bring unexplainable joy
+- Nate shared his philosophy on pets and happiness
+  - Watching his turtles slowly walk around makes him happy
+  - Finds it hard to understand why but appreciates it
+- Joanna shared her recent screenplay rejection with Nate
+  - Had a setback - received another rejection from a production company
+  - Nate asked if this was the one she sent to a film contest
+  - Nate offered encouragement and support
+  - Nate reminded her that rejections don't define her
+  - Nate encouraged her to keep at it and find the perfect opportunity
+  - Joanna expressed that it's hard but she won't let it slow her down
+  - Joanna expressed determination to keep grinding and moving ahead
+- Nate expressed respect for Joanna's resilience
+  - Respects her ability to bounce back from setbacks
+  - Joanna expressed gratitude for his encouragement
+  - Joanna expressed determination to keep pushing forward and believing in herself
+- Nate offered final encouragement
+  - Reminded her she has people cheering her on from the sidelines
+  - Joanna thanked him and said she'd see him around
+- Supportive, encouraging dynamic continues
+- They share genuine interest in each other's lives and challenges
+- Nate continues to be a source of encouragement for Joanna during difficult times
+
+## 2022-10-25
+**Reconnected on October 25, 2022 at 8:16 pm**
+- Joanna shared her recent movie script success with Nate
+  - Another movie script she contributed to was shown on the big screen on Sunday, October 23, 2022
+  - This is the third time one of her scripts has been produced
+  - Nate congratulated her and expressed that it must have been amazing
+  - Joanna described the experience as surreal and satisfying
+  - Joanna shared her favorite part: seeing her characters come alive on screen
+  - Nate asked about her favorite part of the experience
+  - Joanna explained how the characters felt real and the hard work paid off
+  - Nate complimented her drawings (character visuals)
+  - Joanna explained the drawings help her bring characters alive in her head for better writing
+  - Nate asked where she got ideas for the characters
+  - Joanna explained she gets ideas from everywhere: people she knows, things she saw, and her imagination
+  - Joanna described how ideas take shape into people with their own wants, worries, and wishes
+  - Nate expressed amazement at how imagination brings ideas to life
+  - Nate asked about a specific character in the photo
+  - Joanna playfully refused to spoil it and told him to watch the movie
+  - Nate expressed that talking to her about it makes him want to watch it even more
+  - Joanna expressed enthusiasm about him watching it
+- Nate shared his recent activities with Joanna
+  - Took his turtles out for a walk when he was bored
+  - Joanna asked if they had a good time
+  - Nate confirmed they did and are now relaxing in their tank
+- Joanna asked about the turtles' diet
+  - Nate explained they eat vegetables, fruits, and insects - a varied diet
+  - Joanna expressed fascination with their varied diet
+  - Joanna asked if Nate has a favorite among their food choices
+  - Nate shared he loves seeing them eat fruit - they get so hyped and it's cute
+  - Joanna complimented how cute they look enjoying fruit
+  - Nate shared he also likes holding them
+- Joanna asked if the turtles have different personalities
+  - Nate confirmed they do - one is more adventurous, the other more reserved
+  - Nate finds their different personalities cute
+  - Nate explained having them around brings him joy and they make great companions
+  - Joanna expressed that she never knew turtles could be so interesting until meeting his turtles
+- Nate shared his long-time interest in turtles
+  - Has liked them since he was a boy
+  - Knows all about them
+- Joanna asked Nate to keep her posted on his turtles
+  - Nate agreed
+- Supportive, encouraging dynamic continues
+- They share genuine interest in each other's activities and hobbies
+- Joanna is invested in Nate's pets and their well-being
+
+## 2022-11-04
+**Reconnected on November 4, 2022 at 3:56 pm**
+- Joanna shared her excitement about producer meetings with Nate
+  - Nate congratulated her and expressed pride in her accomplishments
+  - Nate acknowledged that putting yourself out there is brave
+  - Nate compared her success to winning a video game tournament
+  - Nate expressed that he's proud of her and glad she's feeling hopeful and inspired
+- Joanna shared her appreciation for Nate's support and encouragement
+  - Nate's support and encouragement mean a lot to her
+  - Writing isn't always easy but moments like these make her appreciate it
+  - She's thankful for all the opportunities
+- Joanna shared her early writing discovery with Nate
+  - Found old notebooks with early writings last week
+  - Nate asked about her favorite piece from early writings
+  - Joanna shared a story from when she was 10 about a brave turtle
+  - Nate complimented the story and found the turtle theme funny
+  - Nate encouraged her to keep pushing herself with her writing
+  - Joanna expressed that turtles help motivate her in tough times
+  - Nate expressed his love of turtles and their resilience
+- Joanna asked what's been happening with Nate
+  - Nate shared about helping friends reset high scores at an international tournament
+  - Joanna expressed enthusiasm about his gaming passion
+  - Joanna encouraged him to have an awesome time and keep helping others
+  - Nate expressed that it feels good to use his skills to make a difference
+  - Joanna agreed that using skills to make a difference is exciting
+- Nate offered Joanna a lactose-free dessert he made
+  - Made it with coconut milk so it's lactose-free
+  - Joanna expressed interest and asked if it was lactose-free
+  - Nate confirmed it was lactose-free
+  - Joanna agreed to come over tomorrow (November 5, 2022)
+  - Nate confirmed he's not doing anything tomorrow
+  - Joanna offered to bring some of her recipes to share desserts
+  - Nate expressed that he'd love to try her chocolate and raspberry cake
+  - Joanna confirmed she'll bring it
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- They are making plans to spend time together and share food
+
+## 2022-11-07
+**Conversation on November 7, 2022 at 8:10 pm**
+- Nate shared his Valorant tournament victory with Joanna
+  - Won the final last Saturday, November 5, 2022
+  - Describes it as the best feeling to see his name as the champion
+  - Tournaments bring out strong emotions in him
+  - Joanna congratulated him and expressed that he must have been buzzing
+- Joanna shared her producer presentation completion with Nate
+  - Finished the presentation for producers last Friday, November 4, 2022
+  - Describes it as tough but looking good
+  - Nate asked what she's been up to
+- Nate shared his tournament preparation and busy schedule with Joanna
+  - Preparing for other tournaments
+  - Has been real busy but loving it
+  - Joanna acknowledged his busy schedule and expressed that it's rewarding in the end
+  - Joanna encouraged him to keep it up
+- Nate expressed gratitude for having a job he enjoys every day
+  - Joanna asked what's new in his life
+- Joanna shared her new movie script project with Nate
+  - Writing another movie script
+  - It's a love story with lots of challenges
+  - Has put lots of hard work into it
+  - Hoping to get it on the big screen
+  - Nate expressed amazement and acknowledged how far she's come
+  - Nate noted she's got a thing for writing
+  - Nate asked where she got the idea
+- Joanna explained her writing passion and script inspiration
+  - Writing has always been a passion of hers
+  - Got the idea for this script from a dream
+  - Nate asked about her turtles
+- Nate shared his turtle update with Joanna
+  - Turtles are doing great
+  - They bring joy to his life
+  - Watching them is so calming and fascinating
+  - He's really grown fond of them
+  - Joanna asked what brings him happiness
+- Nate asked what brings Joanna happiness
+- Joanna shared her sources of happiness with Nate
+  - Creating stories and watching them come alive gives her happiness and fulfillment
+  - Writing has been such a blessing for her
+  - Nate complimented her dedication and acknowledged her success
+- Nate asked if she's planning on submitting more scripts soon
+- Joanna shared her recent script submissions with Nate
+  - Just submitted a few more scripts last week (around November 1, 2022)
+  - Hoping to hear back from them soon
+  - Assumes a few will be rejected
+  - Nate expressed confidence that at least one will make it to the screens and be her 3rd published movie
+  - Joanna thanked him for the encouragement
+  - Joanna promised she won't give up
+- Nate shared his home equipment upgrade with Joanna
+  - Just upgraded some equipment at home
+  - Joanna complimented his setup
+- Joanna asked if he uses the computer for gaming
+- Nate confirmed he uses it for gaming
+  - Uses it to practice and compete
+  - Sometimes uses it when playing games with friends
+  - Joanna noted that having a dedicated space should help him stay focused
+- Nate shared his philosophy on his gaming setup
+  - Loves it - it's like his own little haven to escape into the virtual world
+  - Joanna complimented the setup
+  - Nate explained it's important for his career - otherwise he wouldn't be able to beat his competition
+  - Joanna acknowledged it's all about practice
+- Nate shared his current game with Joanna
+  - Currently playing "Xenoblade Chronicles" (fantasy RPG)
+  - Describes it as awesome and a blast
+  - Highly recommends it
+  - Joanna asked what made him start playing it
+  - Nate explained it's a Japanese game series
+  - He's a big fan of Nintendo games
+  - Started playing it because friends recommended it
+  - Joanna noted it's cool when a friend recommendation fits your taste well
+  - Nate agreed and mentioned he loves when Joanna gives him movie recommendations
+  - Nate usually likes them a lot more than random ones
+- Joanna shared her new movie script intro with Nate
+  - Just finished the intro to her next movie script
+  - Decided to include a letter at the beginning
+  - Nate asked if the letter reminds her of her childhood
+- Joanna explained the letter's origin and significance
+  - Her brother wrote it
+  - He used to make her cute notes when they were kids
+  - Brings back sweet memories
+  - Nate acknowledged that childhood memories can be so powerful
+- Joanna shared her philosophy on memories
+  - Childhood memories take us back to simpler times
+  - It's nice to create new memories as we grow up
+  - Nate agreed and shared his own memory experience
+- Nate shared his special day with his pets with Joanna
+  - Took his pets to the park
+  - They were amazed
+  - Seeing their happy faces made it a memorable day
+  - Nate expressed that mixing the new with the old is priceless
+  - Nate treasures every memory
+  - Joanna complimented the experience
+- Joanna shared that she started writing down some of her favorite memories
+  - Nate expressed admiration and said he should do the same
+  - Nate suggested writing down things his animals like a lot
+  - Joanna encouraged him to do it
+  - Joanna expressed that looking back on fond memories is such a blessing
+- Nate committed to writing down memories
+  - Will also start writing down favorite memories with Joanna from now on
+  - Joanna agreed to keep making great memories and supporting each other
+  - Joanna encouraged them to keep reaching for their dreams and make them happen
+- Supportive, encouraging dynamic continues
+- They share appreciation for memories, small moments, and supporting each other's dreams
+- Nate is invested in Joanna's creative success and their friendship
+
+## 2022-11-09
+## 2022-11-09
+**Session 28 - November 9, 2022 at 5:54 pm**
+- Nate showed Joanna his homemade coconut ice cream
+- Joanna complimented it but mentioned she can't try it right now (likely due to her lactose intolerance)
+- Nate shared about his recent tournament not going well (didn't make finals)
+- Joanna encouraged him to stay positive
+- Nate shared his plans to join a new gaming team after the next tournament
+  - Has received a few offers
+  - Considers it a big step but is ready for a shake up
+  - Joanna encouraged him, saying a switch could open new opportunities
+- Joanna shared her recent script success with Nate
+  - Worked hard on another script and created a plan for getting it made into a movie
+  - Pitched it to producers yesterday (November 8, 2022)
+  - Producers really liked it
+  - Got a big confidence boost
+  - Nate congratulated her and expressed pride in her accomplishment
+- Joanna shared her current writing project with Nate
+  - Working on a suspenseful thriller set in a small Midwestern town
+  - Describes it as a great creative outlet
+  - Nate asked what she's working on in her notebook
+- Nate shared his YouTube gaming content creation plans with Joanna
+  - Creating gaming content for YouTube
+  - Cool way to entertain folks and satisfy his video game cravings
+  - Big fan of gaming videos and thought it would be fun to make them
+  - Hoping to share his love of gaming and connect with others
+  - Joanna encouraged him and suggested he watch other people's videos first to understand audience preferences
+  - Nate confirmed he's already doing that
+  - Joanna complimented the idea and said he'll do great
+- Joanna shared a sunset photo from a hike near Fort Wayne
+  - Took it last summer
+  - Nate complimented the photo and asked what inspired her to take it
+  - Joanna explained the sunset and surrounding beauty were incredible
+  - Reminded her of nature's beauty
+- Nate shared about getting a third turtle
+  - Turtles bring him joy and peace
+  - Describes them as "best buddies ever"
+  - Saw another at a pet store and had to get him
+  - Tank is big enough for three
+  - Very happy with the decision
+  - Joanna expressed surprise about getting a third turtle
+  - Joanna joked that he wouldn't have thought about it last week
+  - Nate agreed but is very happy with the decision
+- Joanna asked if she could come over to watch him play with the turtles
+  - Mentioned she's allergic and would need to watch from a distance
+  - Nate enthusiastically agreed and invited her over
+  - Suggested they could watch one of her movies together or go to the park
+  - Joanna agreed to either option
+  - Nate promised to give the turtles a bath before she visits so they're ready to play
+- They made plans to see each other tomorrow (November 10, 2022)
+- Supportive, encouraging dynamic continues
+- They share creative interests and support each other's projects
+- They are making concrete plans to spend time together
+
+## 2022-11-11
+## 2022-11-11
+**Reconnected on November 11, 2022 at 12:06 am**
+- Joanna shared her movie filming success with Nate
+  - Finally filming her own movie from the road-trip script
+  - Nate congratulated her and expressed that he wasn't surprised her hard work paid off
+  - Nate acknowledged it must feel awesome to see her script come alive
+  - Joanna expressed excitement about the experience
+- Joanna asked about the coolest moment on set
+  - Nate asked for more details
+  - Joanna shared that an actor told her how much she liked her script
+  - Joanna was so excited and got chills from the moment
+  - Nate expressed that it must have been so exciting
+  - Nate acknowledged it's incredible when you get those moments of joy
+- Nate shared his recent beach trip with his turtles with Joanna
+  - Took his turtles to the beach in Tampa yesterday (November 10, 2022)
+  - Turtles bring him peace in the craziness of life
+  - Joanna expressed that it's awesome and that Nate must really enjoy having them around
+  - Joanna complimented the turtles, saying they're so cool
+  - Joanna asked what he loves most about having them
+- Nate explained his love for his turtles
+  - They make him feel calm
+  - They don't require much looking after
+  - He loves seeing them soaking in the sun
+  - Joanna complimented how serene and happy they look
+  - Joanna acknowledged it's great to have something like that
+- Nate shared his philosophy on turtles
+  - Describes turtles as like zen masters
+  - They remind him to slow down and appreciate the small things in life
+  - Joanna agreed with his sentiment
+- Nate shared his current cooking project with Joanna
+  - Currently experimenting with flavors
+  - Made colorful bowls of coconut milk ice cream
+  - Joanna complimented the ice cream, saying it looks really yummy
+  - Joanna noted the colors and mix-ins give it a nice kick
+  - Nate was glad she liked it
+  - Nate mentioned the recipe really jazzes it up
+  - Nate offered to let her try it
+  - Joanna expressed enthusiasm and thanked him for offering
+  - Nate said no worries and hoped she'd enjoy it
+- Joanna expressed that it was great catching up
+  - Joanna said "Take it easy!"
+- Supportive, encouraging dynamic continues
+- They share genuine interest in each other's activities and accomplishments
+- They exchange encouragement and support

@@ -1,0 +1,2634 @@
+[
+  {
+    "question": "When did Caroline go to the LGBTQ support group?",
+    "predicted": "Caroline went to the LGBTQ support group on 7 May 2023.",
+    "ground_truth": "7 May 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 5988,
+      "output_tokens": 93,
+      "total_tokens": 6081,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1830179691314697
+    }
+  },
+  {
+    "question": "When did Melanie paint a sunrise?",
+    "predicted": "Melanie painted a sunrise last year; the memory describes it as a special lake sunrise painting.",
+    "ground_truth": 2022,
+    "category": "multi-hop",
+    "evidence": [
+      "D1:12"
+    ],
+    "stats": {
+      "input_tokens": 6202,
+      "output_tokens": 95,
+      "total_tokens": 6297,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.453176975250244
+    }
+  },
+  {
+    "question": "What fields would Caroline be likely to pursue in her educaton?",
+    "predicted": "Caroline would most likely pursue counseling or mental health-related fields, especially work focused on supporting trans people and the LGBTQ+ community. She\u2019s also interested in using her own experiences to help others through similar challenges.",
+    "ground_truth": "Psychology, counseling certification",
+    "category": "temporal",
+    "evidence": [
+      "D1:9",
+      "D1:11"
+    ],
+    "stats": {
+      "input_tokens": 5499,
+      "output_tokens": 120,
+      "total_tokens": 5619,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2380950450897217
+    }
+  },
+  {
+    "question": "What did Caroline research?",
+    "predicted": "Caroline was researching counseling and mental health career paths, especially work focused on supporting trans people and the LGBTQ+ community.",
+    "ground_truth": "Adoption agencies",
+    "category": "single-hop",
+    "evidence": [
+      "D2:8"
+    ],
+    "stats": {
+      "input_tokens": 5475,
+      "output_tokens": 102,
+      "total_tokens": 5577,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8655190467834473
+    }
+  },
+  {
+    "question": "What is Caroline's identity?",
+    "predicted": "Caroline is a transgender woman who transitioned around 2020. She\u2019s also an LGBTQ advocate and mentor, active in community support and activism.",
+    "ground_truth": "Transgender woman",
+    "category": "single-hop",
+    "evidence": [
+      "D1:5"
+    ],
+    "stats": {
+      "input_tokens": 10823,
+      "output_tokens": 107,
+      "total_tokens": 10930,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0982282161712646
+    }
+  },
+  {
+    "question": "When did Melanie run a charity race?",
+    "predicted": "I couldn\u2019t find a specific date for Melanie running a charity race in the memories I checked. The memories mention that she runs, but not that she did a charity race.",
+    "ground_truth": "The sunday before 25 May 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 6205,
+      "output_tokens": 111,
+      "total_tokens": 6316,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0594470500946045
+    }
+  },
+  {
+    "question": "When is Melanie planning on going camping?",
+    "predicted": "Melanie was planning to go camping around late August 2023, and she also went camping with her kids on 19 October 2023. If you mean a specific planned trip, I don\u2019t see an exact future date in memory.",
+    "ground_truth": "June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:7"
+    ],
+    "stats": {
+      "input_tokens": 6205,
+      "output_tokens": 125,
+      "total_tokens": 6330,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1462388038635254
+    }
+  },
+  {
+    "question": "What is Caroline's relationship status?",
+    "predicted": "Caroline\u2019s relationship status isn\u2019t explicitly stated in the memories. The clearest detail is that she has a deep, supportive friendship with Melanie, and she mentioned a tough breakup in the past.",
+    "ground_truth": "Single",
+    "category": "single-hop",
+    "evidence": [
+      "D3:13",
+      "D2:14"
+    ],
+    "stats": {
+      "input_tokens": 8932,
+      "output_tokens": 116,
+      "total_tokens": 9048,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2848942279815674
+    }
+  },
+  {
+    "question": "When did Caroline give a speech at a school?",
+    "predicted": "Caroline gave a speech at a school on 2023-06-09. She spoke about her transgender journey and encouraged students to get involved in the LGBTQ community.",
+    "ground_truth": "The week before 9 June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 7596,
+      "output_tokens": 133,
+      "total_tokens": 7729,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.091280221939087
+    }
+  },
+  {
+    "question": "When did Caroline meet up with her friends, family, and mentors?",
+    "predicted": "Caroline met up with her friends and family around late June 2023, when she had a picnic with them. I couldn\u2019t find a specific date for meeting with her mentors in the memories.",
+    "ground_truth": "The week before 9 June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:11"
+    ],
+    "stats": {
+      "input_tokens": 6001,
+      "output_tokens": 117,
+      "total_tokens": 6118,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.043116807937622
+    }
+  },
+  {
+    "question": "How long has Caroline had her current group of friends for?",
+    "predicted": "Caroline has had her current group of close friends for about 4 years. The memory says she\u2019s known them since she moved from her home country.",
+    "ground_truth": "4 years",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:13"
+    ],
+    "stats": {
+      "input_tokens": 5995,
+      "output_tokens": 108,
+      "total_tokens": 6103,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.868312120437622
+    }
+  },
+  {
+    "question": "Where did Caroline move from 4 years ago?",
+    "predicted": "I couldn\u2019t find where Caroline moved from in the memories I checked. The memories mention her transition and support network, but not a move from a specific place 4 years ago.",
+    "ground_truth": "Sweden",
+    "category": "single-hop",
+    "evidence": [
+      "D3:13",
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 10835,
+      "output_tokens": 114,
+      "total_tokens": 10949,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1090939044952393
+    }
+  },
+  {
+    "question": "How long ago was Caroline's 18th birthday?",
+    "predicted": "I couldn\u2019t find Caroline\u2019s birthdate in the memories, so I can\u2019t tell how long ago her 18th birthday was. If you want, I can help look for a memory that mentions her age or birthday.",
+    "ground_truth": "10 years ago",
+    "category": "multi-hop",
+    "evidence": [
+      "D4:5"
+    ],
+    "stats": {
+      "input_tokens": 20003,
+      "output_tokens": 145,
+      "total_tokens": 20148,
+      "tool_calls": 4,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.6164698600769043
+    }
+  },
+  {
+    "question": "What career path has Caroline decided to persue?",
+    "predicted": "Caroline has decided to pursue counseling and mental health work, especially supporting trans people and others in the LGBTQ+ community.",
+    "ground_truth": "counseling or mental health for Transgender people",
+    "category": "single-hop",
+    "evidence": [
+      "D4:13",
+      "D1:11"
+    ],
+    "stats": {
+      "input_tokens": 4101,
+      "output_tokens": 66,
+      "total_tokens": 4167,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7174479961395264
+    }
+  },
+  {
+    "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+    "predicted": "Probably not in the same way. The memories say Caroline\u2019s interest in counseling is strongly tied to the support she received growing up and during her transition, which inspired her to help others in similar situations.",
+    "ground_truth": "Likely no",
+    "category": "temporal",
+    "evidence": [
+      "D4:15",
+      "D3:5"
+    ],
+    "stats": {
+      "input_tokens": 6259,
+      "output_tokens": 119,
+      "total_tokens": 6378,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2417378425598145
+    }
+  },
+  {
+    "question": "What activities does Melanie partake in?",
+    "predicted": "Melanie partakes in painting, pottery, running, reading, playing violin and clarinet, and attending live music/concerts. She also enjoys family activities like camping, hiking, museum trips, beach outings, and volunteering.",
+    "ground_truth": "pottery, camping, painting, swimming",
+    "category": "single-hop",
+    "evidence": [
+      "D5:4",
+      "D9:1",
+      "D1:12",
+      "D1:18"
+    ],
+    "stats": {
+      "input_tokens": 6202,
+      "output_tokens": 122,
+      "total_tokens": 6324,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.141523838043213
+    }
+  },
+  {
+    "question": "When did Melanie sign up for a pottery class?",
+    "predicted": "Melanie signed up for the pottery class on 2 July 2023.",
+    "ground_truth": "2 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:4"
+    ],
+    "stats": {
+      "input_tokens": 6211,
+      "output_tokens": 92,
+      "total_tokens": 6303,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5699241161346436
+    }
+  },
+  {
+    "question": "When is Caroline going to the transgender conference?",
+    "predicted": "Caroline attended an LGBTQ conference around July 10, 2023, which was described as \u201ctwo days before\u201d a July 12 conversation. I don\u2019t see a separate memory specifically calling it a \u201ctransgender conference.\u201d",
+    "ground_truth": "July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:13"
+    ],
+    "stats": {
+      "input_tokens": 7346,
+      "output_tokens": 143,
+      "total_tokens": 7489,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3248188495635986
+    }
+  },
+  {
+    "question": "Where has Melanie camped?",
+    "predicted": "Melanie has camped with her family, including a camping trip around early July 2023. I couldn\u2019t find a specific location in memory.",
+    "ground_truth": "beach, mountains, forest",
+    "category": "single-hop",
+    "evidence": [
+      "D6:16",
+      "D4:6",
+      "D8:32"
+    ],
+    "stats": {
+      "input_tokens": 5432,
+      "output_tokens": 105,
+      "total_tokens": 5537,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1351702213287354
+    }
+  },
+  {
+    "question": "What do Melanie's kids like?",
+    "predicted": "Melanie\u2019s kids seem to like nature and outdoor activities, especially camping, hiking, and exploring forests. They also loved the museum\u2019s dinosaur exhibit and enjoy creative things like painting.",
+    "ground_truth": "dinosaurs, nature",
+    "category": "single-hop",
+    "evidence": [
+      "D6:6",
+      "D4:8"
+    ],
+    "stats": {
+      "input_tokens": 5503,
+      "output_tokens": 111,
+      "total_tokens": 5614,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1412808895111084
+    }
+  },
+  {
+    "question": "When did Melanie go to the museum?",
+    "predicted": "Melanie took her kids to the museum on 5 July 2023.",
+    "ground_truth": "5 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:4"
+    ],
+    "stats": {
+      "input_tokens": 6205,
+      "output_tokens": 92,
+      "total_tokens": 6297,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0423641204833984
+    }
+  },
+  {
+    "question": "When did Caroline have a picnic?",
+    "predicted": "I couldn\u2019t find any memory that mentions Caroline having a picnic. If you want, I can look for related outdoor activities like a hike, beach trip, or camping instead.",
+    "ground_truth": "The week before 6 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D6:11"
+    ],
+    "stats": {
+      "input_tokens": 8433,
+      "output_tokens": 132,
+      "total_tokens": 8565,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0252909660339355
+    }
+  },
+  {
+    "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+    "predicted": "Probably yes \u2014 Caroline loves reading and books are a huge part of her life, so it\u2019s likely she\u2019d have children\u2019s classics like Dr. Seuss on her bookshelf. I can\u2019t confirm that she specifically owns any Dr. Seuss books, though.",
+    "ground_truth": "Yes, since she collects classic children's books",
+    "category": "temporal",
+    "evidence": [
+      "D6:9"
+    ],
+    "stats": {
+      "input_tokens": 7146,
+      "output_tokens": 129,
+      "total_tokens": 7275,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.053086996078491
+    }
+  },
+  {
+    "question": "What books has Melanie read?",
+    "predicted": "The only book I found Melanie mentioning is **Charlotte\u2019s Web**, which she said was her favorite childhood book. I didn\u2019t find any other specific books in memory.",
+    "ground_truth": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+    "category": "single-hop",
+    "evidence": [
+      "D7:8",
+      "D6:10"
+    ],
+    "stats": {
+      "input_tokens": 5432,
+      "output_tokens": 108,
+      "total_tokens": 5540,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.6521551609039307
+    }
+  },
+  {
+    "question": "What does Melanie do to destress?",
+    "predicted": "Melanie destresses by running, painting, pottery, reading, and playing violin. She also finds time with her family and pets relaxing.",
+    "ground_truth": "Running, pottery",
+    "category": "single-hop",
+    "evidence": [
+      "D7:22",
+      "D5:4"
+    ],
+    "stats": {
+      "input_tokens": 5438,
+      "output_tokens": 103,
+      "total_tokens": 5541,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.038770914077759
+    }
+  },
+  {
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "predicted": "Caroline went to the LGBTQ conference around July 10, 2023, two days before the July 12 conversation.",
+    "ground_truth": "10 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 7346,
+      "output_tokens": 122,
+      "total_tokens": 7468,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1419992446899414
+    }
+  },
+  {
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "predicted": "I couldn\u2019t find any memory that says when Melanie read **\u201cNothing Is Impossible.\u201d** The memories mention her reading generally, but not that specific book or a date.",
+    "ground_truth": 2022,
+    "category": "multi-hop",
+    "evidence": [
+      "D7:8"
+    ],
+    "stats": {
+      "input_tokens": 6214,
+      "output_tokens": 110,
+      "total_tokens": 6324,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.13908314704895
+    }
+  },
+  {
+    "question": "Would Caroline pursue writing as a career option?",
+    "predicted": "I didn\u2019t find any memory showing Caroline wants writing as a career. The memories say she\u2019s interested in counseling and mental health work, especially supporting trans people.",
+    "ground_truth": "LIkely no; though she likes reading, she wants to be a counselor",
+    "category": "temporal",
+    "evidence": [
+      "D7:5",
+      "D7:9"
+    ],
+    "stats": {
+      "input_tokens": 4098,
+      "output_tokens": 74,
+      "total_tokens": 4172,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7761180400848389
+    }
+  },
+  {
+    "question": "When did Caroline go to the adoption meeting?",
+    "predicted": "Caroline attended the adoption council meeting on Friday, July 14, 2023.",
+    "ground_truth": "The friday before 15 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:9"
+    ],
+    "stats": {
+      "input_tokens": 4197,
+      "output_tokens": 57,
+      "total_tokens": 4254,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3269948959350586
+    }
+  },
+  {
+    "question": "When did Melanie go to the pottery workshop?",
+    "predicted": "Melanie took her kids to a pottery workshop on Friday, 14 July 2023.",
+    "ground_truth": "The Friday before 15 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:2"
+    ],
+    "stats": {
+      "input_tokens": 6208,
+      "output_tokens": 95,
+      "total_tokens": 6303,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9112188816070557
+    }
+  },
+  {
+    "question": "Would Melanie be considered a member of the LGBTQ community?",
+    "predicted": "Based on the memories, Melanie is described as married to her husband/partner and having kids, but there\u2019s no indication that she identifies as LGBTQ. So I can\u2019t say she\u2019s a member of the LGBTQ community from the available information.",
+    "ground_truth": "Likely no, she does not refer to herself as part of it",
+    "category": "temporal",
+    "evidence": [],
+    "stats": {
+      "input_tokens": 11375,
+      "output_tokens": 145,
+      "total_tokens": 11520,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.122288942337036
+    }
+  },
+  {
+    "question": "When did Melanie go camping in June?",
+    "predicted": "Melanie went camping around 20 June 2023.",
+    "ground_truth": "The week before 27 June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D4:8"
+    ],
+    "stats": {
+      "input_tokens": 6205,
+      "output_tokens": 88,
+      "total_tokens": 6293,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9907491207122803
+    }
+  },
+  {
+    "question": "What LGBTQ+ events has Caroline participated in?",
+    "predicted": "Caroline has participated in a LGBTQ support group, given a school talk about her transgender journey, attended pride parades, attended an LGBTQ conference, mentored a trans teen at an LGBTQ youth mentorship program, joined an LGBTQ activist group, volunteered at an LGBTQ+ youth center, and helped organize/show work in an LGBTQ art show.",
+    "ground_truth": "Pride parade, school speech, support group",
+    "category": "single-hop",
+    "evidence": [
+      "D5:1",
+      "D8:17",
+      "D3:1",
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 12193,
+      "output_tokens": 164,
+      "total_tokens": 12357,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.352187156677246
+    }
+  },
+  {
+    "question": "When did Caroline go to a pride parade during the summer?",
+    "predicted": "Caroline went to a pride parade in late June 2023, described as \u201clast week\u201d on 2023-07-03 and \u201ca few weeks ago\u201d on 2023-07-15. Another memory says she attended one on 8 August 2023.",
+    "ground_truth": "The week before 3 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D5:1"
+    ],
+    "stats": {
+      "input_tokens": 7143,
+      "output_tokens": 135,
+      "total_tokens": 7278,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1417672634124756
+    }
+  },
+  {
+    "question": "What events has Caroline participated in to help children?",
+    "predicted": "Caroline has participated in a school event about her transgender journey, an LGBTQ support group, an LGBTQ+ pride parade, an LGBTQ conference, and a youth mentorship program. She also volunteered at an LGBTQ+ youth center and was looking forward to its talent show for the kids.",
+    "ground_truth": "Mentoring program, school speech",
+    "category": "single-hop",
+    "evidence": [
+      "D9:2",
+      "D3:3"
+    ],
+    "stats": {
+      "input_tokens": 7700,
+      "output_tokens": 151,
+      "total_tokens": 7851,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2477807998657227
+    }
+  },
+  {
+    "question": "When did Melanie go camping in July?",
+    "predicted": "Melanie went camping in July around **19 July 2023** with her kids, after a road trip. The memory says they camped \u201cyesterday\u201d from the 20 July entry, so that\u2019s the best date available.",
+    "ground_truth": "two weekends before 17 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D9:1"
+    ],
+    "stats": {
+      "input_tokens": 6205,
+      "output_tokens": 124,
+      "total_tokens": 6329,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.137962818145752
+    }
+  },
+  {
+    "question": "When did Caroline join a mentorship program?",
+    "predicted": "I couldn\u2019t find any memory that says when Caroline joined a mentorship program. The closest relevant note is from 2023-07-17, which says she was already a mentor in an LGBTQ youth mentorship program, but it doesn\u2019t give a join date.",
+    "ground_truth": "The weekend before 17 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D9:2"
+    ],
+    "stats": {
+      "input_tokens": 10334,
+      "output_tokens": 141,
+      "total_tokens": 10475,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 3.373220920562744
+    }
+  },
+  {
+    "question": "What did Melanie paint recently?",
+    "predicted": "Melanie recently painted a nature-inspired painting with her kids, and she also loves painting horses. More generally, she\u2019s been inspired by autumn and plans to do some autumn-themed landscape and still-life paintings.",
+    "ground_truth": "sunset",
+    "category": "single-hop",
+    "evidence": [
+      "D8:6; D9:17"
+    ],
+    "stats": {
+      "input_tokens": 6199,
+      "output_tokens": 117,
+      "total_tokens": 6316,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1414172649383545
+    }
+  },
+  {
+    "question": "What activities has Melanie done with her family?",
+    "predicted": "Melanie has gone camping with her family, including in the mountains, at the beach, and in the forest, where they hiked, explored nature, roasted marshmallows, and told stories around the campfire. She\u2019s also taken her kids to a museum, painted with them, attended a concert for her daughter\u2019s birthday, volunteered at a homeless shelter with them, and went on a road trip to the Grand Canyon.",
+    "ground_truth": "Pottery, painting, camping, museum, swimming, hiking",
+    "category": "single-hop",
+    "evidence": [
+      "D8:4",
+      "D8:6",
+      "D9:1",
+      "D6:4",
+      "D1:18",
+      "D3:14"
+    ],
+    "stats": {
+      "input_tokens": 4911,
+      "output_tokens": 126,
+      "total_tokens": 5037,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3600080013275146
+    }
+  },
+  {
+    "question": "In what ways is Caroline participating in the LGBTQ community?",
+    "predicted": "Caroline participates in the LGBTQ community by attending support groups, pride parades, and LGBTQ conferences, and by joining an LGBTQ activist group. She also mentors LGBTQ youth, volunteers at an LGBTQ+ youth center, and uses her art and public speaking to advocate for trans rights and inclusion.",
+    "ground_truth": "Joining activist group, going to pride parades, participating in an art show, mentoring program",
+    "category": "single-hop",
+    "evidence": [
+      "D10:3",
+      "D5:1",
+      "D9:12",
+      "D9:2"
+    ],
+    "stats": {
+      "input_tokens": 12198,
+      "output_tokens": 155,
+      "total_tokens": 12353,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.432922840118408
+    }
+  },
+  {
+    "question": "How many times has Melanie gone to the beach in 2023?",
+    "predicted": "I found 2 beach trips for Melanie in 2023: one camping at the beach in early July and another beach visit on 20 July 2023.",
+    "ground_truth": 2,
+    "category": "single-hop",
+    "evidence": [
+      "D10:8",
+      "D6:16"
+    ],
+    "stats": {
+      "input_tokens": 6761,
+      "output_tokens": 128,
+      "total_tokens": 6889,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.20764422416687
+    }
+  },
+  {
+    "question": "When did Caroline join a new activist group?",
+    "predicted": "Caroline joined the new activist group, \u201cConnected LGBTQ Activists,\u201d on 18 July 2023.",
+    "ground_truth": "The Tuesday before 20 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D10:3"
+    ],
+    "stats": {
+      "input_tokens": 7346,
+      "output_tokens": 119,
+      "total_tokens": 7465,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.07730770111084
+    }
+  },
+  {
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "predicted": "Melanie would likely be more interested in a national park. Her memories show she especially loves nature, camping, hiking, and outdoor family trips, which fit a national park more than a theme park.",
+    "ground_truth": "National park; she likes the outdoors",
+    "category": "temporal",
+    "evidence": [
+      "D10:12",
+      "D10:14"
+    ],
+    "stats": {
+      "input_tokens": 6229,
+      "output_tokens": 116,
+      "total_tokens": 6345,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8482999801635742
+    }
+  },
+  {
+    "question": "What kind of art does Caroline make?",
+    "predicted": "Caroline makes paintings, and she also works in stained glass and drawing. Her art often explores her trans experience, identity, and LGBTQ+ themes.",
+    "ground_truth": "abstract art",
+    "category": "single-hop",
+    "evidence": [
+      "D11:12",
+      "D11:8",
+      "D9:14"
+    ],
+    "stats": {
+      "input_tokens": 4961,
+      "output_tokens": 70,
+      "total_tokens": 5031,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.922173023223877
+    }
+  },
+  {
+    "question": "When is Melanie's daughter's birthday?",
+    "predicted": "Melanie celebrated her daughter\u2019s birthday on the night of August 13, 2023. I couldn\u2019t find the daughter\u2019s actual birth date in memory, only the celebration date.",
+    "ground_truth": "13 August",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:1"
+    ],
+    "stats": {
+      "input_tokens": 10563,
+      "output_tokens": 133,
+      "total_tokens": 10696,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1397440433502197
+    }
+  },
+  {
+    "question": "When did Caroline attend a pride parade in August?",
+    "predicted": "Caroline attended a pride parade on 8 August 2023. The memory says it was last Friday and describes the experience as awesome and full of love and energy.",
+    "ground_truth": "The Friday before 14 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:4"
+    ],
+    "stats": {
+      "input_tokens": 7137,
+      "output_tokens": 111,
+      "total_tokens": 7248,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0396289825439453
+    }
+  },
+  {
+    "question": "Would Melanie be considered an ally to the transgender community?",
+    "predicted": "Yes \u2014 based on the memories, Melanie would be considered an ally to the transgender community. She has been very supportive and affirming of Caroline\u2019s transgender journey, expressed pride in her courage, and supported LGBTQ events and advocacy.",
+    "ground_truth": "Yes, she is supportive",
+    "category": "temporal",
+    "evidence": [],
+    "stats": {
+      "input_tokens": 10138,
+      "output_tokens": 144,
+      "total_tokens": 10282,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.345963954925537
+    }
+  },
+  {
+    "question": "Who supports Caroline when she has a negative experience?",
+    "predicted": "Caroline is supported by her strong support system, especially her friends, family, and mentors. In one negative experience, she also leaned on the supportive LGBTQ+ community around her.",
+    "ground_truth": "Her mentors, family, and friends",
+    "category": "single-hop",
+    "evidence": [
+      "D12:1",
+      "D3:11"
+    ],
+    "stats": {
+      "input_tokens": 5988,
+      "output_tokens": 113,
+      "total_tokens": 6101,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.000560760498047
+    }
+  },
+  {
+    "question": "What types of pottery have Melanie and her kids made?",
+    "predicted": "Melanie and her kids have made pots together in a pottery workshop, and Melanie has also made bowls and a plate in pottery class. She specifically mentioned a black-and-white bowl, a colorful patterned bowl, and a plate.",
+    "ground_truth": "bowls, cup",
+    "category": "single-hop",
+    "evidence": [
+      "D12:14",
+      "D8:4",
+      "D5:6"
+    ],
+    "stats": {
+      "input_tokens": 6214,
+      "output_tokens": 121,
+      "total_tokens": 6335,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2704811096191406
+    }
+  },
+  {
+    "question": "When did Caroline and Melanie go to a pride fesetival together?",
+    "predicted": "They went to Pride Fest together last year, but the memory doesn\u2019t give an exact date. It says they reminisced about attending it with their whole friend group.",
+    "ground_truth": 2022,
+    "category": "multi-hop",
+    "evidence": [
+      "D12:15"
+    ],
+    "stats": {
+      "input_tokens": 11337,
+      "output_tokens": 130,
+      "total_tokens": 11467,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4611599445343018
+    }
+  },
+  {
+    "question": "What would Caroline's political leaning likely be?",
+    "predicted": "Caroline likely leans progressive or left-leaning, based on her strong LGBTQ+ advocacy, trans rights activism, and support for inclusion and equality. I don\u2019t see direct evidence of party affiliation, though, so this is only an inference.",
+    "ground_truth": "Liberal",
+    "category": "temporal",
+    "evidence": [
+      "D12:1"
+    ],
+    "stats": {
+      "input_tokens": 12653,
+      "output_tokens": 170,
+      "total_tokens": 12823,
+      "tool_calls": 5,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.246812105178833
+    }
+  },
+  {
+    "question": "What has Melanie painted?",
+    "predicted": "Melanie has painted a lake sunrise, nature-inspired paintings with her kids, a horse, and landscapes/still life. She\u2019s also been planning autumn-themed paintings.",
+    "ground_truth": "Horse, sunset, sunrise",
+    "category": "single-hop",
+    "evidence": [
+      "D13:8",
+      "D8:6",
+      "D1:12"
+    ],
+    "stats": {
+      "input_tokens": 6196,
+      "output_tokens": 109,
+      "total_tokens": 6305,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.035562038421631
+    }
+  },
+  {
+    "question": "What are Melanie's pets' names?",
+    "predicted": "Melanie has a dog named Luna and a cat named Oliver. A later memory also mentions a dog named Oliver and a cat named Bailey, so the pet names in memory are Luna, Oliver, and Bailey.",
+    "ground_truth": "Oliver, Luna, Bailey",
+    "category": "single-hop",
+    "evidence": [
+      "D13:4",
+      "D7:18"
+    ],
+    "stats": {
+      "input_tokens": 5506,
+      "output_tokens": 117,
+      "total_tokens": 5623,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.548062801361084
+    }
+  },
+  {
+    "question": "When did Caroline apply to adoption agencies?",
+    "predicted": "Caroline applied to adoption agencies during the week of August 23, 2023.",
+    "ground_truth": "The week of 23 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:1"
+    ],
+    "stats": {
+      "input_tokens": 4194,
+      "output_tokens": 57,
+      "total_tokens": 4251,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7319221496582031
+    }
+  },
+  {
+    "question": "When did Caroline draw a self-portrait?",
+    "predicted": "Caroline drew a self-portrait around 16 August 2023. It was described as a recent painting that featured blue prominently and made her feel liberated and empowered.",
+    "ground_truth": "The week before 23 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:11"
+    ],
+    "stats": {
+      "input_tokens": 7134,
+      "output_tokens": 111,
+      "total_tokens": 7245,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1518378257751465
+    }
+  },
+  {
+    "question": "What subject have Caroline and Melanie both painted?",
+    "predicted": "They\u2019ve both painted nature-inspired subjects, especially flowers. Melanie also painted landscapes and animals like horses, while Caroline has painted flowers and other expressive scenes.",
+    "ground_truth": "Sunsets",
+    "category": "single-hop",
+    "evidence": [
+      "D14:5",
+      "D8:6"
+    ],
+    "stats": {
+      "input_tokens": 6264,
+      "output_tokens": 106,
+      "total_tokens": 6370,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.236751079559326
+    }
+  },
+  {
+    "question": "What symbols are important to Caroline?",
+    "predicted": "Caroline seems especially drawn to symbols of authenticity, freedom, and trans/LGBTQ+ pride. In memory, the rainbow flag mural, the eagle, and the stained glass window are all described as important to her, and she also values the symbolism of her grandmother\u2019s necklace, which represents love, faith, and strength.",
+    "ground_truth": "Rainbow flag, transgender symbol",
+    "category": "single-hop",
+    "evidence": [
+      "D14:15",
+      "D4:1"
+    ],
+    "stats": {
+      "input_tokens": 7287,
+      "output_tokens": 166,
+      "total_tokens": 7453,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.880645275115967
+    }
+  },
+  {
+    "question": "When did Caroline encounter people on a hike and have a negative experience?",
+    "predicted": "Caroline had the negative hiking experience on 17 August 2023, when she encountered a group of religious conservatives. There\u2019s also another hiking incident noted around 18 August 2023, but the clearest dated negative encounter is 17 August 2023.",
+    "ground_truth": "The week before 25 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:1"
+    ],
+    "stats": {
+      "input_tokens": 7149,
+      "output_tokens": 131,
+      "total_tokens": 7280,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0923259258270264
+    }
+  },
+  {
+    "question": "When did Melanie make a plate in pottery class?",
+    "predicted": "Melanie made a plate in pottery class on 24 August 2023.",
+    "ground_truth": "24 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D14:4"
+    ],
+    "stats": {
+      "input_tokens": 6211,
+      "output_tokens": 92,
+      "total_tokens": 6303,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.268711805343628
+    }
+  },
+  {
+    "question": "Would Caroline be considered religious?",
+    "predicted": "I couldn\u2019t find any memory indicating that Caroline is religious. In fact, the memories emphasize her LGBTQ identity, activism, art, and support communities rather than religion.",
+    "ground_truth": "Somewhat, but not extremely religious",
+    "category": "temporal",
+    "evidence": [
+      "D14:19",
+      "D12:1"
+    ],
+    "stats": {
+      "input_tokens": 12184,
+      "output_tokens": 131,
+      "total_tokens": 12315,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.140273094177246
+    }
+  },
+  {
+    "question": "What instruments does Melanie play?",
+    "predicted": "Melanie plays the violin and clarinet.",
+    "ground_truth": "clarinet and violin",
+    "category": "single-hop",
+    "evidence": [
+      "D15:26",
+      "D2:5"
+    ],
+    "stats": {
+      "input_tokens": 5432,
+      "output_tokens": 84,
+      "total_tokens": 5516,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0448849201202393
+    }
+  },
+  {
+    "question": "What musical artists/bands has Melanie seen?",
+    "predicted": "Melanie has seen the band Summer Sounds and attended a Matt Patterson concert. I didn\u2019t find any other specific musical artists or bands in the memories.",
+    "ground_truth": "Summer Sounds, Matt Patterson",
+    "category": "single-hop",
+    "evidence": [
+      "D15:16",
+      "D11:3"
+    ],
+    "stats": {
+      "input_tokens": 6208,
+      "output_tokens": 106,
+      "total_tokens": 6314,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9056150913238525
+    }
+  },
+  {
+    "question": "When did Melanie go to the park?",
+    "predicted": "I couldn\u2019t find any memory that says Melanie went to the park. The memories mention camping, the museum, the beach, and other family activities, but not a park visit.",
+    "ground_truth": "27 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:2"
+    ],
+    "stats": {
+      "input_tokens": 5507,
+      "output_tokens": 111,
+      "total_tokens": 5618,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0340189933776855
+    }
+  },
+  {
+    "question": "When is Caroline's youth center putting on a talent show?",
+    "predicted": "Caroline\u2019s youth center talent show is happening next month, in September 2023.",
+    "ground_truth": "September 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:11"
+    ],
+    "stats": {
+      "input_tokens": 7143,
+      "output_tokens": 95,
+      "total_tokens": 7238,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9174063205718994
+    }
+  },
+  {
+    "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+    "predicted": "Yes, probably. Melanie likes classical music, especially Bach and Mozart, and she plays violin and clarinet, so Vivaldi\u2019s *The Four Seasons* seems like a good fit for her tastes.",
+    "ground_truth": "Yes; it's classical music",
+    "category": "temporal",
+    "evidence": [
+      "D15:28"
+    ],
+    "stats": {
+      "input_tokens": 6229,
+      "output_tokens": 117,
+      "total_tokens": 6346,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7076590061187744
+    }
+  },
+  {
+    "question": "What are some changes Caroline has faced during her transition journey?",
+    "predicted": "Caroline has faced changes in her relationships, with some close friends continuing to support her while others couldn\u2019t handle her transition. She\u2019s also gone through a long process of self-acceptance, and she says transitioning wasn\u2019t easy, but support from friends, family, and mentors helped her become more confident and authentic.",
+    "ground_truth": "Changes to her body, losing unsupportive friends",
+    "category": "single-hop",
+    "evidence": [
+      "D16:15",
+      "D11:14"
+    ],
+    "stats": {
+      "input_tokens": 5994,
+      "output_tokens": 141,
+      "total_tokens": 6135,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3464910984039307
+    }
+  },
+  {
+    "question": "What does Melanie do with her family on hikes?",
+    "predicted": "On hikes, Melanie goes with her family to enjoy nature and spend quality time together. The memories mention hiking in the mountains and forests, often as part of camping trips.",
+    "ground_truth": "Roast marshmallows, tell stories",
+    "category": "single-hop",
+    "evidence": [
+      "D16:4",
+      "D10:12"
+    ],
+    "stats": {
+      "input_tokens": 5513,
+      "output_tokens": 109,
+      "total_tokens": 5622,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1491799354553223
+    }
+  },
+  {
+    "question": "When did Caroline go biking with friends?",
+    "predicted": "Caroline went biking with friends last weekend, around September 6\u20137, 2023.",
+    "ground_truth": "The weekend before 13 September 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:1"
+    ],
+    "stats": {
+      "input_tokens": 4961,
+      "output_tokens": 60,
+      "total_tokens": 5021,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9285030364990234
+    }
+  },
+  {
+    "question": "How long has Melanie been practicing art?",
+    "predicted": "Melanie has been into art for seven years, since around 2016.",
+    "ground_truth": "Since 2016",
+    "category": "multi-hop",
+    "evidence": [
+      "D16:8"
+    ],
+    "stats": {
+      "input_tokens": 5438,
+      "output_tokens": 91,
+      "total_tokens": 5529,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0582683086395264
+    }
+  },
+  {
+    "question": "What personality traits might Melanie say Caroline has?",
+    "predicted": "Melanie would likely describe Caroline as inspiring, courageous, supportive, and authentic. She also seems to see Caroline as kind, thoughtful, creative, and strong in her advocacy and personal journey.",
+    "ground_truth": "Thoughtful, authentic, driven",
+    "category": "temporal",
+    "evidence": [
+      "D16:18",
+      "D13:16",
+      "D7:4"
+    ],
+    "stats": {
+      "input_tokens": 10831,
+      "output_tokens": 116,
+      "total_tokens": 10947,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9233028888702393
+    }
+  },
+  {
+    "question": "What transgender-specific events has Caroline attended?",
+    "predicted": "Caroline has attended a LGBTQ support group, a school event where she spoke about her transgender journey, an LGBTQ+ pride parade, an LGBTQ conference, and a pride event with her transgender mentee. She also joined a LGBTQ activist group and volunteers at an LGBTQ+ youth center, but those are more ongoing activities than one-time events.",
+    "ground_truth": "Poetry reading, conference",
+    "category": "single-hop",
+    "evidence": [
+      "D17:19",
+      "D15:13"
+    ],
+    "stats": {
+      "input_tokens": 7343,
+      "output_tokens": 164,
+      "total_tokens": 7507,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.658193349838257
+    }
+  },
+  {
+    "question": "What book did Melanie read from Caroline's suggestion?",
+    "predicted": "Melanie read **\u201cBecoming Nicole\u201d by Amy Ellis Nutt** from Caroline\u2019s suggestion.",
+    "ground_truth": "\"Becoming Nicole\"",
+    "category": "single-hop",
+    "evidence": [
+      "D7:11",
+      "D17:10"
+    ],
+    "stats": {
+      "input_tokens": 11325,
+      "output_tokens": 117,
+      "total_tokens": 11442,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2921087741851807
+    }
+  },
+  {
+    "question": "When did Melanie's friend adopt a child?",
+    "predicted": "I couldn\u2019t find any memory saying when Melanie\u2019s friend adopted a child. The memories mention Melanie has kids, but not an adoption date.",
+    "ground_truth": 2022,
+    "category": "multi-hop",
+    "evidence": [
+      "D17:3"
+    ],
+    "stats": {
+      "input_tokens": 9827,
+      "output_tokens": 123,
+      "total_tokens": 9950,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2998509407043457
+    }
+  },
+  {
+    "question": "When did Melanie get hurt?",
+    "predicted": "I couldn\u2019t find any memory that says when Melanie got hurt. The closest related entry is from 2023-10-20, where Melanie\u2019s son was in an accident, but it doesn\u2019t mention Melanie herself being injured.",
+    "ground_truth": "September 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:8"
+    ],
+    "stats": {
+      "input_tokens": 9254,
+      "output_tokens": 122,
+      "total_tokens": 9376,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1750810146331787
+    }
+  },
+  {
+    "question": "When did Melanie's family go on a roadtrip?",
+    "predicted": "Melanie\u2019s family went on a road trip around October 17\u201319, 2023. They visited the Grand Canyon, and her son was in an accident during the trip but was okay.",
+    "ground_truth": "The weekend before 20 October 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 5516,
+      "output_tokens": 115,
+      "total_tokens": 5631,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.111359119415283
+    }
+  },
+  {
+    "question": "How many children does Melanie have?",
+    "predicted": "Melanie has at least 3 children. The memories mention her \u201c2 younger kids,\u201d a daughter, and a son.",
+    "ground_truth": 3,
+    "category": "single-hop",
+    "evidence": [
+      "D18:1",
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 5503,
+      "output_tokens": 100,
+      "total_tokens": 5603,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.937436819076538
+    }
+  },
+  {
+    "question": "When did Melanie go on a hike after the roadtrip?",
+    "predicted": "Melanie went hiking after the road trip on 19 October 2023, when she took her kids camping to relax and recover.",
+    "ground_truth": "19 October 2023",
+    "category": "single-hop",
+    "evidence": [
+      "D18:17"
+    ],
+    "stats": {
+      "input_tokens": 11275,
+      "output_tokens": 124,
+      "total_tokens": 11399,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1395609378814697
+    }
+  },
+  {
+    "question": "Would Melanie go on another roadtrip soon?",
+    "predicted": "I couldn\u2019t find any memory about Melanie planning another road trip soon. The closest related info is that she has done family camping trips, but nothing about an upcoming road trip.",
+    "ground_truth": "Likely no; since this one went badly",
+    "category": "temporal",
+    "evidence": [
+      "D18:3",
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 5441,
+      "output_tokens": 110,
+      "total_tokens": 5551,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.116824150085449
+    }
+  },
+  {
+    "question": "What items has Melanie bought?",
+    "predicted": "Melanie has bought figurines that remind her of family love. I couldn\u2019t find any other specific items she bought in the memories.",
+    "ground_truth": "Figurines, shoes",
+    "category": "single-hop",
+    "evidence": [
+      "D19:2",
+      "D7:18"
+    ],
+    "stats": {
+      "input_tokens": 10559,
+      "output_tokens": 123,
+      "total_tokens": 10682,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.265052080154419
+    }
+  },
+  {
+    "question": "When did Caroline pass the adoption interview?",
+    "predicted": "Caroline passed the adoption agency interviews on Friday, October 20, 2023.",
+    "ground_truth": "The Friday before 22 October 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:1"
+    ],
+    "stats": {
+      "input_tokens": 4194,
+      "output_tokens": 57,
+      "total_tokens": 4251,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7404253482818604
+    }
+  },
+  {
+    "question": "When did Melanie buy the figurines?",
+    "predicted": "Melanie bought the figurines yesterday, on 21 October 2023.",
+    "ground_truth": "21 October 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:2"
+    ],
+    "stats": {
+      "input_tokens": 9960,
+      "output_tokens": 93,
+      "total_tokens": 10053,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0408236980438232
+    }
+  },
+  {
+    "question": "Would Caroline want to move back to her home country soon?",
+    "predicted": "I couldn\u2019t find any memory saying Caroline wants to move back to her home country soon. The memories I found focus on her transition, activism, art, and adoption plans, but not a near-term move home.",
+    "ground_truth": "No; she's in the process of adopting children.",
+    "category": "temporal",
+    "evidence": [
+      "D19:1",
+      "D19:3"
+    ],
+    "stats": {
+      "input_tokens": 11301,
+      "output_tokens": 143,
+      "total_tokens": 11444,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2923998832702637
+    }
+  },
+  {
+    "question": "What did the charity race raise awareness for?",
+    "predicted": "The charity race raised awareness for mental health.",
+    "ground_truth": "mental health",
+    "category": "open-domain",
+    "evidence": [
+      "D2:2"
+    ],
+    "stats": {
+      "input_tokens": 5129,
+      "output_tokens": 87,
+      "total_tokens": 5216,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.089909791946411
+    }
+  },
+  {
+    "question": "What did Melanie realize after the charity race?",
+    "predicted": "I couldn\u2019t find any memory about a \u201ccharity race\u201d or what Melanie realized afterward. If you want, I can look for a different related event or person.",
+    "ground_truth": "self-care is important",
+    "category": "open-domain",
+    "evidence": [
+      "D2:3"
+    ],
+    "stats": {
+      "input_tokens": 10030,
+      "output_tokens": 111,
+      "total_tokens": 10141,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.347193956375122
+    }
+  },
+  {
+    "question": "How does Melanie prioritize self-care?",
+    "predicted": "Melanie prioritizes self-care by carving out daily me-time for running, reading, and playing violin. She sees it as important so she can better care for her family.",
+    "ground_truth": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+    "category": "open-domain",
+    "evidence": [
+      "D2:5"
+    ],
+    "stats": {
+      "input_tokens": 5535,
+      "output_tokens": 132,
+      "total_tokens": 5667,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.749737024307251
+    }
+  },
+  {
+    "question": "What are Caroline's plans for the summer?",
+    "predicted": "I couldn\u2019t find any memory that specifically says Caroline\u2019s summer plans. The closest details are that she was involved in art shows, LGBTQ+ events, volunteering at a youth center, and biking/hiking with friends during the summer of 2023.",
+    "ground_truth": "researching adoption agencies",
+    "category": "open-domain",
+    "evidence": [
+      "D2:8"
+    ],
+    "stats": {
+      "input_tokens": 7594,
+      "output_tokens": 149,
+      "total_tokens": 7743,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.144150972366333
+    }
+  },
+  {
+    "question": "What type of individuals does the adoption agency Caroline is considering support?",
+    "predicted": "The adoption agencies Caroline is considering support LGBTQ+ folks with adoption.",
+    "ground_truth": "LGBTQ+ individuals",
+    "category": "open-domain",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 4209,
+      "output_tokens": 52,
+      "total_tokens": 4261,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8286921977996826
+    }
+  },
+  {
+    "question": "Why did Caroline choose the adoption agency?",
+    "predicted": "Caroline chose the adoption agency because she wanted to create a loving home for children in need, and she specifically looked for agencies that support LGBTQ+ people. She also planned to pursue single-parent adoption and valued inclusivity and support.",
+    "ground_truth": "because of their inclusivity and support for LGBTQ+ individuals",
+    "category": "open-domain",
+    "evidence": [
+      "D2:12"
+    ],
+    "stats": {
+      "input_tokens": 6333,
+      "output_tokens": 122,
+      "total_tokens": 6455,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0457980632781982
+    }
+  },
+  {
+    "question": "What is Caroline excited about in the adoption process?",
+    "predicted": "Caroline is excited about creating a loving, safe home for a child through adoption. She\u2019s especially looking forward to reading to her future kids and exposing them to diverse books and perspectives.",
+    "ground_truth": "creating a family for kids who need one",
+    "category": "open-domain",
+    "evidence": [
+      "D2:14"
+    ],
+    "stats": {
+      "input_tokens": 4200,
+      "output_tokens": 76,
+      "total_tokens": 4276,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8718647956848145
+    }
+  },
+  {
+    "question": "What does Melanie think about Caroline's decision to adopt?",
+    "predicted": "Melanie is very supportive of Caroline\u2019s decision to adopt. She congratulated her, said she\u2019s proud of her, and believes Caroline will be an excellent mother and create a loving home for the children.",
+    "ground_truth": "she thinks Caroline is doing something amazing and will be an awesome mom",
+    "category": "open-domain",
+    "evidence": [
+      "D2:15"
+    ],
+    "stats": {
+      "input_tokens": 11051,
+      "output_tokens": 104,
+      "total_tokens": 11155,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 2.6182971000671387
+    }
+  },
+  {
+    "question": "How long have Mel and her husband been married?",
+    "predicted": "Melanie said she\u2019d been married for 5 years, around 2018.",
+    "ground_truth": "Mel and her husband have been married for 5 years.",
+    "category": "open-domain",
+    "evidence": [
+      "D3:16"
+    ],
+    "stats": {
+      "input_tokens": 9266,
+      "output_tokens": 93,
+      "total_tokens": 9359,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1387147903442383
+    }
+  },
+  {
+    "question": "What does Caroline's necklace symbolize?",
+    "predicted": "Caroline\u2019s necklace symbolizes love, faith, and strength. It also reminds her of her roots in Sweden and the love and support she gets from her family.",
+    "ground_truth": "love, faith, and strength",
+    "category": "open-domain",
+    "evidence": [
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 3795,
+      "output_tokens": 76,
+      "total_tokens": 3871,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8385860919952393
+    }
+  },
+  {
+    "question": "What country is Caroline's grandma from?",
+    "predicted": "Caroline\u2019s grandma is from Sweden.",
+    "ground_truth": "Sweden",
+    "category": "open-domain",
+    "evidence": [
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 5976,
+      "output_tokens": 108,
+      "total_tokens": 6084,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0408740043640137
+    }
+  },
+  {
+    "question": "What was grandma's gift to Caroline?",
+    "predicted": "Grandma gave Caroline a necklace from Sweden when she was young. It was a sentimental gift that symbolized love, faith, and strength.",
+    "ground_truth": "necklace",
+    "category": "open-domain",
+    "evidence": [
+      "D4:3"
+    ],
+    "stats": {
+      "input_tokens": 10990,
+      "output_tokens": 130,
+      "total_tokens": 11120,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.157089948654175
+    }
+  },
+  {
+    "question": "What is Melanie's hand-painted bowl a reminder of?",
+    "predicted": "Melanie\u2019s hand-painted bowl is a reminder of art and self-expression.",
+    "ground_truth": "art and self-expression",
+    "category": "open-domain",
+    "evidence": [
+      "D4:5"
+    ],
+    "stats": {
+      "input_tokens": 10198,
+      "output_tokens": 116,
+      "total_tokens": 10314,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9761359691619873
+    }
+  },
+  {
+    "question": "What did Melanie and her family do while camping?",
+    "predicted": "While camping, Melanie and her family explored nature, roasted marshmallows around the campfire, went hiking, and shared stories together. They also enjoyed the views and quality time as a family.",
+    "ground_truth": "explored nature, roasted marshmallows, and went on a hike",
+    "category": "open-domain",
+    "evidence": [
+      "D4:8"
+    ],
+    "stats": {
+      "input_tokens": 5513,
+      "output_tokens": 114,
+      "total_tokens": 5627,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0921459197998047
+    }
+  },
+  {
+    "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+    "predicted": "Caroline is interested in counseling and mental health work focused on helping trans people and others with similar experiences. She wants to create a safe, supportive space where people can accept themselves and improve their mental health.",
+    "ground_truth": "working with trans people, helping them accept themselves and supporting their mental health",
+    "category": "open-domain",
+    "evidence": [
+      "D4:13"
+    ],
+    "stats": {
+      "input_tokens": 6460,
+      "output_tokens": 140,
+      "total_tokens": 6600,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.393101930618286
+    }
+  },
+  {
+    "question": "What workshop did Caroline attend recently?",
+    "predicted": "Caroline recently attended an LGBTQ+ counseling workshop on Friday, 23 June 2023. It covered therapeutic methods and how to work best with trans people.",
+    "ground_truth": "LGBTQ+ counseling workshop",
+    "category": "open-domain",
+    "evidence": [
+      "D4:13"
+    ],
+    "stats": {
+      "input_tokens": 5481,
+      "output_tokens": 110,
+      "total_tokens": 5591,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.199276924133301
+    }
+  },
+  {
+    "question": "What was discussed in the LGBTQ+ counseling workshop?",
+    "predicted": "The workshop/support group focused on LGBTQ+ experiences, especially transgender stories and journeys. Caroline found it powerful and inspiring, and it made her feel accepted, supported, and more courageous about embracing herself.",
+    "ground_truth": "therapeutic methods and how to best work with trans people",
+    "category": "open-domain",
+    "evidence": [
+      "D4:13"
+    ],
+    "stats": {
+      "input_tokens": 6089,
+      "output_tokens": 138,
+      "total_tokens": 6227,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0389721393585205
+    }
+  },
+  {
+    "question": "What motivated Caroline to pursue counseling?",
+    "predicted": "Caroline pursued counseling because she was going through a difficult transition and wanted support in accepting and understanding herself. The memories also suggest she was dealing with emotional struggles, including a tough breakup and the challenges of coming out and transitioning.",
+    "ground_truth": "her own journey and the support she received, and how counseling improved her life",
+    "category": "open-domain",
+    "evidence": [
+      "D4:15"
+    ],
+    "stats": {
+      "input_tokens": 5979,
+      "output_tokens": 122,
+      "total_tokens": 6101,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1164209842681885
+    }
+  },
+  {
+    "question": "What kind of place does Caroline want to create for people?",
+    "predicted": "Caroline wants to create a place where people feel accepted, loved, and supported. She especially wants it to be a welcoming space for LGBTQ people where they can be themselves without fear.",
+    "ground_truth": "a safe and inviting place for people to grow",
+    "category": "open-domain",
+    "evidence": [
+      "D4:15"
+    ],
+    "stats": {
+      "input_tokens": 5708,
+      "output_tokens": 78,
+      "total_tokens": 5786,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.164552927017212
+    }
+  },
+  {
+    "question": "Did Melanie make the black and white bowl in the photo?",
+    "predicted": "Yes \u2014 Melanie made a black and white bowl in her pottery class and said she was proud of it.",
+    "ground_truth": "Yes",
+    "category": "open-domain",
+    "evidence": [
+      "D5:8"
+    ],
+    "stats": {
+      "input_tokens": 10132,
+      "output_tokens": 122,
+      "total_tokens": 10254,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.455833911895752
+    }
+  },
+  {
+    "question": "What kind of books does Caroline have in her library?",
+    "predicted": "Caroline loves reading and says books are a huge part of her journey. Her favorite book is *Becoming Nicole* by Amy Ellis Nutt, a true story about a trans girl and her family.",
+    "ground_truth": "kids' books - classics, stories from different cultures, educational books",
+    "category": "open-domain",
+    "evidence": [
+      "D6:9"
+    ],
+    "stats": {
+      "input_tokens": 4970,
+      "output_tokens": 81,
+      "total_tokens": 5051,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8334498405456543
+    }
+  },
+  {
+    "question": "What was Melanie's favorite book from her childhood?",
+    "predicted": "Melanie\u2019s favorite childhood book was Charlotte\u2019s Web. She loved its themes of friendship and compassion.",
+    "ground_truth": "\"Charlotte's Web\"",
+    "category": "open-domain",
+    "evidence": [
+      "D6:10"
+    ],
+    "stats": {
+      "input_tokens": 5444,
+      "output_tokens": 95,
+      "total_tokens": 5539,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9353210926055908
+    }
+  },
+  {
+    "question": "What book did Caroline recommend to Melanie?",
+    "predicted": "Caroline recommended **\u201cBecoming Nicole\u201d by Amy Ellis Nutt** to Melanie.",
+    "ground_truth": "\"Becoming Nicole\"",
+    "category": "open-domain",
+    "evidence": [
+      "D7:11"
+    ],
+    "stats": {
+      "input_tokens": 11319,
+      "output_tokens": 115,
+      "total_tokens": 11434,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1433000564575195
+    }
+  },
+  {
+    "question": "What did Caroline take away from the book \"Becoming Nicole\"?",
+    "predicted": "Caroline said *Becoming Nicole* made her feel connected and gave her hope for her own path. Her main takeaways were self-acceptance, finding support, and remembering that tough times don\u2019t last.",
+    "ground_truth": "Lessons on self-acceptance and finding support",
+    "category": "open-domain",
+    "evidence": [
+      "D7:13"
+    ],
+    "stats": {
+      "input_tokens": 7146,
+      "output_tokens": 120,
+      "total_tokens": 7266,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3474249839782715
+    }
+  },
+  {
+    "question": "What are the new shoes that Melanie got used for?",
+    "predicted": "I couldn\u2019t find any memory about Melanie getting new shoes or what they were used for. If you want, I can look through a different memory file or help infer from nearby conversation context.",
+    "ground_truth": "Running",
+    "category": "open-domain",
+    "evidence": [
+      "D7:19"
+    ],
+    "stats": {
+      "input_tokens": 10574,
+      "output_tokens": 134,
+      "total_tokens": 10708,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1441118717193604
+    }
+  },
+  {
+    "question": "What is Melanie's reason for getting into running?",
+    "predicted": "Melanie runs as a way to destress and clear her mind. It\u2019s become an important part of her mental health and self-care routine.",
+    "ground_truth": "To de-stress and clear her mind",
+    "category": "open-domain",
+    "evidence": [
+      "D7:21"
+    ],
+    "stats": {
+      "input_tokens": 5444,
+      "output_tokens": 104,
+      "total_tokens": 5548,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0357742309570312
+    }
+  },
+  {
+    "question": "What does Melanie say running has been great for?",
+    "predicted": "Melanie says running has been great for her headspace and mental health. She describes it as a way to destress and clear her mind.",
+    "ground_truth": "Her mental health",
+    "category": "open-domain",
+    "evidence": [
+      "D7:24"
+    ],
+    "stats": {
+      "input_tokens": 5444,
+      "output_tokens": 104,
+      "total_tokens": 5548,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9549198150634766
+    }
+  },
+  {
+    "question": "What did Mel and her kids make during the pottery workshop?",
+    "predicted": "Melanie and her kids each made their own pots during the pottery workshop.",
+    "ground_truth": "pots",
+    "category": "open-domain",
+    "evidence": [
+      "D8:2"
+    ],
+    "stats": {
+      "input_tokens": 6217,
+      "output_tokens": 91,
+      "total_tokens": 6308,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.053936004638672
+    }
+  },
+  {
+    "question": "What kind of pot did Mel and her kids make with clay?",
+    "predicted": "Melanie and her kids made their own pots with clay at a pottery workshop. The memory doesn\u2019t specify a particular style of pot.",
+    "ground_truth": "a cup with a dog face on it",
+    "category": "open-domain",
+    "evidence": [
+      "D8:4"
+    ],
+    "stats": {
+      "input_tokens": 6220,
+      "output_tokens": 103,
+      "total_tokens": 6323,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.213862895965576
+    }
+  },
+  {
+    "question": "What creative project do Mel and her kids do together besides pottery?",
+    "predicted": "Besides pottery, Mel and her kids have been painting together, including nature-inspired paintings.",
+    "ground_truth": "painting",
+    "category": "open-domain",
+    "evidence": [
+      "D8:5"
+    ],
+    "stats": {
+      "input_tokens": 6220,
+      "output_tokens": 93,
+      "total_tokens": 6313,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0392608642578125
+    }
+  },
+  {
+    "question": "What did Mel and her kids paint in their latest project in July 2023?",
+    "predicted": "Melanie and her kids painted a nature-inspired painting together in July 2023, including lovely flowers. It was a bonding activity they did around 9 July 2023.",
+    "ground_truth": "a sunset with a palm tree",
+    "category": "open-domain",
+    "evidence": [
+      "D8:6"
+    ],
+    "stats": {
+      "input_tokens": 6232,
+      "output_tokens": 112,
+      "total_tokens": 6344,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0410571098327637
+    }
+  },
+  {
+    "question": "What did Caroline see at the council meeting for adoption?",
+    "predicted": "Caroline said the council meeting for adoption was inspiring and emotional. She saw many people who wanted to create loving homes for children in need.",
+    "ground_truth": "many people wanting to create loving homes for children in need",
+    "category": "open-domain",
+    "evidence": [
+      "D8:9"
+    ],
+    "stats": {
+      "input_tokens": 4203,
+      "output_tokens": 67,
+      "total_tokens": 4270,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.7857751846313477
+    }
+  },
+  {
+    "question": "What do sunflowers represent according to Caroline?",
+    "predicted": "According to Caroline, sunflowers represent warmth and happiness.",
+    "ground_truth": "warmth and happiness",
+    "category": "open-domain",
+    "evidence": [
+      "D8:11"
+    ],
+    "stats": {
+      "input_tokens": 7134,
+      "output_tokens": 88,
+      "total_tokens": 7222,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.5996077060699463
+    }
+  },
+  {
+    "question": "Why are flowers important to Melanie?",
+    "predicted": "Flowers are important to Melanie because they bring her joy and symbolize growth and beauty. They also remind her to appreciate small moments, and they\u2019re tied to her wedding, so they carry special sentimental meaning.",
+    "ground_truth": "They remind her to appreciate the small moments and were a part of her wedding decor",
+    "category": "open-domain",
+    "evidence": [
+      "D8:12"
+    ],
+    "stats": {
+      "input_tokens": 6202,
+      "output_tokens": 116,
+      "total_tokens": 6318,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.182283878326416
+    }
+  },
+  {
+    "question": "What inspired Caroline's painting for the art show?",
+    "predicted": "Caroline\u2019s painting for the art show was inspired by a visit to an LGBTQ center. She said it captured the unity and strength of everyone there, using vivid colors and a unified composition.",
+    "ground_truth": "visiting an LGBTQ center and wanting to capture unity and strength",
+    "category": "open-domain",
+    "evidence": [
+      "D9:16"
+    ],
+    "stats": {
+      "input_tokens": 7137,
+      "output_tokens": 115,
+      "total_tokens": 7252,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4145779609680176
+    }
+  },
+  {
+    "question": "How often does Melanie go to the beach with her kids?",
+    "predicted": "Melanie doesn\u2019t go to the beach often \u2014 the memory says usually only once or twice a year.",
+    "ground_truth": "once or twice a year",
+    "category": "open-domain",
+    "evidence": [
+      "D10:10"
+    ],
+    "stats": {
+      "input_tokens": 5519,
+      "output_tokens": 96,
+      "total_tokens": 5615,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.935189962387085
+    }
+  },
+  {
+    "question": "What did Melanie and her family see during their camping trip last year?",
+    "predicted": "They saw the Perseid meteor shower last year during their camping trip. Melanie said the sky was clear and full of stars, and the meteor shower was breathtaking.",
+    "ground_truth": "Perseid meteor shower",
+    "category": "open-domain",
+    "evidence": [
+      "D10:14"
+    ],
+    "stats": {
+      "input_tokens": 5525,
+      "output_tokens": 107,
+      "total_tokens": 5632,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.456865072250366
+    }
+  },
+  {
+    "question": "How did Melanie feel while watching the meteor shower?",
+    "predicted": "Melanie felt happy and peaceful while watching the meteor shower with her family. She described it as a cherished memory and seemed especially moved by sharing that moment together.",
+    "ground_truth": "in awe of the universe",
+    "category": "open-domain",
+    "evidence": [
+      "D10:18"
+    ],
+    "stats": {
+      "input_tokens": 9966,
+      "output_tokens": 109,
+      "total_tokens": 10075,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8825101852416992
+    }
+  },
+  {
+    "question": "Whose birthday did Melanie celebrate recently?",
+    "predicted": "Melanie recently celebrated her daughter\u2019s birthday. She marked it with a concert featuring Matt Patterson and enjoyed the special family moment.",
+    "ground_truth": "Melanie's daughter",
+    "category": "open-domain",
+    "evidence": [
+      "D11:1"
+    ],
+    "stats": {
+      "input_tokens": 10565,
+      "output_tokens": 121,
+      "total_tokens": 10686,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.235826015472412
+    }
+  },
+  {
+    "question": "Who performed at the concert at Melanie's daughter's birthday?",
+    "predicted": "Matt Patterson performed at Melanie\u2019s daughter\u2019s birthday concert.",
+    "ground_truth": "Matt Patterson",
+    "category": "open-domain",
+    "evidence": [
+      "D11:3"
+    ],
+    "stats": {
+      "input_tokens": 10038,
+      "output_tokens": 88,
+      "total_tokens": 10126,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9341187477111816
+    }
+  },
+  {
+    "question": "Why did Melanie choose to use colors and patterns in her pottery project?",
+    "predicted": "Melanie chose colors and patterns because she\u2019s obsessed with them and wanted the pottery piece to catch people\u2019s eye and make them smile. She also sees pottery as a creative, expressive outlet, so the design reflected her personality and joy.",
+    "ground_truth": "She wanted to catch the eye and make people smile.",
+    "category": "open-domain",
+    "evidence": [
+      "D12:6"
+    ],
+    "stats": {
+      "input_tokens": 6223,
+      "output_tokens": 123,
+      "total_tokens": 6346,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.217642068862915
+    }
+  },
+  {
+    "question": "What pet does Caroline have?",
+    "predicted": "Caroline has a pet guinea pig named Oscar.",
+    "ground_truth": "guinea pig",
+    "category": "open-domain",
+    "evidence": [
+      "D13:3"
+    ],
+    "stats": {
+      "input_tokens": 7688,
+      "output_tokens": 106,
+      "total_tokens": 7794,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.967179775238037
+    }
+  },
+  {
+    "question": "What pets does Melanie have?",
+    "predicted": "Melanie has a dog and cats. Specifically, memory mentions a dog named Luna and a cat named Oliver, and later also a dog named Oliver plus two cats, including one named Bailey.",
+    "ground_truth": "Two cats and a dog",
+    "category": "open-domain",
+    "evidence": [
+      "D13:4"
+    ],
+    "stats": {
+      "input_tokens": 5500,
+      "output_tokens": 113,
+      "total_tokens": 5613,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.039257049560547
+    }
+  },
+  {
+    "question": "Where did Oliver hide his bone once?",
+    "predicted": "Oliver once hid his bone in Melanie\u2019s slipper.",
+    "ground_truth": "In Melanie's slipper",
+    "category": "open-domain",
+    "evidence": [
+      "D13:6"
+    ],
+    "stats": {
+      "input_tokens": 6743,
+      "output_tokens": 105,
+      "total_tokens": 6848,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2373859882354736
+    }
+  },
+  {
+    "question": "What activity did Caroline used to do with her dad?",
+    "predicted": "Caroline used to go horseback riding with her dad through the fields. She said it was a very special childhood memory.",
+    "ground_truth": "Horseback riding",
+    "category": "open-domain",
+    "evidence": [
+      "D13:7"
+    ],
+    "stats": {
+      "input_tokens": 7140,
+      "output_tokens": 101,
+      "total_tokens": 7241,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0366668701171875
+    }
+  },
+  {
+    "question": "What did Caroline make for a local church?",
+    "predicted": "Caroline made a stained glass window for a local church. It showed how time changes our lives and represented her journey as a transgender woman, with a message about accepting growth and change.",
+    "ground_truth": "a stained glass window",
+    "category": "open-domain",
+    "evidence": [
+      "D14:17"
+    ],
+    "stats": {
+      "input_tokens": 7294,
+      "output_tokens": 138,
+      "total_tokens": 7432,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.247542142868042
+    }
+  },
+  {
+    "question": "What did Caroline find in her neighborhood during her walk?",
+    "predicted": "Caroline found a cool rainbow sidewalk for Pride Month in her neighborhood while out walking. She took a picture of it and said it felt vibrant and welcoming.",
+    "ground_truth": "a rainbow sidewalk",
+    "category": "open-domain",
+    "evidence": [
+      "D14:23"
+    ],
+    "stats": {
+      "input_tokens": 7140,
+      "output_tokens": 108,
+      "total_tokens": 7248,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.038038969039917
+    }
+  },
+  {
+    "question": "Which song motivates Caroline to be courageous?",
+    "predicted": "Caroline\u2019s favorite song is **\u201cBrave\u201d by Sara Bareilles**. She says it motivates her to be courageous and fight for what\u2019s right.",
+    "ground_truth": "Brave by Sara Bareilles",
+    "category": "open-domain",
+    "evidence": [
+      "D15:23"
+    ],
+    "stats": {
+      "input_tokens": 7131,
+      "output_tokens": 109,
+      "total_tokens": 7240,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0403530597686768
+    }
+  },
+  {
+    "question": "Which  classical musicians does Melanie enjoy listening to?",
+    "predicted": "Melanie enjoys listening to Bach and Mozart. Her musical taste is described as diverse, but those are the classical composers specifically mentioned.",
+    "ground_truth": "Bach and Mozart",
+    "category": "open-domain",
+    "evidence": [
+      "D15:28"
+    ],
+    "stats": {
+      "input_tokens": 6211,
+      "output_tokens": 102,
+      "total_tokens": 6313,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0400478839874268
+    }
+  },
+  {
+    "question": "Who is Melanie a fan of in terms of modern music?",
+    "predicted": "Melanie is a fan of modern music like Ed Sheeran \u2014 \u201cPerfect\u201d is one of her favorite songs.",
+    "ground_truth": "Ed Sheeran",
+    "category": "open-domain",
+    "evidence": [
+      "D15:28"
+    ],
+    "stats": {
+      "input_tokens": 5450,
+      "output_tokens": 98,
+      "total_tokens": 5548,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.1395721435546875
+    }
+  },
+  {
+    "question": "How long has Melanie been creating art?",
+    "predicted": "Melanie has been into art for about seven years, since around 2016.",
+    "ground_truth": "7 years",
+    "category": "open-domain",
+    "evidence": [
+      "D16:7"
+    ],
+    "stats": {
+      "input_tokens": 5438,
+      "output_tokens": 92,
+      "total_tokens": 5530,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8333868980407715
+    }
+  },
+  {
+    "question": "What precautionary sign did Melanie see at the caf\u00e9?",
+    "predicted": "Melanie said the caf\u00e9 had thoughtful signs as a precaution, but she didn\u2019t specify exactly what the sign said.",
+    "ground_truth": "A sign stating that someone is not being able to leave",
+    "category": "open-domain",
+    "evidence": [
+      "D16:16"
+    ],
+    "stats": {
+      "input_tokens": 10036,
+      "output_tokens": 100,
+      "total_tokens": 10136,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.886044979095459
+    }
+  },
+  {
+    "question": "What advice does Caroline give for getting started with adoption?",
+    "predicted": "Caroline\u2019s advice for getting started is to research adoption agencies, especially ones that support LGBTQ+ adopters, and to seek out an adoption advice/assistance group for guidance and support. She also suggests being prepared for challenges but staying committed to providing a safe, loving home.",
+    "ground_truth": "Do research, find an adoption agency or lawyer, gather necessary documents, and prepare emotionally.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:7"
+    ],
+    "stats": {
+      "input_tokens": 4203,
+      "output_tokens": 95,
+      "total_tokens": 4298,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.188131093978882
+    }
+  },
+  {
+    "question": "What setback did Melanie face in October 2023?",
+    "predicted": "In October 2023, Melanie had a scary road trip accident involving her son, which frightened her a lot. She was thankful he was okay afterward.",
+    "ground_truth": "She got hurt and had to take a break from pottery.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:8"
+    ],
+    "stats": {
+      "input_tokens": 9269,
+      "output_tokens": 107,
+      "total_tokens": 9376,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.049278974533081
+    }
+  },
+  {
+    "question": "What does Melanie do to keep herself busy during her pottery break?",
+    "predicted": "During her pottery break, Melanie keeps busy by painting, running, reading, and playing violin. She also spends time with her kids and family.",
+    "ground_truth": "Read a book and paint.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:10"
+    ],
+    "stats": {
+      "input_tokens": 5453,
+      "output_tokens": 104,
+      "total_tokens": 5557,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.029873847961426
+    }
+  },
+  {
+    "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+    "predicted": "I couldn\u2019t find any memory entry for October 13, 2023 specifically, so I can\u2019t say which painting Melanie showed Caroline that day. The closest related entries mention Melanie showing Caroline a horse painting on August 23, 2023 and other paintings on nearby dates.",
+    "ground_truth": "A painting inspired by sunsets with a pink sky.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:12"
+    ],
+    "stats": {
+      "input_tokens": 9982,
+      "output_tokens": 133,
+      "total_tokens": 10115,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.121307849884033
+    }
+  },
+  {
+    "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+    "predicted": "Caroline shared a painting that represented her path as a trans woman. It used red and blue to symbolize the binary gender system, with the colors mixed together to show breaking free from rigid thinking and embracing her authentic self.",
+    "ground_truth": "An abstract painting with blue streaks on a wall.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:14"
+    ],
+    "stats": {
+      "input_tokens": 82520,
+      "output_tokens": 181,
+      "total_tokens": 82701,
+      "tool_calls": 6,
+      "llm_calls": 7,
+      "elapsed_seconds": 5.303314924240112
+    }
+  },
+  {
+    "question": "What was the poetry reading that Caroline attended about?",
+    "predicted": "I couldn\u2019t find any memory about a poetry reading Caroline attended. The closest related memories are about her love of reading, books, and LGBTQ events, but nothing specifically about a poetry reading.",
+    "ground_truth": "It was a transgender poetry reading where transgender people shared their stories.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:18"
+    ],
+    "stats": {
+      "input_tokens": 7137,
+      "output_tokens": 115,
+      "total_tokens": 7252,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9571115970611572
+    }
+  },
+  {
+    "question": "What did the posters at the poetry reading say?",
+    "predicted": "I couldn\u2019t find any memory about posters at a poetry reading, so I don\u2019t know what they said.",
+    "ground_truth": "\"Trans Lives Matter\"",
+    "category": "open-domain",
+    "evidence": [
+      "D17:19"
+    ],
+    "stats": {
+      "input_tokens": 6267,
+      "output_tokens": 98,
+      "total_tokens": 6365,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0305230617523193
+    }
+  },
+  {
+    "question": "What does Caroline's drawing symbolize for her?",
+    "predicted": "Caroline\u2019s drawing symbolizes love, faith, and strength for her, and it also reminds her of her roots and the support she gets from her family.",
+    "ground_truth": "Freedom and being true to herself.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:23"
+    ],
+    "stats": {
+      "input_tokens": 3801,
+      "output_tokens": 75,
+      "total_tokens": 3876,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9525902271270752
+    }
+  },
+  {
+    "question": "How do Melanie and Caroline describe their journey through life together?",
+    "predicted": "Melanie and Caroline describe their journey through life together as a deeply supportive friendship built on mutual encouragement, shared values, and celebrating each other\u2019s growth. They see themselves as cheerleaders for one another, helping each other through personal, creative, and family milestones while cherishing love, acceptance, and authenticity.",
+    "ground_truth": "An ongoing adventure of learning and growing.",
+    "category": "open-domain",
+    "evidence": [
+      "D17:25"
+    ],
+    "stats": {
+      "input_tokens": 19691,
+      "output_tokens": 126,
+      "total_tokens": 19817,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.2696800231933594
+    }
+  },
+  {
+    "question": "What happened to Melanie's son on their road trip?",
+    "predicted": "Melanie said her son got into an accident during their road trip, which was scary, but thankfully he was okay.",
+    "ground_truth": "He got into an accident",
+    "category": "open-domain",
+    "evidence": [
+      "D18:1"
+    ],
+    "stats": {
+      "input_tokens": 10575,
+      "output_tokens": 120,
+      "total_tokens": 10695,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.279660701751709
+    }
+  },
+  {
+    "question": "How did Melanie's son handle the accident?",
+    "predicted": "Melanie said she was very frightened, but thankfully her son was okay. She described the accident as a scary reminder of how precious life and family are.",
+    "ground_truth": "He was scared but reassured by his family",
+    "category": "open-domain",
+    "evidence": [
+      "D18:6",
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 9264,
+      "output_tokens": 107,
+      "total_tokens": 9371,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.003953218460083
+    }
+  },
+  {
+    "question": "How did Melanie feel about her family after the accident?",
+    "predicted": "After the accident, Melanie felt frightened and shaken, but also deeply grateful that her son was okay. It reminded her how precious her family is and made her want to cherish them even more.",
+    "ground_truth": "They are important and mean the world to her",
+    "category": "open-domain",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 9270,
+      "output_tokens": 114,
+      "total_tokens": 9384,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.937391996383667
+    }
+  },
+  {
+    "question": "How did Melanie's children handle the accident?",
+    "predicted": "They were scared during the accident, but Melanie reassured them and explained that their brother would be okay. She said her kids are tough and resilient, and their resilience gave her strength.",
+    "ground_truth": "They were scared but resilient",
+    "category": "open-domain",
+    "evidence": [
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 5509,
+      "output_tokens": 112,
+      "total_tokens": 5621,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.9638001918792725
+    }
+  },
+  {
+    "question": "How did Melanie feel after the accident?",
+    "predicted": "Melanie felt very frightened and shaken after the accident, but also relieved and thankful that her son was okay. She said it reminded her how precious life and family are.",
+    "ground_truth": "Grateful and thankful for her family",
+    "category": "open-domain",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 9260,
+      "output_tokens": 110,
+      "total_tokens": 9370,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.0796070098876953
+    }
+  },
+  {
+    "question": "What was Melanie's reaction to her children enjoying the Grand Canyon?",
+    "predicted": "Melanie was very happy and grateful that her kids loved the Grand Canyon. She saw their excitement as a reminder of how precious family moments are and how much her family means to her.",
+    "ground_truth": "She was happy and thankful",
+    "category": "open-domain",
+    "evidence": [
+      "D18:5"
+    ],
+    "stats": {
+      "input_tokens": 4923,
+      "output_tokens": 77,
+      "total_tokens": 5000,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.8681738376617432
+    }
+  },
+  {
+    "question": "What do Melanie's family give her?",
+    "predicted": "Melanie\u2019s family gives her love and support. They also motivate her and help her through tough times.",
+    "ground_truth": "Strength and motivation",
+    "category": "open-domain",
+    "evidence": [
+      "D18:9"
+    ],
+    "stats": {
+      "input_tokens": 5506,
+      "output_tokens": 96,
+      "total_tokens": 5602,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 1.933933973312378
+    }
+  },
+  {
+    "question": "How did Melanie feel about her family supporting her?",
+    "predicted": "Melanie felt very supported and grateful when her family backed her. She said her family kept her motivated, gave her love, and made her feel happiest and most alive when they spent time together.",
+    "ground_truth": "She appreciated them a lot",
+    "category": "open-domain",
+    "evidence": [
+      "D18:13"
+    ],
+    "stats": {
+      "input_tokens": 11372,
+      "output_tokens": 136,
+      "total_tokens": 11508,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.450666904449463
+    }
+  },
+  {
+    "question": "What did Melanie do after the road trip to relax?",
+    "predicted": "After the road trip, Melanie took her kids camping the next day to relax and recover. She said being in nature with her family helps her reset and recharge.",
+    "ground_truth": "Went on a nature walk or hike",
+    "category": "open-domain",
+    "evidence": [
+      "D18:17"
+    ],
+    "stats": {
+      "input_tokens": 11272,
+      "output_tokens": 129,
+      "total_tokens": 11401,
+      "tool_calls": 4,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.146019220352173
+    }
+  }
+]

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+/memory/
+/memory_snapshots/
+results/
+data/
+*.egg-info/
+.env
+keys.*

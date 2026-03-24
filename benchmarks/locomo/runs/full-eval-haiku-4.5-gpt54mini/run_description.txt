@@ -1,0 +1,74 @@
+# MemFabric LoCoMo Benchmark: GPT-5.4 Mini Query + Judge
+
+**Date:** 2026-03-21
+**Dataset:** LoCoMo (all 10 conversations, 1,540 questions excl. adversarial)
+**Ingest model:** Claude Haiku 4.5 (reused from previous run)
+**Query model:** GPT-5.4 Mini
+**Judge model:** GPT-5.4 Mini
+**Total runtime:** ~81 minutes (query 59 min + judge 22 min)
+
+---
+
+## Results
+
+### J-Score: 78.9% (1,215/1,540 correct)
+
+| Category    | J-Score  | F1    | BLEU-1 | Count |
+|-------------|----------|-------|--------|-------|
+| **Overall** | **78.9%** | 20.2% | 13.0% | 1,540 |
+| Open-domain | 84.7%   | 22.7% | 14.5% | 841   |
+| Single-hop  | 76.2%   | 17.8% | 11.6% | 282   |
+| Multi-hop   | 72.3%   | 18.4% | 11.5% | 321   |
+| Temporal    | 58.3%   | 11.6% | 7.9%  | 96    |
+
+---
+
+## Comparison: GPT-5.4 Mini vs GPT-4o-mini
+
+| Metric      | GPT-4o-mini | GPT-5.4 Mini | Delta |
+|-------------|-------------|--------------|-------|
+| **J-score** | 78.7%       | **78.9%**    | +0.2pp |
+| F1          | 13.2%       | **20.2%**    | +7.0pp |
+| BLEU-1      | 7.7%        | **13.0%**    | +5.3pp |
+| Query time  | 125 min     | **59 min**   | 2.1x faster |
+| Judge time  | 38 min      | **22 min**   | 1.7x faster |
+
+### Per-category comparison
+
+| Category    | GPT-4o-mini | GPT-5.4 Mini | Delta  |
+|-------------|-------------|--------------|--------|
+| Open-domain | 84.5%       | 84.7%        | +0.2pp |
+| Single-hop  | 76.2%       | 76.2%        | 0      |
+| Multi-hop   | 68.2%       | **72.3%**    | +4.1pp |
+| Temporal    | **69.8%**   | 58.3%        | -11.5pp |
+
+### Key findings
+
+1. **J-score is virtually identical** (78.9% vs 78.7%). The memory retrieval
+   approach is the bottleneck, not the query model.
+
+2. **F1 and BLEU-1 improved significantly** — GPT-5.4 Mini produces more
+   concise answers that better match gold answer tokens.
+
+3. **Multi-hop improved by 4.1pp** — GPT-5.4 Mini is better at synthesizing
+   across multiple memory files.
+
+4. **Temporal dropped by 11.5pp** — this is notable. GPT-5.4 Mini may be less
+   careful about date reasoning, or the judge (also GPT-5.4 Mini) may be
+   stricter on temporal answers than GPT-4o-mini was.
+
+5. **2x faster** — query phase took 59 min vs 125 min. Significant speedup.
+
+---
+
+## Conclusion
+
+Switching from GPT-4o-mini to GPT-5.4 Mini for query+judge doesn't meaningfully
+change the J-score. This confirms the spec's thesis: **the memory approach is
+what matters, not the answering model.** The gains to be had are in better
+ingest (capturing more details) and better retrieval (more focused files,
+reading more files per query).
+
+The temporal regression warrants investigation — could be a judge strictness
+issue rather than a query quality issue. Running with GPT-5.4 Mini for query
+but GPT-4o-mini for judge would isolate this.

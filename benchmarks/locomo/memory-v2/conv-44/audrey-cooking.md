@@ -1,0 +1,4 @@
+# Audrey Cooking
+
+## 2023-07-03
+Loves cooking and enjoys trying out new recipes and experimenting in the kitchen. Cooking is an escape and form of self-care for her. Favorite recipe is Chicken Pot Pie - it's cozy and delicious, especially on cold days. This is a family recipe that's been around for years. The flavors remind her of her grandma's kitchen and conversations they used to have at the table. Plans to share the recipe with Andrew. Go-to ingredient is garlic - loves the smell and taste it adds to dishes. Another favorite dish is Roasted Chicken with Mediterranean flavors (garlic, lemon, herbs). It's a healthy comfort meal that's easy to make. Likes to cook with music playing, a glass of wine, and just go with the flow in the kitchen - it's therapeutic and calming. Cooking and eating the food is rewarding and a form of self-care.

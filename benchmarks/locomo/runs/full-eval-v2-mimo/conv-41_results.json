@@ -1,0 +1,2644 @@
+[
+  {
+    "question": "Who did Maria have dinner with on May 3, 2023?",
+    "predicted": "Maria had dinner with her mom on May 3, 2023.",
+    "ground_truth": "her mother",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:16"
+    ],
+    "stats": {
+      "input_tokens": 10912,
+      "output_tokens": 101,
+      "total_tokens": 11013,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.39401912689209
+    }
+  },
+  {
+    "question": "When did Maria donate her car?",
+    "predicted": "Maria donated her car to the homeless shelter on December 21, 2022.",
+    "ground_truth": "21 December 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 9931,
+      "output_tokens": 59,
+      "total_tokens": 9990,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.708859920501709
+    }
+  },
+  {
+    "question": "What martial arts has John done?",
+    "predicted": "John has practiced kickboxing and taekwondo for fitness and energy.",
+    "ground_truth": "Kickboxing, Taekwondo",
+    "category": "single-hop",
+    "evidence": [
+      "D2:28",
+      "D1:4"
+    ],
+    "stats": {
+      "input_tokens": 9374,
+      "output_tokens": 44,
+      "total_tokens": 9418,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.4719371795654297
+    }
+  },
+  {
+    "question": "What type of volunteering have John and Maria both done?",
+    "predicted": "John and Maria have both volunteered at a homeless shelter, where they engaged in various activities such as serving meals and organizing fundraisers. They also collaborated on community projects, including a veterans support initiative and a chili cook-off fundraiser for the shelter. Their shared experiences in volunteering have strengthened their friendship and commitment to community service.",
+    "ground_truth": "Volunteering at a homeless shelter",
+    "category": "single-hop",
+    "evidence": [
+      "D3:5",
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 11070,
+      "output_tokens": 123,
+      "total_tokens": 11193,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.358866930007935
+    }
+  },
+  {
+    "question": "When did John join the online support group?",
+    "predicted": "John joined the online support group around December 25, 2022.",
+    "ground_truth": "The week before 1 January 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 9195,
+      "output_tokens": 45,
+      "total_tokens": 9240,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3528270721435547
+    }
+  },
+  {
+    "question": "When did Maria go to the beach?",
+    "predicted": "Maria went to the beach around December 2022, where she took a photo while watching the sunset, which made her feel peaceful and connected to nature.",
+    "ground_truth": "December 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D3:15"
+    ],
+    "stats": {
+      "input_tokens": 9665,
+      "output_tokens": 73,
+      "total_tokens": 9738,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1130988597869873
+    }
+  },
+  {
+    "question": "Where has Maria made friends?",
+    "predicted": "Maria has made friends primarily through her involvement in her local church, where she joined on May 5, 2023, and has participated in various activities like camping, picnics, and hiking with church friends. Additionally, she has formed friendships while volunteering at a homeless shelter, where she connected with fellow volunteers and residents, finding the experience fulfilling and impactful.",
+    "ground_truth": "homeless shelter, gym, church",
+    "category": "single-hop",
+    "evidence": [
+      "D4:1",
+      "D2:1",
+      "D19:1",
+      "D14:10"
+    ],
+    "stats": {
+      "input_tokens": 11242,
+      "output_tokens": 163,
+      "total_tokens": 11405,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.009980916976929
+    }
+  },
+  {
+    "question": "What items des John mention having as a child?",
+    "predicted": "John mentioned having a little doll as a child that always made him feel better. This doll reminds him of his childhood and reinforces his commitment to help others.",
+    "ground_truth": "A doll, a film camera",
+    "category": "single-hop",
+    "evidence": [
+      "D5:13",
+      "D3:15"
+    ],
+    "stats": {
+      "input_tokens": 9079,
+      "output_tokens": 61,
+      "total_tokens": 9140,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.2302520275115967
+    }
+  },
+  {
+    "question": "What might John's financial status be?",
+    "predicted": "John's financial status appears to be somewhat unstable. He was promoted to assistant manager in June 2023, but he lost his job at a mechanical engineering company shortly after, which was unexpected and challenging for him. He is currently exploring opportunities in the tech industry, indicating he is actively seeking to improve his financial situation.",
+    "ground_truth": "Middle-class or wealthy",
+    "category": "temporal",
+    "evidence": [
+      "D5:5"
+    ],
+    "stats": {
+      "input_tokens": 10134,
+      "output_tokens": 143,
+      "total_tokens": 10277,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.086310148239136
+    }
+  },
+  {
+    "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+    "predicted": "Maria's family received help from her aunt when they were struggling financially during her younger years. This experience inspired Maria to start volunteering and help others in need.",
+    "ground_truth": "Her aunt",
+    "category": "single-hop",
+    "evidence": [
+      "D6:9",
+      "D5:8"
+    ],
+    "stats": {
+      "input_tokens": 9404,
+      "output_tokens": 63,
+      "total_tokens": 9467,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9544668197631836
+    }
+  },
+  {
+    "question": "When did Maria meet Jean?",
+    "predicted": "Maria met Jean at a shelter event around February 25, 2023, where they connected over their shared experiences and challenges. Jean, who was optimistic despite her circumstances, inspired Maria with her gratitude and resilience.",
+    "ground_truth": "February 24, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 11359,
+      "output_tokens": 137,
+      "total_tokens": 11496,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.618079900741577
+    }
+  },
+  {
+    "question": "What people has Maria met and helped while volunteering?",
+    "predicted": "Maria has met and helped several individuals while volunteering, particularly at a homeless shelter. Notable connections include an 8-year-old girl she comforted, a man named David whom she linked with housing support, and an inspiring woman named Jean who shared her story of resilience. Additionally, she has received heartfelt gratitude from shelter residents like Laura and Cindy for her support and kindness.",
+    "ground_truth": "David, Jean, Cindy, Laura",
+    "category": "single-hop",
+    "evidence": [
+      "D7:5",
+      "D6:5",
+      "D27:8",
+      "D21:19"
+    ],
+    "stats": {
+      "input_tokens": 10916,
+      "output_tokens": 132,
+      "total_tokens": 11048,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8118441104888916
+    }
+  },
+  {
+    "question": "What test has John taken multiple times?",
+    "predicted": "John has taken the military aptitude test multiple times. He initially failed it but later retook the test and achieved great results.",
+    "ground_truth": "The military aptitude test",
+    "category": "single-hop",
+    "evidence": [
+      "D8:18",
+      "D3:11"
+    ],
+    "stats": {
+      "input_tokens": 9296,
+      "output_tokens": 55,
+      "total_tokens": 9351,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.662897825241089
+    }
+  },
+  {
+    "question": "When did Maria's grandmother pass away?",
+    "predicted": "Maria's grandmother passed away around late February 2023.",
+    "ground_truth": "The week before 6 March 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D8:1"
+    ],
+    "stats": {
+      "input_tokens": 10069,
+      "output_tokens": 55,
+      "total_tokens": 10124,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.227610111236572
+    }
+  },
+  {
+    "question": "Would John be considered a patriotic person?",
+    "predicted": "Yes, John would be considered a patriotic person. He feels a strong urge to serve his country and community, is motivated by the stories of veterans, and actively participates in initiatives that support veterans and improve local education and infrastructure. His commitment to community service and running for office reflects his desire to make a positive impact.",
+    "ground_truth": "Yes",
+    "category": "temporal",
+    "evidence": [
+      "D8:18",
+      "D8:20"
+    ],
+    "stats": {
+      "input_tokens": 10629,
+      "output_tokens": 130,
+      "total_tokens": 10759,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.7859010696411133
+    }
+  },
+  {
+    "question": "What writing classes has Maria taken?",
+    "predicted": "Maria has taken a creative writing class, which she found enlightening, and is currently taking a poetry class to help express her feelings.",
+    "ground_truth": "Poetry, creative writing",
+    "category": "single-hop",
+    "evidence": [
+      "D9:1",
+      "D7:1"
+    ],
+    "stats": {
+      "input_tokens": 15725,
+      "output_tokens": 100,
+      "total_tokens": 15825,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.509601831436157
+    }
+  },
+  {
+    "question": "When did John get his degree?",
+    "predicted": "John graduated with his degree in late March 2023.",
+    "ground_truth": "The week before 2 April 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D9:2"
+    ],
+    "stats": {
+      "input_tokens": 9640,
+      "output_tokens": 53,
+      "total_tokens": 9693,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9026732444763184
+    }
+  },
+  {
+    "question": "What might John's degree be in?",
+    "predicted": "John graduated in late March 2023 and is considering a career in policymaking, particularly focused on improving education and infrastructure in his community. While his specific degree is not mentioned, his interests suggest it may be related to public policy, education, or community development.",
+    "ground_truth": "Political science, Public administration, Public affairs",
+    "category": "temporal",
+    "evidence": [
+      "D9:6"
+    ],
+    "stats": {
+      "input_tokens": 19660,
+      "output_tokens": 134,
+      "total_tokens": 19794,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 5.530514717102051
+    }
+  },
+  {
+    "question": "Who did John go to yoga with?",
+    "predicted": "John goes to yoga with his colleague Rob, who invited him to a beginner's yoga class. Additionally, he has shared details about his yoga studio and classes with his friend Maria, who expressed interest in trying new fitness classes.",
+    "ground_truth": "Rob",
+    "category": "single-hop",
+    "evidence": [
+      "D7:16",
+      "D10:1"
+    ],
+    "stats": {
+      "input_tokens": 16318,
+      "output_tokens": 119,
+      "total_tokens": 16437,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.23314905166626
+    }
+  },
+  {
+    "question": "What damages have happened to John's car?",
+    "predicted": "John's car broke down on April 7, 2023, while he was on his way to work, and he is currently trying to get it fixed, which is putting a strain on his finances. Additionally, Maria was involved in a car accident on July 2, 2023, when another car ran a red light and hit them, but thankfully, everyone involved was okay.",
+    "ground_truth": "Broken windshield, Car broke down",
+    "category": "single-hop",
+    "evidence": [
+      "D11:1",
+      "D4:2"
+    ],
+    "stats": {
+      "input_tokens": 9993,
+      "output_tokens": 120,
+      "total_tokens": 10113,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.6624839305877686
+    }
+  },
+  {
+    "question": "When did John take a road trip to the Pacific Northwest?",
+    "predicted": "John took a road trip to the Pacific Northwest in 2022, where he explored the coast and visited national parks.",
+    "ground_truth": "2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D11:3",
+      "D11:5"
+    ],
+    "stats": {
+      "input_tokens": 9834,
+      "output_tokens": 57,
+      "total_tokens": 9891,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7279391288757324
+    }
+  },
+  {
+    "question": "What areas of the U.S. has John been to or is planning to go to?",
+    "predicted": "John has traveled to the Pacific Northwest coast and visited national parks during a road trip in 2022. He also had a family vacation to California and is planning a trip to the East Coast.",
+    "ground_truth": "Pacific northwest, east coast",
+    "category": "single-hop",
+    "evidence": [
+      "D11:5",
+      "D12:17"
+    ],
+    "stats": {
+      "input_tokens": 9852,
+      "output_tokens": 72,
+      "total_tokens": 9924,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.909011125564575
+    }
+  },
+  {
+    "question": "When did John go to a convention with colleagues?",
+    "predicted": "I couldn't find specific information about John attending a convention with colleagues in the available memory files. If you have any other questions or need information on a different topic, feel free to ask!",
+    "ground_truth": "March 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:9"
+    ],
+    "stats": {
+      "input_tokens": 21470,
+      "output_tokens": 130,
+      "total_tokens": 21600,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 5.504755973815918
+    }
+  },
+  {
+    "question": "What desserts has Maria made?",
+    "predicted": "Maria has made peach cobbler and baked goods, which she dropped off at a homeless shelter. Additionally, she enjoys baking cakes and has a favorite dessert, the banana split sundae.",
+    "ground_truth": "Banana split sundae, Peach cobbler",
+    "category": "single-hop",
+    "evidence": [
+      "D2:25",
+      "D13:18"
+    ],
+    "stats": {
+      "input_tokens": 19661,
+      "output_tokens": 107,
+      "total_tokens": 19768,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 4.995045185089111
+    }
+  },
+  {
+    "question": "When did John start boot camp with his family?",
+    "predicted": "John started family boot camp workouts in April 2023, exercising three times a week with his family. This initiative has helped them stay active together and provided emotional support during their workouts.",
+    "ground_truth": "April.2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D13:3"
+    ],
+    "stats": {
+      "input_tokens": 16311,
+      "output_tokens": 103,
+      "total_tokens": 16414,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.027935981750488
+    }
+  },
+  {
+    "question": "What European countries has Maria been to?",
+    "predicted": "Maria has visited England, specifically London, where she was captivated by the castles and architecture. She also took a solo trip to Spain in 2022, where she tried surfing for the first time. Additionally, she went on a family road trip to Oregon when she was younger.",
+    "ground_truth": "Spain, England",
+    "category": "single-hop",
+    "evidence": [
+      "D13:24",
+      "D8:15"
+    ],
+    "stats": {
+      "input_tokens": 9240,
+      "output_tokens": 87,
+      "total_tokens": 9327,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.924875020980835
+    }
+  },
+  {
+    "question": "What has Maria done to feel closer to her faith?",
+    "predicted": "Maria has taken several steps to feel closer to her faith, including buying a cross necklace and joining a nearby church on May 5, 2023. She has also participated in various activities with church friends, such as camping, picnics, and hiking, which have helped her connect with the community and find peace.",
+    "ground_truth": "Join a local church, buy a cross necklace",
+    "category": "single-hop",
+    "evidence": [
+      "D14:10",
+      "D11:10"
+    ],
+    "stats": {
+      "input_tokens": 9246,
+      "output_tokens": 96,
+      "total_tokens": 9342,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.333794116973877
+    }
+  },
+  {
+    "question": "When did John have a party with veterans?",
+    "predicted": "John hosted a party with veterans on May 12, 2023. The event was heartwarming, allowing veterans to share stories and build camaraderie.",
+    "ground_truth": "The Friday before 20 May 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D15:11"
+    ],
+    "stats": {
+      "input_tokens": 9997,
+      "output_tokens": 73,
+      "total_tokens": 10070,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.77777099609375
+    }
+  },
+  {
+    "question": "What causes does John feel passionate about supporting?",
+    "predicted": "John is passionate about supporting education and infrastructure improvements in his community, motivated by his own experiences growing up in an area with significant challenges. He is also dedicated to advocating for veterans' rights and has been involved in various community service projects, including supporting victims of domestic abuse and organizing events for veterans. Additionally, he is focused on empowering underserved communities through education and mentorship initiatives.",
+    "ground_truth": "Veterans, schools, infrastructure",
+    "category": "single-hop",
+    "evidence": [
+      "D15:3",
+      "D12:5",
+      "D9:8",
+      "D1:8"
+    ],
+    "stats": {
+      "input_tokens": 10311,
+      "output_tokens": 125,
+      "total_tokens": 10436,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.239973068237305
+    }
+  },
+  {
+    "question": "What events is Maria planning for the homeless shelter funraiser?",
+    "predicted": "Maria is planning a ring-toss tournament for a shelter fundraiser in late May 2023 and a chili cook-off fundraiser around June 1, 2023, to raise funds for basic needs of the homeless.",
+    "ground_truth": "Chili cook-off, ring-toss tournament",
+    "category": "single-hop",
+    "evidence": [
+      "D16:4",
+      "D15:18"
+    ],
+    "stats": {
+      "input_tokens": 15728,
+      "output_tokens": 109,
+      "total_tokens": 15837,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.537302017211914
+    }
+  },
+  {
+    "question": "What shelters does Maria volunteer at?",
+    "predicted": "Maria volunteers at a homeless shelter, which she started doing around August 2022 after witnessing a family struggling on the streets. She also volunteers at a local dog shelter once a month.",
+    "ground_truth": "The homeless shelter, the dog shelter",
+    "category": "single-hop",
+    "evidence": [
+      "D2:1",
+      "D11:10",
+      "D17:12"
+    ],
+    "stats": {
+      "input_tokens": 10062,
+      "output_tokens": 83,
+      "total_tokens": 10145,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.924049139022827
+    }
+  },
+  {
+    "question": "When did John get his dog Max?",
+    "predicted": "John had his dog Max for 10 years, and Max passed away before June 3, 2023. The best memory John has with Max was a camping trip during the summer of 2022.",
+    "ground_truth": "In 2013",
+    "category": "multi-hop",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 14069,
+      "output_tokens": 89,
+      "total_tokens": 14158,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.244894027709961
+    }
+  },
+  {
+    "question": "What outdoor activities has John done with his colleagues?",
+    "predicted": "John has participated in several outdoor activities with his colleagues, including a mountaineering trip where they reached the summit, and he has also gone camping multiple times. Additionally, he started a weekend yoga class with a colleague, which has become part of his routine. These activities help him connect with nature and clear his mind.",
+    "ground_truth": "Hiking, mountaineering",
+    "category": "single-hop",
+    "evidence": [
+      "D18:2",
+      "D16:2"
+    ],
+    "stats": {
+      "input_tokens": 16295,
+      "output_tokens": 144,
+      "total_tokens": 16439,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.471280097961426
+    }
+  },
+  {
+    "question": "What types of yoga has Maria practiced?",
+    "predicted": "Maria has practiced aerial yoga and is currently trying kundalini yoga. She enjoys aerial yoga for its freedom and connection, and it helps her find peace.",
+    "ground_truth": "Aerial, kundalini",
+    "category": "single-hop",
+    "evidence": [
+      "D1:3",
+      "D18:15",
+      "D19:3"
+    ],
+    "stats": {
+      "input_tokens": 14524,
+      "output_tokens": 96,
+      "total_tokens": 14620,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.647141933441162
+    }
+  },
+  {
+    "question": "When did Maria join a gym?",
+    "predicted": "Maria joined a gym around June 9, 2023. She enjoys the welcoming atmosphere and is sticking to her workout routine.",
+    "ground_truth": "The week before 16 June 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D19:1"
+    ],
+    "stats": {
+      "input_tokens": 9724,
+      "output_tokens": 69,
+      "total_tokens": 9793,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.446078062057495
+    }
+  },
+  {
+    "question": "What states has Maria vacationed at?",
+    "predicted": "Maria has vacationed in several states and countries. She visited England, specifically London, and took a solo trip to Spain in 2022. Additionally, she went on a family road trip to Oregon and has a vacation photo from Florida with her family.",
+    "ground_truth": "Oregon, Florida",
+    "category": "single-hop",
+    "evidence": [
+      "D19:23",
+      "D18:3"
+    ],
+    "stats": {
+      "input_tokens": 9990,
+      "output_tokens": 92,
+      "total_tokens": 10082,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5053999423980713
+    }
+  },
+  {
+    "question": "What music events has John attended?",
+    "predicted": "I couldn't find any specific information about music events that John has attended in the available memory files.",
+    "ground_truth": "Live music event, violin concert",
+    "category": "single-hop",
+    "evidence": [
+      "D20:4",
+      "D8:12"
+    ],
+    "stats": {
+      "input_tokens": 55759,
+      "output_tokens": 167,
+      "total_tokens": 55926,
+      "tool_calls": 6,
+      "llm_calls": 7,
+      "elapsed_seconds": 14.377846002578735
+    }
+  },
+  {
+    "question": "What events for veterans has John participated in?",
+    "predicted": "John has participated in several events for veterans, including hosting a veterans' party in May 2023, participating in a marching event for veterans' rights in July 2023, and visiting a veteran's hospital where he met an elderly veteran. Additionally, he organized a 5K charity run to raise money for veterans and their families in August 2023.",
+    "ground_truth": "Petition, march, party, visiting veterans hospital, 5K charity run",
+    "category": "single-hop",
+    "evidence": [
+      "D15:1",
+      "D15:11",
+      "D21:22",
+      "D24:1",
+      "D29:4"
+    ],
+    "stats": {
+      "input_tokens": 10354,
+      "output_tokens": 122,
+      "total_tokens": 10476,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.0953757762908936
+    }
+  },
+  {
+    "question": "When did Maria get in a car accident?",
+    "predicted": "Maria was in a car accident on July 2, 2023, when a car ran a red light and hit them. Fortunately, everyone involved was okay.",
+    "ground_truth": "July 2, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D21:3"
+    ],
+    "stats": {
+      "input_tokens": 9066,
+      "output_tokens": 64,
+      "total_tokens": 9130,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.589905023574829
+    }
+  },
+  {
+    "question": "Around which US holiday did Maria get into a car accident?",
+    "predicted": "Maria got into a car accident on July 2, 2023.",
+    "ground_truth": "Independence Day",
+    "category": "temporal",
+    "evidence": [
+      "D21:3"
+    ],
+    "stats": {
+      "input_tokens": 9075,
+      "output_tokens": 46,
+      "total_tokens": 9121,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.344092845916748
+    }
+  },
+  {
+    "question": "What are the names of John's children?",
+    "predicted": "John has two children: a one-year-old son named Kyle and a daughter named Sara.",
+    "ground_truth": "Kyle, Sara",
+    "category": "single-hop",
+    "evidence": [
+      "D8:4",
+      "D22:7"
+    ],
+    "stats": {
+      "input_tokens": 9710,
+      "output_tokens": 47,
+      "total_tokens": 9757,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.945556879043579
+    }
+  },
+  {
+    "question": "Does John live close to a beach or the mountains?",
+    "predicted": "John enjoys nature and often seeks peace through outdoor activities like camping and mountaineering, indicating he likely lives near mountains. He also takes sunset walks by the ocean, suggesting he may live close to a beach as well. However, the specific proximity to either is not explicitly stated in the memories.",
+    "ground_truth": "beach",
+    "category": "temporal",
+    "evidence": [
+      "D22:15"
+    ],
+    "stats": {
+      "input_tokens": 15957,
+      "output_tokens": 136,
+      "total_tokens": 16093,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.1187520027160645
+    }
+  },
+  {
+    "question": "What area was hit by a flood?",
+    "predicted": "The area hit by a flood was John's old neighborhood, which experienced significant damage around late June to early July 2023 due to poor infrastructure. Many homes were ruined, prompting John to organize a community meeting to discuss potential solutions and improvements.",
+    "ground_truth": "West County",
+    "category": "single-hop",
+    "evidence": [
+      "D14:21",
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 30185,
+      "output_tokens": 222,
+      "total_tokens": 30407,
+      "tool_calls": 6,
+      "llm_calls": 5,
+      "elapsed_seconds": 9.652893304824829
+    }
+  },
+  {
+    "question": "When was John's old area hit with a flood?",
+    "predicted": "John's old area was hit by a nasty flood around late June to early July 2023, which caused significant damage due to poor infrastructure. He is organizing a community meeting to discuss potential solutions and improvements in response to the flooding.",
+    "ground_truth": "The week before 7 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 11111,
+      "output_tokens": 137,
+      "total_tokens": 11248,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4714841842651367
+    }
+  },
+  {
+    "question": "What activities has Maria done with her church friends?",
+    "predicted": "Maria has engaged in several activities with her church friends, including camping, picnics, and hiking. She described a recent camping trip as a blast and enjoyed a picnic where they played games and relaxed together. Additionally, her hiking experience allowed her to connect with friends while appreciating nature's beauty.",
+    "ground_truth": "Hiking, picnic, volunteer work",
+    "category": "single-hop",
+    "evidence": [
+      "D25:2",
+      "D24:6",
+      "D28:5"
+    ],
+    "stats": {
+      "input_tokens": 11103,
+      "output_tokens": 119,
+      "total_tokens": 11222,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.6080470085144043
+    }
+  },
+  {
+    "question": "Would John be open to moving to another country?",
+    "predicted": "There is no specific information indicating whether John would be open to moving to another country. His focus appears to be on local politics and improving his community, suggesting a strong commitment to his current area rather than an inclination to relocate internationally.",
+    "ground_truth": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+    "category": "temporal",
+    "evidence": [
+      "D24:3",
+      "D7:2"
+    ],
+    "stats": {
+      "input_tokens": 16327,
+      "output_tokens": 129,
+      "total_tokens": 16456,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.433750152587891
+    }
+  },
+  {
+    "question": "When did Maria go hiking with her church friends?",
+    "predicted": "Maria went hiking with her church friends on July 15-16, 2023. She described the experience as amazing, enjoying the connections and the breathtaking view from the top.",
+    "ground_truth": "The weekend before 22 July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 10249,
+      "output_tokens": 79,
+      "total_tokens": 10328,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8234002590179443
+    }
+  },
+  {
+    "question": "What exercises has John done?",
+    "predicted": "John has engaged in several exercises, including kickboxing, taekwondo, and yoga. He started a weekend yoga class focusing on fundamentals, and he also participates in family boot camp fitness, which he began in April 2023. Additionally, he has gone mountaineering and is interested in rock climbing.",
+    "ground_truth": "Weight training, Circuit training, Kickboxing, yoga",
+    "category": "single-hop",
+    "evidence": [
+      "D25:17",
+      "D25:13",
+      "D10:1",
+      "D1:4"
+    ],
+    "stats": {
+      "input_tokens": 9371,
+      "output_tokens": 92,
+      "total_tokens": 9463,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8623530864715576
+    }
+  },
+  {
+    "question": "When did John have his first firefighter call-out?",
+    "predicted": "John was inspired to join the fire-fighting brigade on July 31, 2023, after seeing Maria's example of volunteering. However, the specific date of his first firefighter call-out is not mentioned in the available memories.",
+    "ground_truth": "The sunday before 3` July 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D26:4"
+    ],
+    "stats": {
+      "input_tokens": 26518,
+      "output_tokens": 156,
+      "total_tokens": 26674,
+      "tool_calls": 5,
+      "llm_calls": 6,
+      "elapsed_seconds": 5.935914993286133
+    }
+  },
+  {
+    "question": "What food item did Maria drop off at the homeless shelter?",
+    "predicted": "Maria dropped off baked goods at the homeless shelter around July 24, 2023. She has been actively volunteering there since August 2022 and finds the experience fulfilling.",
+    "ground_truth": "Cakes",
+    "category": "single-hop",
+    "evidence": [
+      "D26:1",
+      "D25:19"
+    ],
+    "stats": {
+      "input_tokens": 10229,
+      "output_tokens": 79,
+      "total_tokens": 10308,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.918449878692627
+    }
+  },
+  {
+    "question": "What attributes describe John?",
+    "predicted": "John is described as a passionate advocate for improving education and infrastructure in his community, motivated by his challenging upbringing in a neighborhood with limited resources. He is actively involved in local politics, aiming to make a positive impact through community service and political engagement. Additionally, he values family, enjoys outdoor activities, and practices various fitness routines like kickboxing and yoga to maintain his well-being.",
+    "ground_truth": "Selfless, family-oriented, passionate, rational",
+    "category": "temporal",
+    "evidence": [
+      "D26:6",
+      "D2:14",
+      "D3:5",
+      "D4:6"
+    ],
+    "stats": {
+      "input_tokens": 11679,
+      "output_tokens": 169,
+      "total_tokens": 11848,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.204566955566406
+    }
+  },
+  {
+    "question": "When did Maria start volunteering at the homeless shelter?",
+    "predicted": "Maria started volunteering at the homeless shelter around August 2022 after witnessing a family struggling on the streets.",
+    "ground_truth": "Around August 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D27:4"
+    ],
+    "stats": {
+      "input_tokens": 10470,
+      "output_tokens": 67,
+      "total_tokens": 10537,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.058901071548462
+    }
+  },
+  {
+    "question": "Who have written notes of gratitude to Maria?",
+    "predicted": "Maria has received notes of gratitude from shelter residents named Laura and Cindy, who expressed appreciation for her impact and support during her volunteering efforts.",
+    "ground_truth": "Cindy, Laura",
+    "category": "single-hop",
+    "evidence": [
+      "D27:8",
+      "D21:19"
+    ],
+    "stats": {
+      "input_tokens": 10509,
+      "output_tokens": 76,
+      "total_tokens": 10585,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.915364980697632
+    }
+  },
+  {
+    "question": "When did John help renovate his hometown community center?",
+    "predicted": "John helped renovate a rundown community center in his hometown in 2022. He found the experience rewarding as it brought the community together and had a positive impact.",
+    "ground_truth": "2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:11"
+    ],
+    "stats": {
+      "input_tokens": 9821,
+      "output_tokens": 75,
+      "total_tokens": 9896,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.7870452404022217
+    }
+  },
+  {
+    "question": "When did Maria take up community work with her church friends?",
+    "predicted": "Maria took up community work with her church friends on August 4, 2023, and found the experience to be very rewarding. She had previously started volunteering at a homeless shelter around August 2022.",
+    "ground_truth": "August 4, 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D28:8"
+    ],
+    "stats": {
+      "input_tokens": 16583,
+      "output_tokens": 120,
+      "total_tokens": 16703,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.533644914627075
+    }
+  },
+  {
+    "question": "When did Maria receive a medal from the homeless shelter?",
+    "predicted": "Maria received a medal from the homeless shelter for her volunteer work on July 31, 2023. She described the experience as humbling.",
+    "ground_truth": "The week before 9 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 10226,
+      "output_tokens": 73,
+      "total_tokens": 10299,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.742825984954834
+    }
+  },
+  {
+    "question": "When did John participate in a 5K charity run?",
+    "predicted": "John participated in a 5K charity run on August 6, 2023, to raise money for veterans and their families. He coordinated the event, secured sponsors, and successfully raised funds.",
+    "ground_truth": "first weekend of August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D29:2",
+      "D29:4"
+    ],
+    "stats": {
+      "input_tokens": 10111,
+      "output_tokens": 85,
+      "total_tokens": 10196,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.880671977996826
+    }
+  },
+  {
+    "question": "What causes has John done events for?",
+    "predicted": "John has participated in events focused on improving education and infrastructure, such as securing funding for local schools and volunteering at career fairs. He has also been involved in community service for veterans, organizing food drives, and supporting initiatives for domestic abuse victims. Additionally, he collaborates with others on community projects aimed at enhancing living standards and providing mentorship and job training for underserved communities.",
+    "ground_truth": "Toy drive, Community food drive, veterans, domestic violence",
+    "category": "single-hop",
+    "evidence": [
+      "D3:5",
+      "D6:12",
+      "D29:4",
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 10620,
+      "output_tokens": 128,
+      "total_tokens": 10748,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.6017839908599854
+    }
+  },
+  {
+    "question": "When did Maria get Coco?",
+    "predicted": "Maria got Coco around July 28, 2023.",
+    "ground_truth": "Two weeks before 11 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D30:1"
+    ],
+    "stats": {
+      "input_tokens": 9150,
+      "output_tokens": 43,
+      "total_tokens": 9193,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.2654831409454346
+    }
+  },
+  {
+    "question": "When did John go on a camping trip with Max?",
+    "predicted": "John went on a camping trip with his dog Max last summer in 2022. They enjoyed hiking, swimming, and creating great memories during that trip.",
+    "ground_truth": "The summer of 2022",
+    "category": "multi-hop",
+    "evidence": [
+      "D30:6"
+    ],
+    "stats": {
+      "input_tokens": 15208,
+      "output_tokens": 86,
+      "total_tokens": 15294,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.418808698654175
+    }
+  },
+  {
+    "question": "What are Maria's dogs' names?",
+    "predicted": "Maria's dogs are named Coco and Shadow. Coco is a puppy she got around July 28, 2023, and Shadow is a dog she adopted from a shelter on August 6, 2023.",
+    "ground_truth": "Coco, Shadow",
+    "category": "single-hop",
+    "evidence": [
+      "D30:1",
+      "D31:4"
+    ],
+    "stats": {
+      "input_tokens": 9156,
+      "output_tokens": 74,
+      "total_tokens": 9230,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9110002517700195
+    }
+  },
+  {
+    "question": "When did Maria adopt Shadow?",
+    "predicted": "Maria adopted Shadow from a shelter around August 6, 2023.",
+    "ground_truth": "The week before 13 August 2023",
+    "category": "multi-hop",
+    "evidence": [
+      "D31:2"
+    ],
+    "stats": {
+      "input_tokens": 9150,
+      "output_tokens": 46,
+      "total_tokens": 9196,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.3080179691314697
+    }
+  },
+  {
+    "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+    "predicted": "Maria has adopted two dogs from the shelter: a puppy named Coco on July 28, 2023, and a second dog named Shadow on August 6, 2023.",
+    "ground_truth": "two",
+    "category": "single-hop",
+    "evidence": [
+      "D30:1",
+      "D31:2"
+    ],
+    "stats": {
+      "input_tokens": 9174,
+      "output_tokens": 68,
+      "total_tokens": 9242,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.91679310798645
+    }
+  },
+  {
+    "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+    "predicted": "Maria adopted Coco on July 28, 2023, and Shadow on August 6, 2023. This means that 1 week passed between the two adoptions.",
+    "ground_truth": "two weeks",
+    "category": "multi-hop",
+    "evidence": [
+      "D30:1",
+      "D31:2"
+    ],
+    "stats": {
+      "input_tokens": 9165,
+      "output_tokens": 67,
+      "total_tokens": 9232,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8038930892944336
+    }
+  },
+  {
+    "question": "What job might Maria pursue in the future?",
+    "predicted": "Maria might pursue a career in community service or local politics, as she has been actively volunteering at a homeless shelter and has shown interest in local political issues. Her experiences in volunteering have motivated her to help others, and she has been taking notes about local politics, indicating a potential interest in making a difference in her community through political engagement.",
+    "ground_truth": "Shelter coordinator, Counselor",
+    "category": "temporal",
+    "evidence": [
+      "D32:14",
+      "D5:8",
+      "D11:10",
+      "D27:4"
+    ],
+    "stats": {
+      "input_tokens": 28316,
+      "output_tokens": 234,
+      "total_tokens": 28550,
+      "tool_calls": 6,
+      "llm_calls": 5,
+      "elapsed_seconds": 6.912609100341797
+    }
+  },
+  {
+    "question": "What is John's main focus in local politics?",
+    "predicted": "John's main focus in local politics is improving education and infrastructure in his community. He is passionate about securing proper funding for schools and addressing the challenges posed by crumbling infrastructure, motivated by his own experiences growing up in a neighborhood affected by these issues.",
+    "ground_truth": "Improving education and infrastructure",
+    "category": "open-domain",
+    "evidence": [
+      "D1:8"
+    ],
+    "stats": {
+      "input_tokens": 9985,
+      "output_tokens": 95,
+      "total_tokens": 10080,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4174249172210693
+    }
+  },
+  {
+    "question": "What sparked John's interest in improving education and infrastructure in the community?",
+    "predicted": "John's interest in improving education and infrastructure in the community was sparked by his experiences growing up in a neighborhood where a lack of education and deteriorating infrastructure negatively impacted residents. He is motivated to ensure that future generations do not face the same challenges and advocates for proper funding and resources for schools and infrastructure projects. His community involvement has deepened his understanding of these issues and reinforced his commitment to making a difference.",
+    "ground_truth": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+    "category": "open-domain",
+    "evidence": [
+      "D1:10"
+    ],
+    "stats": {
+      "input_tokens": 9772,
+      "output_tokens": 121,
+      "total_tokens": 9893,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.2712199687957764
+    }
+  },
+  {
+    "question": "How did the extra funding help the school shown in the photo shared by John?",
+    "predicted": "The extra funding secured for the local school enabled essential repairs and renovations, creating a safer learning environment for students. This funding also helped address the lack of resources, which was impacting students' educational experiences and aspirations. John is actively involved in advocating for further improvements in education and infrastructure in the community.",
+    "ground_truth": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+    "category": "open-domain",
+    "evidence": [
+      "D1:12"
+    ],
+    "stats": {
+      "input_tokens": 16035,
+      "output_tokens": 135,
+      "total_tokens": 16170,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.574041128158569
+    }
+  },
+  {
+    "question": "What type of workout class did Maria start doing in December 2023?",
+    "predicted": "In December 2023, Maria started doing aerial yoga as part of her fitness routine. She enjoys it and finds it helps her feel free and connected to her body.",
+    "ground_truth": "aerial yoga",
+    "category": "open-domain",
+    "evidence": [
+      "D1:3"
+    ],
+    "stats": {
+      "input_tokens": 28684,
+      "output_tokens": 145,
+      "total_tokens": 28829,
+      "tool_calls": 6,
+      "llm_calls": 7,
+      "elapsed_seconds": 6.7422449588775635
+    }
+  },
+  {
+    "question": "What did Maria donate to a homeless shelter in December 2023?",
+    "predicted": "[No answer produced within turn limit]",
+    "ground_truth": "old car",
+    "category": "open-domain",
+    "evidence": [
+      "D2:1"
+    ],
+    "stats": {
+      "input_tokens": 103030,
+      "output_tokens": 215,
+      "total_tokens": 103245,
+      "tool_calls": 10,
+      "llm_calls": 10,
+      "elapsed_seconds": 19.899013996124268
+    }
+  },
+  {
+    "question": "What kind of meal did John and his family make together in the photo shared by John?",
+    "predicted": "John and his family made pizzas together, where they picked out their own toppings during their pizza nights. They also value family dinners and enjoy spending quality time together.",
+    "ground_truth": "pizza",
+    "category": "open-domain",
+    "evidence": [
+      "D2:24"
+    ],
+    "stats": {
+      "input_tokens": 15107,
+      "output_tokens": 78,
+      "total_tokens": 15185,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.3657238483428955
+    }
+  },
+  {
+    "question": "What kind of online group did John join?",
+    "predicted": "John joined a service-focused online group around December 25, 2022. The group shares inspiring stories and aims to help underserved communities access education, mentorship, job training, and resume building. He has found a sense of connection and purpose within this group.",
+    "ground_truth": "service-focused online group",
+    "category": "open-domain",
+    "evidence": [
+      "D3:1"
+    ],
+    "stats": {
+      "input_tokens": 9812,
+      "output_tokens": 91,
+      "total_tokens": 9903,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.0422070026397705
+    }
+  },
+  {
+    "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+    "predicted": "John and his mates from the online group engaged in various service activities, including visiting homeless shelters to distribute food and supplies, organizing toy drives for children in need, and participating in community food drives for unemployed residents. They also hosted events for veterans, raised funds through charity runs, and collaborated on projects aimed at improving community infrastructure and supporting victims of domestic abuse.",
+    "ground_truth": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+    "category": "open-domain",
+    "evidence": [
+      "D3:5"
+    ],
+    "stats": {
+      "input_tokens": 10049,
+      "output_tokens": 115,
+      "total_tokens": 10164,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.5332448482513428
+    }
+  },
+  {
+    "question": "Who inspired Maria to start volunteering?",
+    "predicted": "Maria was inspired to start volunteering by her aunt, who believed in the importance of helping others and had supported Maria's family during tough times. This experience motivated Maria to make a difference for others in need.",
+    "ground_truth": "Her aunt",
+    "category": "open-domain",
+    "evidence": [
+      "D5:8"
+    ],
+    "stats": {
+      "input_tokens": 10095,
+      "output_tokens": 85,
+      "total_tokens": 10180,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.788963794708252
+    }
+  },
+  {
+    "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+    "predicted": "Maria sat with the little girl at the shelter event in February 2023 because she noticed the girl was alone and without family. Maria connected with her, engaging in conversation and laughter, which reflects her commitment to spreading kindness and support to those in need.",
+    "ground_truth": "The girl seemed sad and had no other family",
+    "category": "open-domain",
+    "evidence": [
+      "D5:10"
+    ],
+    "stats": {
+      "input_tokens": 10781,
+      "output_tokens": 137,
+      "total_tokens": 10918,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.113343954086304
+    }
+  },
+  {
+    "question": "What did Jean go through before meeting Maria?",
+    "predicted": "Before meeting Maria, Jean faced several challenges, including failing a military aptitude test and dealing with financial strains from a car breakdown. He was motivated by a strong desire to serve his community and improve education and infrastructure, which led him to engage in local politics and community service. Additionally, he experienced moments of self-doubt and questioned his impact, but found inspiration in his family and community involvement.",
+    "ground_truth": "divorce, job loss, homelessness",
+    "category": "open-domain",
+    "evidence": [
+      "D7:7"
+    ],
+    "stats": {
+      "input_tokens": 11734,
+      "output_tokens": 173,
+      "total_tokens": 11907,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.819866180419922
+    }
+  },
+  {
+    "question": "Why did John decide to run for office again?",
+    "predicted": "John decided to run for office again because he feels a strong urge to serve his community and believes he can make a significant impact through politics. His previous experiences, including seeing the effects of unemployment and the need for better education and infrastructure, motivated him to pursue this path once more. Additionally, his family provides him with emotional support and inspiration to strive for positive change in their community.",
+    "ground_truth": "saw the impact he could make in the community through politics",
+    "category": "open-domain",
+    "evidence": [
+      "D7:4"
+    ],
+    "stats": {
+      "input_tokens": 15720,
+      "output_tokens": 137,
+      "total_tokens": 15857,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.896364212036133
+    }
+  },
+  {
+    "question": "What activity did John's colleague, Rob, invite him to?",
+    "predicted": "John's colleague, Rob, invited him to join a fire-fighting brigade. This invitation was inspired by Maria's work at the homeless shelter, which motivated John to find his own way to give back to the community.",
+    "ground_truth": "beginner's yoga class",
+    "category": "open-domain",
+    "evidence": [
+      "D7:16"
+    ],
+    "stats": {
+      "input_tokens": 26566,
+      "output_tokens": 130,
+      "total_tokens": 26696,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 5.141525983810425
+    }
+  },
+  {
+    "question": "What is the name of John's one-year-old child?",
+    "predicted": "John's one-year-old son is named Kyle.",
+    "ground_truth": "Kyle",
+    "category": "open-domain",
+    "evidence": [
+      "D8:4"
+    ],
+    "stats": {
+      "input_tokens": 9719,
+      "output_tokens": 39,
+      "total_tokens": 9758,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4777820110321045
+    }
+  },
+  {
+    "question": "How often does John take his kids to the park?",
+    "predicted": "John takes his kids to the park a few times a week for bonding and to let them run around. He values these outings as important family time.",
+    "ground_truth": "A few times a week",
+    "category": "open-domain",
+    "evidence": [
+      "D8:8"
+    ],
+    "stats": {
+      "input_tokens": 16031,
+      "output_tokens": 83,
+      "total_tokens": 16114,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.648260116577148
+    }
+  },
+  {
+    "question": "What did Maria make for her home to remind her of a trip to England?",
+    "predicted": "Maria created a painting inspired by her trip to England, specifically reflecting on the charm and history of London. She also has symbols of travel memories displayed in her home to remind her of the world's beauty.",
+    "ground_truth": "painting of a castle on a hill",
+    "category": "open-domain",
+    "evidence": [
+      "D8:15"
+    ],
+    "stats": {
+      "input_tokens": 9264,
+      "output_tokens": 71,
+      "total_tokens": 9335,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.307751893997192
+    }
+  },
+  {
+    "question": "Where did Maria get the idea for the castle shadow box in her home?",
+    "predicted": "Maria got the idea for the castle shadow box in her home from her visit to England, where she was mesmerized by the castles and architecture in London. This experience inspired her to create a painting and display symbols of her travel memories, including the castle theme.",
+    "ground_truth": "England",
+    "category": "open-domain",
+    "evidence": [
+      "D8:15"
+    ],
+    "stats": {
+      "input_tokens": 15899,
+      "output_tokens": 127,
+      "total_tokens": 16026,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.725054979324341
+    }
+  },
+  {
+    "question": "What did John receive a certificate for?",
+    "predicted": "John received a certificate for his promotion to assistant manager, which he achieved around June 2023. He views this promotion as a significant milestone in his career journey.",
+    "ground_truth": "completion of a university degree",
+    "category": "open-domain",
+    "evidence": [
+      "D9:2"
+    ],
+    "stats": {
+      "input_tokens": 21868,
+      "output_tokens": 134,
+      "total_tokens": 22002,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 5.402074098587036
+    }
+  },
+  {
+    "question": "What areas is John particularly interested in for policymaking?",
+    "predicted": "John is particularly interested in policymaking related to improving education and infrastructure in his community. He believes that enhancing these areas is essential for societal progress and is actively engaging with local leaders and organizations to gather support for his initiatives.",
+    "ground_truth": "education and infrastructure",
+    "category": "open-domain",
+    "evidence": [
+      "D9:8"
+    ],
+    "stats": {
+      "input_tokens": 9859,
+      "output_tokens": 86,
+      "total_tokens": 9945,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.84340500831604
+    }
+  },
+  {
+    "question": "What did Maria participate in last weekend before April 10, 2023?",
+    "predicted": "Last weekend before April 10, 2023, Maria participated in a 5K charity run for a homeless shelter on April 7, 2023. She also organized a meal for the shelter residents around the same time.",
+    "ground_truth": "a 5K charity run",
+    "category": "open-domain",
+    "evidence": [
+      "D10:10"
+    ],
+    "stats": {
+      "input_tokens": 16636,
+      "output_tokens": 120,
+      "total_tokens": 16756,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.814026832580566
+    }
+  },
+  {
+    "question": "What event did John volunteer at last weekend?",
+    "predicted": "[No answer produced within turn limit]",
+    "ground_truth": "career fair at a local school",
+    "category": "open-domain",
+    "evidence": [
+      "D10:13"
+    ],
+    "stats": {
+      "input_tokens": 108040,
+      "output_tokens": 240,
+      "total_tokens": 108280,
+      "tool_calls": 10,
+      "llm_calls": 10,
+      "elapsed_seconds": 26.88909101486206
+    }
+  },
+  {
+    "question": "What did John do that put a strain on his wallet?",
+    "predicted": "John's wallet was strained due to unexpected car repairs after his car broke down on April 7, 2023. He is trying to get it fixed, which is impacting his finances.",
+    "ground_truth": "His car broke down",
+    "category": "open-domain",
+    "evidence": [
+      "D11:1"
+    ],
+    "stats": {
+      "input_tokens": 15061,
+      "output_tokens": 99,
+      "total_tokens": 15160,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.7936980724334717
+    }
+  },
+  {
+    "question": "Where did John explore on a road trip last year?",
+    "predicted": "Last year, John explored the Pacific Northwest coast on a road trip with Maria, where they visited national parks and enjoyed the breathtaking nature.",
+    "ground_truth": "Pacific Northwest",
+    "category": "open-domain",
+    "evidence": [
+      "D11:5"
+    ],
+    "stats": {
+      "input_tokens": 9831,
+      "output_tokens": 60,
+      "total_tokens": 9891,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.6243090629577637
+    }
+  },
+  {
+    "question": "What topic has John been blogging about recently?",
+    "predicted": "Recently, John has been blogging about local politics, focusing on education reform and infrastructure development. He aims to raise awareness and engage the community in discussions to create positive change. His blogging has been a satisfying experience, and he has received good feedback on his posts.",
+    "ground_truth": "politics and the government",
+    "category": "open-domain",
+    "evidence": [
+      "D12:1"
+    ],
+    "stats": {
+      "input_tokens": 9967,
+      "output_tokens": 93,
+      "total_tokens": 10060,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1032869815826416
+    }
+  },
+  {
+    "question": "Why did John start blogging about politics and policies?",
+    "predicted": "John started blogging about politics and policies to raise awareness and spark conversations about education reform and infrastructure development. His motivation stems from his experiences growing up in a neighborhood affected by a lack of resources, and he aims to create positive change by sharing his thoughts and ideas on these critical issues. Through his blog, he seeks to engage the community and encourage involvement in local politics.",
+    "ground_truth": "raise awareness and start conversations to create positive change",
+    "category": "open-domain",
+    "evidence": [
+      "D12:3"
+    ],
+    "stats": {
+      "input_tokens": 14791,
+      "output_tokens": 137,
+      "total_tokens": 14928,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.138296127319336
+    }
+  },
+  {
+    "question": "What was the focus of John's recent research and writing on his blog?",
+    "predicted": "John's recent research and writing on his blog have focused on education reform and infrastructure development. He aims to raise awareness, start conversations, and encourage community involvement to create positive change, particularly in local politics. His blogging has been a satisfying experience, and he has received positive feedback on his posts.",
+    "ground_truth": "education reform and infrastructure development",
+    "category": "open-domain",
+    "evidence": [
+      "D12:5"
+    ],
+    "stats": {
+      "input_tokens": 9868,
+      "output_tokens": 101,
+      "total_tokens": 9969,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4175050258636475
+    }
+  },
+  {
+    "question": "What did John attend with his colleagues in March 2023?",
+    "predicted": "In March 2023, John attended a tech-for-good convention with his colleagues, where he connected with like-minded individuals and exchanged ideas, which renewed his energy and sense of purpose. Additionally, he graduated around late March 2023, marking a significant milestone in his career goals.",
+    "ground_truth": "a tech-for-good convention",
+    "category": "multi-hop",
+    "evidence": [
+      "D12:9"
+    ],
+    "stats": {
+      "input_tokens": 15150,
+      "output_tokens": 123,
+      "total_tokens": 15273,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.268007040023804
+    }
+  },
+  {
+    "question": "How often does John work out with his family?",
+    "predicted": "John works out with his family three times a week, participating in family boot camps that started in April 2023. This activity not only helps them stay active but also strengthens their emotional support for one another.",
+    "ground_truth": "Three times a week",
+    "category": "open-domain",
+    "evidence": [
+      "D13:7"
+    ],
+    "stats": {
+      "input_tokens": 10361,
+      "output_tokens": 80,
+      "total_tokens": 10441,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.850857973098755
+    }
+  },
+  {
+    "question": "How has John's fitness improved since starting boot camps with his family?",
+    "predicted": "Since starting family boot camps in April 2023, John has experienced significant improvements in his fitness, noting increased energy, strength, and endurance. The family workouts, which occur three times a week, also provide emotional support and motivation, enhancing their overall fitness journey together.",
+    "ground_truth": "More energy, gains in strength and endurance",
+    "category": "open-domain",
+    "evidence": [
+      "D13:5"
+    ],
+    "stats": {
+      "input_tokens": 15778,
+      "output_tokens": 110,
+      "total_tokens": 15888,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.661577224731445
+    }
+  },
+  {
+    "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+    "predicted": "Maria had a dinner spread with her mother that included salads, sandwiches, and homemade desserts. This dinner took place on May 3, 2023.",
+    "ground_truth": "Salads, sandwiches, homemade desserts",
+    "category": "open-domain",
+    "evidence": [
+      "D13:18"
+    ],
+    "stats": {
+      "input_tokens": 16613,
+      "output_tokens": 99,
+      "total_tokens": 16712,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.158768177032471
+    }
+  },
+  {
+    "question": "What activity did Maria and her mom do together in May 2023?",
+    "predicted": "In May 2023, Maria and her mom made dinner together on May 3. Additionally, Maria joined a nearby church on May 5, seeking to feel closer to her community and faith.",
+    "ground_truth": "Made dinner together",
+    "category": "open-domain",
+    "evidence": [
+      "D13:16"
+    ],
+    "stats": {
+      "input_tokens": 10911,
+      "output_tokens": 126,
+      "total_tokens": 11037,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4321839809417725
+    }
+  },
+  {
+    "question": "What did Maria do to feel closer to a community and her faith?",
+    "predicted": "Maria felt closer to her community and faith by joining a nearby church on May 5, 2023, which she found to be a great experience. Additionally, she has been actively volunteering at a homeless shelter since August 2022, where she has built meaningful connections and found fulfillment in helping others.",
+    "ground_truth": "joined a nearby church",
+    "category": "open-domain",
+    "evidence": [
+      "D14:10"
+    ],
+    "stats": {
+      "input_tokens": 10261,
+      "output_tokens": 104,
+      "total_tokens": 10365,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.867833137512207
+    }
+  },
+  {
+    "question": "Why did Maria join a nearby church recently?",
+    "predicted": "Maria joined a nearby church on May 5, 2023, to feel closer to a community and her faith. She has reported that her experience there has been really great so far.",
+    "ground_truth": "to feel closer to a community and her faith",
+    "category": "open-domain",
+    "evidence": [
+      "D14:10"
+    ],
+    "stats": {
+      "input_tokens": 9240,
+      "output_tokens": 69,
+      "total_tokens": 9309,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.601486921310425
+    }
+  },
+  {
+    "question": "What did John host for the veterans in May 2023 as part of the project?",
+    "predicted": "In May 2023, John hosted a veterans' party on May 12, where veterans shared stories and found camaraderie, creating a heartwarming atmosphere that fostered new friendships.",
+    "ground_truth": "a small party to share their stories",
+    "category": "open-domain",
+    "evidence": [
+      "D15:13"
+    ],
+    "stats": {
+      "input_tokens": 10196,
+      "output_tokens": 81,
+      "total_tokens": 10277,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.1858344078063965
+    }
+  },
+  {
+    "question": "What did John and the veterans do during the small party?",
+    "predicted": "During the small party hosted by John for veterans on May 12, 2023, the veterans shared stories and found camaraderie, creating a heartwarming atmosphere that fostered new friendships. This event was part of John's ongoing efforts to support veterans and strengthen community ties.",
+    "ground_truth": "share stories and make connections",
+    "category": "open-domain",
+    "evidence": [
+      "D15:13"
+    ],
+    "stats": {
+      "input_tokens": 16763,
+      "output_tokens": 132,
+      "total_tokens": 16895,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.351362943649292
+    }
+  },
+  {
+    "question": "What emotions did John feel during the small party with the veterans?",
+    "predicted": "During the small party with the veterans, John felt a sense of heartwarming camaraderie as veterans shared their stories, which fostered new friendships. He was filled with hope and inspiration from their resilience, reinforcing his motivation to serve and support veterans' rights. Overall, the event was emotionally uplifting for him.",
+    "ground_truth": "heartwarming",
+    "category": "open-domain",
+    "evidence": [
+      "D15:13"
+    ],
+    "stats": {
+      "input_tokens": 16175,
+      "output_tokens": 123,
+      "total_tokens": 16298,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.53114128112793
+    }
+  },
+  {
+    "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+    "predicted": "On May 25, 2023, Maria is getting ready for a chili cook-off fundraiser at the shelter, which is part of her ongoing volunteer efforts. She is also planning a ring-toss tournament for a shelter fundraiser later in the month.",
+    "ground_truth": "fundraiser",
+    "category": "open-domain",
+    "evidence": [
+      "D16:2"
+    ],
+    "stats": {
+      "input_tokens": 16319,
+      "output_tokens": 124,
+      "total_tokens": 16443,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.682517051696777
+    }
+  },
+  {
+    "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+    "predicted": "Maria needs to spread the word about the chili cook-off fundraiser for the homeless shelter, which is planned for around June 1, 2023. John has offered to help her promote this event.",
+    "ground_truth": "chili cook-off",
+    "category": "open-domain",
+    "evidence": [
+      "D16:4"
+    ],
+    "stats": {
+      "input_tokens": 10092,
+      "output_tokens": 86,
+      "total_tokens": 10178,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9906580448150635
+    }
+  },
+  {
+    "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+    "predicted": "The name of the pet that John had to say goodbye to on June 3, 2023, was Max. Max was a dog who had been part of the family for 10 years before passing away.",
+    "ground_truth": "Max",
+    "category": "open-domain",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 9256,
+      "output_tokens": 73,
+      "total_tokens": 9329,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.681303024291992
+    }
+  },
+  {
+    "question": "How long was Max a part of John's family?",
+    "predicted": "Max was a part of John's family for 10 years before he passed away, which was before June 3, 2023.",
+    "ground_truth": "10 years",
+    "category": "open-domain",
+    "evidence": [
+      "D17:1"
+    ],
+    "stats": {
+      "input_tokens": 10055,
+      "output_tokens": 63,
+      "total_tokens": 10118,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.656726598739624
+    }
+  },
+  {
+    "question": "How does John plan to honor the memories of his beloved pet?",
+    "predicted": "John plans to honor the memories of his beloved pet, Max, by cherishing the lessons of unconditional love and loyalty that Max taught his family. He is also considering adopting a rescue dog to give a pup a loving home and to teach his kids about responsibility and compassion.",
+    "ground_truth": "By considering adopting a rescue dog",
+    "category": "open-domain",
+    "evidence": [
+      "D17:11"
+    ],
+    "stats": {
+      "input_tokens": 9226,
+      "output_tokens": 84,
+      "total_tokens": 9310,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.030595064163208
+    }
+  },
+  {
+    "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+    "predicted": "John wants to teach his kids important values such as responsibility and compassion by adopting a rescue dog. He believes that having a pet will help them learn about unconditional love and loyalty, which he experienced with his previous dog, Max.",
+    "ground_truth": "Responsibility and compassion",
+    "category": "open-domain",
+    "evidence": [
+      "D17:11"
+    ],
+    "stats": {
+      "input_tokens": 10213,
+      "output_tokens": 83,
+      "total_tokens": 10296,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.9183099269866943
+    }
+  },
+  {
+    "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+    "predicted": "On June 3, 2023, Maria started volunteering at a local dog shelter once a month. This new activity adds to her existing commitment to community service, including her work at a homeless shelter.",
+    "ground_truth": "volunteering at a local dog shelter once a month",
+    "category": "open-domain",
+    "evidence": [
+      "D17:12"
+    ],
+    "stats": {
+      "input_tokens": 15294,
+      "output_tokens": 110,
+      "total_tokens": 15404,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.0423407554626465
+    }
+  },
+  {
+    "question": "What did Maria say it was like being at the waterfall in Oregon?",
+    "predicted": "Maria described her experience at the waterfall in Oregon as feeling like a fairy tale, with calming sounds of the water and beautiful surroundings that felt truly magical. She mentioned that the experience was enchanting and left a lasting impression on her.",
+    "ground_truth": "Like being in a fairy tale",
+    "category": "open-domain",
+    "evidence": [
+      "D18:7"
+    ],
+    "stats": {
+      "input_tokens": 25247,
+      "output_tokens": 120,
+      "total_tokens": 25367,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 4.964271783828735
+    }
+  },
+  {
+    "question": "What does Maria say she feels when doing upside-down yoga poses?",
+    "predicted": "Maria feels free and light when doing upside-down yoga poses, describing them as challenging but worth it for the sense of freedom and connection they bring. Aerial yoga helps her switch off and focus on her body, contributing to her overall well-being.",
+    "ground_truth": "Free and light",
+    "category": "open-domain",
+    "evidence": [
+      "D18:17"
+    ],
+    "stats": {
+      "input_tokens": 10490,
+      "output_tokens": 128,
+      "total_tokens": 10618,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.715144395828247
+    }
+  },
+  {
+    "question": "What exciting news did Maria share on 16 June, 2023?",
+    "predicted": "On June 16, 2023, Maria shared that she had joined a gym around June 9, 2023, and was sticking to her workout routine. She found the atmosphere welcoming and was trying kundalini yoga as part of her fitness goals to get stronger and improve endurance.",
+    "ground_truth": "joined a gym",
+    "category": "open-domain",
+    "evidence": [
+      "D19:1"
+    ],
+    "stats": {
+      "input_tokens": 16453,
+      "output_tokens": 136,
+      "total_tokens": 16589,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.1792309284210205
+    }
+  },
+  {
+    "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+    "predicted": "Maria has been trying to improve her strength and endurance through aerial yoga and has also joined a gym where she is sticking to her workout routine. Additionally, she is trying kundalini yoga and is interested in new fitness classes like kickboxing or circuit training.",
+    "ground_truth": "kundalini yoga",
+    "category": "open-domain",
+    "evidence": [
+      "D19:3"
+    ],
+    "stats": {
+      "input_tokens": 14548,
+      "output_tokens": 116,
+      "total_tokens": 14664,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.193575143814087
+    }
+  },
+  {
+    "question": "What did John recently get promoted to?",
+    "predicted": "John was recently promoted to assistant manager around June 2023. He views this promotion as a significant achievement and a stepping stone for future opportunities.",
+    "ground_truth": "assistant manager",
+    "category": "open-domain",
+    "evidence": [
+      "D19:8"
+    ],
+    "stats": {
+      "input_tokens": 9176,
+      "output_tokens": 59,
+      "total_tokens": 9235,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.738132953643799
+    }
+  },
+  {
+    "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+    "predicted": "One of the biggest challenges John faced in his journey to becoming assistant manager was overcoming self-doubt and workplace challenges, which included tech issues and questioning if he was on the right track. He powered through these hurdles with support from his family and his own determination, ultimately seeing his promotion as a reward for his hard work and perseverance.",
+    "ground_truth": "self-doubt",
+    "category": "open-domain",
+    "evidence": [
+      "D19:12"
+    ],
+    "stats": {
+      "input_tokens": 14660,
+      "output_tokens": 128,
+      "total_tokens": 14788,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.480942964553833
+    }
+  },
+  {
+    "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+    "predicted": "John describes the support he received during his journey to becoming assistant manager as incredibly encouraging and inspiring, particularly from his team and his friend Maria. He appreciates the mutual encouragement they share, especially during tough times, which has helped him stay motivated and focused on his goals.",
+    "ground_truth": "having support at home and his own grit",
+    "category": "open-domain",
+    "evidence": [
+      "D19:12"
+    ],
+    "stats": {
+      "input_tokens": 10060,
+      "output_tokens": 100,
+      "total_tokens": 10160,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.2687408924102783
+    }
+  },
+  {
+    "question": "What kind of event did John and his family attend in June 2023?",
+    "predicted": "In June 2023, John and his family attended a live music event around June 20, where they had a great time dancing and enjoying the atmosphere. Additionally, they participated in a community event that included arts and crafts and fun activities for families.",
+    "ground_truth": "live music event",
+    "category": "open-domain",
+    "evidence": [
+      "D20:4"
+    ],
+    "stats": {
+      "input_tokens": 16521,
+      "output_tokens": 117,
+      "total_tokens": 16638,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.155150890350342
+    }
+  },
+  {
+    "question": "Why did Maria need to help her cousin find a new place to live?",
+    "predicted": "Maria needed to help her cousin find a new place to live because her cousin was in a stressful situation and had to leave her current residence quickly. Despite the challenges, Maria is providing support and helping her cousin make progress in finding a new home.",
+    "ground_truth": "Her cousin had to leave and find a new place in a hurry.",
+    "category": "open-domain",
+    "evidence": [
+      "D21:5"
+    ],
+    "stats": {
+      "input_tokens": 11088,
+      "output_tokens": 139,
+      "total_tokens": 11227,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.068949937820435
+    }
+  },
+  {
+    "question": "What event did John participate in to show support for veterans' rights?",
+    "predicted": "John participated in a marching event for veterans' rights on July 3, 2023, demonstrating his respect for the military and commitment to supporting veterans. Additionally, he hosted a veterans' party on May 12, 2023, where veterans shared stories and formed new friendships.",
+    "ground_truth": "marching event",
+    "category": "open-domain",
+    "evidence": [
+      "D21:22"
+    ],
+    "stats": {
+      "input_tokens": 10126,
+      "output_tokens": 98,
+      "total_tokens": 10224,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.087477922439575
+    }
+  },
+  {
+    "question": "What inspired John to join the marching event for veterans' rights?",
+    "predicted": "John was inspired to join the marching event for veterans' rights due to his deep respect for the military and a strong desire to support veterans. His experiences, including hearing stories of resilience from veterans and his own military background, reinforced his commitment to advocate for their rights and well-being.",
+    "ground_truth": "Respect for the military and the desire to show support",
+    "category": "open-domain",
+    "evidence": [
+      "D21:24"
+    ],
+    "stats": {
+      "input_tokens": 10702,
+      "output_tokens": 136,
+      "total_tokens": 10838,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.44413685798645
+    }
+  },
+  {
+    "question": "How often does John get to see sunsets like the one he shared with Maria?",
+    "predicted": "John gets to see sunsets like the one he shared with Maria at least once a week, as he takes sunset walks to calm down and appreciate the small things in life. He particularly enjoys ocean sunsets during these walks.",
+    "ground_truth": "At least once a week",
+    "category": "open-domain",
+    "evidence": [
+      "D22:17"
+    ],
+    "stats": {
+      "input_tokens": 10372,
+      "output_tokens": 132,
+      "total_tokens": 10504,
+      "tool_calls": 3,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.354020118713379
+    }
+  },
+  {
+    "question": "What natural disaster affected John's old area on 7 July, 2023?",
+    "predicted": "On July 7, 2023, John's old area was affected by a significant flood that occurred around late June to early July. The poor infrastructure in the area led to many homes being ruined, prompting John to organize a community meeting to discuss potential solutions and improvements.",
+    "ground_truth": "Flood",
+    "category": "open-domain",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 26918,
+      "output_tokens": 146,
+      "total_tokens": 27064,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 13.62447214126587
+    }
+  },
+  {
+    "question": "How did the flood impact the homes in John's old area?",
+    "predicted": "The flood that hit John's old area around late June to early July 2023 had a significant impact, as the already poor infrastructure led to many homes being ruined. John is organizing a community meeting to discuss potential solutions and improvements to address the damage and enhance living conditions in the neighborhood.",
+    "ground_truth": "Lots of homes were ruined.",
+    "category": "open-domain",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 15428,
+      "output_tokens": 124,
+      "total_tokens": 15552,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.9958646297454834
+    }
+  },
+  {
+    "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+    "predicted": "On July 7, 2023, Maria and John discussed potential solutions for their community after John shared concerns about flood damage in his old area. Maria offered her help, and they both reaffirmed their commitment to improving their community through collaborative efforts. Their previous experiences volunteering together had energized them to take action.",
+    "ground_truth": "Flood in John's old area",
+    "category": "open-domain",
+    "evidence": [
+      "D23:1"
+    ],
+    "stats": {
+      "input_tokens": 10602,
+      "output_tokens": 120,
+      "total_tokens": 10722,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.8134877681732178
+    }
+  },
+  {
+    "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+    "predicted": "On the evening of July 7, 2023, Maria planned to go to dinner with friends from the gym.",
+    "ground_truth": "have dinner with friends from the gym",
+    "category": "open-domain",
+    "evidence": [
+      "D23:14"
+    ],
+    "stats": {
+      "input_tokens": 16035,
+      "output_tokens": 95,
+      "total_tokens": 16130,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.9655330181121826
+    }
+  },
+  {
+    "question": "What kind of activities did Maria do at the picnic with her church friends?",
+    "predicted": "At the picnic with her church friends, Maria enjoyed chilling under trees, playing games, and sharing food together. It was a relaxed and enjoyable gathering that allowed her to connect with her community.",
+    "ground_truth": "played games like charades and a scavenger hunt",
+    "category": "open-domain",
+    "evidence": [
+      "D24:8"
+    ],
+    "stats": {
+      "input_tokens": 10264,
+      "output_tokens": 81,
+      "total_tokens": 10345,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.179659128189087
+    }
+  },
+  {
+    "question": "What does John appreciate about the veteran's hospital visit?",
+    "predicted": "John appreciates the visit to the veteran's hospital because it was eye-opening; he met an elderly veteran named Samuel who shared inspiring and heartbreaking stories. This experience filled him with hope and reminded him of his desire to serve in the military, reinforcing his commitment to supporting veterans.",
+    "ground_truth": "the resilience of the veterans and their inspiring stories",
+    "category": "open-domain",
+    "evidence": [
+      "D24:3"
+    ],
+    "stats": {
+      "input_tokens": 10108,
+      "output_tokens": 99,
+      "total_tokens": 10207,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4768567085266113
+    }
+  },
+  {
+    "question": "What did John take away from visiting the veteran's hospital?",
+    "predicted": "From his visit to the veteran's hospital, John met an elderly veteran named Samuel who shared both inspiring and heartbreaking stories. This experience was eye-opening for him, as it highlighted the resilience of veterans and reinforced his desire to serve, reminding him of why he wanted to join the military in the first place.",
+    "ground_truth": "appreciation for giving back",
+    "category": "open-domain",
+    "evidence": [
+      "D24:1"
+    ],
+    "stats": {
+      "input_tokens": 10120,
+      "output_tokens": 102,
+      "total_tokens": 10222,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.1720781326293945
+    }
+  },
+  {
+    "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+    "predicted": "John felt inspired to join the military after visiting a veteran's hospital, where he met an elderly veteran named Samuel. Hearing Samuel's inspiring and heartbreaking stories of resilience filled John with hope and reminded him of his desire to serve. This experience reinforced his commitment to making a difference in his community and country.",
+    "ground_truth": "seeing the resilience of the veterans",
+    "category": "open-domain",
+    "evidence": [
+      "D24:3"
+    ],
+    "stats": {
+      "input_tokens": 10080,
+      "output_tokens": 101,
+      "total_tokens": 10181,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.795346975326538
+    }
+  },
+  {
+    "question": "In what activity did Maria and her church friends participate in July 2023?",
+    "predicted": "In July 2023, Maria and her church friends participated in a picnic on July 8, where they enjoyed games and food together. They also went hiking on July 15-16, which provided a chance to connect and appreciate nature's beauty.",
+    "ground_truth": "hiking",
+    "category": "open-domain",
+    "evidence": [
+      "D25:2"
+    ],
+    "stats": {
+      "input_tokens": 10267,
+      "output_tokens": 94,
+      "total_tokens": 10361,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.474680185317993
+    }
+  },
+  {
+    "question": "What does John think about trying new classes at the yoga studio?",
+    "predicted": "John is open to trying new classes at the yoga studio and has shared details about his yoga experiences with Maria, who expressed interest in exploring new fitness classes as well. He enjoys the variety of classes offered at the studio and appreciates the chill vibe and supportive instructors.",
+    "ground_truth": "Trying new classes is a fun way to switch up the exercise routine.",
+    "category": "open-domain",
+    "evidence": [
+      "D25:14"
+    ],
+    "stats": {
+      "input_tokens": 16494,
+      "output_tokens": 128,
+      "total_tokens": 16622,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 4.328938245773315
+    }
+  },
+  {
+    "question": "Which activity has John done apart from yoga at the studio?",
+    "predicted": "Apart from yoga at the studio, John has been actively involved in kickboxing, taekwondo, and family boot camp fitness. He also joined a fire-fighting brigade and has volunteered as a mentor for a local school, finding it rewarding to help students. Additionally, he has participated in various community service projects, including organizing a charity run for veterans and working on veterans' support initiatives.",
+    "ground_truth": "weight training",
+    "category": "open-domain",
+    "evidence": [
+      "D25:17"
+    ],
+    "stats": {
+      "input_tokens": 16336,
+      "output_tokens": 154,
+      "total_tokens": 16490,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.322691917419434
+    }
+  },
+  {
+    "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+    "predicted": "On July 31, 2023, Maria mentioned that she dropped off baked goods at the homeless shelter and received a medal for her volunteer work, which she described as humbling. She expressed feeling more motivated than ever to help people after her recent experiences at the shelter.",
+    "ground_truth": "volunteered at a homeless shelter",
+    "category": "open-domain",
+    "evidence": [
+      "D26:1"
+    ],
+    "stats": {
+      "input_tokens": 10134,
+      "output_tokens": 99,
+      "total_tokens": 10233,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8957278728485107
+    }
+  },
+  {
+    "question": "How did Maria start volunteering at the homeless shelter?",
+    "predicted": "Maria started volunteering at the homeless shelter around August 2022 after witnessing a family struggling on the streets. This experience, along with her aunt's past support during her family's tough times, motivated her to reach out to the shelter and offer help.",
+    "ground_truth": "Witnessed a family struggling on the streets and reached out to the shelter",
+    "category": "open-domain",
+    "evidence": [
+      "D27:4"
+    ],
+    "stats": {
+      "input_tokens": 10104,
+      "output_tokens": 93,
+      "total_tokens": 10197,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.90946102142334
+    }
+  },
+  {
+    "question": "What did John do the week before August 3, 2023 involving his kids?",
+    "predicted": "The week before August 3, 2023, John visited a military memorial with his kids, which left them awestruck and humbled. He believes it's important to teach them to respect and appreciate veterans and those who served.",
+    "ground_truth": "Had a meaningful experience at a military memorial",
+    "category": "open-domain",
+    "evidence": [
+      "D27:9"
+    ],
+    "stats": {
+      "input_tokens": 15637,
+      "output_tokens": 102,
+      "total_tokens": 15739,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 3.988816738128662
+    }
+  },
+  {
+    "question": "How did John describe his kids' reaction at the military memorial?",
+    "predicted": "John described his kids' reaction at the military memorial as one of being \"awestruck and humbled\" by the experience. He believes it's important to teach children to respect and appreciate veterans and those who have served.",
+    "ground_truth": "awestruck and humbled",
+    "category": "open-domain",
+    "evidence": [
+      "D27:11"
+    ],
+    "stats": {
+      "input_tokens": 10484,
+      "output_tokens": 83,
+      "total_tokens": 10567,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.66029691696167
+    }
+  },
+  {
+    "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+    "predicted": "Maria believes it's important for younger generations to visit military memorials because it fosters a sense of gratitude and connection to the sacrifices made by others. She values kindness and compassion, which can be reinforced by understanding the history and significance of these memorials, ultimately inspiring them to contribute positively to their communities.",
+    "ground_truth": "To remember and appreciate those who served",
+    "category": "open-domain",
+    "evidence": [
+      "D27:12"
+    ],
+    "stats": {
+      "input_tokens": 26186,
+      "output_tokens": 142,
+      "total_tokens": 26328,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 9.210204124450684
+    }
+  },
+  {
+    "question": "What does John believe is important for children regarding veterans?",
+    "predicted": "John believes it is important for children to understand and support veterans, as he actively engages in community initiatives that promote veterans' rights and well-being. He has organized events like a veterans' party and a charity run to raise funds for veterans and their families, emphasizing the need for camaraderie and support within the community. His experiences with veterans have inspired him to advocate for their rights and share their stories, reinforcing the importance of recognizing their contributions.",
+    "ground_truth": "Teaching them to respect and appreciate those who served",
+    "category": "open-domain",
+    "evidence": [
+      "D27:13"
+    ],
+    "stats": {
+      "input_tokens": 10117,
+      "output_tokens": 129,
+      "total_tokens": 10246,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 5.717747926712036
+    }
+  },
+  {
+    "question": "What happened to John's job in August 2023?",
+    "predicted": "In August 2023, John lost his job at a mechanical engineering company due to the company's failure. This unexpected event was challenging for him, but he began exploring opportunities in the tech industry, finding a potential job that aligns with his mechanical skills.",
+    "ground_truth": "John lost his job at the mechanical engineering company.",
+    "category": "open-domain",
+    "evidence": [
+      "D28:1"
+    ],
+    "stats": {
+      "input_tokens": 9817,
+      "output_tokens": 88,
+      "total_tokens": 9905,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.269028902053833
+    }
+  },
+  {
+    "question": "What activity did Maria take up with her friends from church in August 2023?",
+    "predicted": "In August 2023, Maria took up community work with her friends from church, which she found to be very rewarding. Additionally, she adopted a second dog named Shadow around August 6, 2023, which also brought her joy.",
+    "ground_truth": "community work",
+    "category": "open-domain",
+    "evidence": [
+      "D28:8"
+    ],
+    "stats": {
+      "input_tokens": 16447,
+      "output_tokens": 122,
+      "total_tokens": 16569,
+      "tool_calls": 3,
+      "llm_calls": 4,
+      "elapsed_seconds": 5.20402193069458
+    }
+  },
+  {
+    "question": "What did John do to help his community last year in his hometown?",
+    "predicted": "Last year, John helped his community by organizing a toy drive for kids in need, participating in a community food drive for unemployed residents, and volunteering as a mentor at a local school, where he saw students making real progress. He also worked on a veterans support project and helped renovate a rundown community center, which has since become a busy hub for local activities.",
+    "ground_truth": "Helped renovate a rundown community center.",
+    "category": "open-domain",
+    "evidence": [
+      "D28:11"
+    ],
+    "stats": {
+      "input_tokens": 10595,
+      "output_tokens": 127,
+      "total_tokens": 10722,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.509150981903076
+    }
+  },
+  {
+    "question": "What cause did the 5K charity run organized by John support?",
+    "predicted": "The 5K charity run organized by John supported veterans and their families, successfully raising funds for this cause.",
+    "ground_truth": "veterans and their families",
+    "category": "open-domain",
+    "evidence": [
+      "D29:4"
+    ],
+    "stats": {
+      "input_tokens": 10183,
+      "output_tokens": 68,
+      "total_tokens": 10251,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.469653844833374
+    }
+  },
+  {
+    "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+    "predicted": "John worked with a local organization that helps victims of domestic abuse to raise awareness and funds at an event for the cause. He recognizes domestic abuse as a serious issue and believes in supporting organizations that fight against it.",
+    "ground_truth": "a local organization",
+    "category": "open-domain",
+    "evidence": [
+      "D29:10"
+    ],
+    "stats": {
+      "input_tokens": 10375,
+      "output_tokens": 91,
+      "total_tokens": 10466,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.686850070953369
+    }
+  },
+  {
+    "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+    "predicted": "In August 2023, Maria received a medal from the homeless shelter for her volunteer work, which she described as humbling. This recognition was part of her ongoing commitment to helping those in need at the shelter.",
+    "ground_truth": "a medal for volunteering",
+    "category": "open-domain",
+    "evidence": [
+      "D29:1"
+    ],
+    "stats": {
+      "input_tokens": 10238,
+      "output_tokens": 87,
+      "total_tokens": 10325,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.0376498699188232
+    }
+  },
+  {
+    "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+    "predicted": "Maria's puppy, which she got around July 28, 2023, is named Coco.",
+    "ground_truth": "Coco",
+    "category": "open-domain",
+    "evidence": [
+      "D30:1"
+    ],
+    "stats": {
+      "input_tokens": 9195,
+      "output_tokens": 51,
+      "total_tokens": 9246,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.9127907752990723
+    }
+  },
+  {
+    "question": "What activity did John and Max enjoy together last summer?",
+    "predicted": "Last summer, John and Max enjoyed outdoor activities together, including hiking, picnics, and family outings to the park. They also participated in community events, which fostered their bond through shared experiences.",
+    "ground_truth": "Camping",
+    "category": "open-domain",
+    "evidence": [
+      "D30:6"
+    ],
+    "stats": {
+      "input_tokens": 31686,
+      "output_tokens": 152,
+      "total_tokens": 31838,
+      "tool_calls": 4,
+      "llm_calls": 5,
+      "elapsed_seconds": 11.951488971710205
+    }
+  },
+  {
+    "question": "How does John describe the camping trip with Max?",
+    "predicted": "John describes the camping trip with Max as a peaceful and awesome experience, highlighting that they hiked, swam, and made great memories together. This trip was one of his best memories with Max, who was part of the family for ten years before passing away.",
+    "ground_truth": "Peaceful and awesome",
+    "category": "open-domain",
+    "evidence": [
+      "D30:6"
+    ],
+    "stats": {
+      "input_tokens": 10291,
+      "output_tokens": 90,
+      "total_tokens": 10381,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.3447492122650146
+    }
+  },
+  {
+    "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+    "predicted": "John feels stuck and is questioning his decisions and goals due to a combination of personal challenges and self-doubt. He has faced setbacks, such as failing a military aptitude test and experiencing workplace challenges, which have led him to doubt his impact and direction in life. Despite his passion for community service and politics, he is seeking a clearer focus for his enthusiasm and desire to make a positive difference.",
+    "ground_truth": "Not feeling like making much of an impact",
+    "category": "open-domain",
+    "evidence": [
+      "D30:14"
+    ],
+    "stats": {
+      "input_tokens": 10147,
+      "output_tokens": 129,
+      "total_tokens": 10276,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.4602699279785156
+    }
+  },
+  {
+    "question": "What is the name of Maria's second puppy?",
+    "predicted": "Maria's second puppy is named Shadow, whom she adopted from a shelter around August 6, 2023.",
+    "ground_truth": "Shadow",
+    "category": "open-domain",
+    "evidence": [
+      "D31:4"
+    ],
+    "stats": {
+      "input_tokens": 9162,
+      "output_tokens": 54,
+      "total_tokens": 9216,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.116541862487793
+    }
+  },
+  {
+    "question": "How is Maria's new puppy adjusting to its new home?",
+    "predicted": "Maria's new puppy, Coco, is adjusting well to her new home and brings her joy by greeting her when she comes home. Although taking care of Coco has required some adjustment, Maria feels it is totally worth it. Additionally, she adopted a second dog named Shadow, who is energetic and learning commands quickly.",
+    "ground_truth": "doing great - learning commands and house training",
+    "category": "open-domain",
+    "evidence": [
+      "D31:10"
+    ],
+    "stats": {
+      "input_tokens": 9168,
+      "output_tokens": 93,
+      "total_tokens": 9261,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 2.8397231101989746
+    }
+  },
+  {
+    "question": "What is John currently doing as a volunteer in August 2023?",
+    "predicted": "In August 2023, John is volunteering as a mentor for a local school, where he finds it rewarding to help students improve their confidence and skills. Additionally, he organized a 5K charity run to raise money for veterans and their families, and he is involved in a donation drive through a fire-fighting brigade.",
+    "ground_truth": "mentoring students at a local school",
+    "category": "open-domain",
+    "evidence": [
+      "D31:1"
+    ],
+    "stats": {
+      "input_tokens": 10781,
+      "output_tokens": 123,
+      "total_tokens": 10904,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 4.411441087722778
+    }
+  },
+  {
+    "question": "What activities does John's family enjoy doing together?",
+    "predicted": "John's family enjoys a variety of activities together, including outdoor activities like hiking, picnics, and visits to the park. They also have fun with board games, movie nights at home, and special events like family boot camps and live music events. Additionally, they cherish moments like pizza nights where they make pizzas together and family road trips.",
+    "ground_truth": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+    "category": "open-domain",
+    "evidence": [
+      "D31:19"
+    ],
+    "stats": {
+      "input_tokens": 9713,
+      "output_tokens": 98,
+      "total_tokens": 9811,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.570812940597534
+    }
+  },
+  {
+    "question": "What did the donations help John's community acquire on 16 August, 2023?",
+    "predicted": "On August 16, 2023, donations raised during a drive organized by John's fire-fighting brigade helped acquire a brand new fire truck for the local fire station. The drive collected canned food, toiletries, and clothes, and took two hours of hard work to complete.",
+    "ground_truth": "a brand new fire truck",
+    "category": "open-domain",
+    "evidence": [
+      "D32:11"
+    ],
+    "stats": {
+      "input_tokens": 10201,
+      "output_tokens": 97,
+      "total_tokens": 10298,
+      "tool_calls": 2,
+      "llm_calls": 3,
+      "elapsed_seconds": 3.548227071762085
+    }
+  }
+]
