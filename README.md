@@ -120,19 +120,20 @@ Full experiment history and analysis: [`benchmarks/locomo/RESULTS.md`](benchmark
 
 ## MCP tools
 
-The server exposes 9 tools via the [Model Context Protocol](https://modelcontextprotocol.io):
+The server exposes 9 tools via the [Model Context Protocol](https://modelcontextprotocol.io). Each tool description tells the LLM *when* and *how* to use it:
 
-| Tool | What it does |
+| Tool | Description |
 |------|-------------|
-| `remember(filename, content)` | Store a memory (creates or appends to a file) |
-| `list_memories()` | List all files with metadata (entry count, size, preview) |
-| `read_memory(filename)` | Read a specific memory file |
-| `update_memory(filename, content)` | Replace a file's content entirely |
-| `reorganize(operations)` | Merge, split, synthesize, rename, or delete files |
-| `get_rules()` | Read memory behavior rules |
-| `edit_rules(content)` | Update memory behavior rules |
-| `get_status()` | Check system health and reorganization metrics |
-| `start()` | Begin user onboarding |
+| `remember(filename, content)` | Store a fact, preference, decision, or any information worth keeping across conversations. Always call `list_memories()` first to check for existing files. Uses semantic kebab-case filenames (e.g. "career-goals", "favorite-papers"). |
+| `list_memories()` | List all memory files with metadata. Call at the start of every conversation and before `remember()`. Returns filenames, entry counts, last updated dates, and sizes. Scan filenames to decide which to read. |
+| `read_memory(filename)` | Read the full contents of a memory file. Call after `list_memories()` to read files relevant to the current conversation. Always read before responding so answers reflect what you know about the user. |
+| `read_all_memories()` | Dump the full contents of every memory file. Only call when the user explicitly asks (e.g. "show me everything you remember"). For normal use, prefer `list_memories()` + `read_memory()`. |
+| `update_memory(filename, content)` | Replace the entire contents of a memory file. Use when information is outdated ("I moved to Berlin", "I quit that job") or when a file needs rewriting for clarity. Always call `read_memory()` first. |
+| `reorganize(operations)` | Restructure memory by merging, splitting, synthesizing, or renaming files. Call when `get_status()` shows many files since last reorganize, or when files overlap. Read files before reorganizing. |
+| `get_rules()` | Read memory rules and onboarding status. Call at the start of every conversation. If `is_onboarded` is false, call `start()`. Rules define what to store, naming conventions, and language. |
+| `edit_rules(content)` | Update memory behavior rules. Use when the user wants to change what gets stored, naming conventions, or language (e.g. "stop storing health info", "write entries in Spanish"). |
+| `get_status()` | Check memory system health and whether reorganization is needed. Returns total files, files since last reorganize, largest files, and oldest untouched files. |
+| `start()` | Begin user onboarding. Starts a conversation to learn the user's name, location, work, and preferences, then stores their profile. |
 
 ## Setup
 
